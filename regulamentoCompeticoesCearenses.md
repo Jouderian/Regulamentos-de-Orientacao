@@ -34,7 +34,7 @@
 
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
-### Calendário CCO XIX (XIX Campeonato Cearense de Orientação)
+### Calendário do XIX Campeonato Cearense de Orientação (CCO XIX)
 | **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
 | --------- | -------- | --------------- | ---------------------------- |
 | 1ª        | 31/Mai   | COqueiro        | ??? - ??????? (QA/FECORI ??) |
@@ -42,7 +42,7 @@
 | 3ª        | 30/Ago   | ???             | ??? – ??????? (QA/FECORI ??) |
 | 4ª        | 08/Nov   | ???             | ??? – ??????? (QA/FECORI ??) |
 
-### Calendário CCOS XIII (XIII Campeonato Cearense de Orientação Sprint)
+### Calendário do XIII Campeonato Cearense de Orientação Sprint (CCOS XIII)
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
 | ------------ | -------- | --------------- | ---------------------------- |
 | 1º           | 26/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
@@ -55,7 +55,7 @@
 
 **Art. 7º** – O atleta deve escolher uma das categorias descritas no item 2 da ROP para a competição.
 
-> **Parágrafo 1º:** As categorias PREO-PARA e PREO-AB não são previstas no CCO nem no CCOS.
+> **Parágrafo 1º:** As categorias *preO-Para* e *preO-AB* não são previstas nas competições de orientação cearense.
 
 **Art. 8º** – As categorias acompanhadas são categorias de apresentação do esporte. Os atletas inscritos participarão do percurso acompanhados de um atleta experiente designado pelo clube organizador da etapa, após este ter concluído seu percurso na competição ou não competir na etapa. Para estas categorias não há classificação na etapa, percurso ou no campeonato.
 
@@ -65,9 +65,11 @@
 
 **Art. 9º** – É obrigatório que o uniforme do atleta atenda aos requisitos do item 14.1 da ROP.
 
-> **Parágrafo 1º:** **Para as etapas do CCO**, recomenda-se o uso da camisa de manga, cobrindo os cotovelos, o uso de caneleiras de proteção e a condução de um apito para sinalizar emergências.
+> **Parágrafo 1º:** É obrigatório o uso de um número de identificação do atleta que proporcione sua visualização clara, devendo ser fixado no uniforme.
 
-> **Parágrafo 2º:** **Para os percursos do CCOS**, poderão ser usados calção e camiseta cavada, sendo obrigatório o uso de um número de identificação do atleta que proporcione sua visualização clara. Caso o número de identificação do atleta não esteja bordado ou impresso na camisa/camiseta, deverá ser utilizado obrigatoriamente o número fixado no uniforme.
+> **Parágrafo 2º:** **Para as etapas do CCO**, recomenda-se o uso da camisa de manga comprida, cobrindo os cotovelos, o uso de caneleiras de proteção e a condução de um apito para sinalizar emergências.
+
+> **Parágrafo 3º:** **Para os percursos do CCOS**, poderão ser usados calção e camiseta cavada.
 
 ## 4. Da Inscrição e Responsabilidades
 
