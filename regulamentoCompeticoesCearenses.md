@@ -8,7 +8,7 @@
 
 >**Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação*, ou participar de pelo menos um evento oficial da FECORI*;
+>>**a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação*;
 
 >>**b.** Estiver em dia com as obrigações junto à CBO/FECORI.
 
