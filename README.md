@@ -14,13 +14,13 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Documentos Principais
 
-- **`Regulamento das Competições Cearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano.
+- **`regulamentoCompeticoesCearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).
 
-- **`ROP.md`**: Versão padronizada das Regras de Orientação Pedestre (nacional) do ano vigente.
+- **`rop.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
-- **`regulamento CCO.md`**: Versão específica do regulamento do Campeonato Cearense de Orientação.
+- **`regulamentoCco.md`**: Versão legada do regulamento do **Campeonato Cearense de Orientação** antes da unificação com o CCOS.
 
-- **`regulamento CCOS.md`**: Versão específica do regulamento do Campeonato Cearense de Orientação Sprint.
+- **`regulamentoCcos.md`**: Versão legada do regulamento do **Campeonato Cearense de Orientação Sprint** antes da unificação com o CCO.
 
 ## Licença
 
