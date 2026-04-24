@@ -1,4 +1,4 @@
-# Regulamento do XX Campeonato Cearense de Orientação
+# Regulamento do XIX Campeonato Cearense de Orientação
 
 ## 1. Da Regulamentação Geral
 
@@ -240,4 +240,4 @@
 
 ---
 
-*Fortaleza/CE, 22 de abril de 2026.*
+*Fortaleza/CE, 30 de novembro de 2024.*
