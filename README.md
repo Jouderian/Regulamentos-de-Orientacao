@@ -2,7 +2,7 @@
 
 Este repositório tem como objetivo consolidar, padronizar e unificar a documentação regulamentar do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, além de manter as **Regras de Orientação Pedestre (ROP)** nacionais atualizadas.
 
-A conversão destes documentos para o formato **Markdown (.md)** visa facilitar o controle de versão, garantir uma estrutura de documento consistente (com hierarquia clara de artigos, parágrafos e itens) e simplificar a manutenção e a consulta por parte de atletas, clubes, organizadores e interessados. Alem de facilitar o uso dos regulamentos por IA's, para responder perguntas sobre os regulamentos.
+A conversão destes documentos para o formato **Markdown (.md)** visa facilitar o controle de versão, garantir uma estrutura de documento consistente (com hierarquia clara de artigos, parágrafos e itens) e simplificar a manutenção e a consulta por parte de atletas, clubes, organizadores e interessados. Alem de facilitar o uso dos regulamentos por **IA's**, para responder perguntas sobre os regulamentos.
 
 ## Objetivos
 
