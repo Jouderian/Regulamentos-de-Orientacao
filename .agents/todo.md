@@ -6,3 +6,4 @@ description: Backlog persistente e tarefas pendentes do projeto
 
 - [ ] **Revisão de Redação (Regulamento Geral):** No Art. 2º, Parágrafo 1º, alínea 'a', analisar a condição *"ou participar de pelo menos um evento oficial da FECORI"*. A redação atual pode gerar problemas jurídicos/esportivos na definição exata de quem constitui um atleta filiado.
 - [ ] **Atualiza arquivo final** do arquivo Word (.docx) com o conteudo do regulamento geral atualizado.
+- [ ] **Automação da Geração de Documentos (CI/CD):** Analisar a viabilidade e planejar a implementação de um workflow (ex: GitHub Actions + Pandoc) para converter automaticamente os arquivos Markdown em PDF e DOCX sempre que houver atualizações na branch principal.
