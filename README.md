@@ -1,14 +1,14 @@
 # Regulamentos das Competições Cearenses de Orientação
 
-Este repositório tem como objetivo consolidar, padronizar e unificar a documentação regulamentar do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, além de manter as **Regras de Orientação Pedestre (ROP)** nacionais atualizadas.
+Este repositório tem como objetivo atualizar e padronizar a documentação dos regulamentos das competições de orientação do Ceará, visando a gestão dos regulamentos do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, alem de auxiliar na padronização e gestão das **Regras de Orientação Pedestre (ROP)** nacionais.
 
 A conversão destes documentos para o formato **Markdown (.md)** visa facilitar o controle de versão, garantir uma estrutura de documento consistente (com hierarquia clara de artigos, parágrafos e itens) e simplificar a manutenção e a consulta por parte de atletas, clubes, organizadores e interessados. Alem de facilitar o uso dos regulamentos por **IA's**, para responder perguntas sobre os regulamentos.
 
 ## Objetivos
 
-- **Unificação:** Consolidar as regras comuns do CCO e CCOS em um documento coeso, mantendo claras as distinções de logística, calendário e requisitos de organização específicos de cada competição.
+- **Unificação:** Consolidar as regras comuns das competições em um documento coeso, mantendo claras as distinções de logística, calendário e requisitos de organização específicos de cada competição.
 
-- **Padronização:** Aplicar um formato Markdown de alta qualidade e com estilo de documento legal para melhorar a legibilidade.
+- **Padronização:** Aplicar um formato *Markdown* de alta qualidade e com estilo de documento legal para melhorar a legibilidade.
 
 - **Manutenibilidade:** Facilitar futuras revisões, edições e acompanhamento do histórico de alterações através do controle de versão (Git).
 

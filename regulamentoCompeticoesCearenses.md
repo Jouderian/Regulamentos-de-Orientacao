@@ -8,7 +8,7 @@
 
 >**Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação*;
+>>**a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação;
 
 >>**b.** Estiver em dia com as obrigações junto à CBO/FECORI.
 
@@ -35,19 +35,19 @@
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
 ### Calendário CCO XIX (XIX Campeonato Cearense de Orientação)
-| **Etapa** | **Data**  | **Organizador** | **Árbitro**                                                |
-| --------- | --------- | --------------- | ---------------------------------------------------------- |
-| 1ª        | 25 de Mai | COqueiro        | 3952 - Paulo Marcelo de Oliveira (QA/FECORI 49)            |
-| 2ª        | 29 de Jun | COFORT          | 16127 – Ronald Luis Rodrigues do Nascimento (QA/FECORI 74) |
-| 3ª        | 17 de Ago | COCAP           | 16719 - Felipe Derick de Sousa Lima (QA/FECORI 69)         |
-| 4ª        | 05 de Out | Rumba na Rota   | 3607 – Paulo Antônio da Costa Mazulo (QA/FECORI 54)        |
+| **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
+| --------- | -------- | --------------- | ---------------------------- |
+| 1ª        | 31/Mai   | COqueiro        | ??? - ??????? (QA/FECORI ??) |
+| 2ª        | 28/Jun   | COFORT          | ??? – ??????? (QA/FECORI ??) |
+| 3ª        | 30/Ago   | ???             | ??? – ??????? (QA/FECORI ??) |
+| 4ª        | 08/Nov   | ???             | ??? – ??????? (QA/FECORI ??) |
 
 ### Calendário CCOS XIII (XIII Campeonato Cearense de Orientação Sprint)
-| **Percurso** | **Data** | **Organizador** | **Árbitro**                              |
-| ------------ | -------- | --------------- | ---------------------------------------- |
-| 1º           | 21/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67) |
-| 2º           | 21/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67) |
-| 3º           | 22/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67) |
+| **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
+| ------------ | -------- | --------------- | ---------------------------- |
+| 1º           | 26/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
+| 2º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
+| 3º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições do evento anterior.
 
@@ -182,17 +182,17 @@
 
 > **Parágrafo 2º (CCOS):** A média é calculada com base nos outros percursos do mesmo evento. Servirá também para definir a ordem de partida inversa no último percurso.
 
-> **Parágrafo 3º:** A lista de beneficiários da média deve ser reportada ao árbitro e FECORI ao término da apuração (CCOS) ou em até 15 dias (CCO).
+> **Parágrafo 3º:** A lista com os voluntários que serão beneficiados com a média deve ser reportada ao árbitro e à FECORI ao término da apuração (CCOS) ou em até 15 dias (CCO).
 
 **Art. 30** – A classificação individual geral será o somatório de todos os pontos obtidos (em todas as etapas do CCO ou todos os percursos do CCOS), **sem descartes**.
 
 > **Parágrafo Único:** Em caso de empate individual, prevalece:
 
-> **a.** Maior número de primeiros lugares, depois segundos, etc;
+>> **a.** Maior número de primeiros lugares, depois segundos, etc;
 
-> **b.** Melhor resultado no último confronto direto (CCO) ou classificação no último percurso (CCOS);
+>> **b.** Melhor resultado no último confronto direto (CCO) ou classificação no último percurso (CCOS);
 
-> **c.** Maior idade (CCO). No CCOS, permanecendo o empate na alínea 'b', o empate será definitivo e ambos recebem a mesma premiação.
+>> **c.** Maior idade (CCO). No CCOS, permanecendo o empate na alínea 'b', o empate será definitivo e ambos recebem a mesma premiação.
 
 **Art. 31** – A pontuação dos clubes (em ambas as competições) será dada pela soma dos pontos dos seus **três atletas filiados melhores classificados em cada categoria**, por etapa (CCO) ou percurso (CCOS). Clubes não filiados não participam do resultado de clubes.
 
@@ -200,11 +200,11 @@
 
 ## 8. Da Premiação
 
-**Art. 32** – Não haverá premiação por etapa/percurso, ocorrendo apenas no final de cada campeonato (CCO e CCOS).
+**Art. 32** – Não haverá premiação por etapa/percurso, ocorrendo apenas no final de cada campeonato.
 
-**Art. 33** – Os **atletas** campeões, vice-campeões e terceiros lugares em cada categoria (incluindo Novatos) serão premiados com **medalhas**, tanto no CCO quanto no CCOS.
+**Art. 33** – Os **atletas** campeões, vice-campeões e terceiros lugares em cada categoria (incluindo Novatos) serão premiados com **medalhas** em cada campeonato.
 
-**Art. 34** – Os **3 (três) clubes melhor pontuados** ao final de cada campeonato (CCO e CCOS) serão premiados com **troféus**.
+**Art. 34** – Os **3 (três) clubes melhor pontuados** ao final de cada campeonato serão premiados com **troféus**.
 
 > **Parágrafo 1º:** Têm direito à premiação final apenas atletas filiados que participarem de no mínimo metade dos percursos/etapas realizados e estiverem em situação regular com a FECORI.
 

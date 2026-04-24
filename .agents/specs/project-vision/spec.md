@@ -26,8 +26,10 @@ Atuar como a fonte da verdade, padronizada e controlada por versão para as regr
 - Centralização do histórico normativo.
 
 ## Fluxo de Atualização das Regras
-1. Diretor(es) da Federação delibera(m) sobre alteração(ões) nas regras.
-2. Diretor(es) da Federação edita(m) os arquivos `.md`.
-3. Diretor(es) da Federação cria(m) um *branch* ou *commit* com a alteração.
-4. Diretor(es) da Federação envia(m) a alteração para a *branch* principal (`main` ou `master`).
-5. A alteração é publicada e distribuída automaticamente aos atletas, clubes e interessados.
+1. Atletas sugerem alterações nas regras ao diretor técnico do seu clube.
+2. O diretor técnico do clube encaminha sugestão para o diretor técnico da federação.
+3. O diretor técnico da Federação, junto com os demais diretores técnicos dos clubes, avalia as sugestões e delibera sobre alteração(ões) nas regras.
+4. O Diretor Técnico da Federação edita os arquivos `.md`.
+5. O Diretor Técnico da Federação cria um *branch* ou *commit* com a alteração.
+6. O Diretor Técnico da Federação envia a alteração para a *branch* principal (`main` ou `master`).
+7. A alteração é publicada e distribuída automaticamente aos atletas, clubes e interessados.
