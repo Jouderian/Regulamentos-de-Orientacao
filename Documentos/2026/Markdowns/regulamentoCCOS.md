@@ -108,8 +108,11 @@
 **Art. 25** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todos os percursos.
 
 > **Parágrafo Único:** Em caso de empate, ficará melhor colocado o atleta que:
+
 > - **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
 > - **b.** Permanecendo o empate, a melhor classificação no último percurso;
+
 > - **c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
 
 **Art. 26** – O tempo limite para execução do percurso deve atender ao item 18.7 da ROP.
