@@ -35,3 +35,7 @@ description: Resumo curto do conteúdo do arquivo
 - Use o tipo `spec` para alterações em artefatos SDD (ex: `spec(auth): define fluxo de login`).
 - **Escopos válidos:** `frontend`, `backend`, `db`, `infra`, `docs`, `root`.
   Novos escopos podem ser adicionados conforme o projeto evoluir.
+- **Autorização para Push:** É **obrigatório** solicitar a autorização expressa do usuário antes de realizar qualquer envio para o repositório remoto (`git push`).
+- **Pré-requisito do Commit/Push:** Antes de solicitar a autorização para atualizar o repositório, você deve apresentar claramente ao usuário:
+  1. A lista exata dos arquivos que foram modificados e estão sendo incluídos na atualização.
+  2. A exata mensagem de *commit* que será utilizada.

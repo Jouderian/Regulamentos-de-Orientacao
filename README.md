@@ -18,10 +18,6 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 - **`ROP.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
-- **`regulamentoCCO.md`**: Versão legada do regulamento do **Campeonato Cearense de Orientação** antes da unificação com o CCOS.
-
-- **`regulamentoCCOS.md`**: Versão legada do regulamento do **Campeonato Cearense de Orientação Sprint** antes da unificação com o CCO.
-
 ## Licença
 
 A organização, padronização e estruturação destes arquivos estão licenciadas sob a **[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE)**.
