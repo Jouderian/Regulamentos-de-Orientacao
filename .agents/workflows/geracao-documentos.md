@@ -30,6 +30,24 @@ Sempre que o documento `regulamentoCompeticoesCearenses.md` for alterado e o con
 ```powershell
 pandoc regulamentoCompeticoesCearenses.md -o Documentos/2026/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
 ```
+## 4. Geração do PDF a partir do DOCX
 
-## 4. Integração CI/CD (Melhoria Futura)
+O Pandoc não aplica o template `.docx` diretamente ao gerar um `.pdf`. Por isso, a forma correta e automatizada de gerar um PDF idêntico ao molde original é: primeiro gerar o `.docx` (passo 3), e em seguida convertê-lo em PDF utilizando o próprio Microsoft Word de forma invisível via PowerShell.
+
+Execute o script PowerShell abaixo para converter o arquivo final `.docx` em `.pdf`:
+
+```powershell
+$word = New-Object -ComObject Word.Application
+$word.Visible = $false
+$docPath = Resolve-Path "Documentos\2026\regulamentoDasCompeticoesCearenses.docx"
+$pdfPath = [System.IO.Path]::ChangeExtension($docPath.Path, ".pdf")
+$doc = $word.Documents.Open($docPath.Path)
+$doc.SaveAs([ref]$pdfPath, [ref]17) # 17 = wdFormatPDF
+$doc.Close()
+$word.Quit()
+[System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null
+Write-Output "PDF Gerado com sucesso!"
+```
+
+## 5. Integração CI/CD (Melhoria Futura)
 Atualmente a geração é um processo manual documentado (Local CLI). O objetivo para o projeto é que esse script seja futuramente integrado em um workflow do **GitHub Actions**. Assim, ao aprovar um *Pull Request* na branch `main`, a compilação do `.docx` ocorrerá nos servidores do GitHub e será anexada automaticamente como um "Release".

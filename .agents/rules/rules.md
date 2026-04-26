@@ -36,6 +36,7 @@ description: Resumo curto do conteúdo do arquivo
 - **Escopos válidos:** `frontend`, `backend`, `db`, `infra`, `docs`, `root`.
   Novos escopos podem ser adicionados conforme o projeto evoluir.
 - **Autorização para Push:** É **obrigatório** solicitar a autorização expressa do usuário antes de realizar qualquer envio para o repositório remoto (`git push`).
+- **Regeneração de Documentos Finais:** Sempre que o arquivo `regulamentoCompeticoesCearenses.md` tiver sido modificado, é **obrigatório** regenerar os documentos finais (`.docx` e `.pdf`) **antes** do commit/push. Siga o workflow `.agents/workflows/atualizar-repositorio.md` para o procedimento completo.
 - **Pré-requisito do Commit/Push:** Antes de solicitar a autorização para atualizar o repositório, você deve apresentar claramente ao usuário:
   1. A lista exata dos arquivos que foram modificados e estão sendo incluídos na atualização.
   2. A exata mensagem de *commit* que será utilizada.

@@ -30,7 +30,7 @@
 
 **Art. 4º** – O **Campeonato Cearense de Orientação Sprint (CCOS)** é caracterizado por percursos em que os atletas devam ser testados em suas habilidades de leitura e interpretação dos mapas, com escolhas de rotas em ambientes urbanos ou semiurbanos, em alta velocidade. O CCOS será realizado em um único evento, composto de múltiplos percursos (geralmente três).
 
-**Art. 5º** – Ambas as competições (CCO e CCOS) serão realizadas, se possível, em áreas de fácil acesso, agradáveis e com infraestrutura compatível ao número de participantes. O terreno deve ser propício à prática de orientação e o conjunto das ações dos organizadores deve ser previamente aprovado pelo árbitro do evento/etapa.
+**Art. 5º** – Ambas as competições serão realizadas, se possível, em áreas de fácil acesso, agradáveis e com infraestrutura compatível ao número de participantes. O terreno deve ser propício à prática de orientação e o conjunto das ações dos organizadores deve ser previamente aprovado pelo árbitro do evento.
 
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
@@ -57,9 +57,7 @@
 
 **Art. 8º** – O atleta deve escolher uma das categorias descritas no item 2 da ROP para a competição.
 
-> **Parágrafo 1º:** Recomenda-se que a primeira inscrição de um atleta iniciante seja em uma das categorias acompanhadas.
-
-> **Parágrafo 2º:** As categorias *preO-Para* e *preO-AB* não são previstas nas competições de orientação cearense.
+> **Parágrafo Único:** Recomenda-se que a primeira inscrição de um atleta iniciante seja em uma das categorias acompanhadas.
 
 **Art. 9º** – As categorias acompanhadas são categorias de apresentação do esporte. Os atletas inscritos participarão do percurso acompanhados de um atleta experiente designado pelo clube organizador da etapa, após este ter concluído seu percurso na competição ou não competir na etapa. Para estas categorias não há classificação na etapa, percurso ou no campeonato.
 
@@ -67,7 +65,7 @@
 
 > **Parágrafo 2º:** **No caso exclusivo do CCOS**, os atletas das categorias acompanhadas (HN1, HN2, HN3, DN1, DN2 e DN3) somente poderão se inscrever e participar do último percurso.
 
-**Art. 10** – É obrigatório que o uniforme do atleta atenda aos requisitos do item 14.1 da ROP.
+**Art. 10** – O uniforme do atleta deve atender ao item 14 da ROP.
 
 > **Parágrafo 1º:** É obrigatório o uso de um número de identificação do atleta que proporcione sua visualização clara, devendo ser fixado no uniforme.
 
@@ -119,7 +117,7 @@
 
 **Art. 20** – Se declarada a impossibilidade de utilização do sistema eletrônico (SPORTident), será utilizada apuração através de cartão de controle (papel impermeabilizado). Taxas de aluguel de SI-Card serão devolvidas.
 
-**Art. 21** – Os atletas serão classificados individualmente, em ordem crescente de tempo de execução do percurso, dentro de sua categoria.
+**Art. 21** – A classificação individual dos atletas segue o previsto no item 19 da ROP.
 
 **Art. 22** – A **ordem de partida** seguirá as seguintes regras conforme a competição:
 
@@ -127,46 +125,16 @@
 
 > **Parágrafo 2º:** O intervalo entre as partidas em cada categoria atenderá ao item 16.12 da ROP.
 
-**Art. 23** – O atleta que não concluir ou desistir do percurso é obrigado a registrar sua passagem pela faixa de chegada ou informar ao Controlador de Chegada o mais rápido possível.
+**Art. 23** – O atleta que não concluir ou desistir do percurso é obrigado a registrar sua passagem pela faixa de chegada ou informar ao Controlador de Chegada o mais rápido possível, devendo entregar o mapa e o chip (SI-Card), conforme item 3.12 da ROP.
 > **Parágrafo Único:** O não cumprimento desta regra gerará penalização, tornando a etapa/percurso não passível de descarte.
 
 ## 6. Das Infrações, Desclassificação e Júri Técnico
 
-**Art. 24** – Será desclassificado da etapa/percurso o atleta que:
+**Art. 24** – As causas de desclassificação são as previstas nos itens 3.9, 3.17, 3.20, 18.7, 19.9 e 23 da ROP, além de:
 
-> **a.** Solicitar apoio técnico a outro atleta;
+> **a.** Deixar de informar a utilização de SI-Card diferente do registrado para o competidor.
 
-> **b.** Apoiar tecnicamente outro atleta;
-
-> **c.** Concluir o percurso em ordem diferente à prescrita no mapa/cartão de controle utilizado;
-
-> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa (via SI-Card ou picotador);
-
-> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
-
-> **f.** Passar na faixa de chegada sem o mapa;
-
-> **g.** Participar no lugar de outro atleta;
-
-> **h.** Ultrapassar o tempo limite para execução do percurso;
-
-> **i.** Prejudicar intencionalmente a competição ou outro atleta;
-
-> **j.** Não zelar pela propriedade onde se realiza a competição;
-
-> **k.** Contrariar as determinações dos organizadores dadas nos boletins ou briefing;
-
-> **l.** Comportar-se de maneira antidesportiva;
-
-> **m.** Não der destinação apropriada ao lixo produzido;
-
-> **n.** Não seguir os balizamentos obrigatórios do percurso;
-
-> **o.** Deixar de informar a utilização de SI-Card diferente do registrado para o competidor;
-
-> **p.** Outros motivos indicados na ROP.
-
-**Art. 25** – O fluxo de contestações obedecerá à ordem: **Reclamação** (junto à Organização/Diretor), seguida de **Protesto** (junto ao Árbitro) e, em última instância, **Apelação** (junto ao Júri Técnico). Todos devem obedecer aos requisitos, taxas e prazos previstos nos itens 36, 37 e 39 da ROP, respectivamente.
+**Art. 25** – O fluxo de contestações obedece aos itens 36, 37 e 39 da ROP.
 
 **Art. 26** – Após a divulgação do resultado final do campeonato (CCO ou CCOS), detecções de infrações a este regulamento podem ser comunicadas à FECORI, por escrito, em até 48 horas. A FECORI terá 24 horas para analisar e emitir decisão.
 
