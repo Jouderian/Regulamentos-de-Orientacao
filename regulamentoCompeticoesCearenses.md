@@ -97,7 +97,7 @@
 
 > **Parágrafo 1º:** Os organizadores não podem ser responsabilizados por acidentes ocorridos durante o evento, mas devem disponibilizar meios para prestar os primeiros socorros e transporte para o hospital ou posto de saúde mais próximo.
 
-> **Parágrafo 2º:** Para pessoas não filiadas, estas devem se inscrever no percurso aberto, acompanhado, novato ou bravo. Inscrições de percurso aberto podem ser feitas no local, se houver disponibilidade.
+> **Parágrafo 2º:** Para pessoas iniciantes, devem se inscrever no percurso acompanhado ou novato. Pessoas não filiadas à CBO podem se inscrever no percurso acompanhado, aberto, novato ou bravo.
 
 **Art. 14** – Os participantes autorizam o uso gratuito de sua imagem, vídeo, voz ou dados biográficos capturados durante a etapa/evento em materiais institucionais e promocionais, sem limite de tempo ou uso, no Brasil ou no exterior.
 
@@ -182,7 +182,7 @@
 
 > **Parágrafo Único:** Em caso de empate individual, prevalece o melhor resultado no último percurso. Persistindo o empate, considerar-se-á o percurso anterior, e assim sucessivamente. Persistindo o empate, o atleta com maior idade fica melhor classificado.
 
-**Art. 35** – A pontuação dos clubes (em ambas as competições) será dada pela soma dos pontos dos seus **três atletas filiados melhores classificados em cada categoria**, por etapa/percurso. Clubes não filiados não participam do resultado de clubes.
+**Art. 35** – A pontuação dos clubes (em ambas as competições) será dada pela soma dos pontos dos seus **três atletas filiados à CBO melhores classificados em cada categoria**, por etapa/percurso. Clubes não filiados à CBO não participam do resultado de clubes.
 
 > **Parágrafo Único:** Em caso de empate entre clubes, vence o que tiver mais primeiros lugares, depois segundos, sucessivamente até o desempate.
 
@@ -196,7 +196,7 @@
 
 **Art. 39** – Os **3 (três) clubes melhor pontuados** ao final de cada campeonato serão premiados com **troféus**.
 
-> **Parágrafo 1º:** Têm direito à premiação final apenas atletas filiados que participarem de no mínimo metade dos percursos/etapas realizados e estiverem em situação regular com a FECORI.
+> **Parágrafo 1º:** Têm direito à premiação final apenas atletas filiados à CBO que participarem de no mínimo metade dos percursos/etapas realizados e estiverem em situação regular.
 
 > **Parágrafo 2º:** Na ausência do atleta ou representante de clube na cerimônia, o prêmio poderá ser despachado com custas ressarcidas pelo recebedor.
 
