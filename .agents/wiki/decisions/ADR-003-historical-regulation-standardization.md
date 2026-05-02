@@ -11,6 +11,7 @@ O projeto precisava incorporar regulamentos antigos (2018 a 2025) que estavam di
 1. Extração direta de PDFs pode perder a formatação de tabelas (ex: calendário de etapas).
 2. PDFs comprimidos sem camada de texto clara dificultam a importação.
 3. A conversão nativa do MS Word em background bloqueia a automação devido a prompts de segurança interativos ("Reflow").
+4. **Lacuna Temporal (2020-2021):** Identificação de que não houve campeonatos nestes anos devido à pandemia de COVID-19, justificando a ausência de arquivos para processamento nestes períodos específicos.
 
 ## Decisão
 A conversão e padronização foram divididas em duas abordagens dependendo do estado do arquivo:
