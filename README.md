@@ -20,7 +20,7 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Acervo Histórico (2018-2025)
 
-Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato Markdown (`Documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras. 
+Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato PDF (`Documentos/<ano>/`) e Markdown (`Documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras. 
 
 > [!NOTE]
 > Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
