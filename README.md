@@ -18,6 +18,10 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 - **`ROP.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
+## Acervo Histórico (2018-2025)
+
+Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato Markdown (`Documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras.
+
 ## Licença
 
 A organização, padronização e estruturação destes arquivos estão licenciadas sob a **[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE)**.
