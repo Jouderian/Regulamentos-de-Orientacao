@@ -1,6 +1,6 @@
-# Nota Histórica: Temporada 2020
+# Nota Histórica: Temporada 2020 e 2021
 
-Informamos que no ano de **2020**, as atividades e competições oficiais do Campeonato Cearense de Orientação foram **suspensas** em decorrência da pandemia global de **COVID-19**.
+Informamos que no ano de **2020** e **2021**, as atividades e competições oficiais do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)** foram **suspensas** em decorrência da pandemia global de **COVID-19**.
 
 Por este motivo:
 - Não houve a realização de etapas oficiais;
