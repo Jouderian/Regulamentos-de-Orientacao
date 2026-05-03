@@ -63,7 +63,7 @@
 
 > **Parágrafo 1º:** É facultado a cada clube oferecer um atleta experiente para acompanhar os atletas das categorias "acompanhados".
 
-> **Parágrafo 2º:** **No caso exclusivo do CCOS**, os atletas das categorias acompanhadas (HN1, HN2, HN3, DN1, DN2 e DN3) somente poderão se inscrever e participar do último percurso.
+> **Parágrafo 2º:** No caso exclusivo do **CCOS**, atletas das categorias acompanhadas (*HN1*, *HN2*, *HN3*, *DN1*, *DN2* e *DN3*) só podem se inscrever e participar dos percursos diurnos.
 
 **Art. 10** – O uniforme do atleta deve atender ao item 14 da ROP.
 
@@ -126,6 +126,7 @@
 > **Parágrafo 2º:** O intervalo entre as partidas em cada categoria atenderá ao item 16.12 da ROP.
 
 **Art. 23** – O atleta que não concluir ou desistir do percurso é obrigado a registrar sua passagem pela faixa de chegada ou informar ao Controlador de Chegada o mais rápido possível, devendo entregar o mapa e o chip (SI-Card), conforme item 3.12 da ROP.
+
 > **Parágrafo Único:** O não cumprimento desta regra gerará penalização, tornando a etapa/percurso não passível de descarte.
 
 ## 6. Das Infrações, Desclassificação e Júri Técnico
@@ -168,7 +169,7 @@
 
 **Art. 33** – **Pontuação de Voluntários:** Atletas convocados formalmente por seus clubes para atuarem na equipe organizadora — ou convocados pela FECORI para atuar como árbitro — e impedidos de competir, poderão receber a média da pontuação de suas outras participações, desde que autorizados pelo árbitro e cujo percurso da categoria não tenha sido anulado:
 
-> **Parágrafo 1º (CCO):** O atleta deve competir em, no mínimo, metade das etapas do campeonato anual para ter direito aos pontos. A média é calculada com base nas outras etapas.
+> **Parágrafo 1º (CCO):** O atleta precisa participar de pelo menos metade das etapas realizadas no campeonato anual — *considerando apenas as etapas que realmente aconteceram, excluindo as canceladas, e arredondando o número para baixo* — para ter direito à pontuação. A média é calculada com base nas etapas em que o atleta se inscreveu, exceto a etapa de voluntário, aplicando-se previamente o descarte previsto no Art. 34.
 
 > **Parágrafo 2º (CCOS):** A média é calculada com base nos outros percursos do mesmo evento. Servirá também para definir a ordem de partida inversa no último percurso.
 
@@ -178,9 +179,11 @@
 
 > **Parágrafo 5º:** O árbitro do evento elaborará o seu Relatório, previsto nas *DIRETRIZES PARA EVENTOS* da CBO, e o encaminhará à FECORI no prazo de 30 (trinta) dias, conforme item 40.2 da ROP.
 
-**Art. 34** – A classificação individual geral será o somatório de todos os pontos obtidos (em todas as etapas/percursos), **sem descartes**.
+**Art. 34** – **Exclusivo do CCO:** A classificação individual geral será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, descartando-se obrigatoriamente uma etapa, aquela com a menor pontuação, desde que o campeonato tenha sido disputado em mais de três etapas.
 
-> **Parágrafo Único:** Em caso de empate individual, prevalece o melhor resultado no último percurso. Persistindo o empate, considerar-se-á o percurso anterior, e assim sucessivamente. Persistindo o empate, o atleta com maior idade fica melhor classificado.
+> **Parágrafo 1º:** Caso o campeonato, **inclusive por motivo de cancelamento de etapas pela organização**, venha a ser disputado em três etapas ou menos, não haverá descarte e a classificação será dada pelo somatório de todas as etapas efetivamente realizadas.
+
+> **Parágrafo 2º:** Em caso de empate individual, prevalece o melhor resultado no último percurso. Persistindo o empate, considerar-se-á o percurso anterior, e assim sucessivamente. Persistindo o empate, o atleta com maior idade fica melhor classificado.
 
 **Art. 35** – A pontuação dos clubes (em ambas as competições) será dada pela soma dos pontos dos seus **três atletas filiados à CBO melhores classificados em cada categoria**, por etapa/percurso. Clubes não filiados à CBO não participam do resultado de clubes.
 
