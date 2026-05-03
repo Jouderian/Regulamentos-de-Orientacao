@@ -8,10 +8,11 @@ trigger: always_on
 
 ---
 
-## Idioma
+## Idioma e Nomenclatura
 
-- Use preferencialmente o **Português do Brasil (pt-BR)**
-- **Nomes de arquivos e diretórios**: Use o formato `camelCase` (ex: `userProfile.md`, `authService/`).
+- **Conteúdo do Projeto** (documentos, regulamentos, manuais): **Português do Brasil (pt-BR)**.
+- **Nomes de arquivos e diretórios de projeto**: Use o formato **camelCase** (ex: `regulamentoCompeticoes.md`, `listaPresenca.md`).
+- **Arquivos Sistêmicos** (dentro de `.agents/`): Mantêm o padrão **Inglês** e **kebab-case** (ex: `spec.md`, `project-vision/`) para garantir a compatibilidade com o sistema.
 - **Mensagens de commit**: **Português do Brasil (pt-BR)**.
 
 ## Formato de Documentos

@@ -1,11 +1,11 @@
----
+﻿---
 description: Decisão sobre o método de extração e padronização dos regulamentos históricos (2018-2025).
 ---
 
 # ADR 003: Padronização de Regulamentos Históricos (2018-2025)
 
 ## Contexto
-O projeto precisava incorporar regulamentos antigos (2018 a 2025) que estavam disponíveis apenas no formato PDF ou DOCX. A exigência era que o repositório inteiro mantivesse um padrão de Markdown estrito, semelhante ao regulamento vigente de 2026, para permitir rastreabilidade, versionamento e manutenção limpa.
+O projeto precisava incorporar regulamentos antigos (2018 a 2025) que estavam disponíveis apenas no formato PDF ou DOCX. A exigência era que o repositório inteiro mantivesse um padrão de Markdown estrito, para permitir rastreabilidade, versionamento e manutenção limpa.
 
 ## Problemas
 1. Extração direta de PDFs pode perder a formatação de tabelas (ex: calendário de etapas).

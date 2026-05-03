@@ -1,8 +1,8 @@
 # Regulamentos das Competições Cearenses de Orientação
 
-Este repositório tem como objetivo atualizar e padronizar a documentação dos regulamentos das competições de orientação do Ceará, visando a gestão dos regulamentos do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, alem de auxiliar na padronização e gestão das **Regras de Orientação Pedestre (ROP)** nacionais.
+Este repositório tem como objetivo atualizar e padronizar a documentação dos regulamentos das competições de orientação do Ceará, visando a gestão dos regulamentos do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, além de auxiliar na padronização e gestão das **Regras de Orientação Pedestre (ROP)** nacionais.
 
-A conversão destes documentos para o formato **Markdown (.md)** visa facilitar o controle de versão, garantir uma estrutura de documento consistente (com hierarquia clara de artigos, parágrafos e itens) e simplificar a manutenção e a consulta por parte de atletas, clubes, organizadores e interessados. Alem de facilitar o uso dos regulamentos por **IA's**, para responder perguntas sobre os regulamentos.
+A conversão destes documentos para o formato **Markdown (.md)** visa facilitar o controle de versão, garantir uma estrutura de documento consistente (com hierarquia clara de artigos, parágrafos e itens) e simplificar a manutenção e a consulta por parte de atletas, clubes, organizadores e interessados. Além de facilitar o uso dos regulamentos por **IA's**, para responder perguntas sobre os regulamentos.
 
 ## Objetivos
 
@@ -16,11 +16,11 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 - **`regulamentoCompeticoesCearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).
 
-- **`ROP.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
+- **`regrasOrientacaoPedestre.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
 ## Acervo Histórico (2018-2025)
 
-Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato PDF (`Documentos/<ano>/`) e Markdown (`Documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras. 
+Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato PDF (`documentos/<ano>/`) e Markdown (`documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras. 
 
 > [!NOTE]
 > Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
