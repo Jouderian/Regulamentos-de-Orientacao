@@ -6,24 +6,22 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Objetivos
 
-- **Unificação:** Consolidar as regras comuns das competições em um documento coeso, mantendo claras as distinções de logística, calendário e requisitos de organização específicos de cada competição.
-
-- **Padronização:** Aplicar um formato *Markdown* de alta qualidade e com estilo de documento legal para melhorar a legibilidade.
-
+- **Unificação:** Consolidar as regras comuns das competições em um documento coeso, mantendo claras as distinções de logística, calendário e requisitos de organização específicos de cada competição.  
+- **Padronização:** Aplicar um formato *Markdown* de alta qualidade e com estilo de documento legal para melhorar a legibilidade.  
 - **Manutenibilidade:** Facilitar futuras revisões, edições e acompanhamento do histórico de alterações através do controle de versão (Git).
 
 ## Documentos Principais
 
-- **`regulamentoCompeticoesCearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).
-
+- **`regulamentoCompeticoesCearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).  
 - **`regrasOrientacaoPedestre.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
 ## Acervo Histórico (2018-2025)
 
-Além das versões vigentes, o repositório mantém o histórico padronizado de edições anteriores do campeonato em formato PDF (`documentos/<ano>/`) e Markdown (`documentos/<ano>/markdowns/`), permitindo a comparação e evolução temporal das regras. 
+Este repositório mantém o histórico padronizado de edições anteriores do campeonato (`documentos/<ano>`) em formato PDF e Markdown, permitindo a comparação e evolução temporal das regras. 
 
-> [!NOTE]
-> Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
+> **NOTA:**
+> - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
+> - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 
 ## Licença
 

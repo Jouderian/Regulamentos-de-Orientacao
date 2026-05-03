@@ -2,7 +2,7 @@
 
 ## 1. Disposições Gerais
 
-**Art. 1º** – O presente regulamento unifica as diretrizes para a realização do *Campeonato Cearense de Orientação* (CCO) e do *Campeonato Cearense de Orientação Sprint* (CCOS). Às omissões neste regulamento aplicam-se as *Regras de Orientação Pedestre* (ROP) vigentes da **Confederação Brasileira de Orientação** (CBO).
+**Art. 1º** – O presente regulamento unifica as diretrizes para a realização do *Campeonato Cearense de Orientação* (CCO) e do *Campeonato Cearense de Orientação Sprint* (CCOS). Às omissões neste regulamento aplicam-se as [Regras de Orientação Pedestre (ROP)](./documentos/2026/rop2026.pdf) vigentes da **Confederação Brasileira de Orientação** (CBO).
 
 **Art. 2º** – Considera-se por atleta ou clube filiado à **Federação Cearense de Orientação** (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
@@ -36,7 +36,7 @@
 
 ### Calendário do XIX Campeonato Cearense de Orientação (CCO XIX)
 | **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
-| --------- | -------- | --------------- | ---------------------------- |
+| :-------: | :------: | :-------------- | :--------------------------- |
 | 1ª        | 31/Mai   | COqueiro        | Jorge Saraiva de Amorim (QA/FECORI 65) |
 | 2ª        | 28/Jun   | COFORT          | Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
 | 3ª        | 30/Ago   | ???             | ??? – ??????? (QA/FECORI ??) |
@@ -44,7 +44,7 @@
 
 ### Calendário do XIII Campeonato Cearense de Orientação Sprint (CCOS XIII)
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
-| ------------ | -------- | --------------- | ---------------------------- |
+| :----------: | -------: | :-------------- | :--------------------------- |
 | 1º           | 26/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
 | 2º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
 | 3º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
