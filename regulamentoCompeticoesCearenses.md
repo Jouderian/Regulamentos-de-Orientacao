@@ -37,10 +37,10 @@
 ### Calendário do XIX Campeonato Cearense de Orientação (CCO XIX)
 | **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
 | :-------: | :------: | :-------------- | :--------------------------- |
-| 1ª        | 31/Mai   | COqueiro        | Jorge Saraiva de Amorim (QA/FECORI 65) |
-| 2ª        | 28/Jun   | COFORT          | Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
-| 3ª        | 30/Ago   | ???             | ??? – ??????? (QA/FECORI ??) |
-| 4ª        | 08/Nov   | ???             | ??? – ??????? (QA/FECORI ??) |
+| 1ª        | 31/Mai   | COqueiro| Jorge Saraiva de Amorim (QA/FECORI 65) |
+| 2ª        | 28/Jun   | COFORT| Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
+| 3ª        | 30/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
+| 4ª        | 08/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
 
 ### Calendário do XIII Campeonato Cearense de Orientação Sprint (CCOS XIII)
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
