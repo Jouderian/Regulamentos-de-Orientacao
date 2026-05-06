@@ -20,9 +20,9 @@ Que 2026 seja um marco de superação e conquistas!
 
 ### CAPÍTULO I - REGRAS GERAIS
 
-01. Definições 6
+01. [Definições](#1-DEFINIÇÕES)
 
-02. Categorias 7
+02. Categorias
 
 03. Rotina do atleta 10
 
@@ -148,7 +148,7 @@ Que 2026 seja um marco de superação e conquistas!
 
 ## CAPITULO I – REGRAS GERAIS
 
-### 1 DEFINIÇÕES
+### 1 DEFINIÇÕES {#1-DEFINIÇÕES}
 
 **1.1** A Orientação é um esporte no qual os competidores navegam de forma independente através do terreno, auxiliados somente por mapa e bússola, devendo visitar no menor tempo possível uma série de pontos de controle marcados no terreno. O percurso, definido pela localização dos pontos de controle, é revelado aos competidores apenas no momento de suas partidas.
 

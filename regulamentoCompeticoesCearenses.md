@@ -2,7 +2,7 @@
 
 ## 1. Disposições Gerais
 
-**Art. 1º** – O presente regulamento unifica as diretrizes para a realização do *Campeonato Cearense de Orientação* (CCO) e do *Campeonato Cearense de Orientação Sprint* (CCOS). Às omissões neste regulamento aplicam-se as [Regras de Orientação Pedestre (ROP)](./documentos/2026/rop2026.pdf) vigentes da **Confederação Brasileira de Orientação** (CBO).
+**Art. 1º** – O presente regulamento unifica as diretrizes para a realização do *Campeonato Cearense de Orientação* (CCO) e do *Campeonato Cearense de Orientação Sprint* (CCOS). Às omissões neste regulamento aplicam-se as [Regras de Orientação Pedestre (ROP)](https://azimuteweb.s3.sa-east-1.amazonaws.com/CBO/CBO/01-CBO/Regras/Regras%20para%20Orienta%C3%A7%C3%A3o%20Pedestre/01.ROP_2026.pdf) vigentes da [Confederação Brasileira de Orientação (CBO)](https://www.cbo.org.br/).
 
 **Art. 2º** – Considera-se por atleta ou clube filiado à **Federação Cearense de Orientação** (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
@@ -45,9 +45,9 @@
 ### Calendário do XIII Campeonato Cearense de Orientação Sprint (CCOS XIII)
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
 | :----------: | -------: | :-------------- | :--------------------------- |
-| 1º           | 26/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
-| 2º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
-| 3º           | 27/Set   | FECORI          | ??? - ??????? (QA/FECORI ??) |
+| 1º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| 2º           | 27/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| 3º           | 27/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições do evento anterior.
 
