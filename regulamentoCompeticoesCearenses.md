@@ -34,7 +34,7 @@
 
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
-### Calendário do XX Campeonato Cearense de Orientação
+### Calendário do XXI Campeonato Cearense de Orientação
 | **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
 | :-------: | :------: | :-------------- | :--------------------------- |
 | 1ª        | 31/Mai   | COqueiro| Jorge Saraiva de Amorim (QA/FECORI 65) |
@@ -42,7 +42,7 @@
 | 3ª        | 30/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
 | 4ª        | 08/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
 
-### Calendário do XIII Campeonato Cearense de Orientação Sprint
+### Calendário do XIV Campeonato Cearense de Orientação Sprint
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
 | :----------: | -------: | :-------------- | :--------------------------- |
 | 1º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
@@ -203,4 +203,4 @@
 
 > **Parágrafo 2º:** Na ausência do atleta ou representante de clube na cerimônia, o prêmio poderá ser despachado com custas ressarcidas pelo recebedor.
 
-*Fortaleza/CE, 27 de abril de 2026.*
+*Fortaleza/CE, 27 de abril de 2027.*

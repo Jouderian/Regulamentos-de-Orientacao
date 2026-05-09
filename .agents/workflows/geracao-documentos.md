@@ -28,7 +28,7 @@ Para evitar a perda da formatação oficial da Federação, o projeto utiliza um
 Sempre que o documento `regulamentoCompeticoesCearenses.md` for alterado e o conteúdo final estiver aprovado, execute o comando abaixo na raiz do repositório para sobrescrever/atualizar a versão do ano correspondente (ex: 2026):
 
 ```powershell
-pandoc regulamentoCompeticoesCearenses.md -o Documentos/2026/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
+pandoc regulamentoCompeticoesCearenses.md -o Documentos/2027/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
 ```
 ## 4. Geração do PDF a partir do DOCX
 
@@ -39,7 +39,7 @@ Execute o script PowerShell abaixo para converter o arquivo final `.docx` em `.p
 ```powershell
 $word = New-Object -ComObject Word.Application
 $word.Visible = $false
-$docPath = Resolve-Path "Documentos\2026\regulamentoDasCompeticoesCearenses.docx"
+$docPath = Resolve-Path "Documentos\2027\regulamentoDasCompeticoesCearenses.docx"
 $pdfPath = [System.IO.Path]::ChangeExtension($docPath.Path, ".pdf")
 $doc = $word.Documents.Open($docPath.Path)
 $doc.SaveAs([ref]$pdfPath, [ref]17) # 17 = wdFormatPDF
