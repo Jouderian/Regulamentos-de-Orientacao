@@ -1,3 +1,3 @@
-﻿# Nota HistÃ³rica: Temporada 2025
+# Nota Histórica: Temporada 2025
 
-Informamos que no ano de **2025**, nÃ£o foi realizado a competiÃ§Ã£o do **Campeonato Cearense de OrientaÃ§Ã£o Sprint (CCOS)** em virturde da realizaÃ§Ã£o do **Campeonato Brasileiro de OrientaÃ§Ã£o Sprint (CBOS 2025)** no estado do CearÃ¡.
+Informamos que no ano de **2025**, não foi realizado a competição do **Campeonato Cearense de Orientação Sprint (CCOS)** em virturde da realização do **Campeonato Brasileiro de Orientação Sprint (CBOS 2025)** no estado do Ceará.
