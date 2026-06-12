@@ -15,7 +15,7 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 - **`regulamentoCompeticoesCearenses.md`**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).  
 - **`regrasOrientacaoPedestre.md`**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
 
-## Acervo Histórico (2018-2025)
+## Acervo Histórico (2018-2026)
 
 Este repositório mantém o histórico padronizado de edições anteriores do campeonato (`documentos/<ano>`) em formato PDF e Markdown, permitindo a comparação e evolução temporal das regras. 
 

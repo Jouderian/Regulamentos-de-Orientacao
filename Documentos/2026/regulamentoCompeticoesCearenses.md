@@ -34,24 +34,20 @@
 
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
-### Calendário do XXI Campeonato Cearense de Orientação
-> **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
-
+### Calendário do XX Campeonato Cearense de Orientação
 | **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
 | :-------: | :------: | :-------------- | :--------------------------- |
-| 1ª        | 30/Mai   | COqueiro| Jorge Saraiva de Amorim (QA/FECORI 65) |
-| 2ª        | 27/Jun   | COFORT| Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
-| 3ª        | 29/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
-| 4ª        | 07/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
+| 1ª        | 31/Mai   | COqueiro| Jorge Saraiva de Amorim (QA/FECORI 65) |
+| 2ª        | 28/Jun   | COFORT| Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
+| 3ª        | 30/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
+| 4ª        | 08/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
 
-### Calendário do XIV Campeonato Cearense de Orientação Sprint
-> **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
-
+### Calendário do XIII Campeonato Cearense de Orientação Sprint
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
 | :----------: | -------: | :-------------- | :--------------------------- |
-| 1º           | 25/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
-| 2º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
-| 3º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| 1º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| 2º           | 27/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| 3º           | 27/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições do evento anterior.
 
@@ -207,4 +203,4 @@
 
 > **Parágrafo 2º:** Na ausência do atleta ou representante de clube na cerimônia, o prêmio poderá ser despachado com custas ressarcidas pelo recebedor.
 
-*Fortaleza/CE, 27 de abril de 2027.*
+*Fortaleza/CE, 27 de abril de 2026.*
