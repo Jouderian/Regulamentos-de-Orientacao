@@ -24,110 +24,110 @@ Que 2026 seja um marco de superação e conquistas!
 
 02. Categorias
 
-03. Rotina do atleta 10
+03. Rotina do atleta
 
-04. Candidatura para organizar eventos 13
+04. Candidatura para organizar eventos
 
-05. Informações sobre o evento 13
+05. Informações sobre o evento
 
-06. Inscrição/Registro 15
+06. Inscrição/Registro
 
-07. Custos e Transportes 18
+07. Custos e Transportes
 
-08. Percursos 19
+08. Percursos
 
-09. Mapas 21
+09. Mapas
 
-10. Áreas e rotas restritas 22
+10. Áreas e rotas restritas
 
-11. Descrições dos pontos de controle 23
+11. Descrições dos pontos de controle
 
-12. Ponto de controle 23
+12. Ponto de controle
 
-13. Ponto de água 24
+13. Ponto de água
 
-14. Equipamento 24
+14. Equipamento
 
-15. Treinamento 25
+15. Treinamento
 
-16. Ordem de partida 25
+16. Ordem de partida
 
-17. Partida 27
+17. Partida
 
-18. Chegada 27
+18. Chegada
 
-19. Resultados 28
+19. Resultados
 
-20. Premiação 29
+20. Premiação
 
-21. Ranking Nacional de Atletas 30
-    1. Considerações gerais 30  
-    2. Ranking Nacional de atletas, categorias Elite 30  
-    3. Ranking Nacional de atletas, categorias “A” e “B” 30  
-    4. Provas municipais 31  
-    5. Provas estaduais 32  
-    6. Provas regionais 32  
-    7. Provas nacionais 33  
-    8. Representações 33  
+21. Ranking Nacional de Atletas  
+    1. Considerações gerais  
+    2. Ranking Nacional de atletas, categorias Elite  
+    3. Ranking Nacional de atletas, categorias “A” e “B”  
+    4. Provas municipais  
+    5. Provas estaduais  
+    6. Provas regionais  
+    7. Provas nacionais  
+    8. Representações  
 
-22. Ranking Nacional de Clubes e Federações 34
+22. Ranking Nacional de Clubes e Federações
 
-23. Desportividade (competição justa) 34
+23. Desportividade (competição justa)
 
 ### CAPÍTULO II - COMPETIÇÕES
 
-24. Competições oficiais 36
+24. Competições oficiais
 
-25. Programa do evento 37
+25. Programa do evento
 
-26. Disposições gerais 39
+26. Disposições gerais
 
-27. Calendário 39
+27. Calendário
 
-28. Campeonato Brasileiro de Orientação (CAMBOR) 40  
-    1. Formato da competição 40  
-    2. Categorias 41  
-    3. Critérios de classificação 41  
-    4. Premiação 42  
-    5. Revezamento de clubes 43  
-29. Campeonato Brasileiro de Orientação Sprint (CAMBOS) 43
- 1. Formato da competição 43  
- 2. Categorias 44  
- 3. Critérios de classificação 45  
- 4. Premiação 45
+28. Campeonato Brasileiro de Orientação (CAMBOR)  
+  1. Formato da competição  
+  2. Categorias  
+  3. Critérios de classificação  
+  4. Premiação  
+  5. Revezamento de clubes  
+29. Campeonato Brasileiro de Orientação Sprint (CAMBOS)  
+  1. Formato da competição  
+  2. Categorias  
+  3. Critérios de classificação  
+  4. Premiação
 
-30. Campeonato Brasileiro de TrailO (CamBraTO) 46
+30. Campeonato Brasileiro de TrailO (CamBraTO)
 
-31. Campeonatos Regionais 46
+31. Campeonatos Regionais
 
-32. Campeonatos Estaduais 46
+32. Campeonatos Estaduais
 
-33. Campeonatos Municipais 46
+33. Campeonatos Municipais
 
-34. Competições de revezamento de equipes 51
+34. Competições de revezamento de equipes
 
 ### CAPÍTULO III - ARBITRAGEM  
-35. Arbitragem 54  
-36. Reclamações 56  
-37. Protestos 56  
-38. Júri Técnico 57  
-39. Apelação 58  
-40. Relatório de evento 58
+35. Arbitragem  
+36. Reclamações  
+37. Protestos  
+38. Júri Técnico  
+39. Apelação  
+40. Relatório de evento  
 
 ### CAPÍTULO IV – EQUIPE NACIONAL  
-41. Equipe nacional 59  
-42. Técnico/Dirigente 59
+41. Equipe nacional  
+42. Técnico/Dirigente
 
 ## APÊNDICES  
-- **Apêndice 1** – Comissão organizadora 62  
-- **Apêndice 2** – Sistema de apuração 64  
-- **Apêndice 3** – Consciência ecológica 67  
-- **Apêndice 4** – Regras e princípios do traçado de percursos 68  
-- **Apêndice 5** – Gestão de risco e segurança em competições 74  
-- **Apêndice 6** – Sistema de ranking nacional Elite 89  
-- **Apêndice 7** – Mídia, publicidade e patrocínio 95  
-- **Apêndice 8** – Medalhas e Diploma Evento IOF WRE CBO 96  
-- **Apêndice 9** – Campeonato Brasileiro de TrailO – CamBraTO 98  
+- **Apêndice 1** – Comissão organizadora  
+- **Apêndice 2** – Sistema de apuração  
+- **Apêndice 3** – Consciência ecológica  
+- **Apêndice 4** – Regras e princípios do traçado de percursos  
+- **Apêndice 5** – Gestão de risco e segurança em competições  
+- **Apêndice 6** – Sistema de ranking nacional Elite  
+- **Apêndice 7** – Mídia, publicidade e patrocínio  
+- **Apêndice 8** – Medalhas e Diploma Evento IOF WRE CBO  
+- **Apêndice 9** – Campeonato Brasileiro de TrailO – CamBraTO  
 
 ## ANEXOS  
 - **Anexo A** – Dispositivo de partida (modelo) 108  
@@ -161,13 +161,13 @@ Que 2026 seja um marco de superação e conquistas!
 **1.5** Os tipos de competições de Orientação podem ser classificados de acordo com:
 
 **1.5.1** O modo de deslocamento:
-- Orientação pedestre;
-- Orientação em bicicleta;
-- Orientação de trailo;
-- Orientação em esqui; e
+- Orientação pedestre;  
+- Orientação em bicicleta;  
+- Orientação de trailo;  
+- Orientação em esqui; e  
 - Outros tipos, desde que não usem motor ou qualquer meio que polua ou cause prejuízo ao meio ambiente, salvo o caso da cadeira de rodas para deficientes.
 
-**1.5.2** A hora da competição:
+**1.5.2** A hora da competição:  
 - Dia; e  
 - Noite.  
 
@@ -179,8 +179,8 @@ Que 2026 seja um marco de superação e conquistas!
 **1.5.4** O modo de determinar o resultado de competição:  
 - Único percurso (o resultado de um único percurso é o resultado final da competição);  
 - Vários percursos (os resultados combinados de dois ou mais percursos seguidos durante um dia ou vários dias, formam o resultado final da competição); e  
-- Percurso de qualificação (os competidores qualificam-se para um percurso final que será disputado em duas ou mais categorias, sendo que o resultado da competição é o do percurso final); e
-- Knock-out Sprint (ocorrem uma ou mais baterias com partida intervalada para se qualificar para a seção knock-out. Na seção knock-out ocorrem um ou mais rounds com várias baterias paralelas com partida em massa onde os vencedores se classificam para o próximo round. Ao final, ocorre uma prova com partida em massa para determinar o vencedor.
+- Percurso de qualificação (os competidores qualificam-se para um percurso final que será disputado em duas ou mais categorias, sendo que o resultado da competição é o do percurso final); e  
+- *Knock-out Sprint* (ocorrem uma ou mais baterias com partida intervalada para se qualificar para a seção knock-out. Na seção knock-out ocorrem um ou mais rounds com várias baterias paralelas com partida em massa onde os vencedores se classificam para o próximo round. Ao final, ocorre uma prova com partida em massa para determinar o vencedor.
 
 **1.5.5** A ordem na qual os controles serão visitados:
 - Em ordem específica (a ordem é estabelecida no mapa); e  
@@ -281,7 +281,8 @@ Em todas as provas oficiais da CBO, os atletas devem seguir a seguinte rotina de
 
 **3.3** Estar próximo à partida com alguns minutos de antecedência e manter-se em silêncio.
 
-**3.4** Quando o relógio da partida, que pode ser manual (*), der o sinal do seu minuto de partida, o atleta deverá mostrar o chip para conferência e entrar na área 1 do anexo “A”, para realizar a limpeza e a verificação do chip nas bases descritas com LIMPAR e CHECAR. (*) O relógio manual pode ser um placar de 4 algarismos, funcionando três minutos adiantados, e o sinal pode ser um silvo de apito ou qualquer outro sinal sonoro escolhido pela organização.
+**3.4** Quando o relógio da partida, que pode ser manual (*), der o sinal do seu minuto de partida, o atleta deverá mostrar o chip para conferência e entrar na área 1 do anexo “A”, para realizar a limpeza e a verificação do chip nas bases descritas com LIMPAR e CHECAR.  
+  * O relógio manual pode ser um placar de 4 algarismos, funcionando três minutos adiantados, e o sinal pode ser um silvo de apito ou qualquer outro sinal sonoro escolhido pela organização.
 
 **3.4.1** Após entrar na área 1 do anexo “A”, o atleta se responsabiliza que todos os seus dados estão de acordo com o item 3.1.1.
 
