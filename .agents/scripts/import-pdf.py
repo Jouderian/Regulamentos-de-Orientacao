@@ -13,10 +13,11 @@ def padronizar_texto(texto):
         texto
     )
     
-    # 2. Remover rodapés da Federação (URL, páginas ~ X/Y ~ ou X/Y e data/hora opcional) de forma independente por linha
+    # 2. Remover rodapés da Federação (FECORI e CBO) de forma independente por linha
     texto = re.sub(r'(?m)^\s*www\.fecori\.org\.br\s*$', '', texto)
     texto = re.sub(r'(?m)^\s*(?:~\s*)?\d+\s*/\s*\d+\s*(?:~\s*)?$', '', texto)
-    texto = re.sub(r'(?m)^\s*\d{2}/\d{2}/\d{2,4}\s+\d{2}:\d{2}\s*$', '', texto)
+    texto = re.sub(r'(?m)^\s*\d{2}/\d{2}/\d{2,4}\s*\d{2}:\d{2}\s*$', '', texto)
+    texto = re.sub(r'(?m)^\s*Confederação Brasileira de Orientação\s*[-–—]\s*CBO\s*[-–—]\s*www\.cbo\.esp\.br\s*\d+\s*$', '', texto)
     
     # 3. Remover espaços duplos ou múltiplos entre palavras (preservando indentação de início de linha)
     texto = re.sub(r'(?<=\S)[ \t]{2,}', ' ', texto)

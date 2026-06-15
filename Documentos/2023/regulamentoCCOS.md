@@ -1,12 +1,10 @@
-#REGULAMENTO DO XI CAMPEONATO CEARENSE DE ORIENTAÇÃO SPRINT
+# REGULAMENTO DO XI CAMPEONATO CEARENSE DE ORIENTAÇÃO SPRINT
 
-##1. DA REGULAMENTAÇÃO GERAL
+## 1. DA REGULAMENTAÇÃO GERAL
 
-**Art. 1º** – Às omissões no presente regulamento aplicam-se as Regras de Orientação Pedestre (ROP) vigentes da CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO (CBO).
+**Art. 1º** – Às omissões no presente regulamento aplicam-se as *Regras de Orientação Pedestre* (ROP) vigentes da *CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO* (CBO).
 
-**Art. 2º** – As competições de SPRINT, na Orientação, são caracterizadas por percursos em que os
-
-atletas devam ser testados em suas habilidades de leitura e interpretação dos mapas, com escolhas de rotas em ambientes complexos, em alta velocidade.
+**Art. 2º** – As competições de SPRINT, na Orientação, são caracterizadas por percursos em que os atletas devam ser testados em suas habilidades de leitura e interpretação dos mapas, com escolhas de rotas em ambientes complexos, em alta velocidade.
 
 > **Parágrafo único:** Os percursos serão realizados em áreas de fácil acesso, agradáveis e com infraestrutura compatível ao número de participantes. O terreno deve ser propício à prática desta modalidade e o conjunto das ações dos organizadores deve ser aprovado pelo árbitro do evento.
 
@@ -22,9 +20,8 @@ atletas devam ser testados em suas habilidades de leitura e interpretação dos 
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
-a. Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
-
-b. Estiver em dia com as obrigações junto à CBO/FECORI;
+>>**a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;  
+>>**b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
@@ -34,7 +31,7 @@ b. Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 5º:** Outras obrigações são previstas no estatuto da federação.
 
-2. DAS CATEGORIAS
+## 2. DAS CATEGORIAS
 
 **Art. 7º** – O atleta deve escolher uma das categorias descritas na regra 2 da ROP para a competição.
 
@@ -42,7 +39,7 @@ b. Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** Os atletas das categorias acompanhados, sejam HN1, HN2, HN3, DN1, DN2 e DN3, somente poderão se inscrever e participar do último percurso.
 
-3. DA RESPONSABILIDADE DO EVENTO
+## 3. DA RESPONSABILIDADE DO EVENTO
 
 **Art. 8º** – Os Boletins com as orientações e especificações sobre o evento serão de responsabilidade do seu Diretor que os emitirá com anuência do Árbitro e dos Clubes organizadores.
 
@@ -58,7 +55,7 @@ b. Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo único:** O local do evento será́ divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término do 2º Prazo de inscrições do evento anterior.
 
-4. DA INSCRIÇÃO
+## 4. DA INSCRIÇÃO
 
 **Art. 11** – As inscrições devem ser realizadas no site www.fecori.org.br, conforme especificado nos Boletins.
 
@@ -86,17 +83,13 @@ b. Estiver em dia com as obrigações junto à CBO/FECORI;
 
 **Art. 18** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
 
-a. Quando o evento for cancelado;
-
-b. Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição
-
-e a consequente devolução da taxa;
-
-c. Se o atleta que for participante da organização do evento atuar em um percurso, exercendo função que o impeça de competir; neste caso lhe será devolvido 1/3 do valor da inscrição paga;
+>>**a.** Quando o evento for cancelado;  
+>>**b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa;  
+>>**c.** Se o atleta que for participante da organização do evento atuar em um percurso, exercendo função que o impeça de competir; neste caso lhe será devolvido 1/3 do valor da inscrição paga;
 
 > **Parágrafo único:** Após o evento, cada Clube Organizador informará ao Diretor Financeiro quais os participantes que fazem jus a devolução prevista na alínea c.
 
-5. DA ORDEM DE PARTIDA
+## 5. DA ORDEM DE PARTIDA
 
 **Art. 19** – A ordem de partida dos percursos será feita por sorteio e devem ser publicados todos pelo menos 24h antes do 1º percurso.
 
@@ -106,7 +99,7 @@ c. Se o atleta que for participante da organização do evento atuar em um percu
 
 **Art. 22** – O atleta que não concluir ou desistir do percurso é obrigado registrar sua passagem pela faixa de chegada ou informar ao Controlador de Chegada, o mais rapidamente possível, para fins de controle do efetivo participante e evitar atrasos na apuração.
 
-6. DA APURAÇÃO E CLASSIFICAÇÃO
+## 6. DA APURAÇÃO E CLASSIFICAÇÃO
 
 **Art. 23** – Se o organizador declarar impossibilidade de utilização do sistema eletrônico (SPORTident) no percurso, será utilizada apuração através de cartão de controle. Neste caso, a taxa de aluguel do SI-Card, se tiver sido cobrada, será devolvida aos atletas.
 
@@ -118,10 +111,9 @@ c. Se o atleta que for participante da organização do evento atuar em um percu
 
 > **Parágrafo único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
-a. Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
-b. Permanecendo o empate, a melhor classificação no último percurso;  
-c. Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente
-posterior.
+>>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
+>>**b.** Permanecendo o empate, a melhor classificação no último percurso;  
+>>**c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
 
 **Art. 26** – O tempo limite para execução do percurso deve atender a regra 8.8 da ROP.
 
@@ -129,28 +121,28 @@ posterior.
 
 > **Parágrafo único:** É facultado à cada clube oferecer um atleta experiente para acompanhar os atletas das categorias “acompanhados”.
 
-7. DA DESCLASSIFICAÇÃO
+## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 28** – Será desclassificado da etapa o atleta que:
 
-a. Solicitar apoio técnico a outro atleta;  
-b. Apoiar tecnicamente outro atleta;  
-c. Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;  
-d. Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;  
-e. Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
-f. Passar na faixa de chegada sem o mapa;  
-g. Participar no lugar de outro atleta;  
-h. Ultrapassar o tempo limite para execução do percurso;  
-i. Prejudicar intencionalmente a competição ou outro atleta;  
-j. Não zelar pela propriedade onde se realiza a competição;  
-k. Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;  
-l. Comportar-se de maneira antidesportiva;  
-m. Não der destinação apropriada ao lixo produzido;  
-n. Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
-o. Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;  
-p. Outros motivos indicados na ROP.
+>>**a.** Solicitar apoio técnico a outro atleta;  
+>>**b.** Apoiar tecnicamente outro atleta;  
+>>**c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;  
+>>**d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;  
+>>**e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
+>>**f.** Passar na faixa de chegada sem o mapa;  
+>>**g.** Participar no lugar de outro atleta;  
+>>**h.** Ultrapassar o tempo limite para execução do percurso;  
+>>**i.** Prejudicar intencionalmente a competição ou outro atleta;  
+>>**j.** Não zelar pela propriedade onde se realiza a competição;  
+>>**k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;  
+>>**l.** Comportar-se de maneira antidesportiva;  
+>>**m.** Não der destinação apropriada ao lixo produzido;  
+>>**n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
+>>**o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;  
+>>**p.** Outros motivos indicados na ROP.
 
-8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
+## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
 
 **Art. 29** – O atleta ou clube poderá fazer uma reclamação para a Organização, desde que atenda a regra 37 da ROP;
 
@@ -168,11 +160,11 @@ p. Outros motivos indicados na ROP.
 
 > **Parágrafo 2º:** A FECORI terá o prazo de 24 (vinte e quatro horas) para analisar o questionamento constante do comunicado e divulgar a sua decisão.
 
-9. DO JÚRI TÉCNICO
+## 9. DO JÚRI TÉCNICO
 
 **Art. 33** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender a regra 39 da ROP e as DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-10.DA SEGURANÇA
+## 10.DA SEGURANÇA
 
 **Art. 34** – A Organização, deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -180,7 +172,7 @@ p. Outros motivos indicados na ROP.
 
 **Art. 36** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-11.DA PONTUAÇÃO
+## 11.DA PONTUAÇÃO
 
 **Art. 37** – Em cada categoria, os 31 (trinta e um) primeiros colocados, em cada percurso, receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -193,17 +185,18 @@ p. Outros motivos indicados na ROP.
 > **Parágrafo 4º:** A entidade organizadora informará à FECORI e ao árbitro do evento, imediatamente após o término da apuração dos resultados de cada percurso, a relação de atletas que receberão a média da pontuação referente a este artigo.
 
 > **Parágrafo 5º:** Qualquer atleta poderá se candidatar a participar como voluntário da organização de um evento, desde que a entidade organizadora aceite, mas só receberão a média da pontuação aqueles enquadrados neste artigo.
+
 > **Parágrafo 6º:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS DA CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias, conforme a regra 200 da ROP.
 
-12.DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 12.DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todos os percursos, sem descartes.
 
 > **Parágrafo único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
-a. Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
-b. Obtiver o melhor resultado no último confronto direto;  
-c. Tiver a maior idade.
+>>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
+>>**b.** Obtiver o melhor resultado no último confronto direto;  
+>>**c.** Tiver a maior idade.
 
 **Art. 39** – A classificação por clube se dará pelo somatório dos pontos conquistados em cada percurso conforme Art. 37 deste regulamento.
 
@@ -211,7 +204,7 @@ c. Tiver a maior idade.
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas os percursos, entretanto, não será classificado para fins do resultado por clube.
 
-13.DA PREMIAÇÃO DO CAMPEONATO
+## 13.DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria, inclusive os novatos, serão premiados com medalhas, inclusive os das categorias Novato.
 
@@ -219,4 +212,4 @@ c. Tiver a maior idade.
 
 > **Parágrafo 2º:** Na ausência do atleta à cerimônia de premiação, o prêmio será entregue ao seu clube. Na ausência de representante do clube, será despachado para o endereço do clube, com custas ressarcidas por ele.
 
-Fortaleza/CE, 14 de fevereiro de 2023.
+*Fortaleza/CE, 14 de fevereiro de 2023.*
