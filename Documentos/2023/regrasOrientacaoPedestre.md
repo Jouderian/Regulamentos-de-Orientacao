@@ -999,7 +999,7 @@ O `Campeonato Brasileiro de Orientação Master (CAMBOR Master)`, ocorrerá para
 
 **31.2.1** O `CamBOr Master` será disputado individualmente nas seguintes categorias: 
 
-|CATEGORIAS|FAIXAS ETÁRIAS|
+|**CATEGORIAS**|**FAIXAS ETÁRIAS**|
 |:---:|----|
 |H/D 35|atletas nascidos em 1986 ou antes|
 |H/D 40|atletas nascidos em 1981 ou antes|
@@ -1015,34 +1015,30 @@ O `Campeonato Brasileiro de Orientação Master (CAMBOR Master)`, ocorrerá para
 |H/D 90|atletas nascidos em 1931 ou antes|
 |H/D 95|atletas nascidos em 1926 ou antes|
 
-31.2.2 A organização do evento deverá oferecer percursos abertos para incentivar a participação dos atletas que não se enquadram neste artigo.
+**31.2.2** A organização do evento deverá oferecer percursos abertos para incentivar a participação dos atletas que não se enquadram neste artigo.
 
-31.2.3 Todas as categorias a partir de 40 anos de idade, poderão inscrever-se para competir em categorias de faixas etárias inferiores, até a de 35 anos.
+**31.2.3** Todas as categorias a partir de 40 anos de idade, poderão inscrever-se para competir em categorias de faixas etárias inferiores, até a de 35 anos.
 
-31.3 Resultados do Campeonato Master
+#### 31.3 Resultados do Campeonato Master
 
-31.3.1 No percurso Sprint não haverá classificatória, ou seja, será disputado em todas as categorias descritas na regra 2.1, sem distinção de grau de dificuldade.
+**31.3.1** No percurso Sprint não haverá classificatória, ou seja, será disputado em todas as categorias descritas na regra 2.1, sem distinção de grau de dificuldade.
 
-31.3.2 No percurso classificatório não haverá distinção de grau de dificuldade, apenas as faixas etárias, ou seja, todos os atletas inscritos em uma determinada categoria realizarão o mesmo percurso com grau de dificuldade “Muito Difícil” (A).
+**31.3.2** No percurso classificatório não haverá distinção de grau de dificuldade, apenas as faixas etárias, ou seja, todos os atletas inscritos em uma determinada categoria realizarão o mesmo percurso com grau de dificuldade “Muito Difícil” (A).
 
-31.3.3 Baseado no resultado do percurso classificatório, no 2º percurso (final) as categorias com mais de 10 (dez) atletas inscritos serão divididas igualmente pela metade, formando as finais A e finais B, de forma que a final A nunca tenha menos que 6 (seis) atletas disputando efetivamente. No caso de números ímpares ou se houver empate na última posição divisória,
-sempre será arredondado em favor da final A.
+**31.3.3** Baseado no resultado do percurso classificatório, no 2º percurso (final) as categorias com mais de 10 (dez) atletas inscritos serão divididas igualmente pela metade, formando as finais A e finais B, de forma que a final A nunca tenha menos que 6 (seis) atletas disputando efetivamente. No caso de números ímpares ou se houver empate na última posição divisória, sempre será arredondado em favor da final A.
 
-31.3.4 Não haverá final para as categorias com até 10 (dez) atletas inscritos, cujo resultado final será definido pela soma de tempo dos dois percursos.
+**31.3.4** Não haverá final para as categorias com até 10 (dez) atletas inscritos, cujo resultado final será definido pela soma de tempo dos dois percursos.
 
-31.3.5 O resultado final das categorias do CAMBOR Master que utilizarem o método de classificatória (finais A e B) será definido pela soma dos tempos dos dois percursos (classificatório e final), considerando a final que o atleta integra. Para fins da apuração dos resultados finais, será computado o tempo de 4 horas para todos os atletas que faltarem ou forem desclassificados em qualquer um dos percursos.
+**31.3.5** O resultado final das categorias do CAMBOR Master que utilizarem o método de classificatória (finais A e B) será definido pela soma dos tempos dos dois percursos (classificatório e final), considerando a final que o atleta integra. Para fins da apuração dos resultados finais, será computado o tempo de 4 horas para todos os atletas que faltarem ou forem desclassificados em qualquer um dos percursos.
 
-31.3.6 O atleta não classificado ou que tenha faltado em um percurso classificatório será incluído automaticamente na final B.
+**31.3.6** O atleta não classificado ou que tenha faltado em um percurso classificatório será incluído automaticamente na final B.
 
-31.3.7 Para a classificação final do CAMBOR Master, os vinte e seis primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12 e 11. Os demais atletas que forem classificados receberão
+**31.3.7** Para a classificação final do CAMBOR Master, os vinte e seis primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12 e 11. Os demais atletas que forem classificados receberão 10 (dez) pontos.
 
-10 (dez) pontos.
-31.3.8 No caso de empate, será melhor classificada(o) a/o atleta que obtiver o melhor resul-
-tado no percurso final, persistindo ainda o empate, quem tiver o melhor resultado no percurso
-classificatório, e se ainda persistir, ambos os atletas receberão a mesma premiação e não
-haverá classificação na posição seguinte.
-31.3.8 O resultado do percurso longo (classificatório) será usado para a ordem de partida do
-percurso médio (ordem cronológica inversa).
+**31.3.8** No caso de empate, será melhor classificada(o) a/o atleta que obtiver o melhor resultado no percurso final, persistindo ainda o empate, quem tiver o melhor resultado no percurso classificatório, e se ainda persistir, ambos os atletas receberão a mesma premiação e não haverá classificação na posição seguinte.
+
+**31.3.8** O resultado do percurso longo (classificatório) será usado para a ordem de partida do percurso médio (ordem cronológica inversa).
+
 31.4 Premiação do Campeonato Master
 31.4.1 A premiação será de responsabilidade da entidade organizadora, podendo ser troféus
 e/ou medalhas, devendo ser aprovada pelo Árbitro.
