@@ -12,14 +12,14 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Documentos Principais
 
-- **[regulamentoCompeticoesCearenses.md](regulamentoCompeticoesCearenses.md)**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).  
-- **[`regrasOrientacaoPedestre.md`](regrasOrientacaoPedestre.md)**: Versão padronizada das **Regras de Orientação Pedestre** (nacional) do ano vigente.
+- **[regulamentoCompeticoesCearenses.md](regulamentoCompeticoesCearenses.md)**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS). Os documentos finais para distribuição (`.docx` e `.pdf`) estão disponíveis em [`Documentos/2027/`](Documentos/2027/).
+- **[regrasOrientacaoPedestre.md](regrasOrientacaoPedestre.md)**: Versão padronizada das **Regras de Orientação Pedestre** (nacional), Edição 2026.
 
-## Acervo Histórico (2018-2026)
+## Acervo Histórico (2012-2027)
 
-Este repositório mantém o histórico padronizado de edições anteriores do campeonato (`documentos/<ano>`) em formato PDF e Markdown, permitindo a comparação e evolução temporal das regras. 
+Este repositório mantém o histórico padronizado de edições anteriores do campeonato (`Documentos/<ano>`) em formato PDF e Markdown, permitindo a comparação e evolução temporal das regras.
 
-> **NOTA:**
+> [!NOTE]
 > - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
 > - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 
