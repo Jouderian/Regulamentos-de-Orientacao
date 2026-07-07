@@ -18,24 +18,24 @@ Os critérios de pontuação de clubes e as premiações anuais são definidos p
 
 Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados do **CCO** (percurso médio/longo):
 
-| Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado | Pontuação do Campeão |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 2027 | XXI | *Não publicado* | - | - | - |
-| 2026 | XX | *Em andamento* | - | - | - |
-| 2025 | XIX | **COFORT** | COqueiro | Trilha Norte | 6.853,33 |
-| 2024 | XVIII | **COqueiro** | COFORT | CORR | 6.586,00 |
-| 2023 | XVII | **COqueiro** | COFORT | Trilha Norte | 4.268,50 |
-| 2022 | XVI | **COqueiro** | COFORT | Trilha Norte | 5.442,00 |
-| 2021 | - | *Não realizado (Pandemia)* | - | - | - |
-| 2020 | - | *Não realizado (Pandemia)* | - | - | - |
-| 2019 | XV | **COqueiro** | COFORT | CORR | 10.125,50 |
-| 2018 | XIV | **COFORT** | COqueiro | CODL | 8.628,42 |
-| 2017 | XIII | **COFORT** | COqueiro | CORR | 8.027,65 |
-| 2016 | XII | **COFORT** | COqueiro | CODL | 8.956,25 |
-| 2015 | XI | **COFORT** | Trilha Norte | COqueiro | 6.421,00 |
-| 2014 | X | **Trilha Norte** | COqueiro | COFORT | 3.057,17 |
-| 2013 | IX | **COFORT** | COqueiro | Trilha Norte | 11.071,00 |
-| 2012 | VIII | **COFORT** | COqueiro | AZIMUTE | 9.480,00 |
+| Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado |
+| :---: | :---: | :--- | :--- | :--- |
+| 2027 | XXI | *Não publicado* | - | - |
+| 2026 | XX | *Em andamento* | - | - |
+| 2025 | XIX | **COFORT** | COqueiro | Trilha Norte |
+| 2024 | XVIII | **COqueiro** | COFORT | CORR |
+| 2023 | XVII | **COqueiro** | COFORT | Trilha Norte |
+| 2022 | XVI | **COqueiro** | COFORT | Trilha Norte |
+| 2021 | - | *Não realizado* | - | - |
+| 2020 | - | *Não realizado* | - | - |
+| 2019 | XV | **COqueiro** | COFORT | CORR |
+| 2018 | XIV | **COFORT** | COqueiro | CODL |
+| 2017 | XIII | **COFORT** | COqueiro | CORR |
+| 2016 | XII | **COFORT** | COqueiro | CODL |
+| 2015 | XI | **COFORT** | Trilha Norte | COqueiro |
+| 2014 | X | **Trilha Norte** | COqueiro | COFORT |
+| 2013 | IX | **COFORT** | COqueiro | Trilha Norte |
+| 2012 | VIII | **COFORT** | COqueiro | Azimute |
 
 ---
 
@@ -45,8 +45,8 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 
 | Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado | Pontuação do Campeão |
 | :---: | :---: | :--- | :--- | :--- | ---: |
-| 2027 | XV | *Não publicado* | - | - | - |
-| 2026 | XIV | *Em andamento* | - | - | - |
+| 2027 | XIV | *Não publicado* | - | - | - |
+| 2026 | XIII | *Em andamento* | - | - | - |
 | 2025 | - | *Não realizado devido à CamBOS* | - | - | - |
 | 2024 | XII | **COFORT** | COqueiro | COCAP | 5.049,00 |
 | 2023 | XI | **COFORT** | COqueiro | CODL | 3.152,00 |
@@ -73,8 +73,7 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 Esta seção apresenta a classificação completa e pontuações obtidas por todos os clubes participantes nos anos em que há dados oficiais disponíveis.
 
 ### 2025
-#### XIX Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2025/resultadoClubesCCO.pdf)
+#### XIX Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2025/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -89,8 +88,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2024
-#### XVIII Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2024/resultadoClubesCCO.pdf)
+#### XVIII Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2024/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -102,8 +100,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 6º | CODL (Clube de Orientação Desporto e Lazer) | 9 | 510,00 |
 | 7º | Azimute (Clube Azimute de Orientação e Aventura) | 7 | 482,00 |
 
-#### XII Campeonato Cearense de Orientação Sprint (CCOS)
-*Documento de origem:* [resultadoClubesCCOS.pdf](./Documentos/2024/resultadoClubesCCOS.pdf)
+#### XII Campeonato Cearense de Orientação Sprint (CCOS): [resultadoClubesCCOS.pdf](./Documentos/2024/resultadoClubesCCOS.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -121,8 +118,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2023
-#### XVII Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2023/resultadoClubesCCO.pdf)
+#### XVII Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2023/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -134,8 +130,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 6º | COCAP (Clube de Orientação Caçadores de Prisma) | 48 | 398,00 |
 | 7º | CODL (Clube de Orientação Desporto e Lazer) | 13 | 391,50 |
 
-#### XI Campeonato Cearense de Orientação Sprint (CCOS)
-*Documento de origem:* [resultadoClubesCCOS.pdf](./Documentos/2023/resultadoClubesCCOS.pdf)
+#### XI Campeonato Cearense de Orientação Sprint (CCOS): [resultadoClubesCCOS.pdf](./Documentos/2023/resultadoClubesCCOS.pdf)
 
 | Class. | Clube | Pontos |
 | :---: | :--- | ---: |
@@ -154,8 +149,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2022
-#### XVI Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2022/resultadoClubesCCO.pdf)
+#### XVI Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2022/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -169,8 +163,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2019
-#### XV Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2019/resultadoClubesCCO.pdf)
+#### XV Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2019/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Pontos |
 | :---: | :--- | ---: |
@@ -184,8 +177,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2018
-#### XIV Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2018/resultadoClubesCCO.pdf)
+#### XIV Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2018/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas |  Pontos |
 | :---: | :--- | :---: | ---: |
@@ -200,8 +192,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2017
-#### XIII Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2017/resultadoClubesCCO.pdf)
+#### XIII Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2017/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Pontos |
 | :---: | :--- | ---: |
@@ -216,8 +207,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2016
-#### XII Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2016/resultadoClubesCCO.pdf)
+#### XII Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2016/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Pontos |
 | :---: | :--- | ---: |
@@ -232,8 +222,7 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 ---
 
 ### 2015
-#### XI Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2015/resultadoClubesCCO.pdf)
+#### XI Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2015/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -246,11 +235,13 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 7º | GEBP (Grupo Escoteiro Baden Powell) | 12 | 1.270,00 |
 | 8º | Jirau (Clube de Orientação Lagoa do Jirau) | 8 | - |
 
+> [!NOTE]
+> A classificação oficial de clubes de 2015 segue as regras esportivas de filiação (Art. 38º do regulamento de 2015). Entidades não filiadas ou não regularizadas com a FECORI na temporada — como o GEBP (7º com 1.270,00 pontos) e o Jirau (8º) — participam com seus atletas individuais, mas são posicionadas abaixo dos clubes filiados regulares (como o CODL, 6º com 1.210,00 pontos) na classificação final por equipes.
+
 ---
 
 ### 2014
-#### X Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2014/resultadoClubesCCO.pdf)
+#### X Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2014/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -262,13 +253,12 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 6º | GEBP (Grupo Escoteiro Baden Powell) | 16 | 1.123,34 |
 | 7º | CODL (Clube de Orientação Desporto e Lazer) | 14 | 645,67 |
 | 8º | COP (Clube de Orientação Potiguar) | 5 | 184,00 |
-| 9º | COCaP (Clube de Orientação Caçadores de Prisma) | 6 | 112,00 |
+| 9º | COCAP (Clube de Orientação Caçadores de Prisma) | 6 | 112,00 |
 
 ---
 
 ### 2013
-#### IX Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2013/resultadoClubesCCO.pdf)
+#### IX Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2013/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -279,10 +269,9 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 5º | Azimute (Clube Azimute de Orientação e Aventura) | 59 | 4.372,00 |
 | 6º | GEBP (Grupo Escoteiro Baden Powell) | 34 | 2.186,00 |
 | 7º | CODL (Clube de Orientação Desporto e Lazer) | 19 | 1.221,00 |
-| 8º | COCaP (Clube de Orientação Caçadores de Prisma) | 34 | 1.122,00 |
+| 8º | COCAP (Clube de Orientação Caçadores de Prisma) | 34 | 1.122,00 |
 
-#### III Campeonato Cearense de Orientação Sprint (CCOS)
-*Documento de origem:* [resultadoClubesCCOS.pdf](./Documentos/2013/resultadoClubesCCOS.pdf)
+#### III Campeonato Cearense de Orientação Sprint (CCOS): [resultadoClubesCCOS.pdf](./Documentos/2013/resultadoClubesCCOS.pdf)
 
 | Class. | Clube | Atletas | Pontos |
 | :---: | :--- | :---: | ---: |
@@ -290,23 +279,22 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | **2º** | **COqueiro** (Clube de Orientação Coqueiro) | 40 | 2.683,00 |
 | **3º** | **Trilha Norte** (Clube de Orientação Trilha Norte) | 43 | 2.454,00 |
 | 4º | Azimute (Clube Azimute de Orientação e Aventura) | 42 | 2.207,00 |
-| 5º | CORR (Clube de Orientação Ruma na Rota) | 32 | 2.054,00 |
+| 5º | CORR (Clube de Orientação Rumba na Rota) | 32 | 2.054,00 |
 | 6º | GEBP (Grupo Escoteiro Baden Powell) | 22 | 1.065,00 |
-| 7º | COCaP (Clube de Orientação Caçadores de Prisma) | 17 | 559,00 |
+| 7º | COCAP (Clube de Orientação Caçadores de Prisma) | 17 | 559,00 |
 | 8º | CODL (Clube de Orientação Desporto e Lazer) | 13 | 542,00 |
 
 ---
 
 ### 2012
-#### VIII Campeonato Cearense de Orientação (CCO)
-*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2012/resultadoClubesCCO.pdf)
+#### VIII Campeonato Cearense de Orientação (CCO): [resultadoClubesCCO.pdf](./Documentos/2012/resultadoClubesCCO.pdf)
 
 | Class. | Clube | Pontos |
 | :---: | :--- | ---: |
 | **1º** | **COFORT** (Clube de Orientação Fortaleza) | 9.480,00 |
 | **2º** | **COqueiro** (Clube de Orientação Coqueiro) | 5.259,00 |
-| **3º** | **AZIMUTE** (Clube Azimute de Orientação e Aventura) | 4.523,00 |
-| 4º | TRILHA NORTE (Clube de Orientação Trilha Norte) | 3.880,00 |
+| **3º** | **Azimute** (Clube Azimute de Orientação e Aventura) | 4.523,00 |
+| 4º | Trilha Norte (Clube de Orientação Trilha Norte) | 3.880,00 |
 | 5º | CORR (Clube de Orientação Rumba na Rota) | 3.104,00 |
 | 6º | GEBP (Grupo Escoteiro Baden Powell) | 2.971,00 |
 | 7º | COCAP (Clube de Orientação Caçadores de Prisma) | 3.830,00 |
@@ -314,3 +302,6 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 9º | COSM (Clube de Orientação de Santa Maria) | 108,00 |
 | 10º | CORELE (Clube de Orientação do Extremo Leste) | 40,00 |
 | 11º | COAN (Clube de Orientação de Andradas) | 29,00 |
+
+> [!NOTE]
+> A classificação oficial de clubes de 2012 segue as regras esportivas de filiação. Entidades não filiadas/regularizadas na temporada — como o COCAP (7º com 3.830,00 pontos) e o CODL (8º com 1.531,00 pontos) — participam com seus atletas, mas são posicionadas abaixo dos clubes filiados regulares (como o GEBP, 6º com 2.971,00 pontos) no resultado oficial final de entidades.
