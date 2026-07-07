@@ -43,24 +43,24 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 
 Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados do **CCOS** (percurso sprint):
 
-| Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado | Pontuação do Campeão |
-| :---: | :---: | :--- | :--- | :--- | ---: |
-| 2027 | XIV | *Não publicado* | - | - | - |
-| 2026 | XIII | *Em andamento* | - | - | - |
-| 2025 | - | *Não realizado devido à CamBOS* | - | - | - |
-| 2024 | XII | **COFORT** | COqueiro | COCAP | 5.049,00 |
-| 2023 | XI | **COFORT** | COqueiro | CODL | 3.152,00 |
-| 2022 | X | *Sem premiação* | - | - | - |
-| 2021 | - | *Não realizado (Pandemia)* | - | - | - |
-| 2020 | - | *Não realizado (Pandemia)* | - | - | - |
-| 2019 | IX | *Sem premiação* | - | - | - |
-| 2018 | VIII | *Sem premiação* | - | - | - |
-| 2017 | VII | *Sem premiação* | - | - | - |
-| 2016 | VI | *Sem premiação* | - | - | - |
-| 2015 | V | *Sem premiação* | - | - | - |
-| 2014 | IV | *Sem premiação* | - | - | - |
-| 2013 | III | **COFORT** | COqueiro | Trilha Norte | 5.141,00 |
-| 2012 | II | *Sem premiação* | - | - | - |
+| Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado |
+| :---: | :---: | :--- | :--- | :--- |
+| 2027 | XIV | *Não publicado* | - | - |
+| 2026 | XIII | *Em andamento* | - | - |
+| 2025 | - | *Não realizado devido à CamBOS* | - | - |
+| 2024 | XII | **COFORT** | COqueiro | COCAP |
+| 2023 | XI | **COFORT** | COqueiro | CODL |
+| 2022 | X | *Sem premiação* | - | - | 
+| 2021 | - | *Não realizado (Pandemia)* | - | - |
+| 2020 | - | *Não realizado (Pandemia)* | - | - |
+| 2019 | IX | *Sem premiação* | - | - |
+| 2018 | VIII | *Sem premiação* | - | - |
+| 2017 | VII | *Sem premiação* | - | - |
+| 2016 | VI | *Sem premiação* | - | - |
+| 2015 | V | *Sem premiação* | - | - |
+| 2014 | IV | *Sem premiação* | - | - |
+| 2013 | III | **COFORT** | COqueiro | Trilha Norte |
+| 2012 | II | *Sem premiação* | - | - |
 
 > [!NOTE]
 > * Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, pois a FECORI sediou o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
