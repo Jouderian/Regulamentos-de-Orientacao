@@ -20,15 +20,15 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 
 | Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado | Pontuação do Campeão |
 | :---: | :---: | :--- | :--- | :--- | :---: |
-| 2027 | XXI | *Em andamento / Não publicado* | - | - | - |
-| 2026 | XX | *Em andamento / Não publicado* | - | - | - |
+| 2027 | XXI | *Não publicado* | - | - | - |
+| 2026 | XX | *Em andamento* | - | - | - |
 | 2025 | XIX | **COFORT** | COqueiro | Trilha Norte | 6.853,33 |
 | 2024 | XVIII | **COqueiro** | COFORT | CORR | 6.586,00 |
 | 2023 | XVII | **COqueiro** | COFORT | Trilha Norte | 4.268,50 |
 | 2022 | XVI | **COqueiro** | COFORT | Trilha Norte | 5.442,00 |
 | 2021 | - | *Não realizado (Pandemia)* | - | - | - |
 | 2020 | - | *Não realizado (Pandemia)* | - | - | - |
-| 2019 | XV | *Não Catalogado* | - | - | - |
+| 2019 | XV | **COqueiro** | COFORT | CORR | 10.125,50 |
 | 2018 | XIV | **COFORT** | COqueiro | CODL | 8.628,42 |
 | 2017 | XIII | **COFORT** | COqueiro | CORR | 8.027,65 |
 | 2016 | XII | **COFORT** | COqueiro | CODL | 8.956,25 |
@@ -45,8 +45,8 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 
 | Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado | Pontuação do Campeão |
 | :---: | :---: | :--- | :--- | :--- | ---: |
-| 2027 | XV | *Em andamento / Não publicado* | - | - | - |
-| 2026 | XIV | *Em andamento / Não publicado* | - | - | - |
+| 2027 | XV | *Não publicado* | - | - | - |
+| 2026 | XIV | *Em andamento* | - | - | - |
 | 2025 | - | *Não realizado devido à CamBOS* | - | - | - |
 | 2024 | XII | **COFORT** | COqueiro | COCAP | 5.049,00 |
 | 2023 | XI | **COFORT** | COqueiro | CODL | 3.152,00 |
@@ -165,6 +165,21 @@ Esta seção apresenta a classificação completa e pontuações obtidas por tod
 | 4º | CORR (Clube de Orientação Rumba na Rota) | 31 | 1.300,00 |
 | 5º | CODL (Clube de Orientação Desporto e Lazer) | 21 | 875,00 |
 | 6º | Azimute (Clube Azimute de Orientação e Aventura) | 9 | 235,00 |
+
+---
+
+### 2019
+#### XV Campeonato Cearense de Orientação (CCO)
+*Documento de origem:* [resultadoClubesCCO.pdf](./Documentos/2019/resultadoClubesCCO.pdf)
+
+| Class. | Clube | Pontos |
+| :---: | :--- | ---: |
+| **1º** | **COqueiro** (Clube de Orientação Coqueiro) | 10.125,50 |
+| **2º** | **COFORT** (Clube de Orientação Fortaleza) | 8.467,50 |
+| **3º** | **CORR** (Clube de Orientação Rumba na Rota) | 3.457,25 |
+| 4º | CODL (Clube de Orientação Desporto e Lazer) | 2.383,07 |
+| 5º | Trilha Norte (Clube de Orientação Trilha Norte) | 2.225,00 |
+| 6º | Azimute (Clube Azimute de Orientação e Aventura) | 1.341,84 |
 
 ---
 
