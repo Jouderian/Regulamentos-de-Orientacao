@@ -23,6 +23,11 @@ Este repositório mantém o histórico padronizado de edições anteriores do ca
 > - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
 > - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 
+## Histórico de Clubes Campeões
+
+O repositório também consolida o histórico de conquistas das entidades esportivas do Ceará:
+- **[clubesCampeoes.md](clubesCampeoes.md)**: Catálogo com a classificação final acumulada de clubes (campeões, vice-campeões e terceiros colocados) e a pontuação detalhada de cada clube por ano.
+
 ## Licença
 
 A organização, padronização e estruturação destes arquivos estão licenciadas sob a **[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE)**.
