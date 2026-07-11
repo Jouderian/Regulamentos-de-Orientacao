@@ -12,6 +12,44 @@ Os critérios de pontuação de clubes e as premiações anuais são definidos p
 
 ---
 
+## Quadro Geral de Medalhas (Consolidado)
+
+Abaixo está o resumo do desempenho acumulado dos clubes, somando os resultados de todas as edições catalogadas do **CCO** (Floresta) e do **CCOS** (Sprint):
+
+| Clube | Campeão | Vice-Campeão | 3º Lugar | Pódios |
+| :--- | :---: | :---: | :---: | :---: |
+| **COFORT** | 10 | 4 | 1 | 15 |
+| **COqueiro** | 4 | 10 | 1 | 15 |
+| **Trilha Norte** | 1 | 1 | 5 | 7 |
+| **CORR** | 0 | 0 | 3 | 3 |
+| **CODL** | 0 | 0 | 3 | 3 |
+| **Azimute** | 0 | 0 | 1 | 1 |
+| **COCAP** | 0 | 0 | 1 | 1 |
+
+### Detalhamento por Modalidade
+
+#### Campeonato Cearense de Orientação - CCO (Floresta)
+| Clube | Campeão | Vice-CampeãoVice | 3º Lugar | Pódios |
+| :--- | :---: | :---: | :---: | :---: |
+| **COFORT** | 7 | 4 | 1 | 12 |
+| **COqueiro** | 4 | 7 | 1 | 12 |
+| **Trilha Norte** | 1 | 1 | 4 | 6 |
+| **CORR** | 0 | 0 | 3 | 3 |
+| **CODL** | 0 | 0 | 2 | 2 |
+| **Azimute** | 0 | 0 | 1 | 1 |
+
+#### Campeonato Cearense de Orientação Sprint - CCOS (Urbano)
+| Clube | Campeão | Vice-Campeão | 3º Lugar | Pódios |
+| :--- | :---: | :---: | :---: | :---: |
+| **COFORT** | 3 | 0 | 0 | 3 |
+| **COqueiro** | 0 | 3 | 0 | 3 |
+| **CODL** | 0 | 0 | 1 | 1 |
+| **Trilha Norte** | 0 | 0 | 1 | 1 |
+| **COCAP** | 0 | 0 | 1 | 1 |
+
+---
+
+
 ## Tabelas Gerais de Campeões
 
 ### Campeonato Cearense de Orientação - CCO (Floresta)
@@ -47,12 +85,12 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 | :---: | :---: | :--- | :--- | :--- |
 | 2027 | XIV | *Não publicado* | - | - |
 | 2026 | XIII | *Em andamento* | - | - |
-| 2025 | - | *Não realizado devido à CamBOS* | - | - |
+| 2025 | - | *Não realizado* | - | - |
 | 2024 | XII | **COFORT** | COqueiro | COCAP |
 | 2023 | XI | **COFORT** | COqueiro | CODL |
 | 2022 | X | *Sem premiação* | - | - | 
-| 2021 | - | *Não realizado (Pandemia)* | - | - |
-| 2020 | - | *Não realizado (Pandemia)* | - | - |
+| 2021 | - | *Não realizado* | - | - |
+| 2020 | - | *Não realizado* | - | - |
 | 2019 | IX | *Sem premiação* | - | - |
 | 2018 | VIII | *Sem premiação* | - | - |
 | 2017 | VII | *Sem premiação* | - | - |
