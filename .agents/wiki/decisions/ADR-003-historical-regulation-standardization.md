@@ -1,11 +1,11 @@
 ---
-description: Decisão sobre o método de extração e padronização dos regulamentos históricos (2018-2025).
+description: Decisão sobre o método de extração e padronização dos regulamentos históricos do acervo.
 ---
 
-# ADR 003: Padronização de Regulamentos Históricos (2018-2025)
+# ADR 003: Padronização de Regulamentos Históricos
 
 ## Contexto
-O projeto precisava incorporar regulamentos antigos (2018 a 2025) que estavam disponíveis apenas no formato PDF ou DOCX. A exigência era que o repositório inteiro mantivesse um padrão de Markdown estrito, para permitir rastreabilidade, versionamento e manutenção limpa.
+O projeto precisava incorporar ao acervo os regulamentos antigos (2012 em diante), disponíveis apenas em PDF ou DOCX. A exigência era que o repositório inteiro mantivesse um padrão de Markdown estrito, para permitir rastreabilidade, versionamento e manutenção limpa.
 
 ## Problemas
 1. Extração direta de PDFs pode perder a formatação de tabelas (ex: calendário de etapas).
@@ -32,4 +32,7 @@ A partir de 2026, a abordagem para conversão e padronização foi evoluída par
 - **Negativas/Atenção:**
   * Adição de dependência do ambiente Python local e do pacote `markitdown` para os contribuidores executarem a automação.
   * O pós-processamento e revisão manual continuam necessários para eliminar artefatos comuns de conversão (títulos repetidos de topo, rodapés e quebras de linha/hifens órfãos).
+
+## Revisão de 2026-09-13
+A revisão do acervo mostrou que a revisão manual, sozinha, não segurou a qualidade: sobraram 41 hifens condicionais invisíveis (U+00AD), 228 ocorrências de `Paragrafo` sem acento, 162 palavras partidas por hifenização de fim de linha na ROP 2023 e diversos trechos sem acento no regulamento de 2019 — todos corrigidos. A decisão de ferramenta permanece, acrescida de uma salvaguarda: a conversão só é aceita depois de passar em [`verificar-documentos.py`](../../scripts/verificar-documentos.py), executado também pelo CI. O escopo desta ADR passa a ser todo o acervo (2012 em diante), e não apenas 2018-2025: 2017 já foi convertido e 2018 ainda não.
 

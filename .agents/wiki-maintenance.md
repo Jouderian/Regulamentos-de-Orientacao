@@ -1,33 +1,43 @@
 ---
-description: Quando e como atualizar a base de conhecimento (wiki) e os ADRs do projeto
+description: Quando e como atualizar a base de conhecimento (wiki) e registrar decisões (ADRs) do projeto.
 ---
 
 # Manutenção da Base de Conhecimento (Wiki)
 
 ## Quando atualizar
 Ao final de qualquer sessão que envolva:
-- Decisões arquiteturais ou trade-offs
-- Correções de bugs não-triviais
-- Novos padrões, convenções ou refatorações
-- Mudanças em specs, APIs, schema Drizzle ou contratos públicos
-- Novos middlewares, services ou componentes React
-- Resolução de problemas que exigiram investigação
-- Alterações no modelo de autenticação, LGPD ou licenciamento
+
+- Decisão sobre **estrutura normativa** — unificar ou separar regulamentos, mudar a hierarquia de Capítulos/Artigos, alterar a tipografia jurídica do projeto.
+- Decisão sobre **ferramenta ou processo** — trocar o conversor de PDF, mudar o fluxo de geração do `.docx`/`.pdf`, alterar o que o CI verifica.
+- Decisão sobre **organização do acervo** — convenção de nomes, política de arquivamento em `Documentos/<ano>/`, o que entra e o que não entra no repositório.
+- **Interpretação normativa não óbvia** que precisou ser investigada e que reaparecerá — por exemplo, como uma regra estadual se concilia com a ROP nacional, ou por que determinada edição não tem regulamento.
+- Mudança em **licenciamento, autoria ou distribuição** dos documentos.
+- Resolução de um problema que exigiu investigação e que provavelmente voltará a acontecer.
+
+Correção de redação, atualização de calendário, troca de árbitro e conversão de mais um ano do acervo **não** geram página de wiki — o `git log` e as specs já registram isso.
 
 ## Como atualizar
-1. Leia `.agents/wiki/index.md` para identificar as páginas existentes
-2. Atualize as páginas afetadas OU crie novas se o tópico não existir
-3. Atualize o `index.md` se novas páginas foram criadas
-4. Faça commit das mudanças no wiki junto com o código
+1. Leia [`wiki/index.md`](wiki/index.md) para ver o que já existe.
+2. Atualize as páginas afetadas ou crie novas, se o tópico ainda não existir.
+3. Atualize o `index.md` quando criar uma página ou uma ADR.
+4. Faça commit da wiki junto com a alteração que a motivou, no escopo `agents`.
 
-## Formato das páginas wiki
-- Markdown com cross-references usando links relativos
-- Cabeçalho: `Última atualização: YYYY-MM-DD`
-- Seção `## Fontes` no final, apontando para specs, ADRs, arquivos e sessões
-- Sintetize, não copie — specs, ADRs e plan.md continuam sendo fonte de verdade
+## Decisões formais (ADRs)
+Decisões arquiteturais vão para `wiki/decisions/` como ADRs, não para páginas temáticas.
 
-## O que NÃO deve ir no wiki
-- Código-fonte (já está no repositório)
-- Conteúdo que duplica specs ou ADRs verbatim
-- Informações temporárias ou específicas de uma sessão
-- Decisões arquiteturais formais (devem ser ADRs em `.agents/adrs/` via `/register-adr`)
+- Nome do arquivo: `ADR-<NNN>-<assunto-em-kebab-case>.md`, numeração sequencial.
+- Seções: **Contexto**, **Decisão**, **Consequências** (positivas e negativas/atenção). Use **Problemas** quando o contexto tiver obstáculos técnicos específicos.
+- Uma ADR registra a decisão **e o que se abriu mão ao tomá-la**. Uma ADR sem consequências negativas provavelmente não descreve uma decisão real.
+- ADR não se reescreve quando a realidade muda: acrescente uma seção `## Revisão de AAAA-MM-DD` ou registre uma nova ADR que a supere.
+
+## Formato das páginas
+- Markdown com referências cruzadas por **links relativos** — caminhos absolutos são recusados pela verificação documental.
+- Cabeçalho YAML com `description`, conforme [`rules/rules.md`](rules/rules.md).
+- Linha `Última atualização: AAAA-MM-DD` nas páginas temáticas e no índice.
+- Sintetize, não copie: specs, planos e ADRs continuam sendo a fonte de verdade.
+
+## O que NÃO deve ir na wiki
+- Conteúdo normativo — ele vive nos regulamentos, não aqui.
+- Cópia literal de specs, planos ou ADRs.
+- Informação temporária ou específica de uma sessão de trabalho.
+- Tarefas pendentes — vão para [`todo.md`](todo.md).
