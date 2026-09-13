@@ -5,6 +5,7 @@ description: Backlog persistente e tarefas pendentes do projeto
 # Tarefas Pendentes (Backlog)
 
 - [ ] Melhorar a redação para contemplar a obrigatoriedade de estar inscrito na etapa de descarte para pode descarta-la.
+- [ ] **Atualizar as ações do CI (Node.js 20 descontinuado):** O GitHub descontinuou o Node.js 20 e passou a forçar `actions/checkout@v4` e `actions/setup-python@v5` a rodar em Node.js 24, emitindo aviso em toda execução de `.github/workflows/verificacao-documental.yml`. Quando as versões seguintes dessas ações estiverem estáveis, atualizá-las no workflow. Não há urgência: é apenas um aviso e o CI continua passando. ([anúncio do GitHub](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/))
 - [ ] **Lembrete de Atualização da ROP 2027:** Atualizar o arquivo `regrasOrientacaoPedestre.md` na raiz com o regulamento oficial de 2027 assim que for publicado pela CBO.
 - [ ] **Sugestões para a CBO (ROP 2027 - Tabelas de Idades):** Encaminhar a proposta de atualização dos anos-limite de nascimento na tabela do item 2.1.3 da ROP para o ciclo de 2027:
   - INFANTIL (H10/D10): nascidos em 2017 ou após (anterior: 2016)
