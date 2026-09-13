@@ -41,6 +41,19 @@ def linha_de(texto, pos):
     return texto.count('\n', 0, pos) + 1
 
 
+def sem_codigo(texto):
+    """Substitui trechos de código por espaços, preservando posições e linhas.
+
+    Evita acusar como defeito as menções que *documentam* o defeito, como
+    `Paragrafo` citado entre crases nesta própria documentação.
+    """
+    def mascarar(m):
+        return re.sub(r'[^\n]', ' ', m.group(0))
+
+    texto = re.sub(r'(?ms)^```.*?^```', mascarar, texto)
+    return re.sub(r'`[^`\n]+`', mascarar, texto)
+
+
 # --------------------------------------------------------------------------
 # 1. Links relativos precisam existir; caminhos absolutos são proibidos.
 # --------------------------------------------------------------------------
@@ -73,10 +86,11 @@ def checar_artefatos(rel, texto):
     for m in re.finditer(r'(?<![-\s])-\r?\n(?=[a-zà-ÿ])', texto):
         falha(rel, linha_de(texto, m.start()),
               'palavra partida por hifenização de fim de linha')
-    for m in re.finditer(r'Paragrafo', texto):
-        falha(rel, linha_de(texto, m.start()), '"Paragrafo" sem acento')
-    for m in re.finditer(r'(?:Parágrafo |Art\. )\d+o\b', texto):
-        falha(rel, linha_de(texto, m.start()), f'ordinal sem indicador: {m.group(0)!r}')
+    prosa = sem_codigo(texto)
+    for m in re.finditer(r'Paragrafo', prosa):
+        falha(rel, linha_de(prosa, m.start()), '"Paragrafo" sem acento')
+    for m in re.finditer(r'(?:Parágrafo |Art\. )\d+o\b', prosa):
+        falha(rel, linha_de(prosa, m.start()), f'ordinal sem indicador: {m.group(0)!r}')
 
 
 # --------------------------------------------------------------------------

@@ -1,34 +1,50 @@
 ---
-description: Plano técnico para a conversão e padronização dos regulamentos
+description: Plano técnico e padrão tipográfico para a conversão dos regulamentos históricos
 ---
 
 # Plano: Conversão e Padronização de Regulamentos Históricos
 
 ## Abordagem Técnica
-Como os arquivos originais são PDFs, utilizaremos o navegador para abrir os arquivos e extrair o texto, ou tentaremos ler o conteúdo se o sistema permitir. Em seguida, aplicaremos a estrutura do modelo de 2026 (CCO).
+A extração é feita pelo script [`import-pdf.py`](../../scripts/import-pdf.py), que usa a biblioteca **MarkItDown** e aplica automaticamente as regras tipográficas descritas abaixo. As alternativas de contingência (`pdftotext -layout` e a rota PDF → DOCX → Pandoc) e o porquê dessa escolha estão registrados na [ADR-003](../../wiki/decisions/ADR-003-historical-regulation-standardization.md).
 
 ## Fases de Implementação
 
-### 1. Extração de Conteúdo
-Para cada ano (2018, 2019, 2020, 2023, 2024, 2025):
-1.  Localizar o arquivo PDF original em `Documentos/<ano>/Originais/`.
-2.  Converter o PDF em Markdown usando PowerShell.
+### 1. Extração
+```bash
+python .agents/scripts/import-pdf.py Documentos/<ano>/regulamentoCCO.pdf
+```
+O Markdown é gravado ao lado do PDF, com o mesmo nome-base.
 
-### 2. Formatação Markdown
-Para cada texto extraído:
-1.  Respeitar a estrutura e hierarquia original do arquivo.
-2.  Formatar títulos de seções como `## <titulo do capitulo> `.
-3.  Formatar artigos como `**Art. <N>º** – <Texto>`.
-4.  Formatar parágrafos como citações `> **Parágrafo <N>º:** <Texto>`.
-5.  Formatar incisos e alíneas com indentação superior `>> **<letra>.** <Texto>`.
-6.  Converter tabelas de calendário para o formato Markdown.
+### 2. Padrão Tipográfico
+| Elemento | Formato |
+| :--- | :--- |
+| Título do documento | `# Regulamento do <N> Campeonato Cearense de Orientação` |
+| Capítulo/Seção | `## <N>. <Título do capítulo>` |
+| Artigo | `**Art. <N>º** – <Texto>` |
+| Parágrafo numerado | `> **Parágrafo <N>º:** <Texto>` |
+| Parágrafo único | `> **Parágrafo Único:** <Texto>` |
+| Alínea/Inciso | `>> **<letra>.** <Texto>` |
+| Calendário de etapas | tabela Markdown nativa (`\|---\|`) |
 
-### 3. Revisão e Validação
-1.  Comparar o arquivo gerado com o PDF original para garantir que nenhuma regra foi perdida ou alterada.
-2.  Garantir que o arquivo segue a estrutura e hierarquia original do arquivo.
+O travessão do artigo é o **en dash** (`–`, U+2013), não o hífen. O indicador ordinal é `º` (U+00BA), não a letra `o`.
 
-## Decisões de Arquitetura
-- **Armazenamento**: Os novos arquivos ficarão em `Documentos/<ano>/markdowns/regulamentoCCO_<ANO>.md`.
+### 3. Revisão Manual
+Obrigatória mesmo com o script. Revisar os itens listados no workflow [`import-pdf.md`](../../workflows/import-pdf.md) e confrontar o resultado com o PDF original artigo a artigo.
+
+### 4. Validação
+```bash
+python .agents/scripts/verificar-documentos.py
+```
+A verificação recusa artefatos de conversão (U+00AD, BOM, U+00A0, palavras partidas por hifenização, `Paragrafo` sem acento, ordinais grafados `1o`) e artigos fora do padrão. É a mesma checagem executada pelo CI.
+
+## Decisões de Armazenamento
+- O `.md` fica em `Documentos/<ano>/`, ao lado do PDF de origem, com o mesmo nome-base.
+- O regulamento **vigente** fica na raiz do repositório; a cópia em `Documentos/<ano>/` é criada quando a edição é superada pela seguinte.
 
 ## Riscos e Mitigações
-- **Erro na Extração de PDF**: Caracteres especiais podem vir quebrados. *Mitigação*: Revisão manual rigorosa após a conversão.
+| Risco | Mitigação |
+| :--- | :--- |
+| Extração quebra acentos e junta/parte palavras | Revisão manual + verificação automatizada bloqueando o commit |
+| Tabela de calendário deformada | Conferência visual contra o PDF; a verificação não detecta colunas trocadas |
+| Alteração involuntária do conteúdo normativo | Comparação artigo a artigo com o PDF antes do commit |
+| PDF antigo sem camada de texto | `pip install markitdown-ocr` e revisão reforçada |

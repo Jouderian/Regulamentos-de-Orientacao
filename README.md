@@ -17,7 +17,27 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Acervo Histórico (2012-2027)
 
-Este repositório mantém o histórico padronizado de edições anteriores do campeonato (`Documentos/<ano>`) em formato PDF e Markdown, permitindo a comparação e evolução temporal das regras.
+Este repositório mantém o histórico das edições anteriores do campeonato em `Documentos/<ano>/`, permitindo a comparação e a evolução temporal das regras. Todos os anos têm o PDF original; a conversão para Markdown está em andamento, ano a ano.
+
+| Ano | CCO | CCOS | ROP (nacional) | Resultados de clubes |
+| :---: | :---: | :---: | :---: | :---: |
+| 2012 | PDF | PDF | — | ✔ |
+| 2013 | PDF | PDF | — | ✔ |
+| 2014 | PDF | PDF | — | ✔ |
+| 2015 | PDF | PDF | — | ✔ |
+| 2016 | PDF | PDF | — | ✔ |
+| 2017 | **MD** + PDF | PDF | PDF | ✔ |
+| 2018 | PDF | PDF | PDF | ✔ |
+| 2019 | **MD** + PDF | PDF | PDF | ✔ |
+| 2020-2021 | *não realizado* | *não realizado* | PDF | — |
+| 2022 | **MD** + PDF | PDF | PDF | ✔ |
+| 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
+| 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2025 | **MD** + PDF | *não realizado* | PDF | ✔ |
+| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | **MD** + PDF | *em andamento* |
+| 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
+
+O acompanhamento da conversão pendente está em [`.agents/specs/regulation-standardization/tasks.md`](.agents/specs/regulation-standardization/tasks.md).
 
 > [!NOTE]
 > - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
