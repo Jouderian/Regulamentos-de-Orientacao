@@ -1,0 +1,50 @@
+name: Verificação documental
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verificar:
+    name: Integridade dos documentos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obter o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verificar links, artefatos de conversão e quadro de medalhas
+        run: python .agents/scripts/verificar-documentos.py
+
+  gerar-docx:
+    name: Gerar .docx do regulamento vigente
+    runs-on: ubuntu-latest
+    # O .pdf continua sendo gerado localmente (depende do Word via COM);
+    # aqui só validamos que a conversão Pandoc + template não quebrou.
+    steps:
+      - name: Obter o repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar o Pandoc
+        uses: pandoc/actions/setup@v1
+        with:
+          version: 3.1.11
+
+      - name: Converter o Markdown para .docx
+        run: |
+          pandoc regulamentoCompeticoesCearenses.md \
+            -o regulamentoDasCompeticoesCearenses.docx \
+            --reference-doc=Documentos/template_estilos.docx
+
+      - name: Publicar o .docx como artefato da execução
+        uses: actions/upload-artifact@v4
+        with:
+          name: regulamentoDasCompeticoesCearenses
+          path: regulamentoDasCompeticoesCearenses.docx
+          if-no-files-found: error

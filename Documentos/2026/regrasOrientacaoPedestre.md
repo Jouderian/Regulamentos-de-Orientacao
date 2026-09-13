@@ -1,4 +1,4 @@
-﻿# Regras de Orientação Pedestre (ROP) - 2026
+# Regras de Orientação Pedestre (ROP) - 2026
 
 ## INTRODUÇÃO
 

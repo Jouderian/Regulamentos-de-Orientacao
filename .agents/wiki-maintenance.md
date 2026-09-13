@@ -1,3 +1,7 @@
+---
+description: Quando e como atualizar a base de conhecimento (wiki) e os ADRs do projeto
+---
+
 # Manutenção da Base de Conhecimento (Wiki)
 
 ## Quando atualizar
