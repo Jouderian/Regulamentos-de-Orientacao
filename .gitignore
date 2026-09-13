@@ -1,0 +1,21 @@
+# Python (scripts de importação em .agents/scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Arquivos temporários do Microsoft Word gerados pelo workflow de geração
+~$*.doc
+~$*.docx
+~$*.pdf
+
+# Saídas temporárias de conversão
+*.tmp
+*.bak
+saida.md
+regulamentoTeste.md
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
