@@ -16,7 +16,7 @@ O projeto precisava incorporar regulamentos antigos (2018 a 2025) que estavam di
 ## Decisão
 A partir de 2026, a abordagem para conversão e padronização foi evoluída para priorizar o uso do **MarkItDown** (Microsoft) devido à sua superioridade no tratamento de tabelas nativas de Markdown e suporte direto a `.docx` e PDFs estruturados. A estratégia de conversão divide-se em:
 
-1. **Abordagem Primária (Automatizada):** Utilização do script Python [.agents/scripts/import-pdf.py](file:///c:/Users/joude/.gemini/antigravity-ide/scratch/Regulamentos-de-Orientacao/.agents/scripts/import-pdf.py) (que usa a biblioteca `markitdown`) para realizar a extração do PDF diretamente para um arquivo Markdown contendo tabelas estruturadas nativas (`|---|`) e aplicar Regex automáticas de padronização jurídica:
+1. **Abordagem Primária (Automatizada):** Utilização do script Python [.agents/scripts/import-pdf.py](../../scripts/import-pdf.py) (que usa a biblioteca `markitdown`) para realizar a extração do PDF diretamente para um arquivo Markdown contendo tabelas estruturadas nativas (`|---|`) e aplicar Regex automáticas de padronização jurídica:
    - Capítulos (`CAPÍTULO X - ...`) -> `## CAPÍTULO X - ...`
    - Artigos (`Art. Xº - ...`) -> `**Art. Xº** – ...`
    - Parágrafos (`Parágrafo 1º:`) -> `> **Parágrafo 1º:**`
@@ -27,7 +27,7 @@ A partir de 2026, a abordagem para conversão e padronização foi evoluída par
 ## Consequências
 - **Positivas:**
   * Redução significativa no retrabalho de formatação de tabelas (que agora são geradas nativamente com as marcações `|---|` pelo MarkItDown).
-  * Automatização das substituições de Regex (Capítulos, Artigos, Parágrafos) direto na extração pelo script [import-pdf.py](file:///c:/Users/joude/.gemini/antigravity-ide/scratch/Regulamentos-de-Orientacao/.agents/scripts/import-pdf.py).
+  * Automatização das substituições de Regex (Capítulos, Artigos, Parágrafos) direto na extração pelo script [import-pdf.py](../../scripts/import-pdf.py).
   * Todo o acervo histórico e futuros regulamentos seguem a tipografia idêntica do repositório.
 - **Negativas/Atenção:**
   * Adição de dependência do ambiente Python local e do pacote `markitdown` para os contribuidores executarem a automação.

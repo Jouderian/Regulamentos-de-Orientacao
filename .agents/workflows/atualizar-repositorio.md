@@ -20,7 +20,7 @@ Se o arquivo **não aparecer**, pule diretamente para o passo 3.
 
 ## 2. Regenerar Documentos Finais (.docx e .pdf)
 
-Execute o workflow [`/geracao-documentos`](.agents/workflows/geracao-documentos.md) (passos 3 e 4) para regenerar o `.docx` e o `.pdf`.
+Execute o workflow [`/geracao-documentos`](geracao-documentos.md) (passos 3 e 4) para regenerar o `.docx` e o `.pdf`.
 
 ## 3. Apresentar Alterações ao Usuário
 
