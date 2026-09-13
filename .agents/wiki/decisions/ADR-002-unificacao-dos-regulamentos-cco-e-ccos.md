@@ -12,7 +12,7 @@ Até 2025, CCO e CCOS tinham regulamentos separados. A análise comparativa regi
 Manter dois documentos com o mesmo conteúdo significava corrigir cada regra duas vezes — e conviver com o risco de divergência silenciosa entre eles, em que uma correção entrava em um regulamento e não no outro.
 
 ## Decisão
-A partir da edição de **2026**, CCO e CCOS passam a ser regidos por um documento unificado, `regulamentoCompeticoesCearenses.md`, organizado por assunto e não por competição.
+A partir da edição de **2026**, CCO e CCOS passam a ser regidos por um documento unificado, `regulamentoDasCompeticoesCearenses.md`, organizado por assunto e não por competição.
 
 1. As regras comuns são redigidas uma única vez.
 2. As diferenças entre as competições ficam explícitas no próprio artigo, marcadas como **Exclusivo do CCO** ou **Exclusivo do CCOS** (ex.: a regra de descarte do Art. 34, exclusiva do CCO).

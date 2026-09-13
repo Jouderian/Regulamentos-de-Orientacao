@@ -21,7 +21,7 @@ Atuar como a fonte da verdade, padronizada e controlada por versão para as regr
 4. **Organização Documental/Jurídica:** O regulamento consolidado deve manter e respeitar a hierarquia clássica de documentação legal (Capítulos, Artigos, Parágrafos, Incisos e Alíneas).
 
 ## Critérios de Sucesso
-- Consolidação clara das regras comuns das competições de Orientação no Ceará em um arquivo único (`regulamentoCompeticoesCearenses.md`), mitigando ambiguidades ou duplicidade de informação.
+- Consolidação clara das regras comuns das competições de Orientação no Ceará em um arquivo único (`regulamentoDasCompeticoesCearenses.md`), mitigando ambiguidades ou duplicidade de informação.
 - Manutenção simples para os responsáveis por meio da simplificação de formatos textuais.
 - Centralização do histórico normativo.
 

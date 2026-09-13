@@ -25,10 +25,10 @@ Para evitar a perda da formatação oficial da Federação, o projeto utiliza um
 
 ## 3. Passo a Passo da Geração do Arquivo Final
 
-Sempre que o documento `regulamentoCompeticoesCearenses.md` for alterado e o conteúdo final estiver aprovado, execute o comando abaixo na raiz do repositório para sobrescrever/atualizar a versão do ano correspondente (ex: 2026):
+Sempre que o documento `regulamentoDasCompeticoesCearenses.md` for alterado e o conteúdo final estiver aprovado, execute o comando abaixo na raiz do repositório para sobrescrever/atualizar a versão do ano correspondente (ex: 2026):
 
 ```powershell
-pandoc regulamentoCompeticoesCearenses.md -o Documentos/2027/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
+pandoc regulamentoDasCompeticoesCearenses.md -o Documentos/2027/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
 ```
 ## 4. Geração do PDF a partir do DOCX
 
