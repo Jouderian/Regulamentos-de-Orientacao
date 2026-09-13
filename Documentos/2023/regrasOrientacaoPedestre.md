@@ -728,8 +728,7 @@ Nos dias anteriores a um evento, o organizador poderá oferecer oportunidades de
 
 ### 22 RANKING NACIONAL DE CLUBES E FEDERAÇÕES
 
-**22.1** Os clubes ou entidades de prática filiadas à CBO serão organizados em um ranking, baseado no somatório dos resultados obtidos por todos seus atletas filiados em competições realizadas no ano vigente, conforme a seguir: Resultado final dos 5 Dias de Orientação do Brasil (quando houver), os três melhores resultados de cada atleta nos percursos do Campe-
-onato Brasileiro de Orientação Sprint (quando houver) e resultados de cada percurso do Campeonato Brasileiro de Orientação (Sprint, Longo e Médio), sendo atribuídas as seguintes pontuações:
+**22.1** Os clubes ou entidades de prática filiadas à CBO serão organizados em um ranking, baseado no somatório dos resultados obtidos por todos seus atletas filiados em competições realizadas no ano vigente, conforme a seguir: Resultado final dos 5 Dias de Orientação do Brasil (quando houver), os três melhores resultados de cada atleta nos percursos do Campeonato Brasileiro de Orientação Sprint (quando houver) e resultados de cada percurso do Campeonato Brasileiro de Orientação (Sprint, Longo e Médio), sendo atribuídas as seguintes pontuações:
 
 **22.1.1** Grau de dificuldade “N” – atribuir 10 pontos para cada atleta que concluir cada percurso válido.
 
@@ -751,8 +750,7 @@ onato Brasileiro de Orientação Sprint (quando houver) e resultados de cada per
 
 **23.5** De acordo com o Código Antidoping da World Anti-Doping Agency (WADA) é dever pessoal de cada atleta assegurar que nenhuma substância proibida entre em seu corpo e nenhum método proibido seja utilizado”.
 
-**23.6** No território brasileiro os testes são realizados exclusivamente por agentes de controles de dopagem certificados pela Autoridade Brasileira de Controle de Dopagem (ABCD). Os exames são realizados somente com o objetivo de antidopagem, em conformidade com o padrão da WADA-AMA, sendo realizados para obter provas analíticas do cumprimento ou do descum-
-primento pelo atleta da proibição estrita de presença ou uso de qualquer substância ou método proibido.
+**23.6** No território brasileiro os testes são realizados exclusivamente por agentes de controles de dopagem certificados pela Autoridade Brasileira de Controle de Dopagem (ABCD). Os exames são realizados somente com o objetivo de antidopagem, em conformidade com o padrão da WADA-AMA, sendo realizados para obter provas analíticas do cumprimento ou do descumprimento pelo atleta da proibição estrita de presença ou uso de qualquer substância ou método proibido.
 
 **23.7** O organizador, com o consentimento do Árbitro, pode decidir publicar recomendações sobre a competição com antecedência. Se as recomendações não forem feitas a todo o público, toda a comissão organizadora manterá segredo rígido sobre a área de competição e terreno. Em todo caso, o segredo rígido sobre os percursos deve ser mantido sempre.
 
@@ -762,11 +760,9 @@ primento pelo atleta da proibição estrita de presença ou uso de qualquer subs
 
 **23.10** Os dirigentes das equipes, competidores, representantes da mídia e espectadores permanecerão nas áreas destinadas a eles.
 
-**23.11** Os fiscais de percurso ou de pontos de controle não perturbarão ou deterão qualquer competidor, nem fornecerão qualquer informação. Eles permanecerão silenciosos, usando roupas que não chamem à atenção e não ajudarão competidores que se aproximam dos pontos de controle. Isto também se aplica a todas as outras pessoas no terreno, como, por exem-
-plo, aos representantes de mídia.
+**23.11** Os fiscais de percurso ou de pontos de controle não perturbarão ou deterão qualquer competidor, nem fornecerão qualquer informação. Eles permanecerão silenciosos, usando roupas que não chamem à atenção e não ajudarão competidores que se aproximam dos pontos de controle. Isto também se aplica a todas as outras pessoas no terreno, como, por exemplo, aos representantes de mídia.
 
-**23.12** O competidor, que cruzar a linha de chegada, não pode retornar para a área de competição, sem a permissão do organizador. Um competidor, que desiste da competição, deverá se apresentar, imediatamente, na chegada, entregando seu mapa e chip/ cartão de controle, para registro de sua desistência pela equipe de apuração. O competidor desistente não pode influ-
-enciar ou prestar ajuda a outros competidores na competição.
+**23.12** O competidor, que cruzar a linha de chegada, não pode retornar para a área de competição, sem a permissão do organizador. Um competidor, que desiste da competição, deverá se apresentar, imediatamente, na chegada, entregando seu mapa e chip/ cartão de controle, para registro de sua desistência pela equipe de apuração. O competidor desistente não pode influenciar ou prestar ajuda a outros competidores na competição.
 
 **23.13** O competidor que infringir qualquer regra, ou que beneficiar-se da violação de qualquer regra, será desclassificado, podendo ser encaminhado à justiça desportiva.
 
@@ -1044,8 +1040,7 @@ O `Campeonato Brasileiro de Orientação Master (CAMBOR Master)`, ocorrerá para
 e/ou medalhas, devendo ser aprovada pelo Árbitro.
 31.4.2 Para categorias competitivas com 20 (vinte) ou mais atletas inscritos, serão premiados
 do primeiro ao quinto colocados.
-31.4.3 Para categorias competitivas com até 19 (dezenove) atletas inscritos, serão premia-
-dos do primeiro ao terceiro colocados.
+31.4.3 Para categorias competitivas com até 19 (dezenove) atletas inscritos, serão premiados do primeiro ao terceiro colocados.
 31.4.4 Serão premiados apenas os atletas que compõem as categorias com classificatória
 (Final A), ficando a critério do organizador oferecer premiação para as finais B.
 31.4.5 Caso um percurso ser anulado pelo júri técnico a premiação será mantida.
@@ -1076,8 +1071,7 @@ Pre-O, retendo os mapas e resultados até último atleta do último dia partir.
 32.2 Categorias
 32.2.1 Os percursos serão disputados entre todos os atletas, sem distinção de sexo ou idade
 nas seguintes categorias:
->> **a)** PreO-Para, em referência ao termo "Paralímpico" exclusiva para portadores de desvanta-
-gem funcional, devido a uma inaptidão permanente para o seu deslocamento pedestre;
+>> **a)** PreO-Para, em referência ao termo "Paralímpico" exclusiva para portadores de desvantagem funcional, devido a uma inaptidão permanente para o seu deslocamento pedestre;
 >> **b)** PreO-Ab, em referência ao termo "Aberto": livre para qualquer atleta, independente de sua
 dificuldade motora ou inexistência desta.
 32.2.2 É permitida a separação por nível técnico (N, B, A e E), visando ampliar a participação
@@ -1107,18 +1101,14 @@ e. permanecendo o empate, este será definitivo.
 mínimo de 2 (duas) horas.
 32.4.5 Protestos por escrito serão recebidos até 1(uma) hora após a divulgação do resultado.
 32.5 Dos auxiliares dos atletas
-32.5.1 Os participantes têm direito de assistência de um ou mais ajudantes próprios ou cedi-
-dos pela organização, para resolverem problemas de deslocamentos e preenchimento do car-
-tão de controle.
+32.5.1 Os participantes têm direito de assistência de um ou mais ajudantes próprios ou cedidos pela organização, para resolverem problemas de deslocamentos e preenchimento do cartão de controle.
 32.5.2 A estes ajudantes não é permitida a colaboração na resolução dos problemas relativos
 à leitura, interpretação dos mapas, escolha dos prismas, controle de tempo ou qualquer outro
 auxílio técnico.
-32.5.3 Atletas e auxiliares devem permanecer em silêncio durante todo o percurso e em ab-
-soluto silêncio nos pontos de decisão, a inobservância deste item poderá acarretar penalidade
+32.5.3 Atletas e auxiliares devem permanecer em silêncio durante todo o percurso e em absoluto silêncio nos pontos de decisão, a inobservância deste item poderá acarretar penalidade
 de advertência até a desclassificação.
 32.6 Mapas para a Orientação de Precisão
-32.6.1 Serão nas escalas 1:5.000 ou 1:4.000 de acordo com a ISOM ou ISSprOM, à seme-
-lhança dos utilizados nos percursos do evento base. Estas informações deverão constar nos
+32.6.1 Serão nas escalas 1:5.000 ou 1:4.000 de acordo com a ISOM ou ISSprOM, à semelhança dos utilizados nos percursos do evento base. Estas informações deverão constar nos
 boletins.
 32.6.2 Deverão estar assinalados nos mapas os pontos do percurso e o cartão de descrição.
 32.6.3 No Trail-O, a cada ponto do percurso corresponderá um ponto de decisão marcado
@@ -1127,13 +1117,10 @@ e com visibilidade da situação de cadeirante.
 32.6.4 No Te-O, serão 6 (seis) prismas por ponto e tempo máximo de 30 (trinta) segundos,
 permitido o uso dos mesmos prismas para 1 (um) a 3 (três) problemas.
 32.7 Do Cartão de Controle
-32.7.1 Seguirá o modelo abaixo ou outro constante do boletim e apresentará 6 (seis) alterna-
-tivas de resposta, devendo ser picotado, marcado com caneta ou qualquer outro meio que
+32.7.1 Seguirá o modelo abaixo ou outro constante do boletim e apresentará 6 (seis) alternativas de resposta, devendo ser picotado, marcado com caneta ou qualquer outro meio que
 impeça sua modificação, nos quadrados identificados pelas letras “A”, “B”, “C”, “D”, “E” e “Z”,
-escolhido em correspondência às posições da esquerda para a direita, independente da dis-
-tância do ponto de decisão.
-32.7.2 A posição “Z” deverá ser utilizada quando nenhum dos prismas corresponder ao mar-
-cado na carta em conjunto com o cartão de descrição.
+escolhido em correspondência às posições da esquerda para a direita, independente da distância do ponto de decisão.
+32.7.2 A posição “Z” deverá ser utilizada quando nenhum dos prismas corresponder ao marcado na carta em conjunto com o cartão de descrição.
 32.7.3 No Te-O, a posição "Z" é substituída pela letra "F", correspondente ao sexto prisma
 colocado no terreno.
 
@@ -1146,12 +1133,10 @@ Modelos de Placas sugeridos
 Os eventos regionais e estaduais obedecerão aos seguintes formatos:
 33.1.1 Os eventos regionais, pertencentes a cada região geográfica considerada, deverão
 ser realizados com um percurso Sprint, um percurso longo e um percurso médio.
-33.1.2 A classificação da categoria Elite (H/D21E) será por percurso, onde teremos um Cam-
-peão do Sprint, Campeão do médio e Campeão do longo.
+33.1.2 A classificação da categoria Elite (H/D21E) será por percurso, onde teremos um Campeão do Sprint, Campeão do médio e Campeão do longo.
 33.1.3 A classificação das categorias Elite (H/D16, 18 e 20E), Muito Difícil (A) e Difícil (B)
 será definida de forma distinta das categorias Elite (H/D21E), conforme a seguir:
-a. em cada percurso (médio e longo) os vinte e seis primeiros classificados receberão a se-
-guinte pontuação:
+a. em cada percurso (médio e longo) os vinte e seis primeiros classificados receberão a seguinte pontuação:
 1º 2º 3º 4º 5º 6º 7º 8º 9º 10º 11º 12º 13º 14º
 40 37 35 33 32 31 30 29 28 27 26 25 24 23
 15º 16º 17º 18º 19º 20º 21º 22º 23º 24º 25º 26º ≥ 27º
@@ -1164,38 +1149,29 @@ maior número de pontos, computados a soma dos percursos médio e longo.
 e. em caso de empate, ficará melhor classificado o atleta que obtiver a menor soma de tempo
 somando os dois percursos de floresta; permanecendo o empate, prevalecerá o resultado do
 percurso longo.
-33.1.4 Cada federação poderá participar, como organizadora, de apenas uma região geográ-
-fica, devendo declarar sua decisão à CBO através de documento oficial consignado por seu
+33.1.4 Cada federação poderá participar, como organizadora, de apenas uma região geográfica, devendo declarar sua decisão à CBO através de documento oficial consignado por seu
 presidente.
 33.1.5 Após a declaração da escolha, cada federação só poderá alterar o grupo regional que
 faz parte após transcorridos 4 (quatro) anos.
-33.1.6 Os regulamentos dos eventos estaduais e regionais deverão ser elaborados em cum-
-primento as ROP da CBO, devendo ser apresentados até outubro do ano anterior para a
+33.1.6 Os regulamentos dos eventos estaduais e regionais deverão ser elaborados em cumprimento as ROP da CBO, devendo ser apresentados até outubro do ano anterior para a
 Diretoria Técnica da CBO e posterior aprovação na Conferência das Federações.
 33.2 Categorias
-33.2.1 As formas de disputa dos eventos regionais obedecerão ao padrão CBO de catego-
-rias, conforme regra 2.1.
+33.2.1 As formas de disputa dos eventos regionais obedecerão ao padrão CBO de categorias, conforme regra 2.1.
 
 33.2.2 O modelo de categorias para os estaduais ficará a critério da federação (Modelo CBO
-ou modelo aglutinado), utilizando a tabela de categorias definida na regra 2.1, fins de distri-
-buição dos atletas.
+ou modelo aglutinado), utilizando a tabela de categorias definida na regra 2.1, fins de distribuição dos atletas.
 33.2.3 Mediante aprovação do Árbitro nos eventos regionais e estaduais poderão ser criadas
-categorias especiais para aqueles atletas que participarão somente deste evento (ex: Olimpí-
-adas de Organizações Militares, trabalhos de iniciação em escolas, etc.), situação que deve
+categorias especiais para aqueles atletas que participarão somente deste evento (ex: Olimpíadas de Organizações Militares, trabalhos de iniciação em escolas, etc.), situação que deve
 ser evitada sempre que possível. Neste caso o próprio organizador definirá o valor da taxa de
 inscrição, sendo responsável por todas as medidas técnicas e administrativas decorrentes
 desta decisão, bem como a segurança destes atletas.
-33.2.4 As categorias “ACOMPANHADOS” são destinadas aos atletas iniciantes, os quais de-
-verão ser conduzidos e orientados por um atleta experiente, sem preocupar-se com o tempo
-de realização do percurso, em horário a ser definido pelo fiscal de partida após o acompa-
-nhante ter realizado seu percurso. Nestas categorias não haverá classificação, apenas premi-
-ação de participação.
+33.2.4 As categorias “ACOMPANHADOS” são destinadas aos atletas iniciantes, os quais deverão ser conduzidos e orientados por um atleta experiente, sem preocupar-se com o tempo
+de realização do percurso, em horário a ser definido pelo fiscal de partida após o acompanhante ter realizado seu percurso. Nestas categorias não haverá classificação, apenas premiação de participação.
 33.2.5 É responsabilidade dos dirigentes dos clubes a adequada distribuição/inscrição dos
 atletas nas categorias disputadas nos eventos regionais e estaduais, tanto técnica como física,
 obedecendo ao previsto nas regras 2.2 a 2.9.
 33.2.6 Excetuando-se as categorias de formação (H/D 10N, H/D 12N e H/D 14N), nenhum
-atleta poderá permanecer por mais de um ano na categoria Novatos (N), admitindo-se a ex-
-ceções, a critério da federação, que levará em conta os seguintes critérios:
+atleta poderá permanecer por mais de um ano na categoria Novatos (N), admitindo-se a exceções, a critério da federação, que levará em conta os seguintes critérios:
 a. participação esporádica nos campeonatos estaduais anteriores; e/ou
 b. insuficiência técnica/física para ascender de categoria.
 33.2.7 O diretor técnico da federação controlará o cumprimento da regra (33.2.5), podendo
@@ -1203,9 +1179,7 @@ inclusive, deixar de computar os pontos de atleta que desrespeitar as normas aci
 33.2.8 As normas constantes da regra 33.2.5 visam o aperfeiçoamento de nossos atletas,
 conduzindo-os a uma evolução progressiva dentro do esporte, buscando de forma justa atingir
 a plenitude de suas potencialidades.
-33.2.9 O grau de dificuldade “N”, por não ser considerado competitivo, tem o objetivo de apren-
-dizado do atleta, entretanto todos os que participarem das categorias com este grau de difi-
-culdade poderão receber medalhas de participação ou por classificação, ficando a critério
+33.2.9 O grau de dificuldade “N”, por não ser considerado competitivo, tem o objetivo de aprendizado do atleta, entretanto todos os que participarem das categorias com este grau de dificuldade poderão receber medalhas de participação ou por classificação, ficando a critério
 do organizador a forma que as medalhas serão distribuídas, definido no boletim do evento.
 33.3 Ranking
 33.3.1 O resultado final do estadual, para questões do cômputo de pontos para o ranking
@@ -1229,8 +1203,7 @@ resultados de todos os atletas participantes para fins de ranking.
 34.1 Independente da competição, o revezamento de equipes (clubes ou trios) seguirá as
 regras da IOF e CBO, podendo ser realizado nas modalidades de Floresta ou Sprint, a critério
 do organizador.
-34.2 A competição de revezamento de equipes tem como principais objetivos fomentar o con-
-graçamento entre atletas e valorizar as entidades que formam as bases do esporte Orientação
+34.2 A competição de revezamento de equipes tem como principais objetivos fomentar o congraçamento entre atletas e valorizar as entidades que formam as bases do esporte Orientação
 no Brasil (Clubes).
 34.3 A competição será disputada por trios masculinos (H), femininos (D) e/ou misto (M)
 devendo ter um atleta do sexo oposto aos demais, conforme os eventos a seguir:
@@ -1239,8 +1212,7 @@ devendo ter um atleta do sexo oposto aos demais, conforme os eventos a seguir:
 e
 - trios de atletas de qualquer clube, sendo categoria única, sem restrição de idade e gênero.
 34.3.2 Revezamento do CAMBOR Master
-- Não haverá restrições à composição dos trios quanto aos clubes e/ou federações dos parti-
-cipantes, cujo principal objetivo é o congraçamento entre os atletas participantes.
+- Não haverá restrições à composição dos trios quanto aos clubes e/ou federações dos participantes, cujo principal objetivo é o congraçamento entre os atletas participantes.
 34.3.3 Revezamento do SAOC
 
 - trios de atletas da mesma nacionalidade, sendo distribuídos de acordo com o gênero e
@@ -1263,27 +1235,22 @@ as suas equipes, através de um representante nomeado exclusivamente para isso, 
 cumprir as informações divulgadas nos boletins do evento, referentes ao procedimento a ser
 adotado para efetivar estas inscrições.
 34.6 Na organização dos trios mistos, obrigatoriamente o 3º atleta deverá ser uma Dama.
-34.7 Será permitido realizar alterações nas constituições dos trios, somente dentro das res-
-pectivas categorias, até às 14 horas do dia anterior à competição de revezamento (limite
+34.7 Será permitido realizar alterações nas constituições dos trios, somente dentro das respectivas categorias, até às 14 horas do dia anterior à competição de revezamento (limite
 máximo). Os casos excepcionais, quando houverem, serão decididos pelo Árbitro do evento.
 34.8 As inscrições na categoria Aberto poderão ser efetivadas em comum acordo por um dos
 representantes dos Clubes formadores deste trio, ou ainda individualmente, pelos próprios
 atletas de forma avulsa, porém, neste caso, fica a critério do organizador constituir os trios
 arbitrariamente, sem direito a contestação pelos atletas ou clubes.
 34.9 Nas competições de revezamento em que ocorrer a cerimônia de abertura do evento,
-esta poderá ser realizada antes ou depois da competição, devendo ser observadas as seguin-
-tes situações:
+esta poderá ser realizada antes ou depois da competição, devendo ser observadas as seguintes situações:
 >> **a)** se for realizada antes da competição, esta deverá iniciar pelo menos 30 minutos antes da
 partida dos primeiros atletas, mais o tempo necessário para o deslocamento andando até este
 local, se for o caso.
 >> **b)** se for realizada depois da competição, esta deverá iniciar imediatamente após definido os
 primeiros lugares de cada categoria, sendo finalizada com a premiação da competição.
 
-34.10 Em ambos os casos descritos anteriormente, todos os atletas deverão cumprir rigoro-
-samente a seguinte rotina na arena do revezamento:
-34.10.1 As bases LIMPAR e CHECAR estarão disponíveis na entrada do dispositivo pelo me-
-nos 1 (uma) hora antes da partida dos primeiros atletas, para que todos realizem este proce-
-dimento com antecedência, sem a obrigatoriedade de entrar no mesmo. O dispositivo somente
+34.10 Em ambos os casos descritos anteriormente, todos os atletas deverão cumprir rigorosamente a seguinte rotina na arena do revezamento:
+34.10.1 As bases LIMPAR e CHECAR estarão disponíveis na entrada do dispositivo pelo menos 1 (uma) hora antes da partida dos primeiros atletas, para que todos realizem este procedimento com antecedência, sem a obrigatoriedade de entrar no mesmo. O dispositivo somente
 será fechado para todos os atletas 15 (quinze) minutos antes do horário previsto para a partida
 dos primeiros atletas, reabrindo imediatamente após esta para os atletas atrasados.
 34.10.2 Mediante autorização do controlador de partida e, após executadas todas as fases da
@@ -1292,8 +1259,7 @@ seu tempo a partir do horário oficial de início da competição. Os 2º e 3º 
 atrasados serão penalizados, acrescentando-se ao seu tempo de percurso o tempo decorrido
 desde o horário oficial de início da competição, até a entrada dos mesmos no dispositivo.
 34.10.3 A critério do árbitro do evento, após 1 hora (para Percurso Sprint) ou 1 hora e 30
-minutos (para percurso floresta) da partida dos primeiros atletas, todos os atletas remanes-
-centes dos trios de revezamento, que por ventura ainda não tenham partido devido o atleta
+minutos (para percurso floresta) da partida dos primeiros atletas, todos os atletas remanescentes dos trios de revezamento, que por ventura ainda não tenham partido devido o atleta
 anterior de seu trio ainda não ter chegado, poderão ser autorizados a partir sob a supervisão
 do controlador de partida. Os números dos trios e o horário de partida serão devidamente
 anotados, fins controle e ajuste aos seus tempos de percurso na apuração.
@@ -1302,9 +1268,7 @@ anotados, fins controle e ajuste aos seus tempos de percurso na apuração.
 seu antecessor na chegada.
 >> **b)** no funil de chegada o último atleta do trio poderá ser acompanhado pelos outros atletas da
 equipe, sem prejudicar a competitividade dos demais trios.
-34.10.5 Uma vez que uma equipe de revezamento aceita sua desclassificação, ou a desclas-
-sificação da equipe foi confirmada pelo Árbitro, não será permitido que outro competidor da-
-quela equipe parta.
+34.10.5 Uma vez que uma equipe de revezamento aceita sua desclassificação, ou a desclassificação da equipe foi confirmada pelo Árbitro, não será permitido que outro competidor daquela equipe parta.
 34.11 A classificação final das equipes por categoria será de acordo com a ordem de chegada
 dentro das respectivas categorias.
 34.12 No caso do revezamento de clubes do CAMBOR, a apuração do resultado final da
@@ -1351,28 +1315,23 @@ ARBITRAGEM
 
 35 ARBITRAGEM
 35.1 Todos os eventos da CBO serão controlados por um Árbitro Nacional escalado pelo
-Conselho de Arbitragem da CBO, sendo ele indicado até 3 meses após a designação do Or-
-ganizador.
-35.2 Se um Árbitro da CBO é designado pelo Conselho de Arbitragem da CBO, ele é o repre-
-sentante oficial da CBO perante o organizador. O Árbitro é subordinado à diretoria técnica da
+Conselho de Arbitragem da CBO, sendo ele indicado até 3 meses após a designação do Organizador.
+35.2 Se um Árbitro da CBO é designado pelo Conselho de Arbitragem da CBO, ele é o representante oficial da CBO perante o organizador. O Árbitro é subordinado à diretoria técnica da
 CBO e não faz parte da comissão organizadora.
 35.3 As federações estaduais deverão designar um Árbitro para todos os eventos sob suas
 responsabilidades.
-35.4 Todos os Árbitros para eventos da CBO deverão ter licença de Árbitro da CBO, sendo-
-lhe vedado ter qualquer responsabilidade com alguma equipe participante.
+35.4 Todos os Árbitros para eventos da CBO deverão ter licença de Árbitro da CBO, sendolhe vedado ter qualquer responsabilidade com alguma equipe participante.
 35.5 O Árbitro da CBO assegurará que todas as regras serão seguidas. As omissões e os
 enganos devem ser evitados, devendo a imparcialidade reinar absoluta. O Árbitro da CBO tem
 autoridade para exigir e fazer ajustes que julgar necessários para satisfazer às exigências do
 evento e uma vez que forem feitas as determinações, nada mais poderá ser mudado, sem
 que o mesmo delibere sobre tais alterações.
 35.6 O Árbitro da CBO trabalhará em estreita cooperação com o organizador e a ele serão
-prestadas todas as informações pertinentes ao evento. Toda informação oficial enviada às fe-
-derações, clubes, dirigentes ou atletas, como Boletins, será aprovada previamente pelo Árbitro
+prestadas todas as informações pertinentes ao evento. Toda informação oficial enviada às federações, clubes, dirigentes ou atletas, como Boletins, será aprovada previamente pelo Árbitro
 da CBO.
 35.7 O Árbitro da CBO tem como responsabilidade, no mínimo, as seguintes tarefas:
 >> **a)** Aprovar a jurisdição e o terreno para o evento;
->> **b)** Verificar a organização do evento e avaliar a conveniência da acomodação proposta, ali-
-mentação, transporte, programa do evento, orçamento e possibilidades de treinamento;
+>> **b)** Verificar a organização do evento e avaliar a conveniência da acomodação proposta, alimentação, transporte, programa do evento, orçamento e possibilidades de treinamento;
 >> **c)** Avaliar o planejamento das cerimônias;
 >> **d)** Aprovar a organização da partida, chegada e área de concentração;
 >> **e)** Avaliar a confiabilidade e precisão da tomada de tempo e a produção de resultados,
@@ -1387,8 +1346,7 @@ do Evento. Imediatamente depois de cada visita, o Árbitro da CBO enviará um br
 por escrito, para a diretoria técnica da CBO e uma cópia para o organizador.
 
 35.9 Um ou mais assistentes podem ser designados pelo Conselho de Arbitragem para auxiliar
-o Árbitro da CBO, particularmente no que tange aos campos de cartografia, percursos, finan-
-ças, patrocinadores e mídia.
+o Árbitro da CBO, particularmente no que tange aos campos de cartografia, percursos, finanças, patrocinadores e mídia.
 35.10 O Árbitro da CBO fará até 3 visitas: a primeira, logo que for designado; a segunda, entre
 uma ano e seis meses antes da competição; e a terceira, 3 a 4 meses antes da competição.
 Após cada visita, o Árbitro emitirá um Relatório de Visita e, após a competição, enviará à
@@ -1401,8 +1359,7 @@ da competição, que será acompanhada pelo Árbitro da CBO.
 transmitir informações técnicas e administrativas do evento, desde que, após sua realização,
 seja disponibilizado o link de acesso na página do evento para visualização da atividade por
 qualquer pessoa a qualquer momento. Esta informação deverá constar nos boletins do evento.
-36.3 O material de competição (números dos atletas, chips, listas de partida, cartão de descri-
-ção, horário de transporte, informações mais recentes etc.) deverá estar pronto antes desta
+36.3 O material de competição (números dos atletas, chips, listas de partida, cartão de descrição, horário de transporte, informações mais recentes etc.) deverá estar pronto antes desta
 reunião.
 36.4 Após a reunião de que trata a Regra 36.1 será realizada uma reunião de instrução do Júri
 Técnico com o Árbitro do evento.
@@ -1412,8 +1369,7 @@ diretrizes da organização ou irregularidade detectada antes ou durante o event
 37.2 No que tange a resultados, o prazo para a apresentação da reclamação será de até 30
 minutos após a divulgação do resultado oficial do percurso/competição.
 37.3 No que tange a reclamações sobre violações às regras, às diretrizes do organizador ou
-irregularidades ocorridas antes ou durante o evento, o prazo para a apresentação da reclama-
-ção será até às 23:59hs de cada dia, para as atividades programadas e constantes do boletim
+irregularidades ocorridas antes ou durante o evento, o prazo para a apresentação da reclamação será até às 23:59hs de cada dia, para as atividades programadas e constantes do boletim
 do evento.
 37.4 Uma reclamação somente pode ser feita por competidores e/ou representantes de clubes
 ou federações.
@@ -1426,27 +1382,21 @@ devolução e ficará à disposição do(s) reclamante(s) para tomar(em) conheci
 Caso a decisão seja de interesse coletivo o Diretor do evento poderá torná-la pública mediante
 fixação da decisão no quadro mural onde são expostos os horários de partida e resultados.
 37.6 O formulário para reclamação será fornecido pela organização, conforme anexo “C”, onde
-o(s) reclamante(s) deverá(ão) fazer constar a(s) regra(s) e regulamentos na qual está emba-
-sado a reclamação. Não será cobrada taxa para reclamação.
+o(s) reclamante(s) deverá(ão) fazer constar a(s) regra(s) e regulamentos na qual está embasado a reclamação. Não será cobrada taxa para reclamação.
 38 PROTESTOS
-38.1 Um protesto pode ser feito contra a decisão do Diretor do Evento a respeito de uma re-
-clamação.
-38.2 Um protesto somente pode ser feito por competidores e/ou membros da diretoria de clu-
-bes ou federações.
-38.3 Qualquer protesto deverá ser feito, individualmente ou em grupo, por escrito, para o Ár-
-bitro do Evento e em formulário próprio, entregue na secretaria do evento até 15 minutos após
+38.1 Um protesto pode ser feito contra a decisão do Diretor do Evento a respeito de uma reclamação.
+38.2 Um protesto somente pode ser feito por competidores e/ou membros da diretoria de clubes ou federações.
+38.3 Qualquer protesto deverá ser feito, individualmente ou em grupo, por escrito, para o Árbitro do Evento e em formulário próprio, entregue na secretaria do evento até 15 minutos após
 o organizador haver anunciado a decisão sobre a reclamação. A secretaria registrará a data
 e hora do recebimento e encaminhará ao Árbitro do Evento. Este reunirá o Júri Técnico, tão
 rápido quanto possível julgará o protesto e informará a sua decisão à secretaria, onde será
-registrada a hora da devolução e ficará à disposição do(s) protestante(s) para tomar(em) co-
-nhecimento da decisão. Caso a decisão seja de interesse coletivo o Árbitro do Evento poderá
+registrada a hora da devolução e ficará à disposição do(s) protestante(s) para tomar(em) conhecimento da decisão. Caso a decisão seja de interesse coletivo o Árbitro do Evento poderá
 torná-la pública mediante fixação da decisão no quadro mural onde são expostos os horários
 de partida e resultados.
 38.4 O formulário para protesto será fornecido pela organização, conforme o anexo “D”, onde
 o(s) protestante(s) deverá(ão) fazer constar a(s) regra(s) e regulamentos que embasam o
 protesto.
-38.5 Quando o protesto for relativo à condição de um competidor, de participar de uma com-
-petição e o caso não for julgado, pelo Júri Técnico, até 60 (sessenta) minutos, antes do horário
+38.5 Quando o protesto for relativo à condição de um competidor, de participar de uma competição e o caso não for julgado, pelo Júri Técnico, até 60 (sessenta) minutos, antes do horário
 de partida deste atleta, permitir-se-á que o atleta participe “sob protesto”.
 38.6 Não será cobrada taxa para protesto.
 39. JURI TÉCNICO
@@ -1464,9 +1414,7 @@ do Júri Técnico, cuja composição será divulgada no último boletim informat
 encerramento dos prazos de inscrições.
 39.3.3 O Júri Técnico terá a seguinte constituição:
 a. Árbitro do evento;
-b. Três árbitros do Quadro de Árbitros da CBO ou de federação que participem da competi-
-ção, todos de diferentes federações, ressalvado quando não houverem membros de diver-
-sas federações para compor o júri; e
+b. Três árbitros do Quadro de Árbitros da CBO ou de federação que participem da competição, todos de diferentes federações, ressalvado quando não houverem membros de diversas federações para compor o júri; e
 c. Um responsável técnico da organização.
 39.4 Prerrogativas e procedimentos
 a. Os membros do júri técnico devem conhecer as ROP e as informações específicas do
@@ -1481,8 +1429,7 @@ de uma categoria, não pode ser levado a efeito sem que os três membros do júr
 presentes, além do Árbitro do evento.
 d. O Árbitro do Evento realizará esforços no sentido de reunir todos os elementos materiais e
 as testemunhas necessárias susceptíveis de esclarecer o júri. O Árbitro é responsável por
-elaborar um relatório escrito, contendo todas as decisões e medidas tomadas pelo Júri Téc-
-nico.
+elaborar um relatório escrito, contendo todas as decisões e medidas tomadas pelo Júri Técnico.
 e. Após o julgamento de um protesto, o Júri Técnico, além de instruir o organizador, poderá
 encaminhar o fato ao conhecimento da Comissão Disciplinar da CBO, no caso de violação
 grave às regras, mediante relatório circunstanciado.
@@ -1509,16 +1456,14 @@ apelação.
 >> **b)** Arquivo de mapa com o traçado do Percurso de cada categoria em cada percurso;
 >> **c)** Comentários sobre o evento;
 >> **d)** Prestação de contas; e
->> **e)** Lista das pessoas que fizeram parte da comissão organizadora e não executaram o per-
-curso, com nome completo, categoria e entidade para futura inclusão no ranking.
+>> **e)** Lista das pessoas que fizeram parte da comissão organizadora e não executaram o percurso, com nome completo, categoria e entidade para futura inclusão no ranking.
 41.2 O Árbitro terá 30 dias para encaminhar o seu relatório à CBO, para os eventos nacionais
 e regionais, ou para a diretoria da respectiva federação, nos casos das competições estaduais
 ou municipais.
 CAPITULO IV
 EQUIPE NACIONAL
 42 EQUIPE NACIONAL
-42.1 Todos os dirigentes e atletas devem fazer o máximo de esforços para que qualquer pes-
-soa que representar o Brasil em eventos internacionais use dignamente a Bandeira do Brasil,
+42.1 Todos os dirigentes e atletas devem fazer o máximo de esforços para que qualquer pessoa que representar o Brasil em eventos internacionais use dignamente a Bandeira do Brasil,
 uniforme e distintivo da CBO.
 42.2 A prioridade para participação em competições e eventos internacionais é a seguinte:
 a. Atleta;
@@ -1542,8 +1487,7 @@ a. avaliação física, médica-odontológica;
 b. treinamento técnico;
 c. processo seletivo; e
 d. participação em competições internacionais oficiais da IOF.
-42.7 Se houver recursos a equipe será reunida em local determinado pela CBO para cumpri-
-mento dos itens a, b e/ou c da regra 42.6.
+42.7 Se houver recursos a equipe será reunida em local determinado pela CBO para cumprimento dos itens a, b e/ou c da regra 42.6.
 42.8 Se não houver recursos para os itens a e b da regra 42.6, os técnicos e ou preparadores
 físicos dos atletas convocados ou do clube/federação ao qual o atleta for filiado, entrarão em
 contato com a diretoria técnica da CBO para receber orientações a respeito de condutas a
@@ -1554,11 +1498,9 @@ da CBO, para as categorias Elite.
 da competição internacional a qual se destina tal convocação:
 a. Equipe JUNIOR: D/H16E, e/ou D/H18E e/ou D/H20E; e
 b. Equipe ADULTO: D/H21E.
-42.11 Se houver verba disponível para cumprimento do item c da regra 42.6, serão convoca-
-dos tantos atletas quanto for possível para participar de um processo seletivo. Ao final da
+42.11 Se houver verba disponível para cumprimento do item c da regra 42.6, serão convocados tantos atletas quanto for possível para participar de um processo seletivo. Ao final da
 seletiva, serão convocados os atletas na quantidade prevista para a competição internacional
-da qual a equipe for participar, sempre respeitando a questão financeira. A CBO poderá cus-
-tear parte ou a integralidade dos custos para o envio da equipe.
+da qual a equipe for participar, sempre respeitando a questão financeira. A CBO poderá custear parte ou a integralidade dos custos para o envio da equipe.
 42.12 O Conselho Fiscal poderá ser ouvido para a tomada de decisão final a respeito da verba
 a ser disponibilizada para cada evento internacional.
 
@@ -1567,20 +1509,15 @@ nacional, será emitida uma portaria específica, com as regras de convocação 
 especificando a seletiva, seja especificando o prazo do ranking nacional para convocação
 direta.
 42.14 Estas regras serão definidas com pelo menos seis meses de antecedência do evento
-e definirão a quantidade de atletas que formarão a equipe nacional e todos os critérios consi-
-derados para a seleção final.
+e definirão a quantidade de atletas que formarão a equipe nacional e todos os critérios considerados para a seleção final.
 43. O TÉCNICO/DIRIGENTE
-43.1 As convocações de técnicos, chefes de equipe e/ou qualquer outra função de assesso-
-ramento da equipe nacional, serão realizadas por portaria do Conselho da CBO, caso haja
+43.1 As convocações de técnicos, chefes de equipe e/ou qualquer outra função de assessoramento da equipe nacional, serão realizadas por portaria do Conselho da CBO, caso haja
 verba para tal.
-43.2 O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e re-
-presentação dos atletas perante a organização, ficando sob sua incumbência:
+43.2 O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e representação dos atletas perante a organização, ficando sob sua incumbência:
 a. Sempre fazer constar seu nome na ficha de inscrição de cada evento;
 b. Representar os atletas pelos quais responde (clube, curso, escola, universidade, equipe
-ou delegação) perante a organização, arbitragem e dirigentes desportivos, em quaisquer situ-
-ações;
-c. Relatar à organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsa-
-bilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório
+ou delegação) perante a organização, arbitragem e dirigentes desportivos, em quaisquer situações;
+c. Relatar à organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsabilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório
 ao espírito esportivo;
 d. Controlar e conduzir seus atletas com disciplina, ordem e respeito às regras, sempre que
 estiver em competição, palestra, curso, ou atividade similar;
@@ -1590,15 +1527,12 @@ no transcorrer das competições; e
 f. Organizar o plano esportivo anual (Anexo L).
 43.3 Para competições internacionais, o técnico da equipe nacional será convocado pelo
 Conselho da CBO.
-43.4 Para competições e eventos internacionais, o chefe da delegação nacional será convo-
-cado pelo Conselho da CBO, selecionado entre os dirigentes da administração do desporto.
-43.5 Todo o dirigente que chefiar a delegação Brasileira deverá fazer um relatório de seu tra-
-balho e apresentar à CBO, até 30 dias após o retorno do mesmo.
+43.4 Para competições e eventos internacionais, o chefe da delegação nacional será convocado pelo Conselho da CBO, selecionado entre os dirigentes da administração do desporto.
+43.5 Todo o dirigente que chefiar a delegação Brasileira deverá fazer um relatório de seu trabalho e apresentar à CBO, até 30 dias após o retorno do mesmo.
 
 Apêndice 1
 COMISSÃO ORGANIZADORA
-1. Todas as competições oficiais de orientação devem ser conduzidas por uma comissão or-
-ganizadora.
+1. Todas as competições oficiais de orientação devem ser conduzidas por uma comissão organizadora.
 2. COMPOSIÇÃO (sugestão de efetivo ideal):
 a. DIRETOR DO EVENTO - Responsável pelo evento
 b. COMISSÃO TÉCNICA
@@ -1628,18 +1562,13 @@ e. EQUIPE DE EXAME ANTI-DOPING
 3. DATA LIMITE PARA NOMEAÇÃO:
 
 a. LOGO QUE SEJA TOMADA A DECISÃO DE ORGANIZAR UM EVENTO: Diretor do
-Evento, Diretor Técnico, Diretor Administrativo, Mapeador, Traçador de percurso e Ges-
-tor de Segurança,
-b. SEIS MESES ANTES DO EVENTO: Diretor de Mídia e Marketing, Diretor de Arena, Se-
-cretário, Tesoureiro, Diretor de Logística, Assistente de Hospedagem e Transporte, As-
-sistente do Cerimonial e Assistente de Informática.
+Evento, Diretor Técnico, Diretor Administrativo, Mapeador, Traçador de percurso e Gestor de Segurança,
+b. SEIS MESES ANTES DO EVENTO: Diretor de Mídia e Marketing, Diretor de Arena, Secretário, Tesoureiro, Diretor de Logística, Assistente de Hospedagem e Transporte, Assistente do Cerimonial e Assistente de Informática.
 4. Todos os integrantes da Comissão Organizadora devem usar um colete, camiseta ou crachá
 com a designação da sua função;
 5. As funções da comissão organizadora não podem ser cumulativas com outras funções ou
 entre si;
-6. O Árbitro deve informar nos relatórios de visitas, quando as funções da comissão organiza-
-dora não estiverem, ainda, preenchidas e tudo fazer para que todas essas funções sejam ocu-
-padas e cumpridas.
+6. O Árbitro deve informar nos relatórios de visitas, quando as funções da comissão organizadora não estiverem, ainda, preenchidas e tudo fazer para que todas essas funções sejam ocupadas e cumpridas.
 7. Em eventos nacionais e regionais, o atleta que participar da comissão organizadora, exceto
 da apuração, poderá realizar o percurso nas seguintes condições:
 a. Devidamente autorizado pelo árbitro e inscrito;
@@ -1658,24 +1587,17 @@ que sigam os padrões definidos pela IOF.
 - Sistema SFR versão clássico (contato); e
 - Sistema Learnjoy.
 3. Com relação ao sistema EPT EMIT, a etiqueta anexa ao cartão de controle eletrônico do
-competidor, que serve como backup, deve ser resistente para sobreviver às prováveis condi-
-ções durante uma competição (incluindo imersão em água). É de responsabilidade do com-
-petidor assegurar-se que o cartão backup esteja marcado de maneira que possibilite ser usado
+competidor, que serve como backup, deve ser resistente para sobreviver às prováveis condições durante uma competição (incluindo imersão em água). É de responsabilidade do competidor assegurar-se que o cartão backup esteja marcado de maneira que possibilite ser usado
 se o picote eletrônico estiver faltando.
 4. Com relação ao sistema SPORTident, um perfurador manual de backup (picotador), deve
 estar presente em cada controle. É do competidor a responsabilidade de assegurar-se que a
 marcação foi recebida em seu SI-Card (cartão eletrônico) não o removendo até que o sinal de
-feedback (retorno/bip) tenha sido recebido. Se, e somente se, o sinal de retorno não é rece-
-bido, o competidor deve usar o picotador manual.
-5. O cartão de controle deve mostrar claramente que todos os pontos de controle foram visi-
-tados. Um competidor com uma marcação (picote) faltando ou não identificável não deve ser
+feedback (retorno/bip) tenha sido recebido. Se, e somente se, o sinal de retorno não é recebido, o competidor deve usar o picotador manual.
+5. O cartão de controle deve mostrar claramente que todos os pontos de controle foram visitados. Um competidor com uma marcação (picote) faltando ou não identificável não deve ser
 classificado, a menos que possa ser estabelecido com certeza que a marcação em falta ou
-não identificada não é culpa do competidor. Nesta circunstância excepcional, outras evidên-
-cias podem ser utilizadas para provar a visita do competidor ao controle, tais como: o registro
+não identificada não é culpa do competidor. Nesta circunstância excepcional, outras evidências podem ser utilizadas para provar a visita do competidor ao controle, tais como: o registro
 de agentes de fiscalização ou câmeras ou leitura da base do ponto de controle. Em quaisquer
-outras circunstâncias, tais evidências não são aceitáveis e o competidor deve ser desclassifi-
-cado. No caso dos tradicionais (com contato) SPORTident, SFR e Learnjoy, esta regra signi-
-fica que:
+outras circunstâncias, tais evidências não são aceitáveis e o competidor deve ser desclassificado. No caso dos tradicionais (com contato) SPORTident, SFR e Learnjoy, esta regra significa que:
 5.1. Se uma unidade não está funcionando, o competidor deve usar o backup fornecido e será
 desclassificado se a marcação não for registrada; e
 
@@ -1685,52 +1607,40 @@ a unidade de controle possa ter gravado o número do cartão do competidor).
 6. Se for confirmado a falha da base eletrônica, confirmando assim a ausência de erro e/ou
 dolo por parte dos orientistas, todos que não tiverem registros da base em questão serão
 informados e classificados.
-7. Se uma base eletrônica não estiver emitindo qualquer sinal (sonoro e ou luminoso) na pas-
-sagem do atleta, ou que aparente não funcionar, o orientista deve usar o sistema substituto
-disponível, que tanto pode ser um sistema mecânico ou uma segunda base eletrônica. O ori-
-entista deve informar a organização sobre tal procedimento, na chegada. Para comprovação
+7. Se uma base eletrônica não estiver emitindo qualquer sinal (sonoro e ou luminoso) na passagem do atleta, ou que aparente não funcionar, o orientista deve usar o sistema substituto
+disponível, que tanto pode ser um sistema mecânico ou uma segunda base eletrônica. O orientista deve informar a organização sobre tal procedimento, na chegada. Para comprovação
 mecânica, o mapa deve ser entregue identificado a apuração para verificação. Confirmando a
 ausência de erro e/ou dolo por parte do orientista, este será informado e classificado.
 8. O orientista que for desclassificado por falta de registro de um ou mais controles, poderá
 reclamar pela leitura da memória da(s) base(s), na secretaria do evento, recolhendo a taxa
-prevista para tal. Este procedimento ocorrerá ao final daquele evento, sem prejuízo do anda-
-mento da competição e aos horários previstos para cerimônia de premiação.
+prevista para tal. Este procedimento ocorrerá ao final daquele evento, sem prejuízo do andamento da competição e aos horários previstos para cerimônia de premiação.
 9. Se a leitura da(s) memória(s) da(s) base(s) confirmar a passagem do atleta pela(s) base(s)
-devida(s), o mesmo será informado e classificado, o resultado do evento será corrigido e es-
-tando o atleta reposicionado em classificação de premiação, a premiação da categoria será
+devida(s), o mesmo será informado e classificado, o resultado do evento será corrigido e estando o atleta reposicionado em classificação de premiação, a premiação da categoria será
 repetida caso ainda haja tempo para tal ou em momento oportuno a ser especificado pela
 organização do evento ou diretoria da CBO. A taxa recolhida será restituída pela secretaria,
 integralmente, caso o orientista seja classificado.
 10. É proibido excluir os tempos de execução do trecho de um ponto de controle que não
 funcionou corretamente, para fins de classificação dos orientistas.
-11. Os orientistas devem ter a possibilidade de praticar com o sistema de apuração da com-
-petição no evento modelo ou em atividades extras previstas pela Organização.
+11. Os orientistas devem ter a possibilidade de praticar com o sistema de apuração da competição no evento modelo ou em atividades extras previstas pela Organização.
 12. Somente poderá ser usado o Sistema de Picotador Mecânico em casos excepcionais e,
 devidamente autorizado pela CBO, devendo seguir o modelo de cartão de controle tradicional
 modelo IOF.
 13. Em evento que for usado o Sistema de Picotador Mecânico, em casos excepcionais, deverá
-ser emitido um informativo técnico normatizando todos os procedimentos de apuração e clas-
-sificação. Neste caso pode se consultar as regras anteriores da CBO que, ainda traziam os
+ser emitido um informativo técnico normatizando todos os procedimentos de apuração e classificação. Neste caso pode se consultar as regras anteriores da CBO que, ainda traziam os
 procedimentos com este sistema.
 
 Apêndice 3
 CONSCIÊNCIA ECOLÓGICA
-1. Regras estabelecidas pela comissão organizadora, para proteger o meio ambiente, e qual-
-quer outra instrução baixada pelo organizador, nesse sentido, deverão ser observadas rigo-
-rosamente por todas as pessoas envolvidas com o evento;
-2. A Confederação Brasileira de Orientação, reconhecendo a importância de manter a preser-
-vação da natureza e a prática da orientação, adotou os seguintes princípios:
-2.1 Estar atento da necessidade de preservar o meio ambiente saudável e integrar este prin-
-cípio na conduta fundamental da orientação.
-2.2 Assegurar que as regras da competição e da organização de eventos estejam bem cons-
-cientes do princípio de respeito para com o meio ambiente e para com a proteção da flora e
+1. Regras estabelecidas pela comissão organizadora, para proteger o meio ambiente, e qualquer outra instrução baixada pelo organizador, nesse sentido, deverão ser observadas rigorosamente por todas as pessoas envolvidas com o evento;
+2. A Confederação Brasileira de Orientação, reconhecendo a importância de manter a preservação da natureza e a prática da orientação, adotou os seguintes princípios:
+2.1 Estar atento da necessidade de preservar o meio ambiente saudável e integrar este princípio na conduta fundamental da orientação.
+2.2 Assegurar que as regras da competição e da organização de eventos estejam bem conscientes do princípio de respeito para com o meio ambiente e para com a proteção da flora e
 fauna.
 2.3 Cooperar com os proprietários, autoridades governamentais e organizações ambientais de
 forma a definir a melhor prática.
 2.4 Fazer observar os regulamentos locais para proteção ambiental, manter a natureza livre
 do lixo produzido na competição de orientação e tomar medidas formais para evitar a poluição.
-2.5 Incluir a Educação Ambiental na iniciação desportiva e treinamento de atletas e funcioná-
-rios.
+2.5 Incluir a Educação Ambiental na iniciação desportiva e treinamento de atletas e funcionários.
 2.6 Exaltar a consciência ecológica e os problemas ambientais mundiais, de forma que as
 entidades de prática possam adotar princípios para salvaguardar a prática da orientação.
 2.7 As entidades de prática devem preparar diretrizes de Educação Ambiental específica para
@@ -1764,9 +1674,7 @@ de percurso tem que considerar tais fatores para assegurar que a competição se
 todos os competidores enfrentem as mesmas condições durante todo percurso.
 1.3 Satisfação do competidor
 A popularidade da orientação só pode crescer se os competidores estão satisfeitos com os
-percursos que a eles são determinados. Um percurso planejado cuidadosamente deve asse-
-gurar que a duração seja apropriada, que exista dificuldade física e técnica, além de uma cor-
-reta colocação do ponto de controle no acidente etc.
+percursos que a eles são determinados. Um percurso planejado cuidadosamente deve assegurar que a duração seja apropriada, que exista dificuldade física e técnica, além de uma correta colocação do ponto de controle no acidente etc.
 1.4 Proteção da vida selvagem e do meio ambiente
 O meio ambiente é sensível. A vida selvagem pode ser perturbada, bem como o solo e a
 vegetação pode sofrer danos. O meio ambiente também inclui as pessoas que vivem na área
@@ -1778,20 +1686,16 @@ sejam bem planejados. O traçador do percurso deve assegurar acesso ao terreno e
 identificar as áreas sensíveis no terreno com antecedência.
 
 1.5 Atender as necessidades da mídia e espectadores
-A necessidade de dar uma imagem pública e boa do esporte orientação deve ser uma pre-
-ocupação permanente para um traçador de percurso. O traçador de percurso deve envidar
+A necessidade de dar uma imagem pública e boa do esporte orientação deve ser uma preocupação permanente para um traçador de percurso. O traçador de percurso deve envidar
 esforços para oferecer aos espectadores e para a imprensa a possibilidade de acompanhar o
-desenvolvimento da competição tão de perto quanto possível, sem comprometer a justiça es-
-portiva.
+desenvolvimento da competição tão de perto quanto possível, sem comprometer a justiça esportiva.
 2 REGRAS BÁSICAS DO PERCURSO DE ORIENTAÇÃO
 2.1 TERRENO
-O terreno deve ser escolhido de forma que ofereça condições iguais a todos os competido-
-res. Para salvaguardar o caráter de esporte, o terreno deve possibilitar uma corrida satisfatória
+O terreno deve ser escolhido de forma que ofereça condições iguais a todos os competidores. Para salvaguardar o caráter de esporte, o terreno deve possibilitar uma corrida satisfatória
 para testar as habilidades de orientação dos competidores.
 2.2 DEFINIÇÃO DE UM PERCURSO DE ORIENTAÇÃO
 Um percurso de orientação é definido pela partida, pontos de controle e chegada. Entre estes
-pontos, que são locados precisamente no terreno e equivalentemente no mapa, estão as per-
-nadas do percurso, nas quais o competidor deverá orientar-se.
+pontos, que são locados precisamente no terreno e equivalentemente no mapa, estão as pernadas do percurso, nas quais o competidor deverá orientar-se.
 2.3 PARTIDA:
 A área de partida deve ser situada e organizada de modo que possibilite o seguinte:
 >> **a)** Existência de uma área de aquecimento,
@@ -1799,11 +1703,9 @@ A área de partida deve ser situada e organizada de modo que possibilite o segui
 pelos outros.
 2.4 PERNADAS DO PERCURSO:
 2.4.1 Boa pernada
-a. As pernadas são os elementos mais importantes de um percurso de orientação e determi-
-narão sua qualidade em grande parte,
+a. As pernadas são os elementos mais importantes de um percurso de orientação e determinarão sua qualidade em grande parte,
 b. Uma boa pernada deve oferecer para os competidores, problemas interessantes de leitura
-do mapa e conduzi-los por terreno bom com possibilidades de alternativa de rotas para o indi-
-víduo.
+do mapa e conduzi-los por terreno bom com possibilidades de alternativa de rotas para o indivíduo.
 c. Dentro do mesmo percurso devem ser oferecidos tipos diferentes de pernadas, algumas
 delas baseadas em intensa leitura do mapa e outras contendo escolhas de rotas com corrida
 fácil. Também deve haver variações com respeito à extensão da pernada e dificuldade para
@@ -1822,17 +1724,13 @@ a cruzar áreas proibidas ou perigosas.
 2.5.1 Locais de pontos de controle
 São colocados pontos de controle em características do terreno que estão marcadas no
 mapa. Estes devem ser visitados pelos competidores na ordem determinada, se a ordem é
-especificada, mas seguindo as próprias escolhas de rota deles. Isto exige planejamento cui-
-dadoso e teste para assegurar justiça. É particularmente importante que o mapa retrate o ter-
-reno com exatidão nas proximidades dos pontos de controle, e que a direção e distâncias de
-todos os possíveis ângulos de aproximação estejam corretos. Os pontos de controle não de-
-vem estar localizados em pequenos acidentes do terreno, visíveis somente de uma pequena
+especificada, mas seguindo as próprias escolhas de rota deles. Isto exige planejamento cuidadoso e teste para assegurar justiça. É particularmente importante que o mapa retrate o terreno com exatidão nas proximidades dos pontos de controle, e que a direção e distâncias de
+todos os possíveis ângulos de aproximação estejam corretos. Os pontos de controle não devem estar localizados em pequenos acidentes do terreno, visíveis somente de uma pequena
 distância, se não houver outros acidentes evidentes no mapa (pontos de ataque).
 2.5.2 A função dos pontos de controle
 A função principal de um ponto de controle é marcar o começo e fim de uma pernada de
 orientação. Algumas vezes pontos de controle com outras finalidades específicas precisam
-ser usados, como por exemplo, para afunilar os competidores para as bordas de áreas proibi-
-das ou perigosas. Os pontos de controle também podem servir como pontos para imprensa e
+ser usados, como por exemplo, para afunilar os competidores para as bordas de áreas proibidas ou perigosas. Os pontos de controle também podem servir como pontos para imprensa e
 espectadores.
 2.5.3 O prisma
 O equipamento de controle deve ser colocado conforme as regras para eventos da IOF. Na
@@ -1848,8 +1746,7 @@ deve ser rigorosamente evitado, de modo que os competidores que estejam chegando
 sejam conduzidos ao ponto de controle pelo mesmo caminho dos que estão saindo.
 
 2.5.5 Proximidades dos pontos de controle
-Os pontos de controle de percursos diferentes, colocados perto um do outro, podem confun-
-dir competidores que navegam corretamente para o local do ponto de controle. Quando as
+Os pontos de controle de percursos diferentes, colocados perto um do outro, podem confundir competidores que navegam corretamente para o local do ponto de controle. Quando as
 características dos pontos de controle são nitidamente diferentes no terreno e também no
 mapa, os pontos de controle podem ser colocados mais próximos que 60 metros, entretanto
 um ponto de controle (incluindo o prisma de partida) não devem ser posicionados a menos de
@@ -1860,19 +1757,14 @@ e a distância mínima em linha reta é 15 metros.
 A posição do prisma em relação ao objeto mostrado no mapa é definida pela descrição do
 ponto de controle. A correspondência entre o objeto no terreno e o ponto de controle marcado
 no mapa não devem deixar qualquer dúvida ao competidor. Os pontos de controle que não
-podem ser claramente definidos pelos símbolos da IOF não são satisfatórios e devem ser evi-
-tados.
+podem ser claramente definidos pelos símbolos da IOF não são satisfatórios e devem ser evitados.
 2.6 A CHEGADA
-Pelo menos a última parte da rota para a linha de chegada deve ser obrigatoriamente bali-
-zada.
+Pelo menos a última parte da rota para a linha de chegada deve ser obrigatoriamente balizada.
 2.7 OS ELEMENTOS DE LEITURA DO MAPA
 Em um bom percurso de Orientação, os competidores são forçados a se concentrarem na
-navegação ao longo da rota. Partes que não exijam leitura do mapa ou atenção para navega-
-ção devem ser evitadas, a menos que elas sejam o resultado de escolhas de rota particular-
-mente boas.
+navegação ao longo da rota. Partes que não exijam leitura do mapa ou atenção para navegação devem ser evitadas, a menos que elas sejam o resultado de escolhas de rota particularmente boas.
 2.8 OPÇÕES DE ROTAS
-Rotas alternativas forçam o competidor a usar o mapa para avaliar o terreno e tirar vanta-
-gem disto. Escolhas de rota fazem os competidores pensar independentemente e se dividirem
+Rotas alternativas forçam o competidor a usar o mapa para avaliar o terreno e tirar vantagem disto. Escolhas de rota fazem os competidores pensar independentemente e se dividirem
 no terreno, evitando desta forma o acompanhamento.
 2.9 GRAU DE DIFICULDADE (Anexo “E”)
 Para qualquer terreno e mapa, um traçador de percurso pode planejar percursos com uma
@@ -1881,26 +1773,18 @@ conforme se faz com que eles sigam mais ou menos de perto os acidentes nítidos 
 Os competidores devem ter a possibilidade de avaliar o grau de dificuldade de aproximação
 para um ponto de controle em função da informação disponível no mapa, e, assim, escolher a
 
-técnica apropriada. Deve ser prestada atenção à habilidade esperada dos competidores, ex-
-periência e habilidade para ler ou entender um detalhe sutil do mapa. É particularmente impor-
-tante conhecer o nível certo de dificuldade quando se está planejando percursos para os no-
-vatos e crianças.
+técnica apropriada. Deve ser prestada atenção à habilidade esperada dos competidores, experiência e habilidade para ler ou entender um detalhe sutil do mapa. É particularmente importante conhecer o nível certo de dificuldade quando se está planejando percursos para os novatos e crianças.
 2.10 TIPO DE COMPETIÇÃO
-O percurso tem que ser planejado para atender às exigências específicas do tipo de com-
-petição considerada. Por exemplo, no caso de um percurso de orientação planejado para dis-
-tância pequena, se requer um mapa detalhado e um alto grau de leitura e concentração ao
+O percurso tem que ser planejado para atender às exigências específicas do tipo de competição considerada. Por exemplo, no caso de um percurso de orientação planejado para distância pequena, se requer um mapa detalhado e um alto grau de leitura e concentração ao
 longo de todo o percurso. O percurso planejado para competições de revezamento tem que
-considerar a necessidade dos espectadores de acompanharem o desenvolvimento da compe-
-tição de perto.
+considerar a necessidade dos espectadores de acompanharem o desenvolvimento da competição de perto.
 3. DEVERES DO TRAÇADOR DE PERCURSO
 3.1 Conhecer o terreno
 O traçador de percursos deverá ser completamente familiarizado com o terreno antes de
-planejar qualquer ponto de controle ou pernada. O traçador de percursos também deverá aten-
-tar para o fato de que, no dia da competição, as condições relativas ao mapa e terreno podem
+planejar qualquer ponto de controle ou pernada. O traçador de percursos também deverá atentar para o fato de que, no dia da competição, as condições relativas ao mapa e terreno podem
 ser diferentes das que existam por ocasião do dia do planejamento do percurso.
 3.2 Dar o grau certo de dificuldade
-O traçador de percurso deve ter sempre em mente que é muito fácil montar percursos de-
-masiadamente difíceis para os novatos e crianças. O traçador do percurso deverá ter o cuidado
+O traçador de percurso deve ter sempre em mente que é muito fácil montar percursos demasiadamente difíceis para os novatos e crianças. O traçador do percurso deverá ter o cuidado
 de não avaliar o grau de dificuldade apenas pela sua habilidade em orientação ou pelo seu
 condicionamento físico, quando estiver elaborando um percurso (Anexo “E”).
 3.3 Usar pontos de controle justos
@@ -1916,22 +1800,16 @@ local do ponto de controle do seu percurso.
 
 3.5 Não complicar as escolhas de rota
 O traçador pode ver escolhas de rota que nunca serão usadas e pode desperdiçar tempo
-construindo problemas complicados. O traçador de percursos deve ter em mente que os atle-
-tas em competição não perdem tempo planejando a rota.
+construindo problemas complicados. O traçador de percursos deve ter em mente que os atletas em competição não perdem tempo planejando a rota.
 3.6 Evitar percursos que não exijam a parte física
 Devem ser montados percursos de forma que os competidores tenham um equilíbrio entre
-a corrida e o jogo técnico para o nível e habilidade deles, se necessário para isso, utilizando-
-se dos tempos dos atletas de cada categoria nas 3 (três) competições anteriores do mesmo
+a corrida e o jogo técnico para o nível e habilidade deles, se necessário para isso, utilizandose dos tempos dos atletas de cada categoria nas 3 (três) competições anteriores do mesmo
 nível, para avaliação e estabelecimento do nível técnico e físico dos percursos propostos.
 4 O TRAÇADOR DE PERCURSO
-4.1 O traçador de percursos é a pessoa responsável pelo planejamento e traçado dos percur-
-sos e deve estar habilitado para compreender e avaliar as qualidades de um bom percurso, a
-partir de sua experiência pessoal. Ele também deve estar familiarizado com a teoria do plane-
-jamento dos percursos para atender as exigências especiais das diferentes categorias e dife-
-rentes tipos de competição.
+4.1 O traçador de percursos é a pessoa responsável pelo planejamento e traçado dos percursos e deve estar habilitado para compreender e avaliar as qualidades de um bom percurso, a
+partir de sua experiência pessoal. Ele também deve estar familiarizado com a teoria do planejamento dos percursos para atender as exigências especiais das diferentes categorias e diferentes tipos de competição.
 4.2 O traçador de percursos deve estar habilitado a avaliar no local, os vários fatores que
-podem interferir na competição, como as condições do terreno, a qualidade do mapa, a pre-
-sença de participantes e espectadores etc.
+podem interferir na competição, como as condições do terreno, a qualidade do mapa, a presença de participantes e espectadores etc.
 4.3 O traçador de percursos é o responsável pelos percursos e a corrida dos competidores
 entre a partida e a linha de chegada.
 4.4 O trabalho do traçador de percurso deve ser conferido pelo Árbitro do evento, sendo esta
@@ -1941,35 +1819,27 @@ sérias.
 Apêndice 5
 GESTÃO DE RISCO E SEGURANÇA EM COMPETIÇÕES
 1. INTRODUÇÃO
-Os competidores que participam de uma prova são responsáveis pelos riscos e aciden-
-tes que venham a sofrer no deslocamento, concentração e execução dos percursos. O seguro
+Os competidores que participam de uma prova são responsáveis pelos riscos e acidentes que venham a sofrer no deslocamento, concentração e execução dos percursos. O seguro
 contra acidentes é de responsabilidade do atleta ou do clube a que ele pertence.
 A gestão de riscos e segurança é uma responsabilidade coletiva de todos os envolvidos
 na organização de um evento de orientação e também de seus participantes. Ao tratarmos da
 segurança dos nossos atletas, o assunto não pode se resumir à colocação de uma ambulância
-na arena, pois temos que transformar esta preocupação em uma conduta organizada e insti-
-tucionalizada que atinja a todas as etapas do processo que envolve a organização de um
-evento de orientação, independentemente do seu nível (nacional, regional, estadual ou muni-
-cipal). Esta preocupação deve estar presente antes, durante e depois da realização de um
+na arena, pois temos que transformar esta preocupação em uma conduta organizada e institucionalizada que atinja a todas as etapas do processo que envolve a organização de um
+evento de orientação, independentemente do seu nível (nacional, regional, estadual ou municipal). Esta preocupação deve estar presente antes, durante e depois da realização de um
 evento e os responsáveis pelo seu planejamento e execução devem ser claramente definidos
 e conhecidos.
-O nosso esporte envolve os atletas e suas famílias, espectadores, procedimentos lo-
-gísticos complexos com deslocamentos e circulação de veículos, estacionamento, segurança
+O nosso esporte envolve os atletas e suas famílias, espectadores, procedimentos logísticos complexos com deslocamentos e circulação de veículos, estacionamento, segurança
 das instalações, utilização de equipamentos de custo elevado, órgãos públicos e privados de
-apoio e inúmeros outros, que nos demandam preparar a segurança de forma organizada, ins-
-titucionalizada e controlada. Para nós, isso implica em uma mudança de cultura que teremos
+apoio e inúmeros outros, que nos demandam preparar a segurança de forma organizada, institucionalizada e controlada. Para nós, isso implica em uma mudança de cultura que teremos
 que enfrentar agora.
 Muito embora todos saibam que nosso esporte oferece algum risco, pois é impossível
-que não o tenha, quando algum acidente acontece, este geralmente não é bem tolerado, ge-
-rando críticas ácidas onde se questionam as razões pelas quais aquilo não foi evitado. Existem
+que não o tenha, quando algum acidente acontece, este geralmente não é bem tolerado, gerando críticas ácidas onde se questionam as razões pelas quais aquilo não foi evitado. Existem
 riscos que dificilmente podemos evitar, como um pequeno ninho com vespas que atacam os
 atletas em algum lugar na floresta, mas existem riscos assumidos, isto é, aqueles que os
 atletas podem ser vítimas quando a organização poderia agir antecipadamente para evitar.
 São estes últimos que temos que prevenir.
 Por fim, temos que considerar que o trabalho se inicia na escolha do local com um
-estudo dos possíveis riscos a que serão submetidos os participantes. Obviamente, não é pos-
-sível organizar um evento sem aceitar os riscos nele presentes, mas temos que eliminar aque-
-les que consideramos previsíveis e diminuir ou eliminar as possibilidades de sua ocorrência.
+estudo dos possíveis riscos a que serão submetidos os participantes. Obviamente, não é possível organizar um evento sem aceitar os riscos nele presentes, mas temos que eliminar aqueles que consideramos previsíveis e diminuir ou eliminar as possibilidades de sua ocorrência.
 Posto isso, a Confederação Brasileira de Orientação adota um SISTEMA DE GESTÃO
 DE RISCOS E SEGURANÇA, sistematizando e controlando as suas atividades ao incorporar
 algumas práticas de gestão de riscos. Pretende-se contemplar todos os tipos de perigos que
@@ -1986,22 +1856,19 @@ Orientação envolvem genericamente os seguintes procedimentos:
 a. Planilha de Controle de Gestão de Riscos e Segurança
 - Atividade: Descrever a atividade a ser desenvolvida dentro do Evento Esportivo;
 - Perigo: Fonte ou situação com potencial para provocar danos. Relatar na Planilha a
-fonte ou situação com potencial para provocar Danos. NOTA: o termo perigo pode ser quali-
-ficado de maneira a definir a sua origem ou a natureza do Dano esperado (por exemplo: perigo
+fonte ou situação com potencial para provocar Danos. NOTA: o termo perigo pode ser qualificado de maneira a definir a sua origem ou a natureza do Dano esperado (por exemplo: perigo
 de choque elétrico, perigo de colisão, perigo de corte, perigo tóxico, perigo de fogo, perigo de
 afogamento);
 - Danos: Modificação causada à saúde segurança do atleta ou colaborador decorrente
 das atividades. Especificar na Planilha em termos de lesão, doença, dano à propriedade, dano
 ao meio ambiente do local da atividade, ou uma combinação destes;
 - Nível de Risco:
-Baixo: risco de acidentes baixo gerenciados por procedimentos de rotina da organi-
-zação e dos atletas participantes;
+Baixo: risco de acidentes baixo gerenciados por procedimentos de rotina da organização e dos atletas participantes;
 Médio: risco de acidente moderado sendo necessária a atenção da organização e
 dos atletas participantes; e
 Alto: risco de acidentes alto sendo necessária atenção especial da organização e
 dos atletas participantes.
-- Controle Operacional: descrever os procedimentos operacionais da equipe de tra-
-balho com relação às ações a serem tomadas por cada elemento dentro de sua atuação antes
+- Controle Operacional: descrever os procedimentos operacionais da equipe de trabalho com relação às ações a serem tomadas por cada elemento dentro de sua atuação antes
 e durante a ocorrência dos sinistros.
 - Tratamento: especificar o tratamento realizado pela organização, para evitar que
 ocorra qualquer tipo de acidentes.
@@ -2012,8 +1879,7 @@ b. Planilha Ficha de Registro de Acidentes
 - Ocorrência: descrever que tipo de sinistro ocorreu;
 - Envolvidos: descrever o nome do/dos envolvidos; e
 - Descrição Detalhada: descrever com o máximo de fidelidade todos os detalhes de
-como ocorreu o sinistro, colocando anexo um extrato do mapa mostrando o local da ocorrên-
-cia, fotos, relatos de testemunhas, etc.
+como ocorreu o sinistro, colocando anexo um extrato do mapa mostrando o local da ocorrência, fotos, relatos de testemunhas, etc.
 3. POLÍTICA DE SEGURANÇA
 A Confederação Brasileira de Orientação está comprometida com a melhoria contínua do
 desempenho de suas atividades de orientação por meio:
@@ -2027,19 +1893,13 @@ d. do uso responsável de recursos naturais e busca constante de alternativas de
 da utilização dos mesmos;
 e. da minimização dos impactos ambientais e sociais gerados; e
 f. do atendimento às expectativas de nossos clientes atletas, incluindo a satisfação com os
-serviços prestados, a interação com o meio ambiente e a realização das atividades com se-
-gurança através da adoção de boas práticas consagradas no segmento.
+serviços prestados, a interação com o meio ambiente e a realização das atividades com segurança através da adoção de boas práticas consagradas no segmento.
 A Confederação Brasileira de Orientação salienta a importância do fiel preenchimento de
-todos os dados da planilha de Controle de Gestão de Riscos e Segurança, bem como o cum-
-primento de todos os procedimentos relativos ao controle operacional e os tratamentos neces-
-sários para inibir a ocorrência de qualquer tipo de acidente. Nosso intuito é que ela seja peri-
-odicamente analisada, de forma crítica, para assegurar que permaneça pertinente e apropri-
-ada aos fins a que se destina.
+todos os dados da planilha de Controle de Gestão de Riscos e Segurança, bem como o cumprimento de todos os procedimentos relativos ao controle operacional e os tratamentos necessários para inibir a ocorrência de qualquer tipo de acidente. Nosso intuito é que ela seja periodicamente analisada, de forma crítica, para assegurar que permaneça pertinente e apropriada aos fins a que se destina.
 4. CONCLUSÃO
 Uma Planilha Controle de Gestão de Riscos e Segurança deverá, obrigatoriamente,
 ser confeccionada em todos os eventos oficiais de Orientação da CBO, sendo necessário que
-o documento seja assinado pelo Gestor de Segurança e pelo Árbitro da CBO e que as infor-
-mações estejam disponíveis para consulta durante o evento.
+o documento seja assinado pelo Gestor de Segurança e pelo Árbitro da CBO e que as informações estejam disponíveis para consulta durante o evento.
 
 A CBO recomenda que as federações e clubes adotem a obrigatoriedade do controle
 de gestão de riscos em seus eventos, objetivando uma progressiva melhoria na realização de
@@ -2080,9 +1940,7 @@ e Média. Esta divisão segue a similaridade com as competições da IOF.
 quantitativo de atletas classificados participantes.
 3.3 Em cada prova, as diferenças pontuais devem ser lineares em relação ao tempo; cada
 minuto deve valer o mesmo número de pontos a partir do tempo mais baixo até o mais alto.
-3.4 Todo participante em um Evento de Ranking Nacional (ERN) que completou o seu per-
-curso de acordo com as regras do evento, deve receber pelo menos 100 pontos de classifi-
-cação para provas nacionais e do Ranking Mundial da IOF (WRE) realizadas no Brasil; 75
+3.4 Todo participante em um Evento de Ranking Nacional (ERN) que completou o seu percurso de acordo com as regras do evento, deve receber pelo menos 100 pontos de classificação para provas nacionais e do Ranking Mundial da IOF (WRE) realizadas no Brasil; 75
 
 pontos para provas regionais; e, 50 pontos para provas estaduais definidas como Evento
 Ranking Nacional (ERN).
@@ -2099,28 +1957,23 @@ Ranking Nacional (ERN).
 cada atleta, entre todos os ERN de Floresta, definidos e válidos, realizados nos últimos 24
 meses.
 4.2.2 O RNS será formado pelo somatório das 5 (cinco) melhores pontuações obtidas, por
-cada atleta, entre todos os ERN de Sprint, definidos e válidos, realizados nos últimos 24 me-
-ses.
+cada atleta, entre todos os ERN de Sprint, definidos e válidos, realizados nos últimos 24 meses.
 4.2.3 Todo resultado que forma o ranking de um atleta perderá o seu valor, decorridos 24
-meses de seu registro ou com a participação do terceiro evento homônimo. Não haverá regis-
-tro de pontos de resultados conquistados em três eventos de mesmo nome. Exemplo: O atleta
+meses de seu registro ou com a participação do terceiro evento homônimo. Não haverá registro de pontos de resultados conquistados em três eventos de mesmo nome. Exemplo: O atleta
 que participe de três edições da Copa Nordeste terá registrado somente os pontos das duas
 mais recentes, mesmo que não tenham decorridos 24 meses da realização da primeira edição.
 5. EVENTOS DO RANKING MUNDIAL DA IOF E OS EVENTOS DO RANKING NACIONAL
-5.1 Os eventos do Ranking Mundial da IOF (WRE) são eventos internacionais que são nome-
-ados pela CBO de acordo com os critérios determinados pela IOF e aceitos pelo Conselho da
+5.1 Os eventos do Ranking Mundial da IOF (WRE) são eventos internacionais que são nomeados pela CBO de acordo com os critérios determinados pela IOF e aceitos pelo Conselho da
 IOF no calendário oficial daquela entidade. Eles são organizados por uma federação estadual
 sob a autoridade da IOF e da CBO.
-5.2 O Campeonato Sul-americano de Orientação, quando realizado no Brasil, será obriga-
-toriamente um evento do Ranking Mundial (WRE) e contará pontos para o Ranking Nacional
+5.2 O Campeonato Sul-americano de Orientação, quando realizado no Brasil, será obrigatoriamente um evento do Ranking Mundial (WRE) e contará pontos para o Ranking Nacional
 CBO.
 5.3 Os Eventos do Ranking Nacional da CBO (ERN) são provas das competições nacionais
 (CAMBOR e CAMBOS), provas das competições regionais (COPA SUL, COPA NORDESTE,
 TROFÉU CERRADO e TROFÉU SUDESTE) e provas das competições estaduais, que são
 
 nomeadas pelas federações filiadas à CBO de acordo com os critérios determinados pela CBO
-e aceitos pela Conferência das Federações no calendário oficial da CBO. Eles são organiza-
-dos sob a autoridade da CBO e da Federação Estadual do organizador.
+e aceitos pela Conferência das Federações no calendário oficial da CBO. Eles são organizados sob a autoridade da CBO e da Federação Estadual do organizador.
 5.4 Cada Federação em seus eventos estaduais, poderá nomear o máximo de dois ERNs
 para o Ranking Nacional Sprint e dois ERN’s para o Ranking Nacional de Orientação, por ano
 civil.
@@ -2196,38 +2049,31 @@ será obtida pela soma de até cinco melhores resultados e dividido por cinco, i
 ou não cinco resultados.
 8.2.1.3 Média de Pontos (MP) e Desvio Padrão da média (DP) – Estes índices são calculados
 a partir dos pontos dos Atletas Classificados e já estarão calculados antes de cada ERN.
-8.2.1.4 A Média de Pontos (MP) é calculada pela soma da média individual dos Atletas Clas-
-sificados nos últimos 24 meses e dividida pelo número de atletas classificados.
+8.2.1.4 A Média de Pontos (MP) é calculada pela soma da média individual dos Atletas Classificados nos últimos 24 meses e dividida pelo número de atletas classificados.
 8.2.1.5 O Desvio Padrão da média (DP) é a medida de dispersão dos Atletas Classificados,
 que pode ser considerada como uma medida de variabilidade dos dados de uma distribuição
 de frequências. Isto é, o desvio padrão mede a dispersão dos valores individuais em torno da
-média. Trata-se de cálculo complexo e demorado quando feito manualmente. Assim reco-
-menda-se o uso do programa Excel com a seguinte fórmula:
+média. Trata-se de cálculo complexo e demorado quando feito manualmente. Assim recomenda-se o uso do programa Excel com a seguinte fórmula:
 =DESVPAD.A(célula inicial:célula final)
 §1. Entendendo que nas células (entre inicial e final) tratam-se do local onde estão listadas
 as médias de cada Atleta Classificado.
 8.2.1.6 Tempo Médio (TM), Desvio padrão do Tempo (DT) e Tempo de Corrida individual (TC)
 - Estes índices são calculados a partir dos resultados do percurso ERN do qual será calculado
 a pontuação.
-8.2.1.7 Tempo Médio (TM), é calculada pela soma dos tempos em minutos dos atletas parti-
-cipantes, dividido pelo número de atletas participantes, que concluíram a prova abaixo do
+8.2.1.7 Tempo Médio (TM), é calculada pela soma dos tempos em minutos dos atletas participantes, dividido pelo número de atletas participantes, que concluíram a prova abaixo do
 tempo de desclassificação previsto nas regras da CBO.
-8.2.1.8 Desvio padrão do Tempo (DT), é calculado utilizando a fórmula “=DESVPAD.A(cé-
-lula inicial:célula final)”.
+8.2.1.8 Desvio padrão do Tempo (DT), é calculado utilizando a fórmula “=DESVPAD.A(célula inicial:célula final)”.
 §1. Entendendo que nas células (entre inicial e final) tratam-se do local onde estão listados os
 tempos em minutos de cada atleta que concluiu a prova.
 8.2.1.9 Tempo de Corrida individual (TC), é o tempo em minutos que cada Atleta utilizou
 para percorrer o percurso.
 
-8.2.1.10 Fator de Pontuação (FP): trata-se de um valor multiplicador da pontuação que des-
-taca a importância do evento desportivo conforme sua abrangência. O vencedor da prova
-recebe o Fator de Pontuação. Os demais atletas receberão a pontuação proporcional (ponde-
-rada) a partir do cálculo obtido pela fórmula única (não ponderada).
+8.2.1.10 Fator de Pontuação (FP): trata-se de um valor multiplicador da pontuação que destaca a importância do evento desportivo conforme sua abrangência. O vencedor da prova
+recebe o Fator de Pontuação. Os demais atletas receberão a pontuação proporcional (ponderada) a partir do cálculo obtido pela fórmula única (não ponderada).
 8.2.2. FÓRMULA ÚNICA PARA PONTUAÇÃO NÃO PONDERADA
 Pontuação NÃO PONDERADA = {MP + (DP * [(TM – TC) / DT])}
 Após a realização do cálculo de pontuação não ponderada, o vencedor da prova receberá o
-fator de pontuação como pontos para o Ranking. E todos os demais atletas terão a sua pon-
-tuação não ponderada transformada proporcionalmente (regra de três) em pontuação final
+fator de pontuação como pontos para o Ranking. E todos os demais atletas terão a sua pontuação não ponderada transformada proporcionalmente (regra de três) em pontuação final
 (ponderada) para o Ranking.
 9. DISPOSIÇÕES FINAIS
 9.1 Após cada ERN, será atualizado o Ranking respectivo, a lista de Atletas Classificados, a
@@ -2243,14 +2089,11 @@ d. quando for um evento WRE.
 9.3 Havendo atleta(s) inscrito(s) que não conste(m) no Ranking respectivo, este(s) será(ão)
 ordenados por sorteio, no início da lista, antes dos atletas ranqueados, com o mesmo intervalo
 de tempo entre atletas.
-9.4 O presente sistema de pontuação será utilizado exclusivamente para a formação dos Ran-
-king’s Nacionais (RNO e RNS), permanecendo o sistema de pontuação para título e premia-
-ção dos Eventos e Campeonatos, conforme ROP.
+9.4 O presente sistema de pontuação será utilizado exclusivamente para a formação dos Ranking’s Nacionais (RNO e RNS), permanecendo o sistema de pontuação para título e premiação dos Eventos e Campeonatos, conforme ROP.
 9.4.1 Não haverá prévia de pontuação do Ranking’s durante as competições. A lista oficial de
 pontuação de cada percurso só será elaborada após homologação do resultado oficial de cada
 percurso ERN.
-9.5 Não haverá compensação de pontos para atletas de ELITE, por participação na organiza-
-ção de eventos.
+9.5 Não haverá compensação de pontos para atletas de ELITE, por participação na organização de eventos.
 
 9.6 Em eventos que possuir provas válidas para o Ranking Mundial da IOF (WRE) os atletas
 H21E e D21E, deverão obrigatoriamente fazer a inscrição no SISCBO e no EVENTOR IOF,
@@ -2267,9 +2110,7 @@ MÍDIA, PUBLICIDADE E PATROCINIO
 1.1 O organizador oferecerá para os representantes da mídia condições de funcionamento e
 oportunidades favoráveis para observar e fazer a reportagem do evento.
 1.2 O Organizador deverá designar uma pessoa que tenha domínio da modalidade, boa dicção
-para poder transmitir uma imagem positiva da orientação, devendo ainda haver um planeja-
-mento preliminar de toda a cobertura, contato com representantes locais, áreas a serem ex-
-ploradas, pontos de imagens, documentos do evento a serem oferecidos e atletas que serão
+para poder transmitir uma imagem positiva da orientação, devendo ainda haver um planejamento preliminar de toda a cobertura, contato com representantes locais, áreas a serem exploradas, pontos de imagens, documentos do evento a serem oferecidos e atletas que serão
 entrevistados.
 1.3 O organizador fará todo esforço para maximizar a cobertura da mídia, contanto que isto
 não prejudique a imparcialidade do evento.
@@ -2411,11 +2252,9 @@ ____________________
 Assinatura Federação
 Observações:
 
-- Será assinado um contrato entre a CBO e Entidade Organizadora do Evento onde se estabele-
-cerão todos os procedimentos relativos ao evento;
+- Será assinado um contrato entre a CBO e Entidade Organizadora do Evento onde se estabelecerão todos os procedimentos relativos ao evento;
 -Será nomeado pela CBO um árbitro com devida antecedência que fará uma visita para analisar
-e aprovar as áreas escolhidas e nenhum mapeamento deve se iniciar antes de a área ser apro-
-vada pelo árbitro.
+e aprovar as áreas escolhidas e nenhum mapeamento deve se iniciar antes de a área ser aprovada pelo árbitro.
 
 CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 Fundada em 11 de janeiro de 1999
@@ -2598,8 +2437,7 @@ meio de este declarar, para fins de convocação, que o(a) atleta NOME DO ATLETA
 CBO nº CBO, possui o plano esportivo anual, contendo plano de treinamento e objetivos para
 os anos de 2023/2024, visando os seguintes eventos:
 * Ano 2023
-- I Etapa do Campeonato Brasileiro de Orientação, que se realizará na cidade de Rio Negri-
-nho - SC, no período de --- a ------ na Cat. H21E;
+- I Etapa do Campeonato Brasileiro de Orientação, que se realizará na cidade de Rio Negrinho - SC, no período de --- a ------ na Cat. H21E;
 - I Etapa do Campeonato estadual de Orientação, que se realizará na cidade de Fortaleza -
 CE, no período de -- de ------ a ---1 de ------de 2018; na Cat. H21E;
 - Campeonato Sul-Americano de Orientação de 2016, que se realizará na cidade de -------- –

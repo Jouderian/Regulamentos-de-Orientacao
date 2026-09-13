@@ -19,7 +19,7 @@ Para cada texto extraído:
 1.  Respeitar a estrutura e hierarquia original do arquivo.
 2.  Formatar títulos de seções como `## <titulo do capitulo> `.
 3.  Formatar artigos como `**Art. <N>º** – <Texto>`.
-4.  Formatar parágrafos como citações `> **Paragrafo <N>º:** <Texto>`.
+4.  Formatar parágrafos como citações `> **Parágrafo <N>º:** <Texto>`.
 5.  Formatar incisos e alíneas com indentação superior `>> **<letra>.** <Texto>`.
 6.  Converter tabelas de calendário para o formato Markdown.
 

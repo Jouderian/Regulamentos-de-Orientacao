@@ -27,7 +27,7 @@ pip install -r .agents/requirements.txt
 
 ## 2. Execução Automatizada
 
-Para simplificar a conversão e aplicar as regras de formatação jurídica (Capítulos, Artigos, Parágrafos e Incisos), utilize o script automatizado [.agents/scripts/import-pdf.py](../../scripts/import-pdf.py).
+Para simplificar a conversão e aplicar as regras de formatação jurídica (Capítulos, Artigos, Parágrafos e Incisos), utilize o script automatizado [.agents/scripts/import-pdf.py](../scripts/import-pdf.py).
 
 ### Comando de Conversão
 Execute o script passando o caminho do PDF de entrada e, opcionalmente, o caminho do Markdown de saída:

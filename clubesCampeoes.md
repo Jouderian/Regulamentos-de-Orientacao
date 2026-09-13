@@ -29,7 +29,7 @@ Abaixo está o resumo do desempenho acumulado dos clubes, somando os resultados 
 ### Detalhamento por Modalidade
 
 #### Campeonato Cearense de Orientação - CCO (Floresta)
-| Clube | Campeão | Vice-CampeãoVice | 3º Lugar | Pódios |
+| Clube | Campeão | Vice-Campeão | 3º Lugar | Pódios |
 | :--- | :---: | :---: | :---: | :---: |
 | **COFORT** | 7 | 4 | 1 | 12 |
 | **COqueiro** | 4 | 7 | 1 | 12 |
