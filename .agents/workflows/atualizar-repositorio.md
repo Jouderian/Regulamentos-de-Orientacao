@@ -4,14 +4,14 @@ description: Procedimento para atualizar o repositório remoto, incluindo regene
 
 # Workflow: Atualizar Repositório Remoto
 
-Este workflow define o procedimento obrigatório para sincronizar o repositório local com o remoto (GitHub). Antes do push, o agente **deve** verificar se o arquivo `regulamentoCompeticoesCearenses.md` foi alterado e, em caso afirmativo, regenerar os documentos finais.
+Este workflow define o procedimento obrigatório para sincronizar o repositório local com o remoto (GitHub). Antes do push, o agente **deve** verificar se o arquivo `regulamentoDasCompeticoesCearenses.md` foi alterado e, em caso afirmativo, regenerar os documentos finais.
 
 ## 1. Verificar Alterações no Markdown
 
-Antes de qualquer operação de commit, verifique se o arquivo `regulamentoCompeticoesCearenses.md` sofreu alterações desde o último commit:
+Antes de qualquer operação de commit, verifique se o arquivo `regulamentoDasCompeticoesCearenses.md` sofreu alterações desde o último commit:
 
 ```powershell
-git diff --name-only HEAD -- regulamentoCompeticoesCearenses.md
+git diff --name-only HEAD -- regulamentoDasCompeticoesCearenses.md
 ```
 
 Se o arquivo **aparecer na lista** (ou se for um arquivo novo/não rastreado), o passo 2 é **obrigatório**.
@@ -49,7 +49,7 @@ git push origin main
 
 ## Checklist Rápido
 
-- [ ] `regulamentoCompeticoesCearenses.md` alterado? → Regenerar `.docx` e `.pdf`
+- [ ] `regulamentoDasCompeticoesCearenses.md` alterado? → Regenerar `.docx` e `.pdf`
 - [ ] Apresentar arquivos modificados e mensagem de commit ao usuário
 - [ ] Obter autorização expressa do usuário
 - [ ] Executar `git add`, `git commit` e `git push`

@@ -3,7 +3,7 @@ description: Plano de implementação para a regra de descarte no CCO
 ---
 # Plano: Regra de Descarte (CCO)
 
-## 1. Alterações no Regulamento (`regulamentoCompeticoesCearenses.md`)
+## 1. Alterações no Regulamento (`regulamentoDasCompeticoesCearenses.md`)
 
 A implementação será feita na seção correspondente à apuração e classificação do campeonato.
 

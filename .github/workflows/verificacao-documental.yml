@@ -38,7 +38,7 @@ jobs:
 
       - name: Converter o Markdown para .docx
         run: |
-          pandoc regulamentoCompeticoesCearenses.md \
+          pandoc regulamentoDasCompeticoesCearenses.md \
             -o regulamentoDasCompeticoesCearenses.docx \
             --reference-doc=Documentos/template_estilos.docx
 

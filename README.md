@@ -12,7 +12,7 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Documentos Principais
 
-- **[regulamentoCompeticoesCearenses.md](regulamentoCompeticoesCearenses.md)**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS). Os documentos finais para distribuição (`.docx` e `.pdf`) estão disponíveis em [`Documentos/2027/`](Documentos/2027/).
+- **[regulamentoDasCompeticoesCearenses.md](regulamentoDasCompeticoesCearenses.md)**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS). Os documentos finais para distribuição (`.docx` e `.pdf`) estão disponíveis em [`Documentos/2027/`](Documentos/2027/).
 - **[regrasOrientacaoPedestre.md](regrasOrientacaoPedestre.md)**: Versão padronizada das **Regras de Orientação Pedestre** (nacional), Edição 2026.
 
 ## Acervo Histórico (2012-2027)
@@ -34,7 +34,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2025 | **MD** + PDF | *não realizado* | PDF | ✔ |
-| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | **MD** + PDF | *em andamento* |
+| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | PDF (o **MD** vigente está na raiz) | *em andamento* |
 | 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
 
 O acompanhamento da conversão pendente está em [`.agents/specs/regulation-standardization/tasks.md`](.agents/specs/regulation-standardization/tasks.md).

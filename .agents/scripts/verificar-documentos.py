@@ -98,7 +98,7 @@ def checar_artefatos(rel, texto):
 # --------------------------------------------------------------------------
 def checar_tipografia(rel, texto):
     nome = os.path.basename(rel)
-    if not nome.startswith(('regulamentoCCO', 'regulamentoCompeticoes')):
+    if not nome.startswith(('regulamentoCCO', 'regulamentoDasCompeticoes')):
         return
     for m in re.finditer(r'(?m)^\*\*Art\.? ?\d+.{0,3}?\*\*(?! – \S)(.{0,20})', texto):
         falha(rel, linha_de(texto, m.start()),

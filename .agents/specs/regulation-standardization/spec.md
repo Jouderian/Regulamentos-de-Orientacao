@@ -39,7 +39,7 @@ Estado em 2026-09-13. O `—` indica ausência do documento no acervo; "não rea
 | 2023 | **MD** + PDF | **MD** + PDF | completo |
 | 2024 | **MD** + PDF | **MD** + PDF | completo |
 | 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |
-| 2026 | **MD** + PDF | **MD** + PDF | documento unificado |
+| 2026 | **MD** + PDF | **MD** + PDF | documento unificado; a ROP 2026 vigente está na raiz |
 | 2027 | PDF/DOCX | PDF/DOCX | fonte é o `.md` da raiz |
 
 ## Passo a Passo
