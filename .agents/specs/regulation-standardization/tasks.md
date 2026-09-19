@@ -47,7 +47,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 - [ ] 2022 — `Documentos/2022/regrasOrientacaoPedestre.md`
 - [x] 2023 — `Documentos/2023/regrasOrientacaoPedestre.md`
 - [ ] 2024 — `Documentos/2024/regrasOrientacaoPedestre.md`
-- [ ] 2025 — `Documentos/2025/regrasOrientacaoPedestre.md`
+- [x] 2025 — `Documentos/2025/regrasOrientacaoPedestre.md`
 - [x] 2026 — `regrasOrientacaoPedestre.md` (na raiz: é a edição vigente; será arquivada em `Documentos/2026/` quando a ROP 2027 sair)
 
 ## Anos sem tarefa
