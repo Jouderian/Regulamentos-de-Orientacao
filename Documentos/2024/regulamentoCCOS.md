@@ -1,3 +1,11 @@
+---
+ano: 2024
+edicao: XII CCOS
+status: arquivado
+rop_referencia: 2024
+description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024)
+---
+
 # Regulamento do XII Campeonato Cearense de Orientação Sprint
 
 ## 1. Da Regulamentação Geral

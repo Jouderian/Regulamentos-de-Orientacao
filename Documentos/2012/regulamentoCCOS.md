@@ -1,3 +1,11 @@
+---
+ano: 2012
+edicao: II CCOS
+status: arquivado
+rop_referencia: 2012
+description: Regulamento do II Campeonato Cearense de Orientação Sprint (2012)
+---
+
 # Regulamento do II Campeonato Cearense de Orientação Sprint
 
 ## DEFINIÇÃO E OBJETIVO

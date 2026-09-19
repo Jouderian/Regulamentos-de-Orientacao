@@ -1,3 +1,11 @@
+---
+ano: 2019
+edicao: XV CCO
+status: arquivado
+rop_referencia: 2019
+description: Regulamento do XV Campeonato Cearense de Orientação (2019)
+---
+
 # REGULAMENTO DO XV CAMPEONATO CEARENSE DE ORIENTAÇÃO
 
 ## 1. DA REGULAMENTAÇÃO GERAL

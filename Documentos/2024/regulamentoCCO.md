@@ -1,3 +1,11 @@
+---
+ano: 2024
+edicao: XVIII CCO
+status: arquivado
+rop_referencia: 2024
+description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
+---
+
 # REGULAMENTO DO XVIII CAMPEONATO CEARENSE DE ORIENTAÇÃO
 
 ## 1. DA REGULAMENTAÇÃO GERAL

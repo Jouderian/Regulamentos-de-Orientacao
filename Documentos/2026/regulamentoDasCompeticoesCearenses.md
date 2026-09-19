@@ -1,3 +1,11 @@
+---
+ano: 2026
+edicao: XX CCO / XIII CCOS
+status: arquivado
+rop_referencia: 2026
+description: Regulamento das Competições Cearenses de Orientação 2026
+---
+
 # **Regulamento das Competições Cearenses de Orientação**
 
 ## 1. Disposições Gerais

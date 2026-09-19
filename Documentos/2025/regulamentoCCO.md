@@ -1,3 +1,11 @@
+---
+ano: 2025
+edicao: XIX CCO
+status: arquivado
+rop_referencia: 2025
+description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
+---
+
 # Regulamento do XIX Campeonato Cearense de Orientação
 
 ## 1. Da Regulamentação Geral

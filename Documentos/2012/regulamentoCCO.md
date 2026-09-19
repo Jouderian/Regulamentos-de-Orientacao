@@ -1,3 +1,11 @@
+---
+ano: 2012
+edicao: VIII CCO
+status: arquivado
+rop_referencia: 2012
+description: Regulamento do VIII Campeonato Cearense de Orientação (2012)
+---
+
 # Regulamento do VIII Campeonato Cearense de Orientação
 
 ## FINALIDADE

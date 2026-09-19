@@ -42,7 +42,7 @@ O acompanhamento da conversão pendente está em [`.agents/specs/regulation-stan
 > [!NOTE]
 > - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
 > - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
-> - Em **2026**, o evento do *Campeonato Cearense de Orientação Sprint* (CCOS) foi cancelado pela **FECORI** após a publicação do regulamento unificado, não havendo apuração de resultados de clubes para esta modalidade.
+> - Em **2026**, o *Campeonato Cearense de Orientação Sprint* (CCOS) foi cancelado pela **FECORI** após a publicação do regulamento unificado, não havendo apuração de resultados de clubes para esta modalidade.
 
 ## Histórico de Clubes Campeões
 

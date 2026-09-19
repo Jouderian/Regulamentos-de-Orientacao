@@ -1,3 +1,11 @@
+---
+ano: 2017
+edicao: XIII CCO
+status: arquivado
+rop_referencia: 2017
+description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
+---
+
 # Regulamento do XIII Campeonato Cearense de Orientação
 
 ## DA REGULAMENTAÇÃO GERAL

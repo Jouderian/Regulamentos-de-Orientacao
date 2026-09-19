@@ -1,3 +1,11 @@
+---
+ano: 2022
+edicao: XVI CCO
+status: arquivado
+rop_referencia: 2022
+description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
+---
+
 # REGULAMENTO DO XVI CAMPEONATO CEARENSE DE ORIENTAÇÃO
 
 ## 1. DA REGULAMENTAÇÃO GERAL

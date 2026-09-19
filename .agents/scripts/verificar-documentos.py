@@ -222,8 +222,59 @@ def checar_medalhas(rel, texto):
 
 
 # --------------------------------------------------------------------------
+# 6. Bloco de metadados obrigatório nos regulamentos de competição.
+# --------------------------------------------------------------------------
+CAMPOS_REGULAMENTO = ('ano', 'edicao', 'status', 'rop_referencia')
+
+
+def checar_metadados_regulamento(rel, texto, regulamentos_vigentes):
+    nome = os.path.basename(rel)
+    if not (nome.startswith('regulamentoCCO') or nome.startswith('regulamentoDasCompeticoes')):
+        return
+
+    if not texto.startswith('---'):
+        falha(rel, 1, 'regulamento sem cabeçalho frontmatter YAML')
+        return
+
+    cabecalho = texto.split('---', 2)[1] if texto.count('---') >= 2 else ''
+
+    for campo in CAMPOS_REGULAMENTO:
+        if not re.search(r'(?m)^' + campo + r':\s*\S', cabecalho):
+            falha(rel, 1, f'frontmatter sem campo obrigatório "{campo}"')
+
+    m_ano = re.search(r'(?m)^ano:\s*(\d{4})\b', cabecalho)
+    if not m_ano:
+        falha(rel, 1, 'campo "ano" deve ser um ano válido de 4 dígitos')
+    else:
+        ano_declarado = m_ano.group(1)
+        partes = rel.replace('\\', '/').split('/')
+        if partes[0] == 'Documentos' and len(partes) >= 2:
+            ano_pasta = partes[1]
+            if ano_declarado != ano_pasta:
+                falha(rel, 1, f'campo "ano" ({ano_declarado}) diverge da pasta ({ano_pasta})')
+        elif rel == 'regulamentoDasCompeticoesCearenses.md':
+            if ano_declarado != '2027':
+                falha(rel, 1, f'regulamento vigente na raiz deve declarar ano "2027", mas declara "{ano_declarado}"')
+
+    m_status = re.search(r'(?m)^status:\s*(\S+)', cabecalho)
+    if m_status:
+        status = m_status.group(1).strip()
+        if status not in ('vigente', 'arquivado'):
+            falha(rel, 1, f'status inválido "{status}" (esperado: "vigente" ou "arquivado")')
+        elif rel == 'regulamentoDasCompeticoesCearenses.md':
+            if status != 'vigente':
+                falha(rel, 1, f'regulamento da raiz deve ter status "vigente", mas tem "{status}"')
+            else:
+                regulamentos_vigentes.append(rel)
+        else:
+            if status != 'arquivado':
+                falha(rel, 1, f'regulamento em {rel} deve ter status "arquivado", mas tem "{status}"')
+
+
+# --------------------------------------------------------------------------
 def main():
     total = 0
+    regulamentos_vigentes = []
     for rel, caminho in arquivos_md():
         total += 1
         texto = ler(caminho)
@@ -232,6 +283,13 @@ def main():
         checar_tipografia(rel, texto)
         checar_frontmatter(rel, texto)
         checar_medalhas(rel, texto)
+        checar_metadados_regulamento(rel, texto, regulamentos_vigentes)
+
+    if len(regulamentos_vigentes) != 1:
+        problemas.append(
+            f'Repositório deve ter exatamente 1 regulamento com status "vigente", '
+            f'mas encontrou {len(regulamentos_vigentes)}: {regulamentos_vigentes}'
+        )
 
     print(f'Arquivos Markdown verificados: {total}')
     if problemas:
@@ -245,3 +303,4 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
+
