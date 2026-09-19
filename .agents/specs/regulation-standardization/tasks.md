@@ -10,7 +10,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 ## Campeonato Cearense de Orientação (CCO)
 
-- [ ] 2012 — `Documentos/2012/regulamentoCCO.md`
+- [x] 2012 — `Documentos/2012/regulamentoCCO.md`
 - [ ] 2013 — `Documentos/2013/regulamentoCCO.md`
 - [ ] 2014 — `Documentos/2014/regulamentoCCO.md`
 - [ ] 2015 — `Documentos/2015/regulamentoCCO.md`
@@ -25,7 +25,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 ## Campeonato Cearense de Orientação Sprint (CCOS)
 
-- [ ] 2012 — `Documentos/2012/regulamentoCCOS.md`
+- [x] 2012 — `Documentos/2012/regulamentoCCOS.md`
 - [ ] 2013 — `Documentos/2013/regulamentoCCOS.md`
 - [ ] 2014 — `Documentos/2014/regulamentoCCOS.md`
 - [ ] 2015 — `Documentos/2015/regulamentoCCOS.md`
