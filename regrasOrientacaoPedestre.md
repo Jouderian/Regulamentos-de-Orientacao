@@ -1450,7 +1450,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 |**Categorias**|**Faixa etária**|**Grau de dificuldade**|
 |-------|-------|:-----:|
-|D Juvenil / H Juvenil / D Juvenil|de 12 a 16 anos|B|
+|HD Juvenil / H Juvenil / D Juvenil|de 12 a 16 anos|B|
 |HD Junior / H Junior / D Junior|até 20 anos|B|
 |HD Adulto / H Adulto / D Adulto|21 anos (qualquer idade)|A|
 |HD Máster / H Máster / D Máster|35 anos ou mais|A|
@@ -1789,7 +1789,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 ## Apêndice 4 - REGRAS E PRINCÍPIOS DO TRAÇADO DO PERCURSO
 
-### 1 PRINCÍPIOS DO TRAÇADO DO PERCURSO
+### 1. PRINCÍPIOS DO TRAÇADO DO PERCURSO
 
 **1.1** O traçado do percurso deve atender aos seguintes princípios:  
 > **a.** Escolha da rota;  
@@ -1808,7 +1808,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 **1.5** Atender as necessidades da mídia e espectadores A necessidade de dar uma imagem pública e boa do esporte orientação deve ser uma preocupação permanente para um traçador de percurso. O traçador de percurso deve envidar esforços para oferecer aos espectadores e para a imprensa a possibilidade de acompanhar o desenvolvimento da competição tão de perto quanto possível, sem comprometer a justiça esportiva.
 
-### 2 REGRAS BÁSICAS DO PERCURSO DE ORIENTAÇÃO
+### 2. REGRAS BÁSICAS DO PERCURSO DE ORIENTAÇÃO
 
 **2.1** TERRENO O terreno deve ser escolhido de forma que ofereça condições iguais a todos os competidores.  Para salvaguardar o caráter de esporte, o terreno deve possibilitar uma corrida satisfatória para testar as habilidades de orientação dos competidores.
 
@@ -1866,7 +1866,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 **3.6** Evitar percursos que não exijam a parte física Devem ser montados percursos de forma que os competidores tenham um equilíbrio entre a corrida e o jogo técnico para o nível e habilidade deles, se necessário para isso, utilizandose dos tempos dos atletas de cada categoria nas 3 (três) competições anteriores do mesmo nível, para avaliação e estabelecimento do nível técnico e físico dos percursos propostos.
 
-### 4 O TRAÇADOR DE PERCURSO
+### 4. O TRAÇADOR DE PERCURSO
 
 **4.1** O traçador de percursos é a pessoa responsável pelo planejamento e traçado dos percursos e deve estar habilitado para compreender e avaliar as qualidades de um bom percurso, a partir de sua experiência pessoal. Ele também deve estar familiarizado com a teoria do planejamento dos percursos para atender as exigências especiais das diferentes categorias e diferentes tipos de competição.
 
@@ -2070,10 +2070,10 @@ Estas Diretrizes devem fazer do planejamento e execução do Plano de Gestão de
 **9.3** APLICAÇÃO DAS NOVAS DIRETRIZES A partir de 1º de janeiro de 2026, estas diretrizes devem integrar, em caráter experimental, os Planos de Gestão de Riscos e Segurança de todos os eventos oficiais da CBO com provas de duração prevista igual ou superior a 20 minutos. Elas devem contemplar ações preventivas e corretivas para mitigar riscos à saúde, além de informações e orientações claras nos Boletins, visando conscientização dos atletas. Nos Eventos Nacionais e Regionais de 2026, será obrigatória a medição do índice WBGT (Wet Bulb Globe Temperature), 30 minutos antes do início das provas, com registro no Relatório do Árbitro. Esses dados alimentarão um banco de informações para estudos e definição de estratégias eficazes, considerando a diversidade climática do país. Os atletas devem monitorar as condições climáticas, avaliar seus limites físicos e evitar excessos. A organização pode fornecer dados como temperatura e umidade, mas a decisão de ajustar ou manter o esforço é responsabilidade exclusiva do atleta. Estas diretrizes seguem as orientações da IOF, que recomenda o uso do WBGT como indicador de estresse térmico. Esse índice combina temperatura, umidade, radiação solar e vento, sendo amplamente utilizado por federações esportivas e pela área de saúde. Criado na década de 1950 para prevenir lesões por calor em treinamentos militares nos EUA, o WBGT tornou-se referência internacional, é recomendado pela ISO 7243 e aplicado em normas de Saúde e Segurança Ocupacional, além de esportes que exigem esforço contínuo.
 
 **9.3.1** O índice WBGT (Wet Bulb Globe Temperature) considera:
-- Temperatura do ar (Ta)
-- Umidade relativa
-- Radiação solar (Tg – temperatura de globo)
-- Velocidade do vento
+- Temperatura do ar (Ta)  
+- Umidade relativa  
+- Radiação solar (Tg – temperatura de globo)  
+- Velocidade do vento  
 - Temperatura de bulbo úmido natural (Tnwb)
 
 **9.3.2** Calculando o WBGT Existem duas opções para calcular o WBGT:
@@ -2166,8 +2166,7 @@ Estas Diretrizes devem fazer do planejamento e execução do Plano de Gestão de
   - Continue o resfriamento. Se possível, utilize uma banheira rasa de lona ou plástico com água gelada (5-10 minutos)
   - Se necessário, continue o resfriamento durante o transporte ao hospital Observação: Após o exercício, a temperatura corporal só pode ser medida com precisão no reto, pois boca e axila subestimam seriamente a temperatura real. Temperatura retal acima de 41°C é perigosa. A medição retal deve ser feita apenas por médico ou enfermeiro.
 
-## Apêndice 6 - SISTEMA DE RANKING NACIONAL ELITE (2026)
-RANKING NACIONAL DE ORIENTAÇÃO (RNO) e RANKING NACIONAL SPRINT (RNS)
+## Apêndice 6 - SISTEMA DE RANKING NACIONAL ELITE (2026) / RANKING NACIONAL DE ORIENTAÇÃO (RNO) e RANKING NACIONAL SPRINT (RNS)
 
 ### 1. INTRODUÇÃO
 O sistema de Ranking da CBO será aplicável às categorias H/D21E, baseado no sistema N3 Sport Points utilizado pela IOF, buscando proporcionar a formação de um ranking nacional mais justo e criando um ambiente de desenvolvimento de nossos atletas colocando estes em melhores condições de representar o país em eventos internacionais.
@@ -2583,12 +2582,14 @@ O sistema de Ranking da CBO será aplicável às categorias H/D21E, baseado no s
 ## Artigo 16 - Resultados
 
 **1.** O tempo gasto pelo praticante durante a sua prova de *PreO*, desde que se situe abaixo do tempo máximo limite estabelecido pela organização, não tem qualquer relevância para o resultado da competição. Nas provas de *SprintPreO*, o tempo gasto pelo praticante é o fator de desempate para os praticantes com o mesmo número de respostas corretas.
+
 >§ Após cruzar a linha de chegada, os praticantes devem entregar os cartões de controlo ou fazer a transferência dos dados registrados no dispositivo eletrônico.
 
 **2.** Nas competições de *PreO* e *SprintPreO* se o praticante exceder o tempo máximo limite de prova estará sujeito a uma penalização. Esta será de:
 
 >**a.** um ponto por cada unidade de cinco minutos nas provas de *Pre-O*;  
 >**b.** um ponto por cada unidade de um minuto nas provas de *SprintPreO*.  
+
 **3.** Nas competições de *PreO* e *SprintPreO*, cada ponto de controle identificado corretamente (excluindo os pontos cronometrados) vale um ponto.
 
 **4.** Nos pontos cronometrados de *PreO*, o tempo de cada resposta correta é registrado se a mesma for dada dentro do tempo definido para a estação de acordo com n.º 9 do Artigo 10. Uma resposta errada confere uma penalização de 60 segundos que é acrescentada ao tempo total gasto a dar a(s) resposta(s). A ausência de resposta dentro do tempo limite implica um registro de 90 segundos por ponto não respondido.
@@ -2614,4 +2615,7 @@ O sistema de Ranking da CBO será aplicável às categorias H/D21E, baseado no s
 
 **2.** Para categorias com 20 (vinte) ou mais atletas inscritos serão premiados do primeiro ao quinto colocados.
 
-**3.** Para categorias com até 19 (dezenove) atletas inscritos serão premiados do primeiro ao terceiro colocados. ANEXOS Todos os anexos as ROP da CBO, estão disponíveis no site da CBO em: https://www.cbo.org.br/arquivo?caminho=Regras ROP CBO Anexo “D”
+**3.** Para categorias com até 19 (dezenove) atletas inscritos serão premiados do primeiro ao terceiro colocados.
+
+> [!NOTE]
+> Todos os anexos as ROP da CBO, estão disponíveis no site da CBO em: https://www.cbo.org.br/arquivo?caminho=Regras
