@@ -87,6 +87,7 @@ Estruture cada resposta para que o usuário possa agir:
   | `root` | Configuração na raiz (`.gitignore`, `.gitattributes`) |
 
   Novos escopos podem ser adicionados conforme o projeto evoluir.
+- **Autoria humana exclusiva.** Nenhum commit pode carregar rodapé de coautoria ou de geração por agente de IA (`Co-Authored-By:`, `Generated with`, ou equivalente). O trabalho do repositório é assinado apenas pelo mantenedor humano, e um rodapé desses faz o agente constar como *Contributor* no GitHub. Antes de propor um commit, confira o rodapé da mensagem.
 - **Autorização para Push:** É **obrigatório** solicitar a autorização expressa do usuário antes de realizar qualquer envio para o repositório remoto (`git push`).
 - **Verificação Documental:** Antes de qualquer commit, execute `python .agents/scripts/verificar-documentos.py`. O commit só pode ser proposto se a verificação passar sem problemas — é a mesma checagem que o CI executa e que barra um *Pull Request*.
 - **Regeneração de Documentos Finais:** Sempre que o arquivo `regulamentoDasCompeticoesCearenses.md` tiver sido modificado, é **obrigatório** regenerar os documentos finais (`.docx` e `.pdf`) **antes** do commit/push. Siga o workflow `.agents/workflows/atualizar-repositorio.md` para o procedimento completo.

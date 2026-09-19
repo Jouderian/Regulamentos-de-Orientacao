@@ -4,9 +4,19 @@ description: Backlog persistente e tarefas pendentes do projeto
 
 # Tarefas Pendentes (Backlog)
 
-- [ ] 🔴 **PRIORIDADE — Solicitar ao Suporte do GitHub a purga de commit órfão:** Em 2026-09-13 o `main` foi reescrito por `git push --force-with-lease`, substituindo o commit `cbecfd8` por `20349c6`. O objeto antigo saiu da navegação normal do repositório, mas continua acessível por URL direta de SHA e pela API do GitHub.
-  - **Ação:** abrir chamado em [support.github.com](https://support.github.com) pedindo a purga do objeto `cbecfd8552c183a19fcbbc59144e26ef8b8d9b7b` no repositório `Jouderian/Regulamentos-de-Orientacao`. Só o suporte executa essa remoção; o prazo costuma ser de alguns dias.
-  - **Verificação de conclusão:** `gh api repos/Jouderian/Regulamentos-de-Orientacao/commits/cbecfd8` deve responder `404`. Enquanto responder o SHA, a purga não ocorreu.
+- [ ] 🔴 **PRIORIDADE — Solicitar ao Suporte do GitHub a purga de commits órfãos:** Duas reescritas do `main` por `git push --force-with-lease`, em 2026-09-13 e 2026-09-19, deixaram objetos fora da navegação normal do repositório. Eles continuam acessíveis por URL direta de SHA e pela API do GitHub.
+  - **Ação:** abrir um único chamado em [support.github.com](https://support.github.com) pedindo a purga dos objetos listados abaixo no repositório `Jouderian/Regulamentos-de-Orientacao`. Só o suporte executa essa remoção; o prazo costuma ser de alguns dias.
+  - Reescrita de 2026-09-13 — substituição do commit `cbecfd8` por `20349c6`:
+    - `cbecfd8552c183a19fcbbc59144e26ef8b8d9b7b`
+  - Reescrita de 2026-09-19 — remoção do rodapé de coautoria de agente de IA em sete commits, que fazia o agente constar como *Contributor* do repositório:
+    - `d6aa66a7e5d2c2d2b76b704adf138395f484d9db`
+    - `2b457a94e026468269e0f2ce686ce0259304610e`
+    - `4edada74490e8358603e0774e8c295480d9aabd3`
+    - `8a952be56760193b4c1aae26796ca74c58ecef93`
+    - `6cc21f08ae73606089f593e85dc5248b9e4f1396`
+    - `20349c6005d6a5afa916b92073d799ba8d135fcc`
+    - `5d7c0b7e1351839e05ab3dbdee1a32c5a7edfdb5`
+  - **Verificação de conclusão:** `gh api repos/Jouderian/Regulamentos-de-Orientacao/commits/<sha>` deve responder `404` para cada um dos oito SHAs. Enquanto algum responder, a purga não ocorreu.
 - [ ] Melhorar a redação para contemplar a obrigatoriedade de estar inscrito na etapa de descarte para pode descarta-la.
 - [ ] **Atualizar as ações do CI (Node.js 20 descontinuado):** O GitHub descontinuou o Node.js 20 e passou a forçar `actions/checkout@v4` e `actions/setup-python@v5` a rodar em Node.js 24, emitindo aviso em toda execução de `.github/workflows/verificacao-documental.yml`. Quando as versões seguintes dessas ações estiverem estáveis, atualizá-las no workflow. Não há urgência: é apenas um aviso e o CI continua passando. ([anúncio do GitHub](https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/))
 - [ ] **Lembrete de Atualização da ROP 2027:** Atualizar o arquivo `regrasOrientacaoPedestre.md` na raiz com o regulamento oficial de 2027 assim que for publicado pela CBO. **Antes de substituir**, copiar a versão atual da raiz para `Documentos/2026/regrasOrientacaoPedestre.md`, conforme a regra de arquivamento na virada (`.agents/rules/rules.md`).
