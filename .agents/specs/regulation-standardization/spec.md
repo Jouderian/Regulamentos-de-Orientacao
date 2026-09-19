@@ -26,11 +26,12 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 - [x] A verificação `python .agents/scripts/verificar-documentos.py` passa sem problemas.
 
 ## Cobertura Atual do Acervo
-Estado em 2026-09-13. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
+Estado em 2026-09-19. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
 
 | Ano | CCO | CCOS | Observação |
 | :---: | :---: | :---: | :--- |
-| 2012 a 2016 | PDF | PDF | pendente de conversão |
+| 2012 | **MD** + PDF | **MD** + PDF | completo |
+| 2013 a 2016 | PDF | PDF | pendente de conversão |
 | 2017 | **MD** + PDF | PDF | CCOS pendente |
 | 2018 | PDF | PDF | pendente de conversão |
 | 2019 | **MD** + PDF | PDF | CCOS pendente |
@@ -39,7 +40,7 @@ Estado em 2026-09-13. O `—` indica ausência do documento no acervo; "não rea
 | 2023 | **MD** + PDF | **MD** + PDF | completo |
 | 2024 | **MD** + PDF | **MD** + PDF | completo |
 | 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |
-| 2026 | **MD** + PDF | **MD** + PDF | documento unificado; a ROP 2026 vigente está na raiz |
+| 2026 | **MD** + PDF | **MD** + PDF | documento unificado (evento CCOS cancelado após publicação); a ROP 2026 vigente está na raiz |
 | 2027 | PDF/DOCX | PDF/DOCX | fonte é o `.md` da raiz |
 
 ## Passo a Passo

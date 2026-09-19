@@ -84,7 +84,7 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 | Ano | Edição | Clube Campeão | Vice-Campeão | 3º Colocado |
 | :---: | :---: | :--- | :--- | :--- |
 | 2027 | XIV | *Não publicado* | - | - |
-| 2026 | XIII | *Em andamento* | - | - |
+| 2026 | XIII | *Não realizado* | - | - |
 | 2025 | - | *Não realizado* | - | - |
 | 2024 | XII | **COFORT** | COqueiro | COCAP |
 | 2023 | XI | **COFORT** | COqueiro | CODL |
@@ -101,6 +101,7 @@ Abaixo está o resumo dos clubes campeões, vice-campeões e terceiros colocados
 | 2012 | II | *Sem premiação* | - | - |
 
 > [!NOTE]
+> * Em **2026**, o evento do *Campeonato Cearense de Orientação Sprint* (CCOS) foi cancelado pela FECORI após a publicação do regulamento unificado, não havendo apuração de clubes campeões.
 > * Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, pois a FECORI sediou o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 > * Em **2020** e **2021**, as competições oficiais foram suspensas devido às restrições da pandemia de COVID-19.
 

@@ -21,7 +21,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 
 | Ano | CCO | CCOS | ROP (nacional) | Resultados de clubes |
 | :---: | :---: | :---: | :---: | :---: |
-| 2012 | PDF | PDF | — | ✔ |
+| 2012 | **MD** + PDF | **MD** + PDF | — | ✔ |
 | 2013 | PDF | PDF | — | ✔ |
 | 2014 | PDF | PDF | — | ✔ |
 | 2015 | PDF | PDF | — | ✔ |
@@ -33,8 +33,8 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2022 | **MD** + PDF | PDF | PDF | ✔ |
 | 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2025 | **MD** + PDF | *não realizado* | PDF | ✔ |
-| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | PDF (o **MD** vigente está na raiz) | *em andamento* |
+| 2025 | **MD** + PDF | *não realizado* | **MD** + PDF | ✔ |
+| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | PDF (o **MD** vigente está na raiz) | *em andamento* (CCO) |
 | 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
 
 O acompanhamento da conversão pendente está em [`.agents/specs/regulation-standardization/tasks.md`](.agents/specs/regulation-standardization/tasks.md).
@@ -42,6 +42,7 @@ O acompanhamento da conversão pendente está em [`.agents/specs/regulation-stan
 > [!NOTE]
 > - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
 > - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
+> - Em **2026**, o evento do *Campeonato Cearense de Orientação Sprint* (CCOS) foi cancelado pela **FECORI** após a publicação do regulamento unificado, não havendo apuração de resultados de clubes para esta modalidade.
 
 ## Histórico de Clubes Campeões
 
