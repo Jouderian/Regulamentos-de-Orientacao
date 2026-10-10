@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Obter o repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Preparar o Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -29,7 +29,7 @@ jobs:
     # aqui só validamos que a conversão Pandoc + template não quebrou.
     steps:
       - name: Obter o repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Instalar o Pandoc
         uses: pandoc/actions/setup@v1
@@ -43,7 +43,7 @@ jobs:
             --reference-doc=Documentos/template_estilos.docx
 
       - name: Publicar o .docx como artefato da execução
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: regulamentoDasCompeticoesCearenses
           path: regulamentoDasCompeticoesCearenses.docx
