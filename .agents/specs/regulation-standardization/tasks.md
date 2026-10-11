@@ -18,7 +18,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 | 2015 | — | X | X |
 | 2016 | — | X | X |
 | 2017 | X | ✔ | X |
-| 2018 | X | X | X |
+| 2018 | X | ✔ | ✔ |
 | 2019 | X | ✔ | X |
 | 2020 | X | — | — |
 | 2021 | X | — | — |
