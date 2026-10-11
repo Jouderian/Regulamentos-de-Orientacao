@@ -18,6 +18,7 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 5. **Fidelidade**: o conteúdo normativo do ano é preservado sem reinterpretação. Só se corrige o que é comprovadamente artefato de conversão (palavra partida, acento perdido, tabela deformada).
 6. **Idioma**: Português do Brasil (pt-BR).
 7. **Ferramenta**: conforme a [ADR-003](../../wiki/decisions/ADR-003-historical-regulation-standardization.md).
+8. **Nomenclatura histórica**: as atuais *Regras de Orientação Pedestre* (ROP) da CBO chamavam-se antes *Regras Gerais de Orientação Pedestre* (RGOP). Nos regulamentos antigos, a sigla RGOP é mantida como no original, sem trocar por ROP. Ela designa o mesmo documento nacional, e por isso o campo `rop_referencia` do frontmatter se aplica normalmente a esses regulamentos.
 
 ## Critérios de Aceitação
 - [ ] Todo regulamento com PDF no acervo possui o `.md` correspondente na mesma pasta.
@@ -26,12 +27,13 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 - [x] A verificação `python .agents/scripts/verificar-documentos.py` passa sem problemas.
 
 ## Cobertura Atual do Acervo
-Estado em 2026-09-19. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
+Estado em 2026-10-10. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
 
 | Ano | CCO | CCOS | Observação |
 | :---: | :---: | :---: | :--- |
 | 2012 | **MD** + PDF | **MD** + PDF | completo |
-| 2013 a 2016 | PDF | PDF | pendente de conversão |
+| 2013 | **MD** + PDF | PDF | CCOS pendente |
+| 2014 a 2016 | PDF | PDF | pendente de conversão |
 | 2017 | **MD** + PDF | PDF | CCOS pendente |
 | 2018 | PDF | PDF | pendente de conversão |
 | 2019 | **MD** + PDF | PDF | CCOS pendente |
