@@ -1,0 +1,78 @@
+name: Sugestão de regra
+description: Proponha uma alteração no Regulamento das Competições Cearenses de Orientação.
+title: "[Sugestão] "
+labels: ["sugestão de regra"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para propor a inclusão, a alteração ou a revogação de uma regra do [Regulamento das Competições Cearenses de Orientação](https://github.com/Jouderian/Regulamentos-de-Orientacao/blob/main/regulamentoDasCompeticoesCearenses.md). A sugestão será avaliada pelo Diretor Técnico da FECORI, junto com os diretores técnicos dos clubes, na deliberação do regulamento.
+
+        > **Atenção:** esta *issue* é pública. Nome completo, número CBO e clube informados abaixo ficarão visíveis para qualquer pessoa.
+
+  - type: input
+    id: nome
+    attributes:
+      label: Nome completo
+      description: Nome do atleta que faz a sugestão.
+    validations:
+      required: true
+
+  - type: input
+    id: numero-cbo
+    attributes:
+      label: Número CBO
+      description: Número de cadastro do atleta na Confederação Brasileira de Orientação.
+    validations:
+      required: true
+
+  - type: input
+    id: clube
+    attributes:
+      label: Clube
+      description: Clube ao qual o atleta é filiado.
+    validations:
+      required: true
+
+  - type: input
+    id: artigo
+    attributes:
+      label: Artigo afetado
+      description: Indique o dispositivo completo. Para uma regra nova, indique onde ela deve entrar.
+      placeholder: "Ex.: Art. 34, § 2º, inciso I"
+    validations:
+      required: true
+
+  - type: textarea
+    id: redacao-atual
+    attributes:
+      label: Redação atual
+      description: Copie o texto vigente do dispositivo. Para uma regra nova, escreva "Não há".
+    validations:
+      required: true
+
+  - type: textarea
+    id: redacao-proposta
+    attributes:
+      label: Redação proposta
+      description: Escreva o texto como deve ficar no regulamento. Para uma revogação, escreva "Revogar".
+    validations:
+      required: true
+
+  - type: textarea
+    id: justificativa
+    attributes:
+      label: Justificativa
+      description: Explique o problema que a alteração resolve e, se houver, cite a regra da ROP ou o caso concreto que a motivou.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: ciencia
+    attributes:
+      label: Declarações
+      options:
+        - label: Estou ciente de que meu nome completo, número CBO e clube ficarão públicos nesta *issue*.
+          required: true
+        - label: Conferi a redação atual no regulamento vigente.
+          required: true

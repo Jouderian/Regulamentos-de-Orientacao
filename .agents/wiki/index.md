@@ -4,7 +4,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 # Base de Conhecimento
 
-Última atualização: 2026-09-13
+Última atualização: 2026-10-11
 
 Índice das páginas da wiki. As decisões formais ficam em `decisions/` como ADRs; specs, planos e workflows continuam sendo a fonte de verdade de cada iniciativa e não são duplicados aqui.
 
@@ -15,6 +15,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 | [ADR-001](decisions/ADR-001-markdown-como-fonte-da-verdade.md) | Markdown como fonte da verdade | O `.md` é o documento oficial; `.docx` e `.pdf` são saídas geradas |
 | [ADR-002](decisions/ADR-002-unificacao-dos-regulamentos-cco-e-ccos.md) | Unificação CCO + CCOS | Documento único a partir da edição de 2026, com marcações de exclusividade |
 | [ADR-003](decisions/ADR-003-historical-regulation-standardization.md) | Padronização do acervo histórico | MarkItDown como ferramenta primária e tipografia jurídica uniforme |
+| [ADR-004](decisions/ADR-004-sugestoes-de-regra-por-issue.md) | Sugestões de regra por *issue* | Atleta sugere direto no GitHub, identificado por nome, número CBO e clube |
 
 ## Páginas Temáticas
 

@@ -49,6 +49,18 @@ O acompanhamento da conversão pendente está em [`.agents/specs/regulation-stan
 O repositório também consolida o histórico de conquistas das entidades esportivas do Ceará:
 - **[clubesCampeoes.md](clubesCampeoes.md)**: Catálogo com a classificação final acumulada de clubes (campeões, vice-campeões e terceiros colocados) e a pontuação detalhada de cada clube por ano.
 
+## Como Sugerir uma Alteração
+
+Atletas podem propor a inclusão, a alteração ou a revogação de uma regra do regulamento por um de dois caminhos:
+
+- **Pelo clube:** leve a sugestão ao diretor técnico do seu clube, que a encaminha à **FECORI**.
+- **Pelo GitHub:** abra uma *issue* com o formulário **[Sugestão de regra](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/new?template=sugestao-regra.yml)**. O formulário pede nome completo, número CBO e clube do proponente, além do artigo afetado, da redação atual, da redação proposta e da justificativa.
+
+> [!IMPORTANT]
+> As *issues* são públicas: nome, número CBO e clube informados no formulário ficam visíveis para qualquer pessoa.
+
+As sugestões dos dois caminhos são avaliadas juntas pelo diretor técnico da **FECORI** e pelos diretores técnicos dos clubes, na deliberação do regulamento. O resultado de cada sugestão feita por *issue* é registrado nela.
+
 ## Licença
 
 A organização, padronização e estruturação destes arquivos estão licenciadas sob a **[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE)**.

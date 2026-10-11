@@ -8,7 +8,7 @@ description: Visão fundacional, atores e restrições dos regulamentos de orien
 Atuar como a fonte da verdade, padronizada e controlada por versão para as regras das competições de orientação do estado do Ceará. Este repositório simplifica a manutenção, garante o histórico de mudanças (auditabilidade) e atua como base para gerar os documentos finais (Word/PDF) para atletas, clubes e sistemas de Inteligência Artificial.
 
 ## Atores (Público-Alvo)
-- **Atletas:** Consultam as regras para garantir conformidade e entender a estrutura e a logística das etapas.
+- **Atletas:** Consultam as regras para garantir conformidade e entender a estrutura e a logística das etapas. Podem propor alterações diretamente no repositório, pelo formulário de sugestão de regra.
 - **Clubes de Orientação:** Utilizam o regulamento para balizar suas filiações e compreender seus direitos e deveres.
 - **Organizadores de Eventos:** Guiam-se pelas obrigações técnicas e logísticas exigidas para o planejamento e a execução de uma competição.
 - **Federações de Orientação:** São responsáveis por manter, deliberar atualizações, julgar casos omissos e publicar as versões finais.
@@ -26,9 +26,11 @@ Atuar como a fonte da verdade, padronizada e controlada por versão para as regr
 - Centralização do histórico normativo.
 
 ## Fluxo de Atualização das Regras
-1. Atletas sugerem alterações nas regras ao diretor técnico do seu clube.
-2. O diretor técnico do clube encaminha sugestão para o diretor técnico da federação.
-3. O diretor técnico da Federação, junto com os demais diretores técnicos dos clubes, avalia as sugestões e delibera sobre alteração(ões) nas regras.
+1. Atletas sugerem alterações nas regras por um de dois canais:
+   - **Pelo clube:** o atleta leva a sugestão ao diretor técnico do seu clube, que a encaminha ao diretor técnico da federação.
+   - **Pelo repositório:** o atleta abre uma *issue* com o formulário [Sugestão de regra](../../../.github/ISSUE_TEMPLATE/sugestao-regra.yml), identificando-se com nome completo, número CBO e clube, e informando artigo afetado, redação atual, redação proposta e justificativa.
+2. O diretor técnico da Federação, junto com os demais diretores técnicos dos clubes, avalia as sugestões recebidas pelos dois canais e delibera sobre alteração(ões) nas regras.
+3. O resultado da deliberação de uma sugestão recebida por *issue* é registrado nela, que é fechada com referência ao *commit* da alteração, se aprovada, ou com a justificativa da rejeição.
 4. O Diretor Técnico da Federação edita os arquivos `.md`.
 5. O Diretor Técnico da Federação cria um *branch* ou *commit* com a alteração.
 6. O Diretor Técnico da Federação envia a alteração para a *branch* principal (`main` ou `master`).
