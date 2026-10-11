@@ -65,6 +65,13 @@ Estruture cada resposta para que o usuário possa agir:
 - **Nome do arquivo-fonte igual ao do documento publicado.** O `.md`, o `.docx` e o `.pdf` de um mesmo documento compartilham o nome-base (ex.: `regulamentoDasCompeticoesCearenses`), variando apenas a extensão.
 - **Tags de edição.** Toda edição publicada recebe uma tag anotada `v<ano>` no commit em que se tornou definitiva, dando um endereço permanente ao texto que valeu naquele ano. Edições em aberto não recebem tag.
 
+## Sugestões de Regra e Backlog
+
+- **Sugestão de regra vira *issue*.** Toda proposta de inclusão, alteração ou revogação de dispositivo do `regulamentoDasCompeticoesCearenses.md` é registrada como *issue* no GitHub, com o formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml) e o rótulo `sugestão de regra`. Nunca vai para o [`todo.md`](../todo.md).
+- **Identificação do proponente.** A *issue* só é aberta com nome completo, número CBO e clube de quem sugere. Faltando algum desses dados, o agente pede ao usuário antes de abrir.
+- **Redação elaborada pelo agente.** Quando o proponente só descreve a intenção e o agente redige o texto proposto, o agente apresenta a redação ao usuário antes de abrir a *issue*, porque ela fica pública em nome do proponente.
+- **`todo.md` é só para o repositório.** O backlog guarda apenas tarefas de administração ou de ajuste do repositório — conversão do acervo, scripts, CI, documentação, lembretes de atualização de documentos. O encaminhamento de sugestão à CBO sobre a ROP também fica no backlog, como tarefa administrativa, porque a deliberação cabe à CBO e não à FECORI.
+
 ## Convenções de Git
 
 - **Mensagens de commit** seguem [Conventional Commits](https://www.conventionalcommits.org/):
