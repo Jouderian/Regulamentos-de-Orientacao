@@ -1,9 +1,9 @@
 ---
 ano: 2027
 edicao: XXI CCO / XIV CCOS
-status: vigente
+status: em-elaboracao
 rop_referencia: 2026
-description: Regulamento das Competições Cearenses de Orientação (vigente)
+description: Regulamento das Competições Cearenses de Orientação (em elaboração)
 ---
 
 # **Regulamento das Competições Cearenses de Orientação**

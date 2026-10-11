@@ -254,16 +254,16 @@ def checar_metadados_regulamento(rel, texto, regulamentos_vigentes):
                 falha(rel, 1, f'campo "ano" ({ano_declarado}) diverge da pasta ({ano_pasta})')
         elif rel == 'regulamentoDasCompeticoesCearenses.md':
             if ano_declarado != '2027':
-                falha(rel, 1, f'regulamento vigente na raiz deve declarar ano "2027", mas declara "{ano_declarado}"')
+                falha(rel, 1, f'regulamento da raiz deve declarar ano "2027", mas declara "{ano_declarado}"')
 
     m_status = re.search(r'(?m)^status:\s*(\S+)', cabecalho)
     if m_status:
         status = m_status.group(1).strip()
-        if status not in ('vigente', 'arquivado'):
-            falha(rel, 1, f'status inválido "{status}" (esperado: "vigente" ou "arquivado")')
+        if status not in ('vigente', 'em-elaboracao', 'arquivado'):
+            falha(rel, 1, f'status inválido "{status}" (esperado: "vigente", "em-elaboracao" ou "arquivado")')
         elif rel == 'regulamentoDasCompeticoesCearenses.md':
-            if status != 'vigente':
-                falha(rel, 1, f'regulamento da raiz deve ter status "vigente", mas tem "{status}"')
+            if status not in ('vigente', 'em-elaboracao'):
+                falha(rel, 1, f'regulamento da raiz deve ter status "vigente" ou "em-elaboracao", mas tem "{status}"')
             else:
                 regulamentos_vigentes.append(rel)
         else:
@@ -287,7 +287,7 @@ def main():
 
     if len(regulamentos_vigentes) != 1:
         problemas.append(
-            f'Repositório deve ter exatamente 1 regulamento com status "vigente", '
+            f'Repositório deve ter exatamente 1 regulamento na raiz (status "vigente" ou "em-elaboracao"), '
             f'mas encontrou {len(regulamentos_vigentes)}: {regulamentos_vigentes}'
         )
 
