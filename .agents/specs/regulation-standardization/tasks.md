@@ -13,7 +13,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 | Ano | ROP | CCO | CCOS |
 | :---: | :---: | :---: | :---: |
 | 2012 | — | ✔ | ✔ |
-| 2013 | — | ✔ | X |
+| 2013 | — | ✔ | ✔ |
 | 2014 | — | X | X |
 | 2015 | — | X | X |
 | 2016 | — | X | X |

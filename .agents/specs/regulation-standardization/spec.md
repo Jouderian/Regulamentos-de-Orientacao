@@ -27,12 +27,12 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 - [x] A verificação `python .agents/scripts/verificar-documentos.py` passa sem problemas.
 
 ## Cobertura Atual do Acervo
-Estado em 2026-10-10. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
+Estado em 2026-10-11. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
 
 | Ano | CCO | CCOS | Observação |
 | :---: | :---: | :---: | :--- |
 | 2012 | **MD** + PDF | **MD** + PDF | completo |
-| 2013 | **MD** + PDF | PDF | CCOS pendente |
+| 2013 | **MD** + PDF | **MD** + PDF | completo |
 | 2014 a 2016 | PDF | PDF | pendente de conversão |
 | 2017 | **MD** + PDF | PDF | CCOS pendente |
 | 2018 | PDF | PDF | pendente de conversão |
