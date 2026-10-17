@@ -43,4 +43,19 @@ Ficou formalizada a convenção da técnica legislativa brasileira (Lei Compleme
 
 Essa convenção consolida a prática vigente do regulamento unificado de 2026 e da maioria dos documentos históricos do acervo, servindo como critério para o saneamento das inconsistências remanescentes (definido na issue #12).
 
+## Revisão de 2026-10-17: Alinhamento do `import-pdf.py` ao padrão tipográfico
+Testado com `Documentos/2014/regulamentoCCO.pdf`, o [import-pdf.py](../../scripts/import-pdf.py) ainda entregava um rascunho fora do padrão do acervo (issue #10). A escolha do MarkItDown permanece; mudou o que o script produz, e a lista de regras da *Decisão* acima passa a valer com estas diferenças:
+- **Alínea:** `>> **a.**`, e não `>> **a)**`. O script reconhece `a)` e `a.` no PDF.
+- **Parágrafo único:** `> **Parágrafo Único:**`, com maiúscula, como no restante do acervo. O separador `.` (`Parágrafo 1º.`) passa a ser reconhecido.
+- **Artigo:** aceita `Art 8º -`, sem ponto, e aplica a convenção da revisão anterior: `**Art. 9º**` até o nono e `**Art. 12**` do décimo em diante.
+- **Capítulo numerado:** `1. DA REGULAMENTAÇÃO GERAL` vira `## 1. DA REGULAMENTAÇÃO GERAL`. Só se aplica à linha sem minúsculas, para não confundir com inciso numerado (`1. Alunos matriculados...`).
+- **Calendário:** o bloco `ETAPA DATA ORGANIZADOR` seguido de linhas `1ª 13/Abr COFORT` vira tabela Markdown.
+- **Título e timbre:** as letras duplicadas do negrito simulado (`RREEGGUULLAAMMEENNTTOO`) são desfeitas, o título vira `# Regulamento do X Campeonato Cearense de Orientação` e o timbre de três linhas da Federação é removido por inteiro.
+- **Frontmatter:** o Markdown sai com `ano`, `edicao`, `status: arquivado`, `rop_referencia` e `description`, os campos que o verificador exige. `ano` vem da pasta `Documentos/<ano>/` do PDF e `edicao`, do numeral romano do título; `rop_referencia` repete o ano, como em todo o acervo convertido. Ano e edição são fatos normativos e não se estimam: sem origem identificável, o script para e pede `--ano` ou `--edicao`.
+
+**Limites conhecidos**, a tratar na revisão manual ou na conversão do acervo pendente (issue #15):
+- as heurísticas foram calibradas no layout de 2014; alguns PDFs de 2015 a 2017 trazem título partido por linhas em branco, número do artigo isolado na linha ou calendário em colunas separadas, e o script deixa esses trechos como estão;
+- tabelas além do calendário (categorias, taxas) saem deformadas do MarkItDown;
+- incisos numéricos (`1.`) e referências cruzadas no corpo do texto ("Art 11º") não são alterados.
+
 

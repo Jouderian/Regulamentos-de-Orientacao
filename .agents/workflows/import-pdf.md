@@ -38,12 +38,24 @@ python .agents/scripts/import-pdf.py <caminho_do_pdf> [caminho_do_markdown_saida
 
 **Exemplo:**
 ```bash
-python .agents/scripts/import-pdf.py Documentos/2026/regulamentoDasCompeticoesCearenses.pdf regulamentoTeste.md
+python .agents/scripts/import-pdf.py Documentos/2014/regulamentoCCO.pdf regulamentoTeste.md
 ```
 
 Este script executará as seguintes tarefas automaticamente:
 1. Extração do conteúdo do PDF mantendo a fidelidade das tabelas nativas do Markdown.
-2. Aplicação de Expressões Regulares (Regex) para formatar a tipografia jurídica do projeto.
+2. Limpeza do timbre da Federação, dos rodapés e das letras duplicadas do negrito simulado (`RREEGGUULLAAMMEENNTTOO`).
+3. Aplicação de Expressões Regulares (Regex) para formatar a tipografia jurídica do projeto: título, capítulos numerados (`## 1. DA ...`), artigos (ordinal até o 9º, cardinal do 10 em diante), `Parágrafo Único`, parágrafos numerados, alíneas (`>> **a.**`) e o calendário de etapas em tabela.
+4. Geração do frontmatter exigido pelo verificador (`ano`, `edicao`, `status: arquivado`, `rop_referencia`, `description`).
+
+### Opções
+| Opção | Quando usar |
+| :--- | :--- |
+| `--ano <AAAA>` | PDF fora de uma pasta `Documentos/<ano>/` (o ano normalmente vem da pasta) |
+| `--edicao "<N> CCO"` | O título do PDF não traz o numeral romano da edição, ou o layout é diferente do de 2014 (ex.: `"XIII CCO"`, `"VII CCOS"`) |
+| `--rop-referencia <AAAA>` | A ROP citada não é a do próprio ano (padrão: o ano da edição) |
+| `--sem-frontmatter` | Documento que não é regulamento de competição |
+
+Ano e edição não são estimados: se não houver origem identificável e a opção não for dada, o script para sem gravar o arquivo.
 
 ---
 
@@ -67,3 +79,5 @@ Mesmo utilizando o script automatizado, a conversão de PDFs pode gerar pequenas
 1. **Cabeçalhos e Rodapés:** Remova números de páginas, títulos repetidos de topo e notas de rodapé que foram extraídos no meio do texto das páginas.
 2. **Tabelas:** O MarkItDown extrai tabelas de forma estruturada, mas verifique se não há distorção de colunas ou células mescladas incorretamente.
 3. **Quebras de Linha Hifenizadas:** Palavras hifenizadas no final da linha do PDF original podem ser salvas com o hífen incorreto (ex: `orien- tação` em vez de `orientação`). Faça uma rápida busca no texto.
+4. **Layout de outros anos:** as heurísticas foram calibradas no PDF de 2014. Em PDFs de outros anos, confira se o título virou `# Regulamento do ...`, se todos os artigos viraram `**Art. N** –` (o número pode vir isolado na linha) e se o calendário virou tabela (pode vir com as colunas em linhas separadas).
+5. **Tabelas e incisos:** só o calendário é convertido em tabela pelo script. Tabelas de categorias e de taxas costumam sair deformadas do MarkItDown, e incisos numéricos (`1.`) e referências cruzadas no texto ("Art 11º") não são alterados: ajuste à mão.
