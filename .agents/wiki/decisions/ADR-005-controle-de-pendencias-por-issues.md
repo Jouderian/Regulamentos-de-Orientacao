@@ -44,3 +44,6 @@ A [ADR-004](ADR-004-sugestoes-de-regra-por-issue.md) já adotou *issues* para as
   * A revisão cruzada do texto normativo depende de disciplina até existir um `CODEOWNERS` por caminho, que exigirá o usuário do GitHub de cada pessoa.
   * Item na fronteira entre as equipes (como a conversão do acervo, executada pelo repositório e revisada pelas regras) fica com a equipe que executa; a outra entra como revisora do PR.
   * `acompanhamento` pode ficar aberto por meses e polui a lista de abertas; deve-se filtrar por tipo.
+
+## Revisão de 2026-10-17
+Passou a ser regra que todo fechamento de *issue* leve um comentário-resumo (resumo, mudanças, referência e o que ficou de fora), para que o histórico seja legível sem abrir o PR que a fechou. O custo é redigir o resumo a cada fechamento, e a regra depende de disciplina: `Closes #N` fecha a *issue* sem registrar o que foi feito, então o comentário precisa ser postado junto. Os detalhes estão em [`rules.md`](../../rules/rules.md).
