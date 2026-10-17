@@ -40,4 +40,4 @@ Decisões arquiteturais vão para `wiki/decisions/` como ADRs, não para página
 - Conteúdo normativo — ele vive nos regulamentos, não aqui.
 - Cópia literal de specs, planos ou ADRs.
 - Informação temporária ou específica de uma sessão de trabalho.
-- Tarefas pendentes — vão para [`todo.md`](todo.md).
+- Tarefas pendentes — viram *issues*, conforme *Controle de Pendências e Sugestões de Regra* em [`rules/rules.md`](rules/rules.md).

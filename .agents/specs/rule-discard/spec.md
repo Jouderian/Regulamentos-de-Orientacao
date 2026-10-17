@@ -14,6 +14,3 @@ Historicamente (2017-2019), o CCO previa descarte para garantir equidade aos atl
 - [x] A regra só é ativada se o campeonato tiver **mais de 3 etapas**. — *Art. 34, caput e Parágrafo 1º*
 - [x] O cálculo da média de pontos para voluntários deve levar o descarte em consideração (quando ativado), aplicando o descarte *antes* da apuração da média. O requisito mínimo de etapas arredonda-se para baixo. — *Art. 33, Parágrafo 1º (CCO)*
 - [x] A regra não se aplica ao CCOS (Campeonato Cearense de Orientação Sprint). — *Art. 34 marcado como "Exclusivo do CCO"*
-
-## Pendência
-Falta explicitar na redação que o atleta precisa **estar inscrito** na etapa para poder descartá-la (item aberto em [`todo.md`](../../todo.md)).

@@ -65,18 +65,32 @@ Estruture cada resposta para que o usuário possa agir:
 - **Nome do arquivo-fonte igual ao do documento publicado.** O `.md`, o `.docx` e o `.pdf` de um mesmo documento compartilham o nome-base (ex.: `regulamentoDasCompeticoesCearenses`), variando apenas a extensão.
 - **Tags de edição.** Toda edição publicada recebe uma tag anotada `v<ano>` no commit em que se tornou definitiva, dando um endereço permanente ao texto que valeu naquele ano. Edições em aberto não recebem tag.
 
-## Sugestões de Regra e Backlog
+## Controle de Pendências e Sugestões de Regra
 
-- **Sugestão de regra vira *issue*.** Toda proposta de inclusão, alteração ou revogação de dispositivo do `regulamentoDasCompeticoesCearenses.md` é registrada como *issue* no GitHub, com o formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml) e o rótulo `sugestão de regra`. Nunca vai para o [`todo.md`](../todo.md).
+- **Controle único.** Tudo o que está pendente vive como *issue* do GitHub. Não existe `todo.md`: o histórico anterior a 2026-10-17 está congelado em [`todo-done.md`](../todo-done.md). Uma pendência nunca é registrada em dois lugares. A decisão está na [ADR-005](../wiki/decisions/ADR-005-controle-de-pendencias-por-issues.md).
+- **Três tipos, um rótulo cada.** O formulário já aplica o rótulo.
+  - `sugestão de regra`: proposta de inclusão, alteração ou revogação de dispositivo do regulamento. Formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml).
+  - `tarefa`: trabalho que a própria equipe executa e fecha. Formulários [`tarefa-regras.yml`](../../.github/ISSUE_TEMPLATE/tarefa-regras.yml) e [`tarefa-repositorio.yml`](../../.github/ISSUE_TEMPLATE/tarefa-repositorio.yml).
+  - `acompanhamento`: item que depende de terceiro e só se fecha quando ele decidir. Formulário [`acompanhamento.yml`](../../.github/ISSUE_TEMPLATE/acompanhamento.yml). A ROP só pode ser alterada pela CBO: sugestão à CBO e espera por nova edição são sempre `acompanhamento`, nunca `tarefa`. Quando a CBO decidir, abre-se uma `tarefa` para o que couber ao repositório.
+- **Duas equipes, um rótulo cada.** Toda *issue* tem exatamente um rótulo de tipo e um de equipe.
+  - `equipe: regras`: conteúdo normativo — regulamento, calendário, interpretação de regra, conferência de texto normativo contra o original e acompanhamento da CBO.
+  - `equipe: repositório`: scripts, CI, estrutura de pastas, documentação do repositório e conversão técnica do acervo.
+  - Na dúvida, a equipe é a que **executa**.
+- **Revisão entre equipes.** Texto normativo (regulamento, ROP, `Documentos/**/*.md`, `clubesCampeoes.md`) só é alterado com revisão da equipe de regras, seja qual for a equipe da *issue*.
+- **Dependências.** A *issue* que aguarda outra é ligada a ela pelo vínculo nativo "Bloqueada por" do GitHub, criado pela interface da *issue* ou pela API (`dependencies/blocked_by`), e explica o motivo no corpo, em "Bloqueada porque". Não há rótulo de bloqueio: o vínculo é a única fonte.
+- **Sugestão de regra vira *issue*.** Toda proposta de inclusão, alteração ou revogação de dispositivo do `regulamentoDasCompeticoesCearenses.md` é registrada como *issue* no GitHub, com o formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml) e o rótulo `sugestão de regra`. É um tipo próprio, nunca `tarefa`.
 - **Identificação do proponente.** A *issue* só é aberta com nome completo, número CBO e clube de quem sugere. Faltando algum desses dados, o agente pede ao usuário antes de abrir.
-- **Redação elaborada pelo agente.** Quando o proponente só descreve a intenção e o agente redige o texto proposto, o agente apresenta a redação ao usuário antes de abrir a *issue*, porque ela fica pública em nome do proponente.
-- **`todo.md` é só para o repositório.** O backlog guarda apenas tarefas de administração ou de ajuste do repositório — conversão do acervo, scripts, CI, documentação, lembretes de atualização de documentos. O encaminhamento de sugestão à CBO sobre a ROP também fica no backlog, como tarefa administrativa, porque a deliberação cabe à CBO e não à FECORI.
+- **Redação elaborada pelo agente.** Quando o proponente só descreve a intenção e o agente redige o texto proposto, o agente apresenta a redação ao usuário antes de abrir a *issue*, porque ela fica pública em nome do proponente. O mesmo vale para o texto de qualquer `tarefa` ou `acompanhamento` que o agente redija. O agente não fecha *issue* sem autorização do usuário.
+- **Várias pessoas e vários agentes.** Cada pessoa se atribui à *issue* antes de começar, e o agente que ela dirige trabalha sob essa atribuição. Ninguém pega *issue* que já tem responsável. O agente não escolhe tarefa nem se atribui sozinho: quem o dirige indica a *issue*.
+- **Sem dados pessoais.** *Issues* são públicas. `tarefa` e `acompanhamento` não levam dado pessoal; nome, número CBO e clube só aparecem nas sugestões de regra, com a ciência do proponente.
+- **Consulta independente de ferramenta.** Nenhuma regra pressupõe um cliente específico. O backlog se consulta pela web, nas *issues* abertas da [equipe de regras](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues?q=is%3Aissue+is%3Aopen+label%3A%22equipe%3A+regras%22) e da [equipe do repositório](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues?q=is%3Aissue+is%3Aopen+label%3A%22equipe%3A+reposit%C3%B3rio%22), ou por qualquer cliente do GitHub (por exemplo, `gh issue list --label "equipe: regras"`). Quem não tiver acesso pede ao usuário o texto da *issue* e não presume o conteúdo.
 
 ## Convenções de Git
 
 - **Mensagens de commit** seguem [Conventional Commits](https://www.conventionalcommits.org/):
   `type(scope): descrição`
 - **Escopo é obrigatório.** Não usar commits sem escopo.
+- **Referência a *issue*.** Quando o commit trata de uma *issue*, o rodapé traz `Refs #N` (ou `Closes #N`, se a conclui). É referência, não autoria: não conflita com a regra de autoria abaixo.
 - Tipos comuns: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `spec`.
 - Use o tipo `spec` para alterações em artefatos SDD (ex: `spec(cco): define regra de descarte`).
 - **Escopos válidos:**

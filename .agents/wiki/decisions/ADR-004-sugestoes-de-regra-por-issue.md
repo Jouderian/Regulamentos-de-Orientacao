@@ -33,3 +33,6 @@ O fluxo completo está em [`specs/project-vision/spec.md`](../../specs/project-v
   * O diretor técnico do clube pode só tomar conhecimento da sugestão de um atleta seu na deliberação, e não antes.
   * O formulário não valida o número CBO nem o clube informados. A conferência é manual, feita pela federação.
   * Desativar a *issue* em branco obriga também relatos que não são sugestão de regra (erro de digitação, link quebrado) a passar pelo formulário, até que se crie um modelo próprio para eles.
+
+## Revisão de 2026-10-17
+O modelo próprio previsto na última consequência acima passou a existir: a [ADR-005](ADR-005-controle-de-pendencias-por-issues.md) criou os formulários de `tarefa` (das equipes de regras e do repositório) e de `acompanhamento`. A decisão desta ADR permanece, e o formulário de sugestão de regra passou a aplicar também o rótulo `equipe: regras`.

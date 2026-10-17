@@ -1,7 +1,7 @@
 name: Sugestão de regra
 description: Proponha uma alteração no Regulamento das Competições Cearenses de Orientação.
 title: "[Sugestão] "
-labels: ["sugestão de regra"]
+labels: ["sugestão de regra", "equipe: regras"]
 body:
   - type: markdown
     attributes:

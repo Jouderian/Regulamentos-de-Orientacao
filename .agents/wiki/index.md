@@ -4,7 +4,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 # Base de Conhecimento
 
-Última atualização: 2026-10-11
+Última atualização: 2026-10-17
 
 Índice das páginas da wiki. As decisões formais ficam em `decisions/` como ADRs; specs, planos e workflows continuam sendo a fonte de verdade de cada iniciativa e não são duplicados aqui.
 
@@ -16,6 +16,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 | [ADR-002](decisions/ADR-002-unificacao-dos-regulamentos-cco-e-ccos.md) | Unificação CCO + CCOS | Documento único a partir da edição de 2026, com marcações de exclusividade |
 | [ADR-003](decisions/ADR-003-historical-regulation-standardization.md) | Padronização do acervo histórico | MarkItDown como ferramenta primária e tipografia jurídica uniforme |
 | [ADR-004](decisions/ADR-004-sugestoes-de-regra-por-issue.md) | Sugestões de regra por *issue* | Atleta sugere direto no GitHub, identificado por nome, número CBO e clube |
+| [ADR-005](decisions/ADR-005-controle-de-pendencias-por-issues.md) | Controle de pendências por *issues* | *Issues* como único controle, com tipo (`tarefa`, `acompanhamento`, `sugestão de regra`) e equipe por rótulo |
 
 ## Páginas Temáticas
 
@@ -30,4 +31,5 @@ Nenhuma ainda. Criar conforme a orientação de [`wiki-maintenance.md`](../wiki-
 | Como gerar `.docx` e `.pdf` | [`workflows/geracao-documentos.md`](../workflows/geracao-documentos.md) |
 | Como importar um PDF novo | [`workflows/import-pdf.md`](../workflows/import-pdf.md) |
 | Como atualizar o repositório remoto | [`workflows/atualizar-repositorio.md`](../workflows/atualizar-repositorio.md) |
-| Backlog e histórico de tarefas | [`todo.md`](../todo.md) e [`todo-done.md`](../todo-done.md) |
+| Pendências atuais | [*Issues* do repositório](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues), conforme [`rules/rules.md`](../rules/rules.md) |
+| Histórico de tarefas anterior a 2026-10-17 | [`todo-done.md`](../todo-done.md) (congelado) |

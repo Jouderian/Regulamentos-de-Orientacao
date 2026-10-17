@@ -1,0 +1,48 @@
+name: Acompanhamento
+description: "Item que depende de terceiro, como a CBO, e só se fecha quando ele decidir."
+title: "[Acompanhamento] "
+labels: ["acompanhamento", "equipe: regras"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para o que **nós não podemos decidir nem editar**. A ROP, por exemplo, só é alterada pela CBO: a nós cabe sugerir e acompanhar. A *issue* fica aberta até o terceiro decidir; quando decidir, o que couber ao repositório vira uma *tarefa*.
+
+        > **Atenção:** esta *issue* é pública. Não inclua dados pessoais.
+
+  - type: input
+    id: quem-decide
+    attributes:
+      label: Quem decide
+      description: "Entidade ou pessoa de quem depende o desfecho."
+      placeholder: "CBO"
+    validations:
+      required: true
+
+  - type: textarea
+    id: o-que-aguardamos
+    attributes:
+      label: O que aguardamos
+      description: "A decisão, a publicação ou a resposta esperada."
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto e o que já foi enviado
+      description: "Proposta encaminhada, data e canal. Cole aqui o conteúdo da sugestão, se houver."
+
+  - type: input
+    id: proxima-verificacao
+    attributes:
+      label: Próxima verificação
+      description: "Quando conferir de novo. Exemplo: ao publicar a ROP 2027."
+
+  - type: textarea
+    id: ao-decidir
+    attributes:
+      label: Ao decidir
+      description: "O que fazer quando houver decisão. Exemplo: abrir tarefa do repositório para arquivar a ROP de 2026."
+    validations:
+      required: true

@@ -1,0 +1,59 @@
+name: Tarefa do repositório
+description: "Trabalho da equipe do repositório: scripts, CI, estrutura, documentação e conversão técnica do acervo."
+title: "[Tarefa] "
+labels: ["tarefa", "equipe: repositório"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para trabalho que a **equipe do repositório** executa e fecha. Mudança em dispositivo do regulamento é *sugestão de regra*; item que depende de terceiro, como a CBO, é *acompanhamento*. Cada um tem formulário próprio.
+
+        > **Atenção:** esta *issue* é pública. Não inclua dados pessoais.
+
+  - type: textarea
+    id: o-que-fazer
+    attributes:
+      label: O que fazer
+      description: "Descreva o problema e a ação. Cite os arquivos afetados por caminho relativo."
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterio-de-pronto
+    attributes:
+      label: Critério de pronto
+      description: "Como saber que acabou. Exemplo: a verificação documental passa e o arquivo X foi atualizado."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: escopo
+    attributes:
+      label: Escopo do commit
+      description: "Escopo que o commit desta tarefa deve usar (ver Convenções de Git em .agents/rules/rules.md)."
+      options:
+        - agents
+        - acervo
+        - ci
+        - docs
+        - historico
+        - root
+        - cco
+        - ccos
+        - rop
+    validations:
+      required: true
+
+  - type: input
+    id: depende-de
+    attributes:
+      label: Depende de
+      description: "Números das issues que precisam fechar antes. Deixe vazio se não houver; havendo, crie depois o vínculo Bloqueada por na issue e explique o motivo no corpo."
+      placeholder: "#12, #15"
+
+  - type: checkboxes
+    id: texto-normativo
+    attributes:
+      label: Texto normativo
+      options:
+        - label: Esta tarefa altera texto normativo (regulamento, ROP, Documentos/**/*.md ou clubesCampeoes.md) e exige revisão da equipe de regras.

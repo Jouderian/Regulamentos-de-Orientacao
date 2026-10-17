@@ -1,0 +1,41 @@
+name: Tarefa de regras
+description: "Trabalho da equipe de regras: conteúdo normativo, calendário, interpretação e conferência de texto contra o original."
+title: "[Tarefa] "
+labels: ["tarefa", "equipe: regras"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para trabalho que a **equipe de regras** executa e fecha. Proposta de inclusão, alteração ou revogação de dispositivo do regulamento é *sugestão de regra*; item que depende de terceiro, como a CBO, é *acompanhamento*. Cada um tem formulário próprio.
+
+        > **Atenção:** esta *issue* é pública. Não inclua dados pessoais.
+
+  - type: textarea
+    id: o-que-fazer
+    attributes:
+      label: O que fazer
+      description: "Descreva a questão e a ação. Cite o documento e o dispositivo afetados."
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterio-de-pronto
+    attributes:
+      label: Critério de pronto
+      description: "Como saber que acabou. Exemplo: decisão registrada na issue e documento atualizado."
+    validations:
+      required: true
+
+  - type: input
+    id: documento
+    attributes:
+      label: Documento ou dispositivo afetado
+      description: "Arquivo e, se houver, artigo. Exemplo: regulamentoDasCompeticoesCearenses.md, Art. 6."
+      placeholder: "regulamentoDasCompeticoesCearenses.md"
+
+  - type: input
+    id: depende-de
+    attributes:
+      label: Depende de
+      description: "Números das issues que precisam fechar antes. Deixe vazio se não houver; havendo, crie depois o vínculo Bloqueada por na issue e explique o motivo no corpo."
+      placeholder: "#12, #15"

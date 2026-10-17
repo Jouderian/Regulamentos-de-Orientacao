@@ -13,7 +13,7 @@ Não duplique regra aqui nem em arquivo de ferramenta específica. Toda alteraç
 | O que é o projeto e o estado do acervo | [`README.md`](README.md) |
 | Visão, atores e restrições inegociáveis | [`.agents/specs/project-vision/spec.md`](.agents/specs/project-vision/spec.md) |
 | Decisões arquiteturais já tomadas | [`.agents/wiki/index.md`](.agents/wiki/index.md) |
-| O que está pendente | [`.agents/todo.md`](.agents/todo.md) |
+| O que está pendente | [*Issues* abertas](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues); como usar, em *Controle de Pendências e Sugestões de Regra* de [`.agents/rules/rules.md`](.agents/rules/rules.md) |
 
 ## Antes de qualquer commit
 
