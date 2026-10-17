@@ -20,13 +20,14 @@ O Markdown é gravado ao lado do PDF, com o mesmo nome-base.
 | :--- | :--- |
 | Título do documento | `# Regulamento do <N> Campeonato Cearense de Orientação` |
 | Capítulo/Seção | `## <N>. <Título do capítulo>` |
-| Artigo | `**Art. <N>º** – <Texto>` |
+| Artigo (1 a 9) | `**Art. <N>º** – <Texto>` |
+| Artigo (10 em diante) | `**Art. <N>** – <Texto>` |
 | Parágrafo numerado | `> **Parágrafo <N>º:** <Texto>` |
 | Parágrafo único | `> **Parágrafo Único:** <Texto>` |
 | Alínea/Inciso | `>> **<letra>.** <Texto>` |
 | Calendário de etapas | tabela Markdown nativa (`\|---\|`) |
 
-O travessão do artigo é o **en dash** (`–`, U+2013), não o hífen. O indicador ordinal é `º` (U+00BA), não a letra `o`.
+O travessão do artigo é o **en dash** (`–`, U+2013), não o hífen. Conforme a técnica legislativa (LC 95/1998, art. 10, I) e a ADR-003, o indicador ordinal `º` (U+00BA) é utilizado apenas nos artigos de 1 a 9; os artigos a partir do 10 usam numeração cardinal (sem ordinal).
 
 ### 3. Revisão Manual
 Obrigatória mesmo com o script. Revisar os itens listados no workflow [`import-pdf.md`](../../workflows/import-pdf.md) e confrontar o resultado com o PDF original artigo a artigo.

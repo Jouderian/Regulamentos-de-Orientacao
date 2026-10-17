@@ -36,3 +36,11 @@ A partir de 2026, a abordagem para conversão e padronização foi evoluída par
 ## Revisão de 2026-09-13
 A revisão do acervo mostrou que a revisão manual, sozinha, não segurou a qualidade: sobraram 41 hifens condicionais invisíveis (U+00AD), 228 ocorrências de `Paragrafo` sem acento, 162 palavras partidas por hifenização de fim de linha na ROP 2023 e diversos trechos sem acento no regulamento de 2019 — todos corrigidos. A decisão de ferramenta permanece, acrescida de uma salvaguarda: a conversão só é aceita depois de passar em [`verificar-documentos.py`](../../scripts/verificar-documentos.py), executado também pelo CI. O escopo desta ADR passa a ser todo o acervo (2012 em diante), e não apenas 2018-2025: 2017 já foi convertido e 2018 ainda não.
 
+## Revisão de 2026-10-17: Numeração de Artigos (Ordinal vs. Cardinal)
+Ficou formalizada a convenção da técnica legislativa brasileira (Lei Complementar nº 95/1998, art. 10, inciso I) para a numeração de artigos em todos os regulamentos:
+- **Art. 1º a Art. 9º**: grafados com número ordinal e indicador ordinal `º` (U+00BA), seguido de espaço, meia-risca (*en dash* `–`) e texto. Exemplo: `**Art. 1º** – ...`
+- **Art. 10 em diante**: grafados com número cardinal (sem indicador ordinal), seguido de espaço, meia-risca (*en dash* `–`) e texto. Exemplo: `**Art. 10** – ...`
+
+Essa convenção consolida a prática vigente do regulamento unificado de 2026 e da maioria dos documentos históricos do acervo, servindo como critério para o saneamento das inconsistências remanescentes (definido na issue #12).
+
+
