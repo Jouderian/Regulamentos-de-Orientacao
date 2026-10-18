@@ -38,7 +38,7 @@ Estado em 2026-10-11. O `—` indica ausência do documento no acervo; "não rea
 | 2018 | **MD** + PDF | **MD** + PDF | completo |
 | 2019 | **MD** + PDF | PDF | CCOS pendente |
 | 2020-2021 | — | — | sem competição (COVID-19) |
-| 2022 | **MD** + PDF | PDF | CCOS pendente |
+| 2022 | **MD** + PDF | **MD** + PDF | completo |
 | 2023 | **MD** + PDF | **MD** + PDF | completo |
 | 2024 | **MD** + PDF | **MD** + PDF | completo |
 | 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |

@@ -22,7 +22,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 | 2019 | X | ✔ | X |
 | 2020 | X | — | — |
 | 2021 | X | — | — |
-| 2022 | X | ✔ | X |
+| 2022 | X | ✔ | ✔ |
 | 2023 | ✔ | ✔ | ✔ |
 | 2024 | X | ✔ | ✔ |
 | 2025 | ✔ | ✔ | — |
