@@ -58,4 +58,16 @@ Testado com `Documentos/2014/regulamentoCCO.pdf`, o [import-pdf.py](../../script
 - tabelas além do calendário (categorias, taxas) saem deformadas do MarkItDown;
 - incisos numéricos (`1.`) e referências cruzadas no corpo do texto ("Art 11º") não são alterados.
 
+## Revisão de 2026-10-18: `import-pdf.py` em PDFs de layout diferente do de 2014
+A conversão dos regulamentos do CCOS de 2022 e de 2019 (issue #27) mostrou que o script, calibrado no layout de 2014, ainda deixava a saída fora do padrão do acervo em outros layouts. A escolha do MarkItDown permanece; o script passa a:
+- **Timbre:** remover o nome da Federação só quando ele está sozinho na linha ou seguido do "Fundada em" do timbre (inclusive com o timbre inteiro em uma linha). No meio de uma frase, como no Art. 6º do CCOS 2022 ("filiado à FEDERAÇÃO CEARENSE DE ORIENTAÇÃO (FECORI)"), o nome é texto do regulamento e fica. Antes, o script o apagava.
+- **Título:** juntar as linhas do título mesmo quando separadas por linha em branco. Isso encerra o limite "título partido por linhas em branco" da revisão anterior, e a edição passa a ser derivada do título.
+- **Capítulo:** aceitar `10.DA SEGURANÇA`, sem espaço depois do ponto.
+- **Linhas:** gravar cada artigo, parágrafo e alínea em uma linha só, com linha em branco entre eles, como no restante do acervo. Tabelas, calendário solto, assinatura, anexo, incisos numéricos e marcadores não são tocados, para não misturar conteúdo. O hífen de fim de linha só é fechado em sigla composta (`SI-` e `Card` viram `SI-Card`); nos demais casos a quebra fica, e o verificador aponta a palavra partida, porque só o PDF mostra se o hífen é da palavra.
+- **Caracteres:** descartar o acento combinante U+0301 que o PDF deixa depois de vogal já acentuada (`será́`) e normalizar o ordinal `o` ou `°` em referência cruzada (`Art. 44o` vira `Art. 44º`).
+- **Gravação:** usar LF em qualquer sistema, como o repositório (`.gitattributes`). No Windows o padrão gravaria CRLF.
+- **Calendário:** continuar sem converter calendários de colunas separadas ou com células mescladas (CCOS 2019 e 2022), mas avisar na saída de erro, para o trecho não passar despercebido. A tabela se monta à mão contra o PDF.
+
+A validação comparou a saída do script antigo e a do novo sobre os 23 PDFs de regulamento do acervo: nenhuma palavra mudou, fora o nome da Federação preservado nas frases, o timbre de 2018 antes deixado pela metade e a normalização de ordinais e capítulos. Sobre o CCOS 2022, o script reproduz o `.md` já revisado, exceto pela tabela do calendário.
+
 

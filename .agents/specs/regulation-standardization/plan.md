@@ -13,7 +13,7 @@ A extração é feita pelo script [`import-pdf.py`](../../scripts/import-pdf.py)
 ```bash
 python .agents/scripts/import-pdf.py Documentos/<ano>/regulamentoCCO.pdf
 ```
-O Markdown é gravado ao lado do PDF, com o mesmo nome-base, já com o frontmatter do regulamento (`ano`, `edicao`, `status: arquivado`, `rop_referencia`, `description`). O `ano` vem da pasta `Documentos/<ano>/` do PDF e a `edicao`, do numeral romano do título; se uma das duas não puder ser identificada, o script para e pede `--ano` ou `--edicao`, porque fato normativo não se estima. `--sem-frontmatter` serve a documentos que não são regulamento de competição. As heurísticas foram calibradas no layout de 2014: PDFs de outros anos podem sair com título, artigos ou calendário por tratar, e isso se resolve na revisão manual.
+O Markdown é gravado ao lado do PDF, com o mesmo nome-base, já com o frontmatter do regulamento (`ano`, `edicao`, `status: arquivado`, `rop_referencia`, `description`). O `ano` vem da pasta `Documentos/<ano>/` do PDF e a `edicao`, do numeral romano do título; se uma das duas não puder ser identificada, o script para e pede `--ano` ou `--edicao`, porque fato normativo não se estima. `--sem-frontmatter` serve a documentos que não são regulamento de competição. As heurísticas foram calibradas nos layouts de 2014, 2019 e 2022: PDFs de outros anos podem sair com artigos ou calendário por tratar, e isso se resolve na revisão manual. Quando o calendário não vira tabela, o script avisa na saída de erro; a tabela se monta à mão contra o PDF.
 
 ### 2. Padrão Tipográfico
 | Elemento | Formato |
@@ -50,4 +50,4 @@ A verificação recusa artefatos de conversão (U+00AD, BOM, U+00A0, palavras pa
 | Tabela de calendário deformada | Conferência visual contra o PDF; a verificação não detecta colunas trocadas |
 | Alteração involuntária do conteúdo normativo | Comparação artigo a artigo com o PDF antes do commit |
 | PDF antigo sem camada de texto | `pip install markitdown-ocr` e revisão reforçada |
-| Layout de PDF diferente do de 2014 (título partido, artigo isolado na linha, calendário em colunas) | O script deixa o trecho como está e pede `--edicao` quando não acha o título; revisão manual e ajuste do script na conversão do acervo |
+| Layout de PDF diferente dos de 2014, 2019 e 2022 (artigo isolado na linha, calendário em colunas ou com células mescladas) | O script deixa o trecho como está, avisa quando o calendário não vira tabela e pede `--edicao` quando não acha o título; revisão manual e ajuste do script na conversão do acervo |

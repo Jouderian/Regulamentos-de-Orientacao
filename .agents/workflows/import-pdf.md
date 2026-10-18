@@ -45,7 +45,10 @@ Este script executará as seguintes tarefas automaticamente:
 1. Extração do conteúdo do PDF mantendo a fidelidade das tabelas nativas do Markdown.
 2. Limpeza do timbre da Federação, dos rodapés e das letras duplicadas do negrito simulado (`RREEGGUULLAAMMEENNTTOO`).
 3. Aplicação de Expressões Regulares (Regex) para formatar a tipografia jurídica do projeto: título, capítulos numerados (`## 1. DA ...`), artigos (ordinal até o 9º, cardinal do 10 em diante), `Parágrafo Único`, parágrafos numerados, alíneas (`>> **a.**`) e o calendário de etapas em tabela.
-4. Geração do frontmatter exigido pelo verificador (`ano`, `edicao`, `status: arquivado`, `rop_referencia`, `description`).
+4. Junção das linhas de cada artigo, parágrafo e alínea em uma linha só, com linha em branco entre eles, e correção do acento combinante (`será́`) e do ordinal `44o` nas referências.
+5. Geração do frontmatter exigido pelo verificador (`ano`, `edicao`, `status: arquivado`, `rop_referencia`, `description`).
+
+O arquivo sai com LF. Se o calendário de etapas não virar tabela (colunas em linhas separadas, célula mesclada), o script grava o arquivo e avisa na saída de erro; a tabela se monta à mão, como na [ADR-003](../wiki/decisions/ADR-003-historical-regulation-standardization.md).
 
 ### Opções
 | Opção | Quando usar |
@@ -79,5 +82,6 @@ Mesmo utilizando o script automatizado, a conversão de PDFs pode gerar pequenas
 1. **Cabeçalhos e Rodapés:** Remova números de páginas, títulos repetidos de topo e notas de rodapé que foram extraídos no meio do texto das páginas.
 2. **Tabelas:** O MarkItDown extrai tabelas de forma estruturada, mas verifique se não há distorção de colunas ou células mescladas incorretamente.
 3. **Quebras de Linha Hifenizadas:** Palavras hifenizadas no final da linha do PDF original podem ser salvas com o hífen incorreto (ex: `orien- tação` em vez de `orientação`). Faça uma rápida busca no texto.
-4. **Layout de outros anos:** as heurísticas foram calibradas no PDF de 2014. Em PDFs de outros anos, confira se o título virou `# Regulamento do ...`, se todos os artigos viraram `**Art. N** –` (o número pode vir isolado na linha) e se o calendário virou tabela (pode vir com as colunas em linhas separadas).
-5. **Tabelas e incisos:** só o calendário é convertido em tabela pelo script. Tabelas de categorias e de taxas costumam sair deformadas do MarkItDown, e incisos numéricos (`1.`) e referências cruzadas no texto ("Art 11º") não são alterados: ajuste à mão.
+4. **Layout de outros anos:** as heurísticas foram calibradas nos PDFs de 2014, 2019 e 2022. Em PDFs de outros anos, confira se o título virou `# Regulamento do ...`, se todos os artigos viraram `**Art. N** –` (o número pode vir isolado na linha) e se o calendário virou tabela. Quando o script avisar que não virou, monte a tabela contra o PDF; célula mesclada (um árbitro para duas etapas) se repete em cada linha.
+5. **Palavra partida no fim da linha:** o script só fecha o hífen de sigla composta (`SI-Card`). Os demais hifens de fim de linha ficam, e o `verificar-documentos.py` aponta a palavra partida: confira no PDF se o hífen é da palavra.
+6. **Tabelas e incisos:** só o calendário é convertido em tabela pelo script. Tabelas de categorias e de taxas costumam sair deformadas do MarkItDown, e incisos numéricos (`1.`) e referências cruzadas no texto ("Art 11º") não são alterados: ajuste à mão.

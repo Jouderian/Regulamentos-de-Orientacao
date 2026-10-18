@@ -17,12 +17,16 @@ PDF (ou de --ano) e a edição, do numeral romano do título (ou de --edicao).
 Nada disso é estimado: se um valor não puder ser identificado, o script para
 e pede a opção correspondente.
 
+Se o calendário de etapas não virar tabela, o arquivo é gravado e o script avisa
+na saída de erro: a tabela se monta à mão contra o PDF.
+
 Sai com código 1 se a conversão falhar.
 """
 import argparse
 import os
 import re
 import sys
+import unicodedata
 
 from markitdown import MarkItDown, MarkItDownException
 
@@ -31,13 +35,28 @@ PALAVRAS_MINUSCULAS = {'a', 'o', 'as', 'os', 'da', 'de', 'do', 'das', 'dos', 'e'
 SIGLAS = {'CCO', 'CCOS', 'CBO', 'FECORI', 'ROP', 'RGOP'}
 LIMITE_LINHAS_TITULO = 8
 
+# Linhas que abrem um bloco próprio ao juntar as linhas de um artigo (_unir_linhas).
+INICIO_DE_BLOCO = re.compile(r'#|\*\*Art\.|> \*\*|>> \*\*|\|')
+CORPO_DE_BLOCO = re.compile(r'\*\*Art\.|> \*\*|>> \*\*')
+# Inciso numérico, marcador, data de assinatura e anexo não continuam o artigo anterior.
+FORA_DO_ARTIGO = re.compile(r'\d+[.)][ \t]+\S|[-•][ \t]|Fortaleza\b.*\d{4}\.?$|ANEXO\b')
+# Começo de um calendário de etapas que o script não converteu em tabela.
+CALENDARIO_SOLTO = re.compile(r'^(?:Etapa|ETAPA|Percurso|PERCURSO)\b[^.;:|\n]*$', re.M)
+# O PDF quebra o texto na largura da página: uma linha mais curta que isso, fechada com
+# pontuação, é a última do parágrafo, e a linha seguinte (assinatura, por exemplo) não a continua.
+LINHA_CURTA = 60
+
 
 def padronizar_texto(texto):
-    # 1. Remover cabeçalhos da Federação (o timbre ocupa três linhas, e a última
-    # começa em "Brasileira de Orientação," ou "de Orientação," conforme o PDF)
+    # 1. Remover o timbre da Federação: o nome sozinho na linha, ou seguido do
+    # "Fundada em" do timbre. O nome dentro de uma frase ("filiado à FEDERAÇÃO
+    # CEARENSE DE ORIENTAÇÃO (FECORI)") é texto do regulamento e fica. O timbre
+    # ocupa até três linhas, e a última começa em "Brasileira de Orientação," ou
+    # "de Orientação," conforme o PDF.
     texto = re.sub(
-        r'\x0c?\s*FEDERAÇÃO CEARENSE DE ORIENTAÇÃO'
-        r'(?:\s*\n\s*Fundada em [^\n]+)?'
+        r'(?m)(?:^[ \t]*\x0c?[ \t]*FEDERAÇÃO CEARENSE DE ORIENTAÇÃO[ \t]*$'
+        r'|\x0c?[ \t]*FEDERAÇÃO CEARENSE DE ORIENTAÇÃO(?=[ \t]+Fundada em))'
+        r'(?:\s*\n\s*Fundada em [^\n]+|[ \t]+Fundada em [^\n]{0,140}?CNPJ:?[ \t]*[\d./-]+)?'
         r'(?:\s*\n\s*(?:Brasileira\s+)?(?:de\s+Orientação,\s*)?sobe?\s+o\s*CNPJ:[^\n]+)?',
         '',
         texto
@@ -57,8 +76,11 @@ def padronizar_texto(texto):
     # 3. Remover espaços duplos ou múltiplos entre palavras (preservando indentação de início de linha)
     texto = re.sub(r'(?<=\S)[ \t]{2,}', ' ', texto)
 
-    # 4. Remover marcas de quebra de página (\x0c) residuais
+    # 4. Remover marcas de quebra de página (\x0c) residuais e o acento combinante
+    # (U+0301) que o PDF deixa depois de vogal já acentuada ("será́"). A
+    # normalização antes dele funde o acento solto à vogal sem acento ("e" + U+0301).
     texto = texto.replace('\x0c', '')
+    texto = unicodedata.normalize('NFC', texto).replace('́', '')
 
     # 5. Desfazer as letras duplicadas do negrito simulado do PDF
     texto = re.sub(r'(?m)^.*$', _desduplicar_linha, texto)
@@ -80,9 +102,10 @@ def padronizar_texto(texto):
 
     # 9. Capítulos numerados: 1. DA REGULAMENTAÇÃO GERAL -> ## 1. DA REGULAMENTAÇÃO GERAL
     # Só linhas sem minúsculas: um inciso numerado ("1. Alunos matriculados...") não é capítulo.
+    # Aceita "10.DA SEGURANÇA" (sem espaço depois do ponto), que alguns PDFs trazem.
     texto = re.sub(
-        r'(?m)^(\d+\.[ \t]+(?:D[AOE]S?|ANEXO)\b[^a-zà-ÿ\n]*)$',
-        r'## \1',
+        r'(?m)^(\d+)\.[ \t]*((?:D[AOE]S?|ANEXO)\b[^a-zà-ÿ\n]*)$',
+        r'## \1. \2',
         texto
     )
 
@@ -106,10 +129,65 @@ def padronizar_texto(texto):
     # linha iniciado por letra minúscula com esse fechamento viraria alínea.
     texto = re.sub(r'(?m)^[ \t]*([a-z])[).][ \t]+(.*)$', r'>> **\1.** \2', texto)
 
-    # 14. Colapsar múltiplas linhas em branco seguidas (mais de 2 newlines)
+    # 14. Referência cruzada com ordinal em "o" ou "°" no corpo: Art. 44o -> Art. 44º
+    texto = re.sub(r'\b((?:Arts?|Parágrafo)\.?[ \t]*\d+)[o°](?![\wÀ-ÿ])', r'\1º', texto)
+
+    # 15. Um parágrafo por linha, com linha em branco entre artigos, parágrafos e alíneas
+    texto = _unir_linhas(texto)
+
+    # 16. Colapsar múltiplas linhas em branco seguidas (mais de 2 newlines)
     texto = re.sub(r'\n{3,}', '\n\n', texto)
 
     return texto.strip()
+
+
+def _unir_linhas(texto):
+    """Junta as linhas de cada artigo, parágrafo e alínea em um parágrafo só.
+
+    O PDF quebra o texto na largura da página e o MarkItDown ainda deixa linhas em
+    branco no meio das frases; o acervo guarda cada dispositivo em uma linha. O que
+    não é artigo, parágrafo ou alínea (tabelas, calendário solto, assinatura, anexo)
+    não é tocado: juntar esses trechos misturaria conteúdo.
+    """
+    saida = []
+    corpo = None  # linhas do artigo, parágrafo ou alínea aberto
+    for linha in texto.split('\n'):
+        limpa = linha.strip()
+        if corpo is not None:
+            if not limpa:
+                continue
+            fim_do_paragrafo = len(corpo[-1]) < LINHA_CURTA and corpo[-1][-1] in '.;:!?'
+            if not (fim_do_paragrafo or INICIO_DE_BLOCO.match(limpa)
+                    or FORA_DO_ARTIGO.match(limpa) or CALENDARIO_SOLTO.match(limpa)):
+                corpo.append(limpa)
+                continue
+            saida += [_juntar(corpo), '']
+            corpo = None
+        if CORPO_DE_BLOCO.match(limpa):
+            if saida and saida[-1]:
+                saida.append('')
+            corpo = [limpa]
+        else:
+            saida.append(linha)
+    if corpo is not None:
+        saida.append(_juntar(corpo))
+    return '\n'.join(saida)
+
+
+def _juntar(linhas):
+    """Une as linhas de um bloco com espaço.
+
+    Hífen no fim da linha: a sigla composta ("SI-" e "Card") fecha sem espaço. Nos
+    demais casos a quebra fica, para o verificar-documentos.py apontar a palavra
+    partida ("orien-" e "tação"): só quem lê o PDF sabe se o hífen é da palavra.
+    """
+    texto = linhas[0]
+    for linha in linhas[1:]:
+        if re.search(r'(?<![-\s])-$', texto):
+            texto += linha if linha[0].isupper() else '\n' + linha
+        else:
+            texto += ' ' + linha
+    return texto
 
 
 def _desduplicar_linha(match):
@@ -134,15 +212,22 @@ def _linha_de_titulo(linha):
 
 
 def _montar_titulo(texto):
-    """Junta as linhas de título do topo ("REGULAMENTO", "DO", "X CAMPEONATO...") em `# Título`."""
+    """Junta as linhas de título do topo ("REGULAMENTO", "DO", "X CAMPEONATO...") em `# Título`.
+
+    Algumas linhas do título vêm separadas por linha em branco: ela não encerra o título.
+    """
     linhas = texto.split('\n')
-    fim = 0
-    while fim < len(linhas) and _linha_de_titulo(linhas[fim]):
-        fim += 1
-    bloco = ' '.join(linha.strip() for linha in linhas[:fim])
+    fim = 0  # logo depois da última linha do título
+    i = 0
+    while i < len(linhas) and (not linhas[i].strip() or _linha_de_titulo(linhas[i])):
+        if linhas[i].strip():
+            fim = i + 1
+        i += 1
+    partes = [linha.strip() for linha in linhas[:fim] if linha.strip()]
+    bloco = ' '.join(partes)
     # Exigir as duas palavras evita transformar em título uma linha qualquer em
     # caixa-alta do topo ("CNPJ – 07.360.881/0001-09") ou só metade dele.
-    if fim > LIMITE_LINHAS_TITULO or 'REGULAMENTO' not in bloco or 'CAMPEONATO' not in bloco:
+    if len(partes) > LIMITE_LINHAS_TITULO or 'REGULAMENTO' not in bloco or 'CAMPEONATO' not in bloco:
         return texto
     return '\n'.join(['# ' + _caixa_de_titulo(bloco), ''] + linhas[fim:])
 
@@ -308,8 +393,15 @@ def main(argv=None):
         markdown = montar_frontmatter(
             titulo, ano, edicao, args.rop_referencia or ano) + markdown
 
+    # Calendário que o script não reconheceu (colunas em linhas separadas, célula
+    # mesclada): sem aviso, o trecho sairia como texto solto e passaria despercebido.
+    if CALENDARIO_SOLTO.search(markdown):
+        print('Aviso: o calendário de etapas não virou tabela; monte-o à mão contra o PDF.',
+              file=sys.stderr)
+
     try:
-        with open(saida, 'w', encoding='utf-8') as fh:
+        # newline='\n': no Windows o padrão gravaria CRLF; o repositório usa LF.
+        with open(saida, 'w', encoding='utf-8', newline='\n') as fh:
             fh.write(markdown + '\n')
     except OSError as erro:
         print(f'Erro ao gravar {saida}: {erro}', file=sys.stderr)
