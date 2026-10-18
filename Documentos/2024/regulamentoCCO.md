@@ -220,7 +220,7 @@ description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 
 > **Parágrafo 5º:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS da CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias (item 40.2 da ROP).
 
-> **Parágrafo 6º:** A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
+**Art. 37** – A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
 
 ## **13.** DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
