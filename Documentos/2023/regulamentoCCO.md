@@ -6,7 +6,7 @@ rop_referencia: 2023
 description: Regulamento do XVII Campeonato Cearense de Orientação (2023)
 ---
 
-# REGULAMENTO DO XVII CAMPEONATO CEARENSE DE ORIENTAÇÃO
+# Regulamento do XVII Campeonato Cearense de Orientação
 
 ## 1. DA REGULAMENTAÇÃO GERAL
 

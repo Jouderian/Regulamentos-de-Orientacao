@@ -6,7 +6,7 @@ rop_referencia: 2019
 description: Regulamento do XV Campeonato Cearense de Orientação (2019)
 ---
 
-# REGULAMENTO DO XV CAMPEONATO CEARENSE DE ORIENTAÇÃO
+# Regulamento do XV Campeonato Cearense de Orientação
 
 ## 1. DA REGULAMENTAÇÃO GERAL
 

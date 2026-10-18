@@ -6,7 +6,7 @@ rop_referencia: 2023
 description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 ---
 
-# REGULAMENTO DO XI CAMPEONATO CEARENSE DE ORIENTAÇÃO SPRINT
+# Regulamento do XI Campeonato Cearense de Orientação Sprint
 
 ## 1. DA REGULAMENTAÇÃO GERAL
 

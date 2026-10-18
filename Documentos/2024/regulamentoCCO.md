@@ -6,7 +6,7 @@ rop_referencia: 2024
 description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 ---
 
-# REGULAMENTO DO XVIII CAMPEONATO CEARENSE DE ORIENTAÇÃO
+# Regulamento do XVIII Campeonato Cearense de Orientação
 
 ## 1. DA REGULAMENTAÇÃO GERAL
 
