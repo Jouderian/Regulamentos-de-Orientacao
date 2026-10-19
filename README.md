@@ -25,7 +25,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2013 | **MD** + PDF | **MD** + PDF | — | ✔ |
 | 2014 | PDF | PDF | — | ✔ |
 | 2015 | PDF | PDF | — | ✔ |
-| 2016 | PDF | PDF | — | ✔ |
+| 2016 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2017 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2018 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2019 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
