@@ -12,22 +12,22 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 | Ano | ROP | CCO | CCOS |
 | :---: | :---: | :---: | :---: |
-| 2012 | ✗ | ✔ | ✔ |
-| 2013 | ✗ | ✔ | ✔ |
-| 2014 | ✗ | ✗ | ✗ |
-| 2015 | ✗ | ✗ | ✗ |
-| 2016 | ✗ | ✔ | ✔ |
-| 2017 | ✗ | ✔ | ✔ |
-| 2018 | ✗ | ✔ | ✔ |
-| 2019 | ✗ | ✔ | ✔ |
-| 2020 | ✗ | — | — |
-| 2021 | ✗ | — | — |
-| 2022 | ✗ | ✔ | ✔ |
-| 2023 | ✔ | ✔ | ✔ |
-| 2024 | ✗ | ✔ | ✔ |
-| 2025 | ✔ | ✔ | — |
-| 2026 | ✔ | ✔ | ✔ |
 | 2027 | — | ✔ | ✔ |
+| 2026 | ✔ | ✔ | ✔ |
+| 2025 | ✔ | ✔ | — |
+| 2024 | ✗ | ✔ | ✔ |
+| 2023 | ✔ | ✔ | ✔ |
+| 2022 | ✗ | ✔ | ✔ |
+| 2021 | ✗ | — | — |
+| 2020 | ✗ | — | — |
+| 2019 | ✗ | ✔ | ✔ |
+| 2018 | ✗ | ✔ | ✔ |
+| 2017 | ✗ | ✔ | ✔ |
+| 2016 | ✗ | ✔ | ✔ |
+| 2015 | ✗ | ✗ | ✗ |
+| 2014 | ✗ | ✗ | ✗ |
+| 2013 | ✗ | ✔ | ✔ |
+| 2012 | ✗ | ✔ | ✔ |
 
 **Legenda:** ✔ Feito | ✗ Não feito | — Não aplicável (sem PDF no acervo ou competição não realizada)
 
@@ -37,9 +37,9 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 ## Anos sem tarefa
 
-- **2020 e 2021**: não houve campeonato estadual (COVID-19) — só existem as ROP nacionais.
-- **2025 (CCOS)**: não realizado; a FECORI sediou o CamBOS.
 - **2026 e 2027**: regulamento unificado (CCO e CCOS), mantido como fonte na raiz do repositório.
+- **2025 (CCOS)**: não realizado; a FECORI sediou o CamBOS.
+- **2020 e 2021**: não houve campeonato estadual (COVID-19) — só existem as ROP nacionais.
 
 ## Finalização
 

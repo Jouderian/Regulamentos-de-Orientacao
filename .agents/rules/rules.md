@@ -64,6 +64,7 @@ Estruture cada resposta para que o usuário possa agir:
   - Exemplo: quando a CBO publicar a ROP 2027, copie o `regrasOrientacaoPedestre.md` da raiz para `Documentos/2026/` e só então substitua o da raiz pelo texto de 2027.
 - **Nome do arquivo-fonte igual ao do documento publicado.** O `.md`, o `.docx` e o `.pdf` de um mesmo documento compartilham o nome-base (ex.: `regulamentoDasCompeticoesCearenses`), variando apenas a extensão.
 - **Tags de edição.** Toda edição publicada recebe uma tag anotada `v<ano>` no commit em que se tornou definitiva, dando um endereço permanente ao texto que valeu naquele ano. Edições em aberto não recebem tag.
+- **Ordem cronológica inversa.** Em tabelas, relações, listas e notas de arquivos de controle e documentação (`README.md`, specs, tarefas), os anos e edições são sempre apresentados do mais novo para o mais velho (ex.: 2027, 2026, 2025...), facilitando a consulta e as buscas históricas.
 
 ## Controle de Pendências e Sugestões de Regra
 

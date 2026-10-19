@@ -21,28 +21,28 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 
 | Ano | CCO | CCOS | ROP (nacional) | Resultados de clubes |
 | :---: | :---: | :---: | :---: | :---: |
-| 2012 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2013 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2014 | PDF | PDF | PDF | ✔ |
-| 2015 | PDF | PDF | PDF | ✔ |
-| 2016 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2017 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2018 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2019 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2020-2021 | *não realizado* | *não realizado* | PDF | — |
-| 2022 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
-| 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
-| 2025 | **MD** + PDF | *não realizado* | **MD** + PDF | ✔ |
-| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | PDF (o **MD** vigente está na raiz) | *em andamento* (CCO) |
 | 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
+| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | **MD** + PDF | *em andamento* (CCO) |
+| 2025 | **MD** + PDF | *não realizado* | **MD** + PDF | ✔ |
+| 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
+| 2022 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2020-2021 | *não realizado* | *não realizado* | PDF | — |
+| 2019 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2018 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2017 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2016 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2015 | PDF | PDF | PDF | ✔ |
+| 2014 | PDF | PDF | PDF | ✔ |
+| 2013 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2012 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 
 O acompanhamento da conversão pendente está em [`.agents/specs/regulation-standardization/tasks.md`](.agents/specs/regulation-standardization/tasks.md).
 
 > [!NOTE]
-> - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
-> - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 > - Em **2026**, o *Campeonato Cearense de Orientação Sprint* (CCOS) foi cancelado pela **FECORI** após a publicação do regulamento unificado, não havendo apuração de resultados de clubes para esta modalidade.
+> - Em **2025** o *Campeonato Cearense de Orientação Sprint* (CCOS) não foi realizado, devido a **FECORI** ter organizado o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
+> - Nos anos de **2020 e 2021**, não foram realizados campeonatos oficiais devido às restrições impostas pela pandemia de **COVID-19**. Por este motivo, não existem regulamentos correspondentes a este período.
 
 ## Histórico de Clubes Campeões
 

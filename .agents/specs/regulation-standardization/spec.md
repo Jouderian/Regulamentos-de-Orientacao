@@ -31,20 +31,20 @@ Estado em 2026-10-11. O `—` indica ausência do documento no acervo; "não rea
 
 | Ano | CCO | CCOS | Observação |
 | :---: | :---: | :---: | :--- |
-| 2012 | **MD** + PDF | **MD** + PDF | completo |
-| 2013 | **MD** + PDF | **MD** + PDF | completo |
-| 2014 a 2015 | PDF | PDF | pendente de conversão |
-| 2016 | **MD** + PDF | **MD** + PDF | completo |
-| 2017 | **MD** + PDF | **MD** + PDF | completo |
-| 2018 | **MD** + PDF | **MD** + PDF | completo |
-| 2019 | **MD** + PDF | **MD** + PDF | completo |
-| 2020-2021 | — | — | sem competição (COVID-19) |
-| 2022 | **MD** + PDF | **MD** + PDF | completo |
-| 2023 | **MD** + PDF | **MD** + PDF | completo |
-| 2024 | **MD** + PDF | **MD** + PDF | completo |
-| 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |
-| 2026 | **MD** + PDF | **MD** + PDF | documento unificado (evento CCOS cancelado após publicação); a ROP 2026 vigente está na raiz |
 | 2027 | PDF/DOCX | PDF/DOCX | fonte é o `.md` da raiz |
+| 2026 | **MD** + PDF | **MD** + PDF | documento unificado (evento CCOS cancelado após publicação) |
+| 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |
+| 2024 | **MD** + PDF | **MD** + PDF | completo |
+| 2023 | **MD** + PDF | **MD** + PDF | completo |
+| 2022 | **MD** + PDF | **MD** + PDF | completo |
+| 2020-2021 | — | — | sem competição (COVID-19) |
+| 2019 | **MD** + PDF | **MD** + PDF | completo |
+| 2018 | **MD** + PDF | **MD** + PDF | completo |
+| 2017 | **MD** + PDF | **MD** + PDF | completo |
+| 2016 | **MD** + PDF | **MD** + PDF | completo |
+| 2014 a 2015 | PDF | PDF | pendente de conversão |
+| 2013 | **MD** + PDF | **MD** + PDF | completo |
+| 2012 | **MD** + PDF | **MD** + PDF | completo |
 
 ## Passo a Passo
 1. Converter o PDF do ano com `python .agents/scripts/import-pdf.py Documentos/<ano>/<arquivo>.pdf`.
