@@ -16,7 +16,7 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 **Art. 2º** – A organização geral de cada etapa caberá aos clubes filiados a FECORI, segundo calendário abaixo.
 
-> **Parágrafo único:** O local da prova será divulgado pelo organizador no 1º boletim, que deve ser divulgado, pelo menos, 1 (um) mês antes da competição.
+> **Parágrafo Único:** O local da prova será divulgado pelo organizador no 1º boletim, que deve ser divulgado, pelo menos, 1 (um) mês antes da competição.
 
 | Etapa | Percurso | Data | Organizador |
 | :--- | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 **Art. 6º** – É obrigatório o uniforme do competidor atender os requisitos da Regra 127 da RGOP. Recomenda-se o uso da camisa de manga cobrindo os cotovelos e o uso de caneleiras de proteção.
 
-> **Parágrafo único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
+> **Parágrafo Único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
 
 ## 4. DAS CATEGORIAS
 
@@ -115,7 +115,7 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 **Art. 9º** – A pontuação por classificação será atribuída aos 35 primeiros atletas que concluírem o percurso, por categoria e por etapa. Os atletas posicionados a partir da 36ª colocação, que tenham concluído o percurso receberão 1 ponto pela participação.
 
-**Art. 10º** – Será adotado o seguinte sistema de pontuação:
+**Art. 10** – Será adotado o seguinte sistema de pontuação:
 
 | Colocação | Pontos |
 | :--- | :--- |
@@ -155,27 +155,27 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 | 34º | 03 |
 | 35º | 02 |
 
-**Art. 11º** – Os atletas convocados por seus clubes para atuarem na equipe técnica envolvida com as atividades de mapeamento e percursos de cada etapa, devidamente autorizados pelo árbitro da prova, receberão para efeito de classificação em sua categoria, a media da pontuação conquistada nas outras cinco etapas.
+**Art. 11** – Os atletas convocados por seus clubes para atuarem na equipe técnica envolvida com as atividades de mapeamento e percursos de cada etapa, devidamente autorizados pelo árbitro da prova, receberão para efeito de classificação em sua categoria, a media da pontuação conquistada nas outras cinco etapas.
 
 > **Parágrafo 1º:** Os atletas participantes da equipe técnica de cada etapa deverão competir em, no mínimo 4 (quatro) etapas do Campeonato Cearense de Orientação para terem direito aos pontos referidos no Art 10º.
 
 > **Parágrafo 2º:** O atleta que se enquadre no Art 11º e também participe como árbitro em uma etapa do campeonato receberá para efeito de classificação em sua categoria a media da pontuação conquistada em quatro etapas, após o descarte, para ambos os eventos que participar.
 
-**Art. 12º** – A classificação individual geral do Campeonato Cearense de Orientação será calculada com base no somatório dos pontos obtidos em todas as etapas, após o descarte da pior pontuação.
+**Art. 12** – A classificação individual geral do Campeonato Cearense de Orientação será calculada com base no somatório dos pontos obtidos em todas as etapas, após o descarte da pior pontuação.
 
-**Art. 13º** – A pontuação dos clubes se dará pelo somatório dos pontos obtidos por seus três atletas melhores classificados em cada categoria. Em caso de empate, será considerado vencedor o clube que obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente. No caso de atletas, o desempate se dará pelo resultado obtido na etapa mais recente.
+**Art. 13** – A pontuação dos clubes se dará pelo somatório dos pontos obtidos por seus três atletas melhores classificados em cada categoria. Em caso de empate, será considerado vencedor o clube que obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente. No caso de atletas, o desempate se dará pelo resultado obtido na etapa mais recente.
 
 ## 6. DA INSCRIÇÃO
 
-**Art. 14º** – Os competidores que participam de uma prova declaram que gozam de boas condições de saúde e que possuem conhecimentos técnicos suficientes para participar da competição e são responsáveis pelos riscos e acidentes que venham a sofrer no deslocamento, concentração e execução dos percursos.
+**Art. 14** – Os competidores que participam de uma prova declaram que gozam de boas condições de saúde e que possuem conhecimentos técnicos suficientes para participar da competição e são responsáveis pelos riscos e acidentes que venham a sofrer no deslocamento, concentração e execução dos percursos.
 
 > **Parágrafo 1º:** Recomenda-se que a primeira inscrição seja na categoria D/HN1, D/HN2, D/HN3;
 
 > **Parágrafo 2º:** As inscrições fora do prazo podem ser recusadas;
 
-**Art. 15º** – Os clubes deverão centralizar as inscrições de seus atletas e encaminhar a relação completa de inscritos ao local indicado pela organização de cada uma das etapas, conforme boletim informativo divulgado.
+**Art. 15** – Os clubes deverão centralizar as inscrições de seus atletas e encaminhar a relação completa de inscritos ao local indicado pela organização de cada uma das etapas, conforme boletim informativo divulgado.
 
-**Art. 16º** – Taxas individuais de inscrição por etapa:
+**Art. 16** – Taxas individuais de inscrição por etapa:
 
 | Atletas | Anuidade FECORI | Inscrição | Locação siCard |
 | :--- | :--- | :--- | :--- |
@@ -186,65 +186,65 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 | Atletas acima de 60 anos | Isento | Isento | R$ 7,00 |
 | Atletas carentes (até 15 atletas / clube / prova) | Isento | Isento | R$ 7,00 |
 
-> **Parágrafo único:** São considerados ISENTOS os atletas enquadrados nas seguintes situações:
+> **Parágrafo Único:** São considerados ISENTOS os atletas enquadrados nas seguintes situações:
 >> **1.** Alunos matriculados em instituições publicas de ensino filiados a FECORI, cadastrados no Programa Bolsa Família ou possuir renda per capita familiar inferior a exigida pelo Programa Bolsa Família, conforme declaração por escrito do presidente do Clube;
 >> **2.** Atletas filiados a FECORI com mais de 60 anos de idade.
 
-**Art. 17º** – Aos menores de dezoito anos é exigida a autorização expressa do responsável para sua participação.
+**Art. 17** – Aos menores de dezoito anos é exigida a autorização expressa do responsável para sua participação.
 
-**Art. 18º** – A data limite para a inscrição em uma competição será de no mínimo 15 dias antes da prova. Podendo o organizador mudar este prazo, deste que autorizado pelo Árbitro e informando no 1º Boletim do evento.
+**Art. 18** – A data limite para a inscrição em uma competição será de no mínimo 15 dias antes da prova. Podendo o organizador mudar este prazo, deste que autorizado pelo Árbitro e informando no 1º Boletim do evento.
 
-**Art. 19º** – Não haverá devolução de taxa de inscrição quando o atleta faltar ou quando o percurso da categoria for anulado, pois esta se destina a custear o evento.
+**Art. 19** – Não haverá devolução de taxa de inscrição quando o atleta faltar ou quando o percurso da categoria for anulado, pois esta se destina a custear o evento.
 
-**Art. 20º** – A devolução da taxa de inscrição ocorrerá quando a etapa não for realizada e ficará a critério do atleta receber ou não, quando for transferida para outra data.
+**Art. 20** – A devolução da taxa de inscrição ocorrerá quando a etapa não for realizada e ficará a critério do atleta receber ou não, quando for transferida para outra data.
 
 ## 7. DA ORDEM DE PARTIDA
 
-**Art. 21º** – A ordem de partida deverá ser realizada através de sorteio, não sendo permitida a partida simultânea de atletas do mesmo percurso.
+**Art. 21** – A ordem de partida deverá ser realizada através de sorteio, não sendo permitida a partida simultânea de atletas do mesmo percurso.
 
-**Art. 22º** – O intervalo de partida dentro de cada categoria será no mínimo de 1 (um) minuto e dependerá do número de atletas inscritos na categoria.
+**Art. 22** – O intervalo de partida dentro de cada categoria será no mínimo de 1 (um) minuto e dependerá do número de atletas inscritos na categoria.
 
 ## 8. DOS PONTOS DE CONTROLE
 
-**Art. 23º** – O ponto de controle será identificado no terreno por um prisma de seção triangular na cor branca e laranja em cada face, com um ou mais picotadores, com o número correspondente fixado no suporte do prisma.
+**Art. 23** – O ponto de controle será identificado no terreno por um prisma de seção triangular na cor branca e laranja em cada face, com um ou mais picotadores, com o número correspondente fixado no suporte do prisma.
 
-**Art. 24º** – A face do prisma terá 30 cm de largura por 30 cm de altura.
+**Art. 24** – A face do prisma terá 30 cm de largura por 30 cm de altura.
 
-**Art. 25º** – O ponto de controle deverá corresponder, no terreno, ao centro do círculo no mapa.
+**Art. 25** – O ponto de controle deverá corresponder, no terreno, ao centro do círculo no mapa.
 
-**Art. 26º** – Cada ponto de controle será identificado com um número-código, de forma que o competidor possa ler e identificar rapidamente o mesmo ao visitar o ponto. Os números menores que 31 e os números com dupla interpretação (66, 68, 86, 89, 98, 99) não podem ser usados. Os números deverão ser impressos em preto sobre branco, com o tamanho variando entre 2 e 10 cm.
+**Art. 26** – Cada ponto de controle será identificado com um número-código, de forma que o competidor possa ler e identificar rapidamente o mesmo ao visitar o ponto. Os números menores que 31 e os números com dupla interpretação (66, 68, 86, 89, 98, 99) não podem ser usados. Os números deverão ser impressos em preto sobre branco, com o tamanho variando entre 2 e 10 cm.
 
 ## 9. DO MAPA DE ORIENTAÇÃO E CARTÃO DE CONTROLE
 
-**Art. 27º** – Os mapas, traçados dos percursos e impressões adicionais serão desenhados e impressos de acordo com a Especificação Internacional para Mapas de Orientação da IOF, devendo ser impresso na qualidade disponível, previamente aprovada pelo Árbitro.
+**Art. 27** – Os mapas, traçados dos percursos e impressões adicionais serão desenhados e impressos de acordo com a Especificação Internacional para Mapas de Orientação da IOF, devendo ser impresso na qualidade disponível, previamente aprovada pelo Árbitro.
 
-**Art. 28º** – O mapa deve ser plastificado de forma a permitir que seja dobrado com facilidade e não venha a sofrer dano no caso de exposição à água.
+**Art. 28** – O mapa deve ser plastificado de forma a permitir que seja dobrado com facilidade e não venha a sofrer dano no caso de exposição à água.
 
-> **Parágrafo único:** Deve ser identificado de forma visível no verso do mapa a categoria do atleta.
+> **Parágrafo Único:** Deve ser identificado de forma visível no verso do mapa a categoria do atleta.
 
-**Art. 29º** – O cartão de controle deverá conter espaços suficientes para registrar a senha no ponto de controle e, no mínimo, dois espaços de reserva.
+**Art. 29** – O cartão de controle deverá conter espaços suficientes para registrar a senha no ponto de controle e, no mínimo, dois espaços de reserva.
 
-> **Parágrafo único:** Deve ser identificado com o nome completo, clube, hora de partida, e categoria do atleta.
+> **Parágrafo Único:** Deve ser identificado com o nome completo, clube, hora de partida, e categoria do atleta.
 
 ## 10. DA APURAÇÃO, CLASSIFICAÇÃO
 
-**Art. 30º** – Os atletas serão classificados individualmente, em ordem crescente de tempo de execução do percurso, dentro de sua categoria.
+**Art. 30** – Os atletas serão classificados individualmente, em ordem crescente de tempo de execução do percurso, dentro de sua categoria.
 
-**Art. 31º** – O atleta que não concluir ou desistir do percurso é obrigado a passar na faixa de chegada ou informar oficialmente ao árbitro de chegada o mais rapidamente possível, para fins de controle do efetivo participante e evitar atraso na apuração.
+**Art. 31** – O atleta que não concluir ou desistir do percurso é obrigado a passar na faixa de chegada ou informar oficialmente ao árbitro de chegada o mais rapidamente possível, para fins de controle do efetivo participante e evitar atraso na apuração.
 
-**Art. 32º** – O atleta que mudar de categoria, só contará com os pontos dos percursos realizados na categoria.
+**Art. 32** – O atleta que mudar de categoria, só contará com os pontos dos percursos realizados na categoria.
 
-**Art. 33º** – O tempo limite para execução do percurso é de 4 (quatro) horas para os percursos clássicos e de 2 (duas) horas para o percurso curto, podendo ser alterado, a critério do diretor da prova, atendendo às peculiaridades locais, em especial os fatores climáticos, informando até 1 (uma) hora antes da partida do primeiro atleta.
+**Art. 33** – O tempo limite para execução do percurso é de 4 (quatro) horas para os percursos clássicos e de 2 (duas) horas para o percurso curto, podendo ser alterado, a critério do diretor da prova, atendendo às peculiaridades locais, em especial os fatores climáticos, informando até 1 (uma) hora antes da partida do primeiro atleta.
 
-**Art. 34º** – O atleta que chegar atrasado para a partida, contará como se tivesse partido no tempo determinado, exceto em casos excepcionais devidamente autorizados pelo árbitro da prova, não cabendo recurso ao Júri Técnico.
+**Art. 34** – O atleta que chegar atrasado para a partida, contará como se tivesse partido no tempo determinado, exceto em casos excepcionais devidamente autorizados pelo árbitro da prova, não cabendo recurso ao Júri Técnico.
 
-**Art. 35º** – O atleta não filiado participará normalmente das etapas do Campeonato, entretanto, passará a marcar pontos para classificação final a partir do momento em que oficializar sua filiação.
+**Art. 35** – O atleta não filiado participará normalmente das etapas do Campeonato, entretanto, passará a marcar pontos para classificação final a partir do momento em que oficializar sua filiação.
 
-**Art. 36º** – O Clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificado para fins do resultado final por clube.
+**Art. 36** – O Clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificado para fins do resultado final por clube.
 
 ## 11. DA DESCLASSIFICAÇÃO
 
-**Art. 37º** – Será desclassificado o atleta que:  
+**Art. 37** – Será desclassificado o atleta que:  
 >> **a.** Solicitar apoio técnico a outro atleta;  
 >> **b.** Apoiar tecnicamente outro atleta;  
 >> **c.** Concluir o percurso em ordem diferente à prescrita na carta e cartão de controle;  
@@ -262,23 +262,23 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 ## 12. DA PREMIAÇÃO POR ETAPA
 
-**Art. 38º** – Serão premiados com medalhas de participação, todos os atletas que concluírem seus percursos.
+**Art. 38** – Serão premiados com medalhas de participação, todos os atletas que concluírem seus percursos.
 
-**Art. 39º** – Outros prêmios poderão ser concedidos durante o Campeonato, a cargo dos organizadores das etapas.
+**Art. 39** – Outros prêmios poderão ser concedidos durante o Campeonato, a cargo dos organizadores das etapas.
 
 ## 13. DA PREMIAÇÃO ESPECIAL POR ATLETA
 
-**Art. 40º** – Os atletas de qualquer categoria, que realizarem a pernada entre o último ponto de controle e a linha de chegada no menor tempo, serão premiados com o troféu masculino e feminino da “Pernada Rápida” da etapa.
+**Art. 40** – Os atletas de qualquer categoria, que realizarem a pernada entre o último ponto de controle e a linha de chegada no menor tempo, serão premiados com o troféu masculino e feminino da “Pernada Rápida” da etapa.
 
-**Art. 41º** – Os atletas das categorias com grau de dificuldades “A” ou “E”, que realizarem a pernada estabelecida pelo traçador dos percursos como a mais técnica no menor tempo, serão premiados com o troféu masculino e feminino da “Pernada Técnica” da etapa.
+**Art. 41** – Os atletas das categorias com grau de dificuldades “A” ou “E”, que realizarem a pernada estabelecida pelo traçador dos percursos como a mais técnica no menor tempo, serão premiados com o troféu masculino e feminino da “Pernada Técnica” da etapa.
 
-**Art. 42º** – Em caso de empate, o critério de desempate será a idade. O atleta com mais tempo de vida será o vencedor.
+**Art. 42** – Em caso de empate, o critério de desempate será a idade. O atleta com mais tempo de vida será o vencedor.
 
 ## 14. DA PREMIAÇÃO DO CAMPEONATO
 
-**Art. 43º** – Os 3 (três) Clubes melhor pontuados serão premiados com troféus conforme Art 13º.
+**Art. 43** – Os 3 (três) Clubes melhor pontuados serão premiados com troféus conforme Art. 13.
 
-**Art. 44º** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria serão premiados.
+**Art. 44** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria serão premiados.
 
 > **Parágrafo 1º:** O primeiro colocado de cada categoria receberá um troféu e o segundo e terceiro lugar receberão uma medalha.
 
@@ -286,27 +286,27 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 ## 15. DO PEDIDO DE RECURSO
 
-**Art. 45º** – O atleta ou clube poderá entrar com pedido de recurso, por escrito, junto ao Júri Técnico da etapa, até 24 (vinte e quatro) horas após a divulgação final do resultado da etapa.
+**Art. 45** – O atleta ou clube poderá entrar com pedido de recurso, por escrito, junto ao Júri Técnico da etapa, até 24 (vinte e quatro) horas após a divulgação final do resultado da etapa.
 
-**Art. 46º** – Serão considerados motivos para o pedido de recurso somente os casos de erro de direito.
+**Art. 46** – Serão considerados motivos para o pedido de recurso somente os casos de erro de direito.
 
-**Art. 47º** – Não caberá pedido de recurso a casos julgados pelo Júri Técnico.
+**Art. 47** – Não caberá pedido de recurso a casos julgados pelo Júri Técnico.
 
-**Art. 48º** – A solução do pedido, quando não comunicada imediatamente ao atleta, deverá ser feita por escrito, até 15 (quinze) dias após a data da competição.
+**Art. 48** – A solução do pedido, quando não comunicada imediatamente ao atleta, deverá ser feita por escrito, até 15 (quinze) dias após a data da competição.
 
 ## 16. DO JÚRI TÉCNICO
 
-**Art. 49º** – O Júri Técnico da prova será composto por 5 (cinco) componentes, sendo o árbitro da prova, 1 (um) responsável técnico da Comissão Organizadora do Evento, 1 (um) presidente de clube federado, 1 (um) árbitro da FECORI e 1 (um) atleta com experiência comprovada, sorteados antes do início de cada etapa.
+**Art. 49** – O Júri Técnico da prova será composto por 5 (cinco) componentes, sendo o árbitro da prova, 1 (um) responsável técnico da Comissão Organizadora do Evento, 1 (um) presidente de clube federado, 1 (um) árbitro da FECORI e 1 (um) atleta com experiência comprovada, sorteados antes do início de cada etapa.
 
-**Art. 50º** – O Júri Técnico poderá anular o percurso quando constatar erros que prejudiquem a igualdade de condições de execução do percurso entre os atletas de uma mesma categoria. Como consequência não valerá os pontos atribuídos aos atletas, porém, não interferirá na premiação segundo os resultados apurados pela organização.
+**Art. 50** – O Júri Técnico poderá anular o percurso quando constatar erros que prejudiquem a igualdade de condições de execução do percurso entre os atletas de uma mesma categoria. Como consequência não valerá os pontos atribuídos aos atletas, porém, não interferirá na premiação segundo os resultados apurados pela organização.
 
 ## 17. DA SEGURANÇA
 
-**Art. 51º** – A Organização deverá realizar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas;
+**Art. 51** – A Organização deverá realizar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas;
 
-**Art. 52º** – O traçado dos percursos deverá atender com rigor e sensibilidade às exigências técnicas para cada categoria;
+**Art. 52** – O traçado dos percursos deverá atender com rigor e sensibilidade às exigências técnicas para cada categoria;
 
-**Art. 53º** – Deverá ser ressaltado nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, locado nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
+**Art. 53** – Deverá ser ressaltado nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, locado nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
 Jouderian Nobre — Presidente da FECORI
 

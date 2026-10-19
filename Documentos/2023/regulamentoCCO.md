@@ -72,31 +72,31 @@ description: Regulamento do XVII Campeonato Cearense de Orientação (2023)
 
 > **Parágrafo 2º:** Para as pessoas que não sejam filiadas, conforme Art. 2º, estas devem se inscrever no percurso aberto, acompanhado, novato ou bravo. Para o percurso aberto a inscrição pode inclusive ser feita no local do evento, com quantidade limitada pela organização da etapa, a ser informada em boletim.
 
-**Art. 10º** – Os participantes ao se inscreverem numa etapa autorizam o uso de sua imagem, vídeo, voz, depoimento ou dados biográficos em todo e qualquer material entre fotos e outros meios de comunicação capturados durante a etapa para serem utilizados em campanhas promocionais e institucionais do organizador da etapa e da FECORI, sendo destinadas à divulgação ao público em geral do esporte Orientação. Esta autorização é concedida a título gratuito, abrangendo o uso da mídia acima mencionada em todo território nacional e no exterior, em todas as suas modalidades e sem limite de tempo ou número de utilizações. Sendo assim, os participantes quando se inscrevem declaram que autorizam o uso acima descrito sem que nada haja a ser reclamado a título de direitos conexos à imagem ou a qualquer outro.
+**Art. 10** – Os participantes ao se inscreverem numa etapa autorizam o uso de sua imagem, vídeo, voz, depoimento ou dados biográficos em todo e qualquer material entre fotos e outros meios de comunicação capturados durante a etapa para serem utilizados em campanhas promocionais e institucionais do organizador da etapa e da FECORI, sendo destinadas à divulgação ao público em geral do esporte Orientação. Esta autorização é concedida a título gratuito, abrangendo o uso da mídia acima mencionada em todo território nacional e no exterior, em todas as suas modalidades e sem limite de tempo ou número de utilizações. Sendo assim, os participantes quando se inscrevem declaram que autorizam o uso acima descrito sem que nada haja a ser reclamado a título de direitos conexos à imagem ou a qualquer outro.
 
-**Art. 11º** – As inscrições dos atletas devem ser realizadas no site da FECORI no evento correspondente a etapa.
+**Art. 11** – As inscrições dos atletas devem ser realizadas no site da FECORI no evento correspondente a etapa.
 
 > **Parágrafo 1º:** Os atletas são responsáveis pelos dados informados à CBO e deve sempre mantê-los atualizados. O organizador de uma etapa não tem acesso para fazer ajustes no cadastro do atleta.
 
 > **Parágrafo 2º:** Caso o site da FECORI não esteja disponível por questões técnicas, declarado pela CBO ou FECORI, o organizador deve informar através de boletim informativo a alternativa para inscrição.
 
-**Art. 12º** – Os valores cobrados seguirão os definidos no REGIMENTO DE TAXAS DA FECORI.
+**Art. 12** – Os valores cobrados seguirão os definidos no REGIMENTO DE TAXAS DA FECORI.
 
 > **Parágrafo 1º:** O 1º prazo de inscrição termina com no mínimo 15 (quinze) dias após a publicação do 1º boletim informativo, divulgado pela organização do evento. As datas de inscrição serão publicadas no primeiro boletim informativo de cada etapa.
 
 > **Parágrafo 2º:** A organização poderá recusar inscrições realizadas por dados ou valores incorretos ou incompletos, ou fora do prazo de inscrição.
 
-**Art. 13º** – Caso o número de inscritos supere a quantidade de SI-Cards disponíveis, será priorizado o uso para os atletas de categorias com mais de um competidor na seguinte ordem: Elite, Alfa, Bravo e Novato. Neste caso, a taxa de aluguel do SI-Card será devolvida aos atletas das categorias não priorizadas.
+**Art. 13** – Caso o número de inscritos supere a quantidade de SI-Cards disponíveis, será priorizado o uso para os atletas de categorias com mais de um competidor na seguinte ordem: Elite, Alfa, Bravo e Novato. Neste caso, a taxa de aluguel do SI-Card será devolvida aos atletas das categorias não priorizadas.
 
-**Art. 14º** – Aos menores de dezoito anos, é exigida a autorização expressa do responsável para sua participação.
+**Art. 14** – Aos menores de dezoito anos, é exigida a autorização expressa do responsável para sua participação.
 
 > **Parágrafo 1º:** A autorização deve ser entregue ao organizador da etapa na secretaria do evento e caso não exista a área de secretaria, o documento deve ser entregue diretamente ao diretor do evento.
 
 > **Parágrafo 2º:** Será considerado como autorização de participação de atleta menor na etapa, o caso em que o responsável pelo atleta participe da etapa e não faça nenhuma manifestação contrária a participação do menor no período de correção, previsto no Art. 16.
 
-**Art. 15º** – A data limite para a inscrição em uma competição será de no mínimo 15 (quinze) dias antes do evento. Podendo o organizador mudar este prazo, desde que autorizado pelo árbitro e informado em boletim informativo do evento.
+**Art. 15** – A data limite para a inscrição em uma competição será de no mínimo 15 (quinze) dias antes do evento. Podendo o organizador mudar este prazo, desde que autorizado pelo árbitro e informado em boletim informativo do evento.
 
-**Art. 16º** – A lista de inscritos para conferência de uma etapa estará disponível, a partir da data de início das inscrições até a data de divulgação da lista de partida, no site da FECORI.
+**Art. 16** – A lista de inscritos para conferência de uma etapa estará disponível, a partir da data de início das inscrições até a data de divulgação da lista de partida, no site da FECORI.
 
 > **Parágrafo 1º:** O técnico do clube e o próprio atleta são responsáveis por verificar os dados registrados e solicitar eventuais correções, até 5 (cinco) dias antes da competição.
 

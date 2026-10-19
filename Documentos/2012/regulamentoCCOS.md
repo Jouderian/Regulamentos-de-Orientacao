@@ -137,7 +137,7 @@ Serão obedecidas as regras da Confederação Brasileira de Orientação para Or
   1. É vedado o uso de sapatos de atletismo com cravos.
   2. Não será obrigatório ao competidor estar com as pernas e braços cobertos;
 
-> **Parágrafo único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
+> **Parágrafo Único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
 
 ## 10. PARTIDA
 

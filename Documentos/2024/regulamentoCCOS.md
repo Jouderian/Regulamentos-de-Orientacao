@@ -53,10 +53,10 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 **Art. 9º** – Os organizadores não podem ser responsabilizados por acidentes ocorridos com participantes durante o evento, mas devem disponibilizar meios para prestar os primeiros socorros e transporte para deslocar o acidentado até um hospital ou posto de saúde mais próximo.
 
-**Art. 10º** – A organização geral do evento é de responsabilidade de um ou mais clubes filiados, coordenados pela FECORI, conforme calendário abaixo.
+**Art. 10** – A organização geral do evento é de responsabilidade de um ou mais clubes filiados, coordenados pela FECORI, conforme calendário abaixo.
 
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                                    |
-| ------------ | -------- | --------------- | ---------------------------------------------- |
+| :----------: | :------: | --------------- | ---------------------------------------------- |
 | 1º           | 21/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67)       |
 | 2º           | 21/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67)       |
 | 3º           | 22/Set   | FECORI          | 9327 - Lucas Lima Correia (QA/FECORI 67)       |

@@ -38,7 +38,7 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 
 **Art. 5º** – É proibido realizar os percursos usando sapatilhas de atletismo, com as pernas descobertas e /ou com camiseta sem manga. Recomenda-se o uso da camisa de manga cobrindo os cotovelos, aproximando-se das regras nacionais e internacionais.
 
-> **Parágrafo único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
+> **Parágrafo Único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
 
 ## IV – DAS CATEGORIAS
 
@@ -147,7 +147,7 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 | 34º | 03 |
 | 35º | 02 |
 
-> **Parágrafo único:** Para a 7ª etapa do VIII CCO, a pontuação terá um acréscimo de 25% (vinte e cinco por cento) e será a seguinte:
+> **Parágrafo Único:** Para a 7ª etapa do VIII CCO, a pontuação terá um acréscimo de 25% (vinte e cinco por cento) e será a seguinte:
 
 | Colocação | Pontos |
 | :--- | :--- |
@@ -214,7 +214,7 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 | Atletas acima de 64 anos | Isento | Isento | R$ 7,00 |
 | Atletas carentes (até 15 atletas / clube / prova) | Isento | Isento | R$ 7,00 |
 
-> **Parágrafo único:** São considerados ISENTOS os atletas enquadrados nas seguintes situações:
+> **Parágrafo Único:** São considerados ISENTOS os atletas enquadrados nas seguintes situações:
 >> **1.** Alunos matriculados em Instituições públicas de ensinos fundamentais, médios e superior, filiados a FECORI, cuja renda familiar seja igual ou menor que dois salários mínimos, devidamente comprovados e aprovados pelo clube e FECORI;
 >> **2.** Atletas filiados a FECORI com mais de 64 anos de idade.
 
@@ -250,7 +250,7 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 
 **Art. 28** – O cartão de controle deverá conter espaços suficientes para registrar a senha no ponto de controle e, no mínimo, dois espaços de reserva.
 
-> **Parágrafo único:** Deve ser identificada com o nome completo, equipe, hora de partida, número do percurso, se for o caso, e categoria do atleta.
+> **Parágrafo Único:** Deve ser identificada com o nome completo, equipe, hora de partida, número do percurso, se for o caso, e categoria do atleta.
 
 ## X – DA APURAÇÃO, CLASSIFICAÇÃO
 
@@ -298,7 +298,7 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 
 **Art. 40** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria serão premiados.
 
-> **Parágrafo único:** Terão direito à premiação final somente os atletas que disputarem no mínimo 4(quatro) etapas e que estiverem regulares com a FECORI.
+> **Parágrafo Único:** Terão direito à premiação final somente os atletas que disputarem no mínimo 4(quatro) etapas e que estiverem regulares com a FECORI.
 
 ## XIV – DO PEDIDO DE RECURSO
 

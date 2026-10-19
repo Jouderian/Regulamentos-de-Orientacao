@@ -14,7 +14,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 2º** – As competições de SPRINT, na Orientação, são caracterizadas por percursos em que os atletas devam ser testados em suas habilidades de leitura e interpretação dos mapas, com escolhas de rotas em ambientes complexos, em alta velocidade.
 
-> **Parágrafo único:** Os percursos serão realizados em áreas de fácil acesso, agradáveis e com infraestrutura compatível ao número de participantes. O terreno deve ser propício à prática desta modalidade e o conjunto das ações dos organizadores deve ser aprovado pelo árbitro do evento.
+> **Parágrafo Único:** Os percursos serão realizados em áreas de fácil acesso, agradáveis e com infraestrutura compatível ao número de participantes. O terreno deve ser propício à prática desta modalidade e o conjunto das ações dos organizadores deve ser aprovado pelo árbitro do evento.
 
 **Art. 3º** – O presente campeonato será realizado em um evento, composto de três percursos.
 
@@ -22,7 +22,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 5º** – O uniforme será o previsto na regra 14.1, das ROP e poderão ser usados calção e camiseta cavada, sendo obrigatório o uso de um número de identificação do atleta que proporcione sua visualização clara.
 
-> **Parágrafo único:** Caso o número de identificação do atleta não esteja bordado ou impresso na camisa/camiseta, deverá ser utilizado obrigatoriamente o número, fixado no uniforme.
+> **Parágrafo Único:** Caso o número de identificação do atleta não esteja bordado ou impresso na camisa/camiseta, deverá ser utilizado obrigatoriamente o número, fixado no uniforme.
 
 **Art. 6º** – Considera-se por atleta ou clube filiado à (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
@@ -53,7 +53,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 9º** – Os organizadores não podem ser responsabilizados por acidentes ocorridos com participantes durante o evento, mas devem disponibilizar meios para prestar os primeiros socorros e transporte para deslocar o acidentado até um hospital ou posto de saúde mais próximo.
 
-**Art. 10º** – A organização geral de cada etapa é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendário abaixo.
+**Art. 10** – A organização geral de cada etapa é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendário abaixo.
 
 | Percurso | Data | Organizador | Árbitro |
 |---|---|---|---|
@@ -61,7 +61,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 | 2ª | 27/Mai | Trilha/CODL | LUCAS LIMA CORREIA (QA/FECORI: 67) |
 | 3ª | 28/Mai | Rumba na Rota | LUCAS LIMA CORREIA (QA/FECORI: 67) |
 
-> **Parágrafo único:** O local do evento será́ divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término do 2º Prazo de inscrições do evento anterior.
+> **Parágrafo Único:** O local do evento será́ divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término do 2º Prazo de inscrições do evento anterior.
 
 ## 4. DA INSCRIÇÃO
 
@@ -95,7 +95,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 >>**b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa;  
 >>**c.** Se o atleta que for participante da organização do evento atuar em um percurso, exercendo função que o impeça de competir; neste caso lhe será devolvido 1/3 do valor da inscrição paga;
 
-> **Parágrafo único:** Após o evento, cada Clube Organizador informará ao Diretor Financeiro quais os participantes que fazem jus a devolução prevista na alínea c.
+> **Parágrafo Único:** Após o evento, cada Clube Organizador informará ao Diretor Financeiro quais os participantes que fazem jus a devolução prevista na alínea c.
 
 ## 5. DA ORDEM DE PARTIDA
 
@@ -111,13 +111,13 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 23** – Se o organizador declarar impossibilidade de utilização do sistema eletrônico (SPORTident) no percurso, será utilizada apuração através de cartão de controle. Neste caso, a taxa de aluguel do SI-Card, se tiver sido cobrada, será devolvida aos atletas.
 
-> **Parágrafo único:** Em caso do uso de cartão de controle, este deverá ser impermeabilizado e conter quantidade e espaçamentos suficientes para registro das senhas nos pontos de controle e, no mínimo, dois espaços de reservas e deverá conter também o número de registro, nome completo, clube, hora de partida, e categoria do atleta.
+> **Parágrafo Único:** Em caso do uso de cartão de controle, este deverá ser impermeabilizado e conter quantidade e espaçamentos suficientes para registro das senhas nos pontos de controle e, no mínimo, dois espaços de reservas e deverá conter também o número de registro, nome completo, clube, hora de partida, e categoria do atleta.
 
 **Art. 24** – Os atletas serão classificados em ordem crescente de tempo de execução do percurso, dentro de sua categoria.
 
 **Art. 25** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todas os percursos.
 
-> **Parágrafo único:** Em caso de empate, ficará mais bem colocado o atleta que:
+> **Parágrafo Único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
 >>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
 >>**b.** Permanecendo o empate, a melhor classificação no último percurso;  
@@ -127,7 +127,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 27** – As categorias acompanhadas são categorias de apresentação do esporte. Os atletas inscritos participarão do percurso acompanhados de um atleta experiente designado pelo clube organizador da etapa, após este ter concluído seu percurso na competição ou não competir na etapa.
 
-> **Parágrafo único:** É facultado à cada clube oferecer um atleta experiente para acompanhar os atletas das categorias “acompanhados”.
+> **Parágrafo Único:** É facultado à cada clube oferecer um atleta experiente para acompanhar os atletas das categorias “acompanhados”.
 
 ## 7. DA DESCLASSIFICAÇÃO
 
@@ -154,11 +154,11 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 29** – O atleta ou clube poderá fazer uma reclamação para a Organização, desde que atenda a regra 37 da ROP;
 
-> **Parágrafo único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao diretor do evento.
+> **Parágrafo Único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao diretor do evento.
 
 **Art. 30** – O protesto só pode ser feito após a reclamação ter sido negada e deve atender a regra 38 da ROP.
 
-> **Parágrafo único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao árbitro do evento.
+> **Parágrafo Único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao árbitro do evento.
 
 **Art. 31** – As condições para uma apelação são descritas na regra 40 da ROP;
 
@@ -200,7 +200,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 38** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todos os percursos, sem descartes.
 
-> **Parágrafo único:** Em caso de empate, ficará mais bem colocado o atleta que:
+> **Parágrafo Único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
 >>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
 >>**b.** Obtiver o melhor resultado no último confronto direto;  
@@ -208,7 +208,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 39** – A classificação por clube se dará pelo somatório dos pontos conquistados em cada percurso conforme Art. 37 deste regulamento.
 
-> **Parágrafo único:** Em caso de empate, será considerado vencedor o clube que obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente.
+> **Parágrafo Único:** Em caso de empate, será considerado vencedor o clube que obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente.
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas os percursos, entretanto, não será classificado para fins do resultado por clube.
 

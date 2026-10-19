@@ -73,7 +73,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 > **Parágrafo 2º:** Para as pessoas que não sejam filiadas, conforme Art. 2º, estas devem se inscrever no percurso aberto, acompanhado, novato ou bravo. Para o percurso aberto, a inscrição pode inclusive ser feita no local do evento, com quantidade limitada pela organização da etapa, a ser informada em boletim.
 
-**Art. 10º** – Os participantes, ao se inscreverem numa etapa, autorizam o uso de sua imagem, vídeo, voz, depoimento ou dados biográficos em todo e qualquer material — entre fotos e outros meios de comunicação — capturados durante a etapa para serem utilizados em campanhas promocionais e institucionais do organizador da etapa e da FECORI, destinadas à divulgação ao público em geral do esporte Orientação. Esta autorização é concedida a título gratuito, abrangendo o uso da mídia acima mencionada em todo o território nacional e no exterior, em todas as suas modalidades e sem limite de tempo ou número de utilizações.
+**Art. 10** – Os participantes, ao se inscreverem numa etapa, autorizam o uso de sua imagem, vídeo, voz, depoimento ou dados biográficos em todo e qualquer material — entre fotos e outros meios de comunicação — capturados durante a etapa para serem utilizados em campanhas promocionais e institucionais do organizador da etapa e da FECORI, destinadas à divulgação ao público em geral do esporte Orientação. Esta autorização é concedida a título gratuito, abrangendo o uso da mídia acima mencionada em todo o território nacional e no exterior, em todas as suas modalidades e sem limite de tempo ou número de utilizações.
 
 **Art. 11** – As inscrições dos atletas devem ser realizadas no site da FECORI no evento correspondente à etapa.
 
