@@ -46,7 +46,7 @@ Estruture cada resposta para que o usuário possa agir:
 3. Termine com uma próxima ação que caiba em menos de dois minutos, quando houver uma.
 4. Conclua o problema atual antes de levantar outro.
 5. Reafirme o progresso a cada turno em **uma linha** ("etapa 3 de 5 concluída"). Uma linha de progresso não é recapitulação; repetir o que já foi dito, é.
-6. Estime **esforço** em unidades concretas, nunca "um pouco". Estimar **fato normativo** — ano de edição, data de etapa, nome de árbitro, colocação de clube — é proibido: esses vêm do documento ou do PDF original, nunca de suposição.
+6. Estime **esforço** em unidades concretas, nunca "um pouco". Estimar **fato normativo** — ano de edição, data de etapa, nome de árbitro, colocação de clube — é proibido: esses vêm do documento (Markdown primeiro; ver *Fonte de Consulta dos Documentos*) ou do PDF original, nunca de suposição.
 7. Após uma alteração, mostre o que passou a funcionar.
 8. Erros: informe local, causa e correção, sem drama.
 9. Limite a 5 itens cada lista dentro de uma resposta.
@@ -66,7 +66,15 @@ Estruture cada resposta para que o usuário possa agir:
 - **Tags de edição.** Toda edição publicada recebe uma tag anotada `v<ano>` no commit em que se tornou definitiva, dando um endereço permanente ao texto que valeu naquele ano. Edições em aberto não recebem tag.
 - **Ordem cronológica inversa.** Em tabelas, relações, listas e notas de arquivos de controle e documentação (`README.md`, specs, tarefas), os anos e edições são sempre apresentados do mais novo para o mais velho (ex.: 2027, 2026, 2025...), facilitando a consulta e as buscas históricas.
 
-## Controle de Pendências e Sugestões de Regra
+## Fonte de Consulta dos Documentos
+
+**Escopo:** vale para qualquer agente que **leia** o conteúdo de um regulamento do repositório para consultar, responder, comparar ou resumir. A [ADR-001](../wiki/decisions/ADR-001-markdown-como-fonte-da-verdade.md) fixa o Markdown como fonte da verdade; esta seção fixa o que ler.
+
+- **Markdown primeiro.** Leia sempre o `.md` do documento. Na edição vigente ou em elaboração, ele está na raiz; em edição superada, em `Documentos/<ano>/`.
+- **PDF só na falta do `.md`.** Abra o `.pdf` apenas quando o `.md` daquele documento, naquele ano, não existir (conversão pendente; a situação de cada ano está no [`README.md`](../../README.md)). Havendo `.md`, não abra o `.pdf` "para conferir" nem o use como segunda fonte.
+- **`.docx` e `.pdf` gerados não são fonte.** Em `Documentos/2027/` o `.docx` e o `.pdf` são saída gerada do `.md` da raiz; consulte a raiz.
+- **Declare o PDF.** Ao responder com base em um PDF, diga na resposta que o texto veio do PDF por falta do `.md`. Nunca misture as duas fontes sem avisar.
+- **Exceções:** tarefa cujo objetivo é conferir ou converter o `.md` contra o PDF original (conferência de texto normativo, conversão do acervo); pedido expresso do usuário; `.md` ilegível ou truncado, caso em que o agente avisa o usuário antes de recorrer ao PDF.
 
 - **Controle único.** Tudo o que está pendente vive como *issue* do GitHub. Não existe `todo.md`: o histórico anterior a 2026-10-17 está congelado em [`todo-done.md`](../todo-done.md). Uma pendência nunca é registrada em dois lugares. A decisão está na [ADR-005](../wiki/decisions/ADR-005-controle-de-pendencias-por-issues.md).
 - **Três tipos, um rótulo cada.** O formulário já aplica o rótulo.
