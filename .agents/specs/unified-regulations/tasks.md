@@ -4,7 +4,8 @@ description: Lista de tarefas para a implementação da unificação dos regulam
 
 # Tarefas de Unificação dos Regulamentos
 
-- [x] 2. Criar o documento `regulamento unificado.md` baseando-se na estrutura proposta.
+- [x] 1. Analisar comparativamente os regulamentos CCO e CCOS e definir a estrutura unificada (ver `plan.md`).
+- [x] 2. Criar o documento `regulamentoDasCompeticoesCearenses.md` baseando-se na estrutura proposta.
     - [x] 2.1. Redigir **Capítulo 1 - Disposições Gerais** (Omissões, regras de filiação, obrigações).
     - [x] 2.2. Redigir **Capítulo 2 - Categorias e Uniformes** (Exclusão PREO, categorias acompanhadas com restrições do Sprint, exigências de uniformes).
     - [x] 2.3. Redigir **Capítulo 3 - Das Responsabilidades, Etapas e Percursos** (Regras específicas CCO e CCOS sobre áreas, e os calendários separados).
