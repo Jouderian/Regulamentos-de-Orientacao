@@ -54,12 +54,12 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 7º** – A organização geral de cada etapa é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendário abaixo.
 
-| **Etapa** | **Data**  | **Organizador** | **Árbitro**                                                |
-| :-------: | :-------: | :-------------- | :--------------------------------------------------------- |
-| 1ª        | 25 de Mai | COqueiro        | 3952 - Paulo Marcelo de Oliveira (QA/FECORI 49)            |
-| 2ª        | 29 de Jun | COFORT          | 16127 – Ronald Luis Rodrigues do Nascimento (QA/FECORI 74) |
-| 3ª        | 17 de Ago | COCAP           | 16719 - Felipe Derick de Sousa Lima (QA/FECORI 69)         |
-| 4ª        | 05 de Out | Rumba na Rota   | 3607 – Paulo Antônio da Costa Mazulo (QA/FECORI 54)        |
+| **Etapa** | **Data**  | **Organizador** | **Árbitro** |
+| :---: | :---: | :--- | :--- |
+| 1ª | 25 de Mai | COqueiro | 3952 - Paulo Marcelo de Oliveira (QA/FECORI 49) |
+| 2ª | 29 de Jun | COFORT | 16127 – Ronald Luis Rodrigues do Nascimento (QA/FECORI 74) |
+| 3ª | 17 de Ago | COCAP | 16719 - Felipe Derick de Sousa Lima (QA/FECORI 69) |
+| 4ª | 05 de Out | Rumba na Rota | 3607 – Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término do 2º prazo de inscrições da etapa anterior.
 
@@ -261,10 +261,14 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 42** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria, inclusive os das categorias Novatos, serão premiados com medalhas.
 
-> **Parágrafo 1º:** Terão direito à premiação final somente os atletas filiados que participarem de, no mínimo, metade dos percursos realizados no CCO e que estiverem regulares conforme Art. 2º.
+> **Parágrafo 1º:** Terão direito à premiação final somente os atletas filiados que participarem de, no mínimo, metade dos percursos realizadas no CCO e que estiverem regulares conforme Art. 2º;
 
 > **Parágrafo 2º:** Na ausência do atleta à cerimônia de premiação, o prêmio será entregue ao seu clube. Na ausência de representante do clube, será despachado para o endereço do clube, com custas ressarcidas pelo mesmo.
 
 ---
 
 *Fortaleza/CE, 30 de novembro de 2024.*
+
+
+*José Rômulo Correia Júnior*
+**Presidente da FECORI**
