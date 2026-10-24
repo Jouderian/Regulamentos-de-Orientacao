@@ -19,8 +19,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Verificar links, artefatos de conversão e quadro de medalhas
+      - name: Verificar links, artefatos de conversão, estrutura dos artigos e quadro de medalhas
         run: python .agents/scripts/verificar-documentos.py
+
+      - name: Testar as checagens de estrutura
+        run: python -I .agents/scripts/testar-verificar-documentos.py
 
   gerar-docx:
     name: Gerar .docx do regulamento vigente

@@ -6,7 +6,7 @@ rop_referencia: 2014
 description: Regulamento IV CCOS (2014)
 ---
 
-# REGULAMENTO CAMPEONATO CEARENSE DE ORIENTAÇÃO SPRINT 2014 - IVCCOS
+# Regulamento do IV Campeonato Cearense de Orientação Sprint
 
 ## DEFINIÇÃO E OBJETIVO
 
@@ -132,7 +132,7 @@ As categorias do IVCCOS serão as seguintes:
 
 **Art. 14** – Os clubes deverão centralizar as inscrições de seus atletas e encaminhar a relação completa de inscritos ao local indicado pela organização de cada uma das etapas, conforme boletim informativo divulgado.
 
-**Art.15** – Taxas de Inscrição por etapa:
+**Art. 15** – Taxas de Inscrição por etapa:
 
 | Atletas | Inscrição | SI card Locação |
 | :--- | ---: | ---: |

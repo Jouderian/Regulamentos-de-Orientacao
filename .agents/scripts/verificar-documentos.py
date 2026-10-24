@@ -272,6 +272,68 @@ def checar_metadados_regulamento(rel, texto, regulamentos_vigentes):
 
 
 # --------------------------------------------------------------------------
+# 7. Estrutura dos regulamentos: artigos, ordinal, parágrafo único, alínea, título.
+# --------------------------------------------------------------------------
+ARTIGO = re.compile(r'(?m)^\*\*Art\.? ?(\d+)([^*]{0,3}?)\*\*')
+REFERENCIA = re.compile(r'(?i)\bArt(?:igo|\.)? ?(\d+)(º|°|o)?\s+deste\s+regulamento')
+PARAGRAFO_UNICO = re.compile(r'(?mi)^[> ]*\**\s*Parágrafo\s+[uú]nico.*$')
+ALINEA = re.compile(r'(?m)^>+ ?\*\*(\(?[a-z][).]?)\*\*')
+
+
+def _ordinal_correto(numero, sufixo):
+    """Art. 1º a 9º levam ordinal; do 10 em diante, cardinal (ADR-003, revisão de 2026-10-17)."""
+    return sufixo == ('º' if numero < 10 else '')
+
+
+def checar_estrutura(rel, texto):
+    nome = os.path.basename(rel)
+    if not nome.startswith(('regulamentoCCO', 'regulamentoDasCompeticoes')):
+        return
+    prosa = sem_codigo(texto)
+
+    anterior = None
+    existentes = set()
+    for m in ARTIGO.finditer(prosa):
+        numero, sufixo = int(m.group(1)), m.group(2)
+        linha = linha_de(prosa, m.start())
+        if not _ordinal_correto(numero, sufixo):
+            esperado = f'{numero}º' if numero < 10 else str(numero)
+            falha(rel, linha, f'ordinal do artigo fora da convenção: '
+                              f'"Art. {numero}{sufixo}" deveria ser "Art. {esperado}"')
+        if numero in existentes:
+            falha(rel, linha, f'artigo duplicado: Art. {numero}')
+        elif anterior is not None and numero != anterior + 1:
+            falha(rel, linha, f'salto na sequência de artigos: Art. {anterior} seguido de Art. {numero}')
+        existentes.add(numero)
+        anterior = numero
+
+    for m in REFERENCIA.finditer(prosa):
+        numero, sufixo = int(m.group(1)), m.group(2) or ''
+        linha = linha_de(prosa, m.start())
+        if numero not in existentes:
+            falha(rel, linha, f'referência a artigo inexistente neste documento: {m.group(0)!r}')
+        if not _ordinal_correto(numero, sufixo):
+            falha(rel, linha, f'ordinal da referência fora da convenção: {m.group(0)!r}')
+
+    for m in PARAGRAFO_UNICO.finditer(prosa):
+        if not m.group(0).startswith('> **Parágrafo Único:**'):
+            falha(rel, linha_de(prosa, m.start()),
+                  f'parágrafo único fora do padrão "> **Parágrafo Único:**": {m.group(0)[:40]!r}')
+
+    for m in ALINEA.finditer(prosa):
+        if not re.fullmatch(r'[a-z]\.', m.group(1)):
+            falha(rel, linha_de(prosa, m.start()),
+                  f'alínea fora do padrão "**a.**": {m.group(0)!r}')
+
+    titulo = re.search(r'(?m)^# (.+)$', prosa)
+    if not titulo:
+        falha(rel, 1, 'regulamento sem título de nível 1 ("# ...")')
+    elif not re.search(r'[a-zà-ÿ]', titulo.group(1)):
+        falha(rel, linha_de(prosa, titulo.start()),
+              f'título em caixa alta: {titulo.group(1)[:50]!r}')
+
+
+# --------------------------------------------------------------------------
 def main():
     total = 0
     regulamentos_vigentes = []
@@ -281,6 +343,7 @@ def main():
         checar_links(rel, texto)
         checar_artefatos(rel, texto)
         checar_tipografia(rel, texto)
+        checar_estrutura(rel, texto)
         checar_frontmatter(rel, texto)
         checar_medalhas(rel, texto)
         checar_metadados_regulamento(rel, texto, regulamentos_vigentes)

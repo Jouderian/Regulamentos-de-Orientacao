@@ -37,7 +37,10 @@ Obrigatória mesmo com o script. Revisar os itens listados no workflow [`import-
 ```bash
 python .agents/scripts/verificar-documentos.py
 ```
-A verificação recusa artefatos de conversão (U+00AD, BOM, U+00A0, palavras partidas por hifenização, `Paragrafo` sem acento, ordinais grafados `1o`) e artigos fora do padrão. É a mesma checagem executada pelo CI.
+A verificação recusa artefatos de conversão (U+00AD, BOM, U+00A0, palavras partidas por hifenização, `Paragrafo` sem acento, ordinais grafados `1o`) e artigos fora do padrão. Nos regulamentos, confere ainda a sequência de artigos (sem saltos nem repetições a partir do primeiro), o ordinal conforme a convenção da ADR-003 (`Art. 1º` a `Art. 9º`; `Art. 10` em diante), as referências "Art. N deste regulamento" a artigo existente no mesmo arquivo, o `Parágrafo Único` em `> **Parágrafo Único:**`, a alínea em `**a.**` e o título fora de caixa alta. Documento sem artigos (CCOS de 2012 e 2013) não é acusado. É a mesma checagem executada pelo CI, que roda também os testes dessas checagens:
+```bash
+python -I .agents/scripts/testar-verificar-documentos.py
+```
 
 ## Decisões de Armazenamento
 - O `.md` fica em `Documentos/<ano>/`, ao lado do PDF de origem, com o mesmo nome-base.
