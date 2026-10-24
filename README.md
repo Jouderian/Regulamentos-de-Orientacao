@@ -24,7 +24,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
 | 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | **MD** + PDF | *em andamento* (CCO) |
 | 2025 | **MD** + PDF | *não realizado* | **MD** + PDF | ✔ |
-| 2024 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2024 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2022 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2020-2021 | *não realizado* | *não realizado* | PDF | — |
