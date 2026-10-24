@@ -17,7 +17,7 @@ O “Campeonato Cearense de Orientação Sprint” tem por objetivo principal a 
 ## ORGANIZADORES
 
 | Etapa | Data | Organizador | Obs. |
-| :--- | :--- | :--- | :--- |
+| :--: | :--: | :--- | :--- |
 | 1ª | 05/05/12 | GEBP | Boletim Informativo nº 1 |
 | 2ª | 22/07/12 | COCAP | Boletim Informativo nº 1 |
 | 3ª | 25/11/12 | COFORT/COqueiro | Boletim Informativo nº 1 |
