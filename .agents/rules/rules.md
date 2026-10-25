@@ -76,18 +76,30 @@ Estruture cada resposta para que o usuário possa agir:
 - **Declare o PDF.** Ao responder com base em um PDF, diga na resposta que o texto veio do PDF por falta do `.md`. Nunca misture as duas fontes sem avisar.
 - **Exceções:** tarefa cujo objetivo é conferir ou converter o `.md` contra o PDF original (conferência de texto normativo, conversão do acervo); pedido expresso do usuário; `.md` ilegível ou truncado, caso em que o agente avisa o usuário antes de recorrer ao PDF.
 
+## Controle de Pendências e Sugestões de Regra
+
 - **Controle único.** Tudo o que está pendente vive como *issue* do GitHub. Não existe `todo.md`: o histórico anterior a 2026-10-17 está congelado em [`todo-done.md`](../todo-done.md). Uma pendência nunca é registrada em dois lugares. A decisão está na [ADR-005](../wiki/decisions/ADR-005-controle-de-pendencias-por-issues.md).
 - **Três tipos, um rótulo cada.** O formulário já aplica o rótulo.
   - `sugestão de regra`: proposta de inclusão, alteração ou revogação de dispositivo do regulamento. Formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml).
   - `tarefa`: trabalho que a própria equipe executa e fecha. Formulários [`tarefa-regras.yml`](../../.github/ISSUE_TEMPLATE/tarefa-regras.yml) e [`tarefa-repositorio.yml`](../../.github/ISSUE_TEMPLATE/tarefa-repositorio.yml).
   - `acompanhamento`: item que depende de terceiro e só se fecha quando ele decidir. Formulário [`acompanhamento.yml`](../../.github/ISSUE_TEMPLATE/acompanhamento.yml). A ROP só pode ser alterada pela CBO: sugestão à CBO e espera por nova edição são sempre `acompanhamento`, nunca `tarefa`. Quando a CBO decidir, abre-se uma `tarefa` para o que couber ao repositório.
-- **Duas equipes, um rótulo cada.** Toda *issue* tem exatamente um rótulo de tipo e um de equipe.
+- **Duas equipes, um rótulo cada.** Toda *issue* tem exatamente um rótulo de tipo e um de equipe (a `sugestão de regra` aberta tem ainda um de situação; ver *Ciclo da sugestão de regra*).
   - `equipe: regras`: conteúdo normativo — regulamento, calendário, interpretação de regra, conferência de texto normativo contra o original e acompanhamento da CBO.
   - `equipe: repositório`: scripts, CI, estrutura de pastas, documentação do repositório e conversão técnica do acervo.
   - Na dúvida, a equipe é a que **executa**.
 - **Revisão entre equipes.** Texto normativo (regulamento, ROP, `Documentos/**/*.md`, `clubesCampeoes.md`) só é alterado com revisão da equipe de regras, seja qual for a equipe da *issue*.
 - **Dependências.** A *issue* que aguarda outra é ligada a ela pelo vínculo nativo "Bloqueada por" do GitHub, criado pela interface da *issue* ou pela API (`dependencies/blocked_by`), e explica o motivo no corpo, em "Bloqueada porque". Não há rótulo de bloqueio: o vínculo é a única fonte.
 - **Sugestão de regra vira *issue*.** Toda proposta de inclusão, alteração ou revogação de dispositivo do `regulamentoDasCompeticoesCearenses.md` é registrada como *issue* no GitHub, com o formulário [`sugestao-regra.yml`](../../.github/ISSUE_TEMPLATE/sugestao-regra.yml) e o rótulo `sugestão de regra`. É um tipo próprio, nunca `tarefa`.
+- **Ciclo da sugestão de regra.** A sugestão aberta significa **decisão pendente**; a regra aprovada e ainda não aplicada vive em uma `tarefa`. A sugestão fecha na deliberação, não na aplicação.
+  1. **Triagem** (sem rótulo de situação): confere a identificação do proponente e se a sugestão é clara.
+  2. `situação: em análise`: a equipe de regras elabora o parecer, em comentário, com a redação proposta, o impacto e eventual conflito com a ROP ou com outro artigo.
+  3. `situação: parecer pronto`: o parecer está registrado e a sugestão espera entrar na pauta.
+  4. `situação: na pauta`: aguarda a deliberação da comissão de regras. Só entra na pauta sugestão com parecer.
+  5. **Deliberada**: a *issue* fecha com o resumo exigido em *Fechamento com resumo*.
+     - **Aprovada:** abre-se uma `tarefa` (`equipe: regras`) com a redação final aprovada, ligada à sugestão pelo número (`Refs #N`). A tarefa fecha quando o texto entra em `regulamentoDasCompeticoesCearenses.md`.
+     - **Rejeitada:** fecha com a justificativa.
+     - **Adiada:** continua aberta, com a data de retorno em comentário.
+- **Situação e milestone.** Os rótulos `situação` valem **só** para `sugestão de regra` aberta e são trocados, nunca acumulados: uma sugestão tem no máximo um. Ao fechar, a *issue* mantém o último. Sugestão e tarefa da mesma edição entram no *milestone* "Regulamento `<ano>`", que só fecha quando todas as *issues* dele estiverem fechadas; assim, o aprovado e ainda não aplicado nunca se perde. O agente não troca a situação nem fecha o *milestone* sem autorização do usuário.
 - **Identificação do proponente.** A *issue* só é aberta com nome completo, número CBO e clube de quem sugere. Faltando algum desses dados, o agente pede ao usuário antes de abrir.
 - **Redação elaborada pelo agente.** Quando o proponente só descreve a intenção e o agente redige o texto proposto, o agente apresenta a redação ao usuário antes de abrir a *issue*, porque ela fica pública em nome do proponente. O mesmo vale para o texto de qualquer `tarefa` ou `acompanhamento` que o agente redija. O agente não fecha *issue* sem autorização do usuário.
 - **Várias pessoas e vários agentes.** Cada pessoa se atribui à *issue* antes de começar, e o agente que ela dirige trabalha sob essa atribuição. Ninguém pega *issue* que já tem responsável. O agente não escolhe tarefa nem se atribui sozinho: quem o dirige indica a *issue*. Ao ser direcionado para atuar em uma *issue*, o agente deve imediatamente assumi-la no GitHub (`gh issue edit <N> --add-assignee "@me"`) e publicar um comentário com as considerações iniciais sobre o trabalho antes de iniciar as modificações, garantindo visibilidade a toda a equipe.

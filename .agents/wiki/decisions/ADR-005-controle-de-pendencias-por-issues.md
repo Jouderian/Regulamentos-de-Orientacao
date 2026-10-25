@@ -47,3 +47,19 @@ A [ADR-004](ADR-004-sugestoes-de-regra-por-issue.md) já adotou *issues* para as
 
 ## Revisão de 2026-10-17
 Passou a ser regra que todo fechamento de *issue* leve um comentário-resumo (resumo, mudanças, referência e o que ficou de fora), para que o histórico seja legível sem abrir o PR que a fechou. O custo é redigir o resumo a cada fechamento, e a regra depende de disciplina: `Closes #N` fecha a *issue* sem registrar o que foi feito, então o comentário precisa ser postado junto. Os detalhes estão em [`rules.md`](../../rules/rules.md).
+
+## Revisão de 2026-10-24
+Com 8 sugestões de regra abertas, deixou de ser possível distinguir a que ainda espera análise, a que espera a comissão e a que já foi aprovada e não aplicada. Decidiu-se separar **decidir** de **aplicar**:
+
+1. A `sugestão de regra` fecha na **deliberação da comissão de regras**, não na aplicação do texto. Aberta, significa decisão pendente.
+2. A sugestão aprovada gera uma `tarefa` (`equipe: regras`) com a redação final; a tarefa fecha quando o texto entra no regulamento. Rejeitada, fecha com a justificativa; adiada, continua aberta.
+3. Enquanto aberta, a sugestão carrega um rótulo de **situação**: `situação: em análise`, `situação: parecer pronto` ou `situação: na pauta`. Sugestão recém-aberta, sem rótulo, está em triagem. Os rótulos de situação valem só para sugestão; não se aplicam a `tarefa` nem a `acompanhamento`. Isso acrescenta uma terceira dimensão à regra de "um rótulo de tipo e um de equipe", sem alterá-la.
+4. Sugestão e tarefa da mesma edição entram em um *milestone* "Regulamento `<ano>`", que só fecha quando todas as suas *issues* estiverem fechadas.
+
+**Consequências:**
+- O que está aprovado e não aplicado fica visível como `tarefa` aberta no *milestone*, e não misturado às sugestões.
+- O fechamento da sugestão registra a redação final aprovada, como já exigia a revisão de 2026-10-17.
+- A troca de situação depende de disciplina: o GitHub não a automatiza. Um quadro de *issues* (GitHub Projects) fica como opção futura, se os rótulos não bastarem.
+- O rótulo da última situação permanece na sugestão fechada; o estado final está no comentário de fechamento.
+
+Os detalhes estão em [`rules.md`](../../rules/rules.md).
