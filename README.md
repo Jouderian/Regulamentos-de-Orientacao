@@ -6,6 +6,8 @@ O objetivo deste repositório é reunir esses documentos em texto organizado, co
 
 Cada documento tem duas versões: o **texto**, para ler direto no navegador, e o **PDF**, para baixar e imprimir.
 
+Primeira vez no GitHub? O **[Guia do Atleta](guiaDoAtleta.md)** explica, passo a passo, como ler as regras e como sugerir uma mudança.
+
 ## Regulamento em vigor
 
 - **Regulamento 2026** (CCO e CCOS): [ler o texto](Documentos/2026/regulamentoDasCompeticoesCearenses.md) · [baixar o PDF](Documentos/2026/regulamentoDasCompeticoesCearenses.pdf)
@@ -41,6 +43,8 @@ Atletas podem propor incluir, alterar ou retirar uma regra do regulamento de dua
 
 > [!IMPORTANT]
 > O formulário é público: seu nome, número CBO e clube ficam visíveis para qualquer pessoa.
+
+Nunca usou o GitHub? Siga o [Guia do Atleta](guiaDoAtleta.md#3-sugerir-pelo-formulário-passo-a-passo).
 
 As sugestões das duas formas são avaliadas juntas pelo diretor técnico da FECORI e pelos diretores técnicos dos clubes. O resultado de cada sugestão enviada pelo formulário fica registrado nela.
 
