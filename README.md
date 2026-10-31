@@ -36,6 +36,9 @@ Cada ano tem uma pasta com o regulamento, as Regras de Orientação Pedestre daq
 
 ## Como sugerir uma mudança
 
+> [!NOTE]
+> Nunca usou o GitHub? Siga o [Guia do Atleta](guiaDoAtleta.md#3-sugerir-pelo-formulário-passo-a-passo).
+
 Atletas podem propor incluir, alterar ou retirar uma regra do regulamento de duas formas:
 
 - **Pelo clube:** leve a sugestão ao diretor técnico do seu clube, que a encaminha à FECORI.
@@ -45,9 +48,6 @@ As sugestões das duas formas são avaliadas juntas pelo diretor técnico da FEC
 
 > [!IMPORTANT]
 > O formulário é público: seu nome, número CBO e clube ficam visíveis para qualquer pessoa.
-
-> [!NOTE]
-> Nunca usou o GitHub? Siga o [Guia do Atleta](guiaDoAtleta.md#3-sugerir-pelo-formulário-passo-a-passo).
 
 ## Licença
 
