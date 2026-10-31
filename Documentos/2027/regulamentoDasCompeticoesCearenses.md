@@ -1,6 +1,6 @@
 ---
 ano: 2027
-edicao: XXI CCO / XIV CCOS
+edicao: XXI CCO / XIII CCOS
 status: em-elaboracao
 rop_referencia: 2026
 description: Regulamento das Competições Cearenses de Orientação (em elaboração)
@@ -52,7 +52,7 @@ description: Regulamento das Competições Cearenses de Orientação (em elabora
 | 3ª        | 29/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
 | 4ª        | 07/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
 
-### Calendário do XIV Campeonato Cearense de Orientação Sprint
+### Calendário do XIII Campeonato Cearense de Orientação Sprint
 > **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
 
 | **Percurso** | **Data** | **Organizador** | **Árbitro**                  |

@@ -24,7 +24,7 @@ Cada ano tem uma pasta com o regulamento, as Regras de Orientação Pedestre daq
 [2025](Documentos/2025/) · [2024](Documentos/2024/) · [2023](Documentos/2023/) · [2022](Documentos/2022/) · [2020 e 2021](Documentos/2020-2021/) · [2019](Documentos/2019/) · [2018](Documentos/2018/) · [2017](Documentos/2017/) · [2016](Documentos/2016/) · [2015](Documentos/2015/) · [2014](Documentos/2014/) · [2013](Documentos/2013/) · [2012](Documentos/2012/)
 
 > [!NOTE]
-> - **2026:** o CCOS foi cancelado pela FECORI depois da publicação do regulamento, e por isso não há resultado de clubes do CCOS.
+> - **2026:** o CCOS foi cancelado pela FECORI depois da publicação do regulamento, e por isso não há resultado de clubes do CCOS. A edição XIII do CCOS passou para 2027.
 > - **2025:** não houve CCOS, porque a FECORI organizou o *Campeonato Brasileiro de Orientação Sprint* (CamBOS).
 > - **2020 e 2021:** não houve campeonatos, por causa da pandemia de COVID-19. A pasta traz só as Regras de Orientação Pedestre desses anos.
 
