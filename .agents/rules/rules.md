@@ -73,7 +73,7 @@ Estruture cada resposta para que o usuário possa agir:
 
 - **Markdown primeiro.** Leia sempre o `.md` do documento, em `Documentos/<ano>/`. A edição vigente e a em elaboração se identificam pelo `status` do frontmatter do regulamento.
 - **Documento longo, leitura por trecho.** Em documento com mais de 500 linhas (a ROP tem cerca de 2.600), localize o dispositivo por busca — número da regra ou do artigo, ou cabeçalho — e leia só as linhas dele; a ROP traz índice no início do arquivo. Para comparar anos, busque o mesmo dispositivo em cada arquivo. Não leia o documento inteiro para responder a uma pergunta pontual.
-- **PDF só na falta do `.md`.** Abra o `.pdf` apenas quando o `.md` daquele documento, naquele ano, não existir (conversão pendente; a situação de cada ano está no [`README.md`](../../README.md)). Havendo `.md`, não abra o `.pdf` "para conferir" nem o use como segunda fonte.
+- **PDF só na falta do `.md`.** Abra o `.pdf` apenas quando o `.md` daquele documento, naquele ano, não existir. Havendo `.md`, não abra o `.pdf` "para conferir" nem o use como segunda fonte.
 - **`.docx` e `.pdf` gerados não são fonte.** O `.docx` e o `.pdf` do regulamento são saída gerada do `.md` da mesma pasta; consulte o `.md`.
 - **Declare o PDF.** Ao responder com base em um PDF, diga na resposta que o texto veio do PDF por falta do `.md`. Nunca misture as duas fontes sem avisar.
 - **Exceções:** tarefa cujo objetivo é conferir ou converter o `.md` contra o PDF original (conferência de texto normativo, conversão do acervo); pedido expresso do usuário; `.md` ilegível ou truncado, caso em que o agente avisa o usuário antes de recorrer ao PDF.

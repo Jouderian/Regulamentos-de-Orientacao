@@ -11,7 +11,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 ## Situação atual dos documentos
 
-A conversão foi concluída. A situação de cada ano fica **somente** na tabela do [`README.md`](../../../README.md).
+A conversão foi concluída: todo regulamento e toda ROP do acervo têm o `.md` ao lado do PDF.
 
 ## Anos sem tarefa
 

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use este formulário para propor a inclusão, a alteração ou a revogação de uma regra do [Regulamento das Competições Cearenses de Orientação](https://github.com/Jouderian/Regulamentos-de-Orientacao#documentos-principais). A sugestão será avaliada pelo Diretor Técnico da FECORI, junto com os diretores técnicos dos clubes, na deliberação do regulamento.
+        Use este formulário para propor a inclusão, a alteração ou a revogação de uma regra do [Regulamento das Competições Cearenses de Orientação](https://github.com/Jouderian/Regulamentos-de-Orientacao#regulamento-em-vigor). A sugestão será avaliada pelo Diretor Técnico da FECORI, junto com os diretores técnicos dos clubes, na deliberação do regulamento.
 
         > **Atenção:** esta *issue* é pública. Nome completo, número CBO e clube informados abaixo ficarão visíveis para qualquer pessoa.
 

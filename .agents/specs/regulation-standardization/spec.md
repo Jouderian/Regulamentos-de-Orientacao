@@ -28,11 +28,10 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 - [x] A verificação `python .agents/scripts/verificar-documentos.py` passa sem problemas.
 
 ## Cobertura do Acervo
-A conversão do acervo foi concluída em 2026-10-31 ([*issue* #15](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/15)). A situação de cada ano fica **somente** na tabela do [`README.md`](../../../README.md), para não haver cópias divergentes.
+A conversão do acervo foi concluída em 2026-10-31 ([*issue* #15](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/15)): todo regulamento e toda ROP do acervo têm o `.md` ao lado do PDF.
 
 ## Passo a Passo
 1. Converter o PDF do ano com `python .agents/scripts/import-pdf.py Documentos/<ano>/<arquivo>.pdf`.
 2. Revisar manualmente os pontos listados no workflow [`import-pdf.md`](../../workflows/import-pdf.md) (cabeçalhos, rodapés, tabelas, hifenização).
 3. Comparar o Markdown com o PDF original artigo a artigo, confirmando que nenhuma regra foi perdida ou alterada.
 4. Rodar `python .agents/scripts/verificar-documentos.py` e corrigir o que for apontado.
-5. Atualizar a tabela de cobertura do `README.md`.
