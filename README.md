@@ -41,12 +41,13 @@ Atletas podem propor incluir, alterar ou retirar uma regra do regulamento de dua
 - **Pelo clube:** leve a sugestão ao diretor técnico do seu clube, que a encaminha à FECORI.
 - **Pela internet:** preencha o formulário **[Sugestão de regra](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/new?template=sugestao-regra.yml)**. É preciso ter uma conta gratuita no GitHub. O formulário pede seu nome completo, número CBO e clube, o artigo que você quer mudar, o texto atual, o texto proposto e a justificativa.
 
+As sugestões das duas formas são avaliadas juntas pelo diretor técnico da FECORI e pelos diretores técnicos dos clubes. O resultado de cada sugestão enviada pelo formulário fica registrado nela.
+
 > [!IMPORTANT]
 > O formulário é público: seu nome, número CBO e clube ficam visíveis para qualquer pessoa.
 
-Nunca usou o GitHub? Siga o [Guia do Atleta](guiaDoAtleta.md#3-sugerir-pelo-formulário-passo-a-passo).
-
-As sugestões das duas formas são avaliadas juntas pelo diretor técnico da FECORI e pelos diretores técnicos dos clubes. O resultado de cada sugestão enviada pelo formulário fica registrado nela.
+> [!NOTE]
+> Nunca usou o GitHub? Siga o [Guia do Atleta](guiaDoAtleta.md#3-sugerir-pelo-formulário-passo-a-passo).
 
 ## Licença
 
