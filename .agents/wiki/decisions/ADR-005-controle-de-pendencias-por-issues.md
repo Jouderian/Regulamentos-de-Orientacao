@@ -63,3 +63,8 @@ Com 8 sugestões de regra abertas, deixou de ser possível distinguir a que aind
 - O rótulo da última situação permanece na sugestão fechada; o estado final está no comentário de fechamento.
 
 Os detalhes estão em [`rules.md`](../../rules/rules.md).
+
+## Revisão de 2026-10-31
+O `rules.md` é carregado em toda sessão de agente, e a seção de pendências era a maior dele, embora só sirva quando se mexe em *issue*. Decidiu-se separar a **regra** do **procedimento**: as obrigações (tipos, equipes, revisão entre equipes, identificação do proponente, o que exige autorização, atribuição e fechamento com resumo) continuam em [`rules.md`](../../rules/rules.md); formulários, ciclo da sugestão, troca de situação, vínculo de dependência, modelo do comentário de fechamento e comandos passaram ao workflow [`gestao-issues.md`](../../workflows/gestao-issues.md).
+
+Isso ajusta o item 6 da decisão: a regra continua só no `rules.md`, e o workflow não pode contradizê-la nem criar obrigação nova. O custo é manter os dois arquivos coerentes: mudança de procedimento que altere uma obrigação passa primeiro pelo `rules.md`.

@@ -4,7 +4,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 # Base de Conhecimento
 
-Última atualização: 2026-10-24
+Última atualização: 2026-10-31
 
 Índice das páginas da wiki. As decisões formais ficam em `decisions/` como ADRs; specs, planos e workflows continuam sendo a fonte de verdade de cada iniciativa e não são duplicados aqui.
 
@@ -31,5 +31,6 @@ Nenhuma ainda. Criar conforme a orientação de [`wiki-maintenance.md`](../wiki-
 | Como gerar `.docx` e `.pdf` | [`workflows/geracao-documentos.md`](../workflows/geracao-documentos.md) |
 | Como importar um PDF novo | [`workflows/import-pdf.md`](../workflows/import-pdf.md) |
 | Como atualizar o repositório remoto | [`workflows/atualizar-repositorio.md`](../workflows/atualizar-repositorio.md) |
+| Como abrir, conduzir e fechar *issues* | [`workflows/gestao-issues.md`](../workflows/gestao-issues.md) |
 | Pendências atuais | [*Issues* do repositório](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues), conforme [`rules/rules.md`](../rules/rules.md) |
 | Histórico de tarefas anterior a 2026-10-17 | [`todo-done.md`](../todo-done.md) (congelado) |
