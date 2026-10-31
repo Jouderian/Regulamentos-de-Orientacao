@@ -4,12 +4,16 @@
 
 Executado pelo CI (.github/workflows/verificacao-documental.yml) e localmente:
 
-    python .agents/scripts/verificar-documentos.py
+    python .agents/scripts/verificar-documentos.py [--congelar]
 
-Sai com código 1 se encontrar qualquer problema.
+--congelar registra no manifesto os PDF de edição fechada que ainda não estão
+nele; nunca altera uma linha existente. Sai com código 1 se encontrar
+qualquer problema.
 """
+import hashlib
 import os
 import re
+import subprocess
 import sys
 from collections import Counter
 from urllib.parse import unquote
@@ -225,9 +229,10 @@ def checar_medalhas(rel, texto):
 # 6. Bloco de metadados obrigatório nos regulamentos de competição.
 # --------------------------------------------------------------------------
 CAMPOS_REGULAMENTO = ('ano', 'edicao', 'status', 'rop_referencia')
+STATUS = ('em-elaboracao', 'vigente', 'arquivado')
 
 
-def checar_metadados_regulamento(rel, texto, regulamentos_vigentes):
+def checar_metadados_regulamento(rel, texto, edicoes):
     nome = os.path.basename(rel)
     if not (nome.startswith('regulamentoCCO') or nome.startswith('regulamentoDasCompeticoes')):
         return
@@ -248,27 +253,151 @@ def checar_metadados_regulamento(rel, texto, regulamentos_vigentes):
     else:
         ano_declarado = m_ano.group(1)
         partes = rel.replace('\\', '/').split('/')
-        if partes[0] == 'Documentos' and len(partes) >= 2:
-            ano_pasta = partes[1]
-            if ano_declarado != ano_pasta:
-                falha(rel, 1, f'campo "ano" ({ano_declarado}) diverge da pasta ({ano_pasta})')
-        elif rel == 'regulamentoDasCompeticoesCearenses.md':
-            if ano_declarado != '2027':
-                falha(rel, 1, f'regulamento da raiz deve declarar ano "2027", mas declara "{ano_declarado}"')
+        if partes[0] != 'Documentos' or len(partes) != 3:
+            falha(rel, 1, 'regulamento fora de Documentos/<ano>/ (ADR-006)')
+        elif ano_declarado != partes[1]:
+            falha(rel, 1, f'campo "ano" ({ano_declarado}) diverge da pasta ({partes[1]})')
 
     m_status = re.search(r'(?m)^status:\s*(\S+)', cabecalho)
     if m_status:
         status = m_status.group(1).strip()
-        if status not in ('vigente', 'em-elaboracao', 'arquivado'):
-            falha(rel, 1, f'status inválido "{status}" (esperado: "vigente", "em-elaboracao" ou "arquivado")')
-        elif rel == 'regulamentoDasCompeticoesCearenses.md':
-            if status not in ('vigente', 'em-elaboracao'):
-                falha(rel, 1, f'regulamento da raiz deve ter status "vigente" ou "em-elaboracao", mas tem "{status}"')
-            else:
-                regulamentos_vigentes.append(rel)
+        if status not in STATUS:
+            falha(rel, 1, f'status inválido "{status}" (esperado: "em-elaboracao", "vigente" ou "arquivado")')
+        elif m_ano:
+            edicoes.setdefault(status, set()).add(m_ano.group(1))
+
+
+def checar_edicoes(edicoes):
+    """Uma edição vigente e, no máximo, uma em elaboração, posterior à vigente."""
+    vigentes = sorted(edicoes.get('vigente', ()))
+    em_elaboracao = sorted(edicoes.get('em-elaboracao', ()))
+    if len(vigentes) != 1:
+        falha('Documentos', 0, f'deve haver exatamente 1 edição com regulamento "vigente", mas há {len(vigentes)}: {vigentes}')
+    if len(em_elaboracao) > 1:
+        falha('Documentos', 0, f'deve haver no máximo 1 edição "em-elaboracao", mas há {len(em_elaboracao)}: {em_elaboracao}')
+    if len(vigentes) == 1 and em_elaboracao and em_elaboracao[0] <= vigentes[0]:
+        falha('Documentos', 0, f'a edição em elaboração ({em_elaboracao[0]}) deve ser posterior à vigente ({vigentes[0]})')
+
+
+# --------------------------------------------------------------------------
+# 8. PDFs publicados congelados (ADR-006): todo PDF de Documentos/<ano>/,
+#    exceto o gerado do regulamento em elaboração, tem o hash no manifesto,
+#    que só recebe linhas novas. O .docx é intermediário e não é congelado.
+# --------------------------------------------------------------------------
+MANIFESTO = 'Documentos/arquivosCongelados.sha256'
+PASTA_ANO = re.compile(r'^\d{4}(-\d{4})?$')
+LINHA_MANIFESTO = re.compile(r'([0-9a-f]{64}) [ *](.+)')
+
+
+def _sha256(caminho):
+    h = hashlib.sha256()
+    with open(caminho, 'rb') as fh:
+        for bloco in iter(lambda: fh.read(1 << 20), b''):
+            h.update(bloco)
+    return h.hexdigest()
+
+
+def _status(caminho):
+    with open(caminho, encoding='utf-8') as fh:
+        inicio = fh.read(2048)
+    m = re.match(r'---\n(.*?)\n---', inicio, re.S)
+    s = re.search(r'(?m)^status:\s*(\S+)', m.group(1)) if m else None
+    return s.group(1) if s else None
+
+
+def arquivos_congelaveis(raiz):
+    """PDFs de Documentos/<ano>/, como '<ano>/<arquivo>', exceto o do .md em elaboração."""
+    documentos = os.path.join(raiz, 'Documentos')
+    congelaveis = []
+    for ano in sorted(os.listdir(documentos)):
+        pasta = os.path.join(documentos, ano)
+        if not (PASTA_ANO.match(ano) and os.path.isdir(pasta)):
+            continue
+        nomes = sorted(os.listdir(pasta))
+        em_elaboracao = {n[:-3] for n in nomes
+                         if n.endswith('.md') and _status(os.path.join(pasta, n)) == 'em-elaboracao'}
+        for nome in nomes:
+            base, ext = os.path.splitext(nome)
+            if ext.lower() == '.pdf' and not nome.startswith('~$') and base not in em_elaboracao:
+                congelaveis.append(f'{ano}/{nome}')
+    return congelaveis
+
+
+def ler_manifesto(texto):
+    entradas = {}
+    for n, linha in enumerate(texto.splitlines(), 1):
+        if not linha.strip():
+            continue
+        m = LINHA_MANIFESTO.fullmatch(linha)
+        if not m:
+            falha(MANIFESTO, n, f'linha fora do formato "<sha256>  <ano>/<arquivo>": {linha[:60]!r}')
+        elif m.group(2) in entradas:
+            falha(MANIFESTO, n, f'arquivo registrado mais de uma vez: {m.group(2)}')
         else:
-            if status != 'arquivado':
-                falha(rel, 1, f'regulamento em {rel} deve ter status "arquivado", mas tem "{status}"')
+            entradas[m.group(2)] = m.group(1)
+    return entradas
+
+
+def manifesto_base():
+    """Manifesto no commit de referência: VERIFICAR_BASE (CI) ou HEAD (local).
+
+    Devolve None quando não há com o que comparar: push que cria o branch ou
+    commit anterior à existência do manifesto.
+    """
+    base = os.environ.get('VERIFICAR_BASE', '').strip()
+    explicita = bool(base)
+    base = base or 'HEAD'
+    if re.fullmatch(r'0+', base):
+        return None
+
+    def git(*args):
+        try:
+            return subprocess.run(['git', *args], cwd=RAIZ, capture_output=True)
+        except OSError:
+            return None
+
+    existe = git('cat-file', '-e', f'{base}^{{commit}}')
+    if existe is None or existe.returncode != 0:
+        if explicita:
+            falha(MANIFESTO, 0, f'commit de referência {base[:12]} indisponível: o CI precisa do histórico completo')
+        return None
+    res = git('show', f'{base}:{MANIFESTO}')
+    return res.stdout.decode('utf-8') if res.returncode == 0 else None
+
+
+def checar_congelados(raiz, texto_atual, texto_base=None):
+    registrados = ler_manifesto(texto_atual)
+    for rel, esperado in registrados.items():
+        caminho = os.path.join(raiz, 'Documentos', rel)
+        if not os.path.isfile(caminho):
+            falha(MANIFESTO, 0, f'arquivo congelado removido: Documentos/{rel}')
+        elif _sha256(caminho) != esperado:
+            falha(f'Documentos/{rel}', 0, 'arquivo congelado foi alterado: o hash não confere com o manifesto')
+    for rel in arquivos_congelaveis(raiz):
+        if rel not in registrados:
+            falha(f'Documentos/{rel}', 0, 'PDF de edição fechada sem registro no manifesto; '
+                                         'registre com "python .agents/scripts/verificar-documentos.py --congelar"')
+    if texto_base is not None:
+        atuais = set(texto_atual.splitlines())
+        for linha in texto_base.splitlines():
+            if linha.strip() and linha not in atuais:
+                falha(MANIFESTO, 0, f'linha do manifesto alterada ou removida: {linha[:80]!r}')
+
+
+def congelar(raiz):
+    caminho = os.path.join(raiz, MANIFESTO)
+    texto = ler(caminho) if os.path.exists(caminho) else ''
+    registrados = ler_manifesto(texto)
+    novos = [f'{_sha256(os.path.join(raiz, "Documentos", rel))}  {rel}\n'
+             for rel in arquivos_congelaveis(raiz) if rel not in registrados]
+    if novos:
+        if texto and not texto.endswith('\n'):
+            texto += '\n'
+        with open(caminho, 'w', encoding='utf-8', newline='\n') as fh:
+            fh.write(texto + ''.join(novos))
+    print(f'Arquivos congelados agora: {len(novos)}')
+    for linha in novos:
+        print(f'  + Documentos/{linha.split("  ", 1)[1].strip()}')
 
 
 # --------------------------------------------------------------------------
@@ -335,8 +464,11 @@ def checar_estrutura(rel, texto):
 
 # --------------------------------------------------------------------------
 def main():
+    if '--congelar' in sys.argv[1:]:
+        congelar(RAIZ)
+
     total = 0
-    regulamentos_vigentes = []
+    edicoes = {}
     for rel, caminho in arquivos_md():
         total += 1
         texto = ler(caminho)
@@ -346,13 +478,11 @@ def main():
         checar_estrutura(rel, texto)
         checar_frontmatter(rel, texto)
         checar_medalhas(rel, texto)
-        checar_metadados_regulamento(rel, texto, regulamentos_vigentes)
+        checar_metadados_regulamento(rel, texto, edicoes)
+    checar_edicoes(edicoes)
 
-    if len(regulamentos_vigentes) != 1:
-        problemas.append(
-            f'Repositório deve ter exatamente 1 regulamento na raiz (status "vigente" ou "em-elaboracao"), '
-            f'mas encontrou {len(regulamentos_vigentes)}: {regulamentos_vigentes}'
-        )
+    manifesto = os.path.join(RAIZ, MANIFESTO)
+    checar_congelados(RAIZ, ler(manifesto) if os.path.exists(manifesto) else '', manifesto_base())
 
     print(f'Arquivos Markdown verificados: {total}')
     if problemas:

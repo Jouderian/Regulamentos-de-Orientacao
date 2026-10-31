@@ -1,14 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Testes das checagens de estrutura de verificar-documentos.py.
+"""Testes das checagens de verificar-documentos.py.
 
-Cada checagem tem um texto construído para falhar e um texto que passa. O último
-teste confirma que o acervo atual passa na verificação inteira.
+Cada checagem tem um caso construído para falhar e um caso que passa. O último
+teste confirma que o acervo atual passa na verificação de estrutura.
 
     python .agents/scripts/testar-verificar-documentos.py
 """
 import importlib.util
 import os
+import tempfile
 import unittest
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -98,6 +99,95 @@ class ChecagensDeEstrutura(unittest.TestCase):
         verificar.problemas.clear()
         verificar.checar_estrutura('README.md', '# TÍTULO\n\n**Art. 3** – Texto.\n')
         self.assertEqual(verificar.problemas, [])
+
+
+class Edicoes(unittest.TestCase):
+    def problemas(self, edicoes):
+        verificar.problemas.clear()
+        verificar.checar_edicoes(edicoes)
+        return list(verificar.problemas)
+
+    def test_vigente_e_em_elaboracao_posterior_passam(self):
+        self.assertEqual(self.problemas({'vigente': {'2026'}, 'em-elaboracao': {'2027'}}), [])
+
+    def test_sem_vigente(self):
+        self.assertTrue(self.problemas({'em-elaboracao': {'2027'}}))
+
+    def test_duas_vigentes(self):
+        self.assertTrue(self.problemas({'vigente': {'2025', '2026'}}))
+
+    def test_duas_em_elaboracao(self):
+        self.assertTrue(self.problemas({'vigente': {'2026'}, 'em-elaboracao': {'2027', '2028'}}))
+
+    def test_em_elaboracao_anterior_a_vigente(self):
+        self.assertTrue(self.problemas({'vigente': {'2026'}, 'em-elaboracao': {'2025'}}))
+
+
+class Congelamento(unittest.TestCase):
+    """Documentos/2026 fechado (vigente) e Documentos/2027 em elaboração."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = self.tmp.name
+        for ano, status in (('2026', 'vigente'), ('2027', 'em-elaboracao')):
+            self.gravar(f'{ano}/regulamento.md', f'---\nano: {ano}\nstatus: {status}\n---\n'.encode())
+            self.gravar(f'{ano}/regulamento.pdf', f'pdf {ano}'.encode())
+        self.gravar('2026/regras.pdf', b'rop 2026')
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def gravar(self, rel, conteudo):
+        caminho = os.path.join(self.raiz, 'Documentos', rel)
+        os.makedirs(os.path.dirname(caminho), exist_ok=True)
+        with open(caminho, 'wb') as fh:
+            fh.write(conteudo)
+
+    def manifesto(self, *rels):
+        return ''.join(f'{verificar._sha256(os.path.join(self.raiz, "Documentos", r))}  {r}\n' for r in rels)
+
+    def problemas(self, atual, base=None):
+        verificar.problemas.clear()
+        verificar.checar_congelados(self.raiz, atual, base)
+        return list(verificar.problemas)
+
+    def assertFalha(self, achados, trecho):
+        self.assertTrue(any(trecho in p for p in achados), f'esperava "{trecho}" em {achados}')
+
+    def test_manifesto_completo_passa(self):
+        self.assertEqual(self.problemas(self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')), [])
+
+    def test_rascunho_em_elaboracao_pode_mudar(self):
+        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
+        self.gravar('2027/regulamento.pdf', b'pdf 2027 regenerado')
+        self.assertEqual(self.problemas(atual), [])
+
+    def test_arquivo_congelado_alterado(self):
+        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
+        self.gravar('2026/regulamento.pdf', b'pdf 2026 regenerado')
+        self.assertFalha(self.problemas(atual), 'foi alterado')
+
+    def test_arquivo_congelado_removido(self):
+        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
+        os.remove(os.path.join(self.raiz, 'Documentos', '2026', 'regras.pdf'))
+        self.assertFalha(self.problemas(atual), 'removido')
+
+    def test_arquivo_sem_registro(self):
+        self.assertFalha(self.problemas(self.manifesto('2026/regras.pdf')), 'sem registro')
+
+    def test_linha_removida_do_manifesto(self):
+        base = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
+        atual = self.manifesto('2026/regulamento.pdf')
+        self.assertFalha(self.problemas(atual, base), 'alterada ou removida')
+
+    def test_docx_de_edicao_fechada_nao_e_congelado(self):
+        self.gravar('2026/regulamento.docx', b'docx intermediario')
+        self.assertEqual(self.problemas(self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')), [])
+
+    def test_linha_nova_no_manifesto_passa(self):
+        base = self.manifesto('2026/regras.pdf')
+        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
+        self.assertEqual(self.problemas(atual, base), [])
 
 
 class Acervo(unittest.TestCase):

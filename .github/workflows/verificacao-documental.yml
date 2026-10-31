@@ -13,20 +13,26 @@ jobs:
     steps:
       - name: Obter o repositório
         uses: actions/checkout@v7
+        with:
+          # Histórico completo: o manifesto de arquivos congelados é comparado
+          # com o commit anterior ao push ou com a base do PR (ADR-006).
+          fetch-depth: 0
 
       - name: Preparar o Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
-      - name: Verificar links, artefatos de conversão, estrutura dos artigos e quadro de medalhas
+      - name: Verificar links, artefatos de conversão, estrutura, edições e arquivos congelados
+        env:
+          VERIFICAR_BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
         run: python .agents/scripts/verificar-documentos.py
 
       - name: Testar as checagens de estrutura
         run: python -I .agents/scripts/testar-verificar-documentos.py
 
   gerar-docx:
-    name: Gerar .docx do regulamento vigente
+    name: Gerar .docx do regulamento em elaboração
     runs-on: ubuntu-latest
     # O .pdf continua sendo gerado localmente (depende do Word via COM);
     # aqui só validamos que a conversão Pandoc + template não quebrou.
@@ -39,13 +45,22 @@ jobs:
         with:
           version: 3.1.11
 
-      - name: Converter o Markdown para .docx
+      - name: Localizar a edição em elaboração
+        id: edicao
         run: |
-          pandoc regulamentoDasCompeticoesCearenses.md \
+          arquivo=$(grep -l '^status: em-elaboracao' Documentos/*/regulamentoDasCompeticoesCearenses.md | head -n 1 || true)
+          echo "arquivo=$arquivo" >> "$GITHUB_OUTPUT"
+          echo "Edição em elaboração: ${arquivo:-nenhuma}"
+
+      - name: Converter o Markdown para .docx
+        if: steps.edicao.outputs.arquivo != ''
+        run: |
+          pandoc "${{ steps.edicao.outputs.arquivo }}" \
             -o regulamentoDasCompeticoesCearenses.docx \
             --reference-doc=Documentos/template_estilos.docx
 
       - name: Publicar o .docx como artefato da execução
+        if: steps.edicao.outputs.arquivo != ''
         uses: actions/upload-artifact@v7
         with:
           name: regulamentoDasCompeticoesCearenses

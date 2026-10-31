@@ -12,17 +12,22 @@ A conversão destes documentos para o formato **Markdown (.md)** visa facilitar 
 
 ## Documentos Principais
 
-- **[regulamentoDasCompeticoesCearenses.md](regulamentoDasCompeticoesCearenses.md)**: Documento unificado que contém as diretrizes e regulamentações consolidadas para as competições deste ano, resultado da unificação dos regulamentos do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS). Os documentos finais para distribuição (`.docx` e `.pdf`) estão disponíveis em [`Documentos/2027/`](Documentos/2027/).
-- **[regrasOrientacaoPedestre.md](regrasOrientacaoPedestre.md)**: Versão padronizada das **Regras de Orientação Pedestre** (nacional), Edição 2026.
+- **Regulamento das Competições Cearenses de Orientação**: documento unificado do **Campeonato Cearense de Orientação** (CCO) e do **Campeonato Cearense de Orientação Sprint** (CCOS).
+  - **Edição 2027, em elaboração:** [`Documentos/2027/regulamentoDasCompeticoesCearenses.md`](Documentos/2027/regulamentoDasCompeticoesCearenses.md). O `.docx` e o `.pdf` da mesma pasta são gerados dele e mudam até a publicação.
+  - **Edição 2026, vigente:** [`Documentos/2026/regulamentoDasCompeticoesCearenses.md`](Documentos/2026/regulamentoDasCompeticoesCearenses.md), com o PDF publicado.
+- **[Regras de Orientação Pedestre](Documentos/2026/regrasOrientacaoPedestre.md)**: versão padronizada das **Regras de Orientação Pedestre** (nacional), Edição 2026, referência das duas edições acima.
 
 ## Acervo Histórico (2012-2027)
 
-Este repositório mantém o histórico das edições anteriores do campeonato em `Documentos/<ano>/`, permitindo a comparação e a evolução temporal das regras. Todos os anos arquivados têm o PDF original e o texto em Markdown (`.md`); a conversão do acervo está concluída. O documento vigente ou em elaboração tem o Markdown só na raiz do repositório: é o caso do regulamento de 2027, cujos `.docx` e `.pdf` são gerados a partir dele, e da ROP 2026, que será copiada para `Documentos/2026/` quando a CBO publicar a edição seguinte.
+Cada edição fica em `Documentos/<ano>/`, da elaboração ao arquivamento, o que permite comparar a evolução das regras ano a ano. Todos os anos têm o PDF original e o texto em Markdown (`.md`); a conversão do acervo está concluída.
+
+> [!IMPORTANT]
+> PDF publicado não muda. Todo `.pdf` de edição publicada tem o hash SHA-256 registrado em [`Documentos/arquivosCongelados.sha256`](Documentos/arquivosCongelados.sha256), e a verificação automática recusa qualquer alteração. Para conferir: `cd Documentos && sha256sum -c arquivosCongelados.sha256`.
 
 | Ano | CCO | CCOS | ROP (nacional) | Resultados de clubes |
 | :---: | :---: | :---: | :---: | :---: |
-| 2027 | PDF + DOCX (unificado) | PDF + DOCX (unificado) | *aguardando CBO* | *não publicado* |
-| 2026 | **MD** + PDF (unificado) | **MD** + PDF (unificado) | **MD** (raiz) + PDF | *em andamento* (CCO) |
+| 2027 | **MD** + PDF + DOCX (unificado, em elaboração) | **MD** + PDF + DOCX (unificado, em elaboração) | *aguardando CBO* | *não publicado* |
+| 2026 | **MD** + PDF (unificado, vigente) | **MD** + PDF (unificado, vigente) | **MD** + PDF | *em andamento* (CCO) |
 | 2025 | **MD** + PDF | *não realizado* | **MD** + PDF | ✔ |
 | 2024 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2023 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
