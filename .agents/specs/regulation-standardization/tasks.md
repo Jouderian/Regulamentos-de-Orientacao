@@ -27,7 +27,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 | 2015 | ✔ | ✔ | ✗ |
 | 2014 | ✔ | ✔ | ✔ |
 | 2013 | ✔ | ✔ | ✔ |
-| 2012 | ✗ | ✔ | ✔ |
+| 2012 | ✔ | ✔ | ✔ |
 
 **Legenda:** ✔ Feito | ✗ Não feito | — Não aplicável (sem PDF no acervo ou competição não realizada)
 

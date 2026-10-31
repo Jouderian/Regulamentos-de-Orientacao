@@ -35,7 +35,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2015 | **MD** + PDF | PDF | **MD** + PDF | ✔ |
 | 2014 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2013 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
-| 2012 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2012 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 
 O acompanhamento da conversão pendente está em [`.agents/specs/regulation-standardization/tasks.md`](.agents/specs/regulation-standardization/tasks.md).
 
