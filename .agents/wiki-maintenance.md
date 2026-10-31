@@ -41,3 +41,12 @@ Decisões arquiteturais vão para `wiki/decisions/` como ADRs, não para página
 - Cópia literal de specs, planos ou ADRs.
 - Informação temporária ou específica de uma sessão de trabalho.
 - Tarefas pendentes — viram *issues*, conforme *Controle de Pendências e Sugestões de Regra* em [`rules/rules.md`](rules/rules.md).
+
+## A Wiki do GitHub não é usada
+Decidido em 2026-10-31: a aba **Wiki** do GitHub fica desligada, e a base de conhecimento do projeto é só esta pasta, `wiki/`. A wiki do GitHub é um repositório Git separado, e por isso:
+
+- Não passa por PR nem pela revisão entre equipes, e o `verificar-documentos.py` e o CI não a checam.
+- Não acompanha as tags `v<ano>` nem vem no `git clone`, então agentes e IAs não a enxergam.
+- Criaria uma segunda fonte para decisões e orientações, contra o controle único e a [ADR-001](wiki/decisions/ADR-001-markdown-como-fonte-da-verdade.md).
+
+Orientação para o atleta (como sugerir uma regra, como ler o regulamento) vai no `README.md` ou em pasta do repositório, sob revisão e CI. Para reabrir a decisão, registre uma ADR que a supere.
