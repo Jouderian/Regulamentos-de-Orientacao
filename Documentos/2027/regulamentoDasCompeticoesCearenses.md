@@ -45,21 +45,21 @@ description: Regulamento das Competições Cearenses de Orientação (em elabora
 ### Calendário do XXI Campeonato Cearense de Orientação
 > **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
 
-| **Etapa** | **Data** | **Organizador** | **Árbitro**                  |
-| :-------: | :------: | :-------------- | :--------------------------- |
-| 1ª        | 30/Mai   | COqueiro| Jorge Saraiva de Amorim (QA/FECORI 65) |
-| 2ª        | 27/Jun   | COFORT| Antônio Marden Oliveira de Sousa (QA/FECORI 80) |
-| 3ª        | 29/Ago   | COCAP| Paulo Antônio da Costa Mazulo (QA/FECORI 54) |
-| 4ª        | 07/Nov   | Trilha Norte/CODL| Jayckson Saraiva de Amorim (QA/FECORI 59) |
+| **Etapa** | **Data** | **Organizador** | **Árbitro** |
+| :---: | :---: | :--- | :--- |
+| 1ª | 16/Mai | COqueiro | ??? (QA/FECORI ??) |
+| 2ª | 06/Jun | COFORT | ??? (QA/FECORI ??) |
+| 3ª | ??/Ago | ??? | ??? (QA/FECORI ??) |
+| 4ª | ??/Out | ??? | ??? (QA/FECORI ??) |
 
 ### Calendário do XIII Campeonato Cearense de Orientação Sprint
 > **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
 
-| **Percurso** | **Data** | **Organizador** | **Árbitro**                  |
-| :----------: | -------: | :-------------- | :--------------------------- |
-| 1º           | 25/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
-| 2º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
-| 3º           | 26/Set   | FECORI          | Joelson Matias da Silva (QA/FECORI 85) |
+| **Percurso** | **Data** | **Organizador** | **Árbitro** |
+| :---: | :---: | :--- | :--- |
+| 1º | 25/Set | ??? | ??? (QA/FECORI ??) |
+| 2º | 26/Set | ??? | ??? (QA/FECORI ??) |
+| 3º | 26/Set | ??? | ??? (QA/FECORI ??) |
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições do evento anterior.
 

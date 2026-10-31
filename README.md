@@ -1,6 +1,6 @@
 # Regulamentos das Competições Cearenses de Orientação
 
-Aqui estão os regulamentos do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, da **FECORI**, desde 2012, e as **Regras de Orientação Pedestre (ROP)** da **CBO**, que valem em tudo o que o regulamento não trata.
+Aqui estão os regulamentos do **Campeonato Cearense de Orientação (CCO)** e do **Campeonato Cearense de Orientação Sprint (CCOS)**, da [FECORI](https://www.fecori.org.br/), desde 2012, e as **Regras de Orientação Pedestre (ROP)** da [CBO](https://www.cbo.esp.br/), que valem em tudo o que o regulamento não trata.
 
 O objetivo deste repositório é reunir esses documentos em texto organizado, com a hierarquia de artigos, parágrafos e itens preservada, e guardar o histórico de cada alteração. Assim fica mais simples consultar as regras, tanto para atletas, clubes, organizadores e demais interessados quanto para ferramentas de **inteligência artificial (IA)**, que encontram aqui uma base completa e organizada para responder perguntas sobre os regulamentos.
 
