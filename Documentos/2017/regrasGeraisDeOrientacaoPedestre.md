@@ -147,7 +147,15 @@ Salientamos que estamos sempre à disposição para sugestões que possam contri
 
 ## 5. PROGRAMA DO EVENTO
 
-**Regra 15** – Os eventos de orientação são culturais, científicos e competitivos, sendo as datas e a programação propostas pelo organizador e aprovadas pela diretoria da CBO, devendo cada evento competitivo obedecer a seguinte programação: a) Campeonato Brasileiro de Orientação – CamBOr– é um evento anual, composto de três etapas. Cada etapa deve incluir um percurso Sprint, um percurso de distância longa; e um percurso de distância média. b) Campeonato Brasileiro Estudantil e Universitário de Orientação - CBEUO - é um evento anual, organizado em etapa única com dois percursos, sendo um percurso de distância longa (classificatória para o universitário); e um percurso de distância média (final A e B para o universitário). c) Campeonato Brasileiro de Orientação de Precisão – é um evento anual, agregado as etapas do CamBOr, sendo um percurso por etapa, realizado no segundo ou terceiro dia da etapa. d) Campeonato Brasileiro de Orientação Sprint – é um evento bianual, nos anos impares, organizado em etapa única com quatro percursos, sendo um no primeiro dia (diurno ou noturno), dois no segundo dia (diurno e/ou noturno) e um no terceiro dia, final, pela manhã. e) Brasileiro de Orientação em Bicicleta (MTB-O) – é um evento esporádico, realizado em etapa única com dois percursos, sendo um no primeiro dia e um no segundo dia. f) Troféu Brasil de Orientação (5 dias de Orientação do Brasil) – é um evento esporádico, organizado em etapa única com cinco percursos, Sprint, de média e longa distâncias, sendo que dois ou mais percursos de longa distância não podem ser realizados em dias seguidos; g) Maratona de Orientação – é um evento esporádico, realizado com no mínimo duas trocas de mapa, podendo inclusive ter partes da prova de Sprint e/ou com diferentes escalas, sendo sugerida a soma dos percursos entre 20 e 25 Km para as categorias Elite.
+**Regra 15** – Os eventos de orientação são culturais, científicos e competitivos, sendo as datas e a programação propostas pelo organizador e aprovadas pela diretoria da CBO, devendo cada evento competitivo obedecer a seguinte programação:
+
+- **a)** Campeonato Brasileiro de Orientação – CamBOr– é um evento anual, composto de três etapas. Cada etapa deve incluir um percurso Sprint, um percurso de distância longa; e um percurso de distância média.
+- **b)** Campeonato Brasileiro Estudantil e Universitário de Orientação - CBEUO - é um evento anual, organizado em etapa única com dois percursos, sendo um percurso de distância longa (classificatória para o universitário); e um percurso de distância média (final A e B para o universitário).
+- **c)**  Campeonato Brasileiro de Orientação de Precisão – é um evento anual, agregado as etapas do CamBOr, sendo um percurso por etapa, realizado no segundo ou terceiro dia da etapa.
+- **d)** Campeonato Brasileiro de Orientação Sprint – é um evento bianual, nos anos impares, organizado em etapa única com quatro percursos, sendo um no primeiro dia (diurno ou noturno), dois no segundo dia (diurno e/ou noturno) e um no terceiro dia, final, pela manhã.
+- **e)** Brasileiro de Orientação em Bicicleta (MTB-O) – é um evento esporádico, realizado em etapa única com dois percursos, sendo um no primeiro dia e um no segundo dia.
+- **f)**  Troféu Brasil de Orientação (5 dias de Orientação do Brasil) – é um evento esporádico, organizado em etapa única com cinco percursos, Sprint, de média e longa distâncias, sendo que dois ou mais percursos de longa distância não podem ser realizados em dias seguidos;
+- **g)** Maratona de Orientação – é um evento esporádico, realizado com no mínimo duas trocas de mapa, podendo inclusive ter partes da prova de Sprint e/ou com diferentes escalas, sendo sugerida a soma dos percursos entre 20 e 25 Km para as categorias Elite.
 
 **Regra 16** – (revogada, Conferência das Federações em 24/09/16)
 
@@ -754,8 +762,28 @@ HIN/DIN ................. Infantil (até 12 anos) HJuvN/DJuvN......... Juvenil (
 
 1. COMPOSIÇÃO:
     - **a.** DIRETOR DO EVENTO - Responsável pelo Evento,
-    - **b.** COMISSÃO TÉCNICA, 1) DIRETOR TÉCNICO, 2) TRAÇADORES DE PERCURSOS, 3) MAPEADOR(ES), 4) DIRETOR DE PARTIDA, com mais cinco auxiliares, 5) DIRETOR DE CHEGADA com mais cinco auxiliares por funil, 6) DIRETOR DE ARENA, 7) ASSISTÊNCIA MÉDICA E RESGATE, 8) ESTACIONAMENTO E ACESSO com mais três auxiliares, 9) APURAÇÃO, 10) SEGURANÇA, 11) TRABALHADORES (conforme for necessário)
-    - **c.** COMISSÃO ADMINISTRATIVA 1) DIRETOR ADMINISTRATIVO, 2) SECRETÁRIO com mais quatro auxiliares 3) DIRETOR DE LOGÍSTICA 4) DIRETOR DE MÍDIA E MARKETING 5) TESOUREIRO, 6) ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO, 7) ASSISTENTE DE HOSPEDAGEM E TRANSPORTE, 8) ASSISTENTE DE COMUNICAÇÕES 9) ASSISTENTE DE INFORMÁTICA,
+    - **b.** COMISSÃO TÉCNICA,
+        - **1)** DIRETOR TÉCNICO,
+        - **2)** TRAÇADORES DE PERCURSOS,
+        - **3)** MAPEADOR(ES),
+        - **4)** DIRETOR DE PARTIDA, com mais cinco auxiliares,
+        - **5)** DIRETOR DE CHEGADA com mais cinco auxiliares por funil,
+        - **6)** DIRETOR DE ARENA,
+        - **7)** ASSISTÊNCIA MÉDICA E RESGATE,
+        - **8)** ESTACIONAMENTO E ACESSO com mais três auxiliares,
+        - **9)** APURAÇÃO,
+        - **10)** SEGURANÇA,
+        - **11)** TRABALHADORES (conforme for necessário)
+    - **c.** COMISSÃO ADMINISTRATIVA
+        - **1)** DIRETOR ADMINISTRATIVO,
+        - **2)** SECRETÁRIO com mais quatro auxiliares
+        - **3)** DIRETOR DE LOGÍSTICA
+        - **4)** DIRETOR DE MÍDIA E MARKETING
+        - **5)** TESOUREIRO,
+        - **6)** ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO,
+        - **7)** ASSISTENTE DE HOSPEDAGEM E TRANSPORTE,
+        - **8)** ASSISTENTE DE COMUNICAÇÕES
+        - **9)** ASSISTENTE DE INFORMÁTICA,
     - **d.** COMISSÃO DE NOVOS,
     - **e.** EQUIPE DE EXAME ANTI-DOPING
 2. DATA LIMITE PARA NOMEAÇÃO,
@@ -913,8 +941,8 @@ HIN/DIN ................. Infantil (até 12 anos) HJuvN/DJuvN......... Juvenil (
 
 - **a.** O técnico da equipe nacional será convocado pela Diretoria Executiva da CBO;
 - **b.** O técnico da equipe nacional deverá apresentar os seguintes requisitos:
-1. Ter concluído os cursos de Mapeador nível I, Árbitro de Orientação, Traçador de Percursos e Técnico de Orientação. Serão aceitos cursos nacionais homologados pela CBO e cursos estrangeiros homologados pela IOF.
-2. Ter experiência internacional comprovada na modalidade com, no mínimo, três participações em grandes eventos reconhecidos pela IOF, na condição de atleta, técnico e/ou árbitro.
+    1. Ter concluído os cursos de Mapeador nível I, Árbitro de Orientação, Traçador de Percursos e Técnico de Orientação. Serão aceitos cursos nacionais homologados pela CBO e cursos estrangeiros homologados pela IOF.
+    2. Ter experiência internacional comprovada na modalidade com, no mínimo, três participações em grandes eventos reconhecidos pela IOF, na condição de atleta, técnico e/ou árbitro.
 
 **Regra 212** – Critérios para convocação de dirigentes para competições e eventos internacionais.
 

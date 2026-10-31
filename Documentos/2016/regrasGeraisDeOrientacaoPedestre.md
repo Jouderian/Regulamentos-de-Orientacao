@@ -654,8 +654,28 @@
 
 1. COMPOSIÇÃO:
     - **a.** DIRETOR DA PROVA - Responsável pela prova,
-    - **b.** COMISSÃO TÉCNICA, 1) DIRETOR TÉCNICO, 2) TRAÇADORES DE PERCURSOS, 3) MAPEADOR, 4) ÁRBITRO DE PARTIDA, com mais cinco auxiliares, 5) ARBITRO DE CHEGADA com mais cinco auxiliares por funil, 6) DIRETOR DE ARENA, 7) ASSISTÊNCIA MÉDICA E RESGATE, 8) ESTACIONAMENTO E ACESSO com mais três auxiliares, 9) APURAÇÃO, 10) SEGURANÇA, 11) TRABALHADORES (conforme for necessário)
-    - **c.** COMISSÃO ADMINISTRATIVA 1) DIRETOR ADMINISTRATIVO, 2) SECRETÁRIO com mais quatro auxiliares 3) DIRETOR DE LOGÍSTICA 4) DIRETOR DE MÍDIA E MARKETING 5) TESOUREIRO, 6) ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO, 7) ASSISTENTE DE HOSPEDAGEM E TRANSPORTE, 8) ASSISTENTE DE COMUNICAÇÕES 9) ASSISTENTE DE INFORMÁTICA,
+    - **b.** COMISSÃO TÉCNICA,
+        - **1)** DIRETOR TÉCNICO,
+        - **2)** TRAÇADORES DE PERCURSOS,
+        - **3)** MAPEADOR,
+        - **4)** ÁRBITRO DE PARTIDA, com mais cinco auxiliares,
+        - **5)** ARBITRO DE CHEGADA com mais cinco auxiliares por funil,
+        - **6)** DIRETOR DE ARENA,
+        - **7)** ASSISTÊNCIA MÉDICA E RESGATE,
+        - **8)** ESTACIONAMENTO E ACESSO com mais três auxiliares,
+        - **9)** APURAÇÃO,
+        - **10)** SEGURANÇA,
+        - **11)** TRABALHADORES (conforme for necessário)
+    - **c.** COMISSÃO ADMINISTRATIVA
+        - **1)** DIRETOR ADMINISTRATIVO,
+        - **2)** SECRETÁRIO com mais quatro auxiliares
+        - **3)** DIRETOR DE LOGÍSTICA
+        - **4)** DIRETOR DE MÍDIA E MARKETING
+        - **5)** TESOUREIRO,
+        - **6)** ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO,
+        - **7)** ASSISTENTE DE HOSPEDAGEM E TRANSPORTE,
+        - **8)** ASSISTENTE DE COMUNICAÇÕES
+        - **9)** ASSISTENTE DE INFORMÁTICA,
     - **d.** COMISSÃO DE NOVOS,
     - **e.** EQUIPE DE EXAME ANTI-DOPING
 2. DATA LIMITE PARA NOMEAÇÃO,
@@ -934,7 +954,14 @@ c. RANKING DE FEDERAÇÕES
 
 ## 44. O TÉCNICO
 
-**Regra 230** – O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e representação dos atletas perante a organização, ficando sob sua incumbência: 1) Sempre fazer constar seu nome na Ficha de Inscrição de cada evento; 2) Representar os atletas pelos quais responde - do seu clube, curso, escola, universidade, equipe ou delegação - perante a Organização, arbitragem e dirigentes desportivos, em quaisquer situações; 3) Relatar à Organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsabilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório ao espírito esportivo; 4) Controlar e conduzir seus atletas com disciplina, ordem e respeito às regras, sempre que estiver em competição, palestra, curso, ou atividade similar; 5) Assegurar aos pais ou responsáveis, no caso de orientistas menores de idade, que os atletas sob sua responsabilidade serão conduzidos com segurança e de maneira adequada, no transcorrer das competições; 6) Organizar o plano esportivos anual (Anexo L)
+**Regra 230** – O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e representação dos atletas perante a organização, ficando sob sua incumbência:
+
+- **1)** Sempre fazer constar seu nome na Ficha de Inscrição de cada evento;
+- **2)** Representar os atletas pelos quais responde - do seu clube, curso, escola, universidade, equipe ou delegação - perante a Organização, arbitragem e dirigentes desportivos, em quaisquer situações;
+- **3)** Relatar à Organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsabilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório ao espírito esportivo;
+- **4)** Controlar e conduzir seus atletas com disciplina, ordem e respeito às regras, sempre que estiver em competição, palestra, curso, ou atividade similar;
+- **5)** Assegurar aos pais ou responsáveis, no caso de orientistas menores de idade, que os atletas sob sua responsabilidade serão conduzidos com segurança e de maneira adequada, no transcorrer das competições;
+- **6)** Organizar o plano esportivos anual (Anexo L)
 
 ## 45. EQUIPAMENTO ELETRÔNICO
 

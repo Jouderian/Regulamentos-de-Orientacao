@@ -121,7 +121,7 @@ Saudações desportivas, Piau!!!
 2. Troféu Brasil de Orientação (5 dias de Orientação do Brasil);
 3. Campeonato Brasileiro de Orientação Sprint – CamBOs;
 4. Maratona de Orientação;
-5. MTB – O – Brasileiro de Orientação em Bicicleta;
+5. MTB–O – Brasileiro de Orientação em Bicicleta;
 6. Campeonato Brasileiro de Orientação de Precisão;
 7. Campeonato Brasileiro Estudantil e Universitário de Orientação;
 8. Campeonato Brasileiro de Orientação Master – CamBor Master;
@@ -154,7 +154,16 @@ Saudações desportivas, Piau!!!
 
 ## 5. PROGRAMA DO EVENTO
 
-**Regra 15** – Os eventos de orientação são culturais, científicos e competitivos, sendo as datas e a programação propostas pelo organizador e aprovadas pela diretoria da CBO, devendo cada evento competitivo obedecer a seguinte programação: a) Campeonato Brasileiro de Orientação – CamBOr– é um evento anual, que ocorrerá em etapa única. A etapa deve incluir uma prova de Revezamento, prova de Sprint, uma prova de distância longa; e uma prova de distância média. b) Campeonato Brasileiro Estudantil e Universitário de Orientação - CBEUO - é um evento anual, organizado em etapa única com dois percursos, de distância média, sendo o 1º percurso classificatório e o 2º percurso, com os atletas organizados em final A e B.). c) Campeonato Brasileiro de Orientação de Precisão – é um evento anual, agregado a etapa do CamBOr, sendo um percurso, realizado no segundo ou terceiro dia da etapa. d) Campeonato Brasileiro de Orientação Sprint – é um evento bianual, nos anos impares, organizado em etapa única com quatro percursos, sendo um no primeiro dia (diurno ou noturno), dois no segundo dia (diurno e/ou noturno) e um no terceiro dia, final, pela manhã. e) Campeonato Brasileiro de Orientação Master – é um evento anual, organizado em etapa única concomitantemente com o CBEUO sendo realizado em três dias, com o seguinte formato: 1º dia prova de revezamento, 2º dia percurso longo (classificatório), 3º dia percurso médio (com final A e B). f) Brasileiro de Orientação em Bicicleta (MTB-O) – é um evento esporádico, realizado em etapa única com dois percursos, sendo um no primeiro dia e um no segundo dia. g) Troféu Brasil de Orientação (5 dias de Orientação do Brasil) – é um evento esporádico, organizado em etapa única com cinco percursos, Sprint, de média e longa distâncias, sendo que dois ou mais percursos de longa distância não podem ser realizados em dias seguidos; h) Maratona de Orientação – é um evento esporádico, realizado com no mínimo duas trocas de mapa, com características técnicas do Sprint, médio e longo em diferentes escalas para que o atleta confronte diferentes tipos de situações em uma mesma prova, sendo sugerida a soma dos percursos entre 20 e 25 Km para as categorias Elite.
+**Regra 15** – Os eventos de orientação são culturais, científicos e competitivos, sendo as datas e a programação propostas pelo organizador e aprovadas pela diretoria da CBO, devendo cada evento competitivo obedecer a seguinte programação:
+
+- **a)** Campeonato Brasileiro de Orientação – CamBOr– é um evento anual, que ocorrerá em etapa única. A etapa deve incluir uma prova de Revezamento, prova de Sprint, uma prova de distância longa; e uma prova de distância média.
+- **b)** Campeonato Brasileiro Estudantil e Universitário de Orientação - CBEUO - é um evento anual, organizado em etapa única com dois percursos, de distância média, sendo o 1º percurso classificatório e o 2º percurso, com os atletas organizados em final A e B.).
+- **c)**  Campeonato Brasileiro de Orientação de Precisão – é um evento anual, agregado a etapa do CamBOr, sendo um percurso, realizado no segundo ou terceiro dia da etapa.
+- **d)** Campeonato Brasileiro de Orientação Sprint – é um evento bianual, nos anos impares, organizado em etapa única com quatro percursos, sendo um no primeiro dia (diurno ou noturno), dois no segundo dia (diurno e/ou noturno) e um no terceiro dia, final, pela manhã.
+- **e)** Campeonato Brasileiro de Orientação Master – é um evento anual, organizado em etapa única concomitantemente com o CBEUO sendo realizado em três dias, com o seguinte formato: 1º dia prova de revezamento, 2º dia percurso longo (classificatório), 3º dia percurso médio (com final A e B).
+- **f)**  Brasileiro de Orientação em Bicicleta (MTB-O) – é um evento esporádico, realizado em etapa única com dois percursos, sendo um no primeiro dia e um no segundo dia.
+- **g)** Troféu Brasil de Orientação (5 dias de Orientação do Brasil) – é um evento esporádico, organizado em etapa única com cinco percursos, Sprint, de média e longa distâncias, sendo que dois ou mais percursos de longa distância não podem ser realizados em dias seguidos;
+- **h)** Maratona de Orientação – é um evento esporádico, realizado com no mínimo duas trocas de mapa, com características técnicas do Sprint, médio e longo em diferentes escalas para que o atleta confronte diferentes tipos de situações em uma mesma prova, sendo sugerida a soma dos percursos entre 20 e 25 Km para as categorias Elite.
 
 **Regra 16** – (revogada, Conferência das Federações em 24/09/16)
 
@@ -222,28 +231,28 @@ Saudações desportivas, Piau!!!
 | B | GRAU DE DIFICULDADE |
 | L2 | LONGO, MÉDIO E MAIS DE UM PERCURSO |
 
-- **a.** A categoria ELITE (E) só pode ser constituída para D/H 16, D/H 18, D/H 20 e D/H 21;
-- **b.** A categoria Elite é uma categoria especial, restringida a um número limitado de competidores, classificados como atletas de elite pela CBO, conforme o sistema de classificação da CBO;
-- **c.** Será permitido competir nas categorias 21 em diante os atletas que completarem, até o final do ano em curso (de 01 janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores da categoria 35 a 90 podem competir em categorias mais jovens até 21, inclusive;
-- **d.** Será permitido competir nas categorias até 20 todos os atletas que completarem, até o final do ano em curso (01 de janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores das categorias 10 a 20 podem competir em categorias subsequentes, inclusive até 21;
-- **e.** As competições destinadas a uma única categoria devem ser realizadas com percursos diferenciados para homens e mulheres e só podem ser disputadas por atletas enquadrados nesta categoria, respeitando os itens “c” e “d” desta regra.
-- **f.** Se uma categoria tiver muitos concorrentes, pode ser dividida em categorias paralelas;
-- **g.** O organizador poderá organizar mais de um percurso aberto;
-- **h.** O grau de dificuldade “N” é subdividido por idade conforme se segue:
-    - H Infantil/ D Infantil (até 12 anos)
-    - H Juvenil/ D Juvenil (de 13 a 16 anos)
-    - H Junior/ D Junior (de 17 a 20 anos)
-    - H Adulto/ D Adulto (de 21 a 34 anos)
-    - H Master/ D Master (de 35 a 44 anos)
-    - H Sênior/ D Sênior (de 45 a 54 anos)
-    - H Veteranos/ D Veteranos (de 55 a 64 anos)
-    - H VIP/ D VIP “Very Important Person” (acima de 64 anos)
-- **i.** Competições municipais e estaduais, poderão compor o grupo de categorias de grau de dificuldade “N” de forma diversa do item “h” desta regra, conforme conveniência dos clubes e federações responsáveis, mediante regulamentação específica no âmbito dos referidos clubes e federações.
-- **j.** A categoria D/H12, somente poderá ser constituída com o grau de dificuldade “B”. Os atletas menores que D/H 12 e os novatos desta, deverão ser inseridos nas categorias H Infantil/D Infantil N, as quais são consideradas não competitivas;
-- **k.** O atleta somente poderá participar de uma categoria com grau de dificuldade "A" se obtiver classificação, em qualquer colocação, no ranking nacional do ano anterior em uma categoria com grau de dificuldade “B”;
-- **l.** O atleta somente poderá participar de uma categoria com grau de dificuldade "E" se obtiver classificação, em qualquer colocação, no ranking nacional do ano anterior em uma categoria com grau de dificuldade “A”, ou evolução de categoria “E” em razão da idade do atleta.
-- **m.** Observado o que prescrevem os itens “j”, “k” e “l” desta regra, os três primeiros do ranking do ano anterior, das categorias com grau de dificuldade “B” nas idades, 14, 16, 18, 20, 21, 35, 40, 45, 50 e 55 anos poderão mudar de categoria para o grau de dificuldade “A”.
-- **n.** Todos os atletas enquadrados no item “m” acima, que não desejarem ascender de categoria, deverão expressar sua vontade por escrito à CBO, por meio de seu clube e federação, sendo analisada sua situação. A CBO analisará cada caso em particular e se reserva ao direito de aceitar ou recusar a solicitação.
+- **a.** A categoria ELITE (E) só pode ser constituída para D/H 16, D/H 18, D/H 20 e D/H 21;  
+- **b.** A categoria Elite é uma categoria especial, restringida a um número limitado de competidores, classificados como atletas de elite pela CBO, conforme o sistema de classificação da CBO;  
+- **c.** Será permitido competir nas categorias 21 em diante os atletas que completarem, até o final do ano em curso (de 01 janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores da categoria 35 a 90 podem competir em categorias mais jovens até 21, inclusive;  
+- **d.** Será permitido competir nas categorias até 20 todos os atletas que completarem, até o final do ano em curso (01 de janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores das categorias 10 a 20 podem competir em categorias subsequentes, inclusive até 21;  
+- **e.** As competições destinadas a uma única categoria devem ser realizadas com percursos diferenciados para homens e mulheres e só podem ser disputadas por atletas enquadrados nesta categoria, respeitando os itens “c” e “d” desta regra.  
+- **f.** Se uma categoria tiver muitos concorrentes, pode ser dividida em categorias paralelas;  
+- **g.** O organizador poderá organizar mais de um percurso aberto;  
+- **h.** O grau de dificuldade “N” é subdividido por idade conforme se segue:  
+    - H Infantil/ D Infantil (até 12 anos)  
+    - H Juvenil/ D Juvenil (de 13 a 16 anos)  
+    - H Junior/ D Junior (de 17 a 20 anos)  
+    - H Adulto/ D Adulto (de 21 a 34 anos)  
+    - H Master/ D Master (de 35 a 44 anos)  
+    - H Sênior/ D Sênior (de 45 a 54 anos)  
+    - H Veteranos/ D Veteranos (de 55 a 64 anos)  
+    - H VIP/ D VIP “Very Important Person” (acima de 64 anos)  
+- **i.** Competições municipais e estaduais, poderão compor o grupo de categorias de grau de dificuldade “N” de forma diversa do item “h” desta regra, conforme conveniência dos clubes e federações responsáveis, mediante regulamentação específica no âmbito dos referidos clubes e federações.  
+- **j.** A categoria D/H12, somente poderá ser constituída com o grau de dificuldade “B”. Os atletas menores que D/H 12 e os novatos desta, deverão ser inseridos nas categorias H Infantil/D Infantil N, as quais são consideradas não competitivas;  
+- **k.** O atleta somente poderá participar de uma categoria com grau de dificuldade "A" se obtiver classificação, em qualquer colocação, no ranking nacional do ano anterior em uma categoria com grau de dificuldade “B”;  
+- **l.** O atleta somente poderá participar de uma categoria com grau de dificuldade "E" se obtiver classificação, em qualquer colocação, no ranking nacional do ano anterior em uma categoria com grau de dificuldade “A”, ou evolução de categoria “E” em razão da idade do atleta.  
+- **m.** Observado o que prescrevem os itens “j”, “k” e “l” desta regra, os três primeiros do ranking do ano anterior, das categorias com grau de dificuldade “B” nas idades, 14, 16, 18, 20, 21, 35, 40, 45, 50 e 55 anos poderão mudar de categoria para o grau de dificuldade “A”.  
+- **n.** Todos os atletas enquadrados no item “m” acima, que não desejarem ascender de categoria, deverão expressar sua vontade por escrito à CBO, por meio de seu clube e federação, sendo analisada sua situação. A CBO analisará cada caso em particular e se reserva ao direito de aceitar ou recusar a solicitação.  
 - **o.** O grau de dificuldade “N”, por não ser considerado competitivo, tem o objetivo de aprendizado do atleta. Todos os atletas que participarem das categorias com este grau de dificuldade receberão medalhas sem distinção de classificação, no início da cerimônia de premiação.
 
 ## 8. ROTINA DO ATLETA
@@ -394,7 +403,13 @@ Saudações desportivas, Piau!!!
 
 **Regra 53** – O sorteio da ordem de partida será supervisionado pelo Árbitro da CBO. O sorteio da ordem de partida pode ser público ou privado, bem como ser feito à mão ou por um computador e deverá atender determinações do conselho de arbitragem;
 
-§1. Nas categorias Elite a lista de partida de cada evento será realizada pela ordem inversa da classificação no Ranking respectivo conforme “anexo M”, exceto: a) quando a lista de partida for definida por resultados de percursos classificatórios, b) quando for partida em massa, c) quando for partida de perseguição, d) quando for um evento WRE, que seguirá os critérios da IOF; e, e) Havendo atleta(s) inscrito(s) que não conste(m) no Ranking ELITE respectivo, este(s) será(ão) ordenados por sorteio, no início da lista, antes dos atletas classificados, com o mesmo intervalo de tempo entre atletas.
+§1. Nas categorias Elite a lista de partida de cada evento será realizada pela ordem inversa da classificação no Ranking respectivo conforme “anexo M”, exceto:
+
+- **a)** quando a lista de partida for definida por resultados de percursos classificatórios,
+- **b)** quando for partida em massa,
+- **c)** quando for partida de perseguição,
+- **d)** quando for um evento WRE, que seguirá os critérios da IOF; e,
+- **e)** Havendo atleta(s) inscrito(s) que não conste(m) no Ranking ELITE respectivo, este(s) será(ão) ordenados por sorteio, no início da lista, antes dos atletas classificados, com o mesmo intervalo de tempo entre atletas.
 
 **Regra 54** – A lista de partida será publicada com 48h de antecedência ao início da competição ou antes e, anteriormente à reunião da comissão organizadora e chefes de equipes. Se um percurso de qualificação for organizado no mesmo dia das finais, a lista de partida para as finais será publicada pelo menos uma hora antes do primeiro atleta partir;
 
@@ -476,8 +491,8 @@ Saudações desportivas, Piau!!!
 | JUNIOR | Homens | 70 | 20-25 | 15-20 | 45-60 | 12-15 |
 | ADULTO ELITE | Damas | 70-80 | 30-35 | 15-20 | 45-60 | 12-15 |
 | ADULTO ELITE | Homens | 90-100 | 30-35 | 15-20 | 45-60 | 12-15 |
-| ADULTO A - B | Damas | 60 | 30-35 | 15-20 | 45-60 | 12-15 |
-| ADULTO A - B | Homens | 75 | 30-35 | 15-20 | 45-60 | 12-15 |
+| ADULTO A/B | Damas | 60 | 30-35 | 15-20 | 45-60 | 12-15 |
+| ADULTO A/B | Homens | 75 | 30-35 | 15-20 | 45-60 | 12-15 |
 | MASTER | D35 | 55 | 30-35 | 15-20 | 45-60 | 12-15 |
 | MASTER | D40 | 50 | 30-35 | 15-20 | 45-60 | 12-15 |
 | MASTER | D45 | 45 | 25-30 | 15-20 | 45-60 | 12-15 |
@@ -769,8 +784,28 @@ Saudações desportivas, Piau!!!
 
 1. COMPOSIÇÃO:
     - **a.** DIRETOR DO EVENTO - Responsável pelo evento,
-    - **b.** COMISSÃO TÉCNICA, 1) DIRETOR TÉCNICO, 2) TRAÇADOR(ES) DE PERCURSOS, 3) MAPEADOR(ES), 4) CONTROLADOR DE PARTIDA, com mais cinco auxiliares por estrutura de partida, 5) CONTROLADOR DE CHEGADA com mais cinco auxiliares por estrutura de chegada, 6) GERENTE DE ARENA, 7) ASSISTÊNCIA MÉDICA E RESGATE, 8) ESTACIONAMENTO E ACESSO com mais três auxiliares, 9) CONTROLADOR DE APURAÇÃO, 10) GESTOR DE SEGURANÇA, 11) TRABALHADORES (conforme for necessário)
-    - **c.** COMISSÃO ADMINISTRATIVA 1) DIRETOR ADMINISTRATIVO, 2) SECRETÁRIO com mais quatro auxiliares 3) GERENTE DE LOGÍSTICA 4) GERENTE DE MÍDIA E MARKETING 5) TESOUREIRO, 6) ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO, 7) ASSISTENTE DE HOSPEDAGEM E TRANSPORTE, 8) ASSISTENTE DE COMUNICAÇÕES 9) ASSISTENTE DE INFORMÁTICA,
+    - **b.** COMISSÃO TÉCNICA,
+        - **1)** DIRETOR TÉCNICO,
+        - **2)** TRAÇADOR(ES) DE PERCURSOS,
+        - **3)** MAPEADOR(ES),
+        - **4)** CONTROLADOR DE PARTIDA, com mais cinco auxiliares por estrutura de partida,
+        - **5)** CONTROLADOR DE CHEGADA com mais cinco auxiliares por estrutura de chegada,
+        - **6)** GERENTE DE ARENA,
+        - **7)** ASSISTÊNCIA MÉDICA E RESGATE,
+        - **8)** ESTACIONAMENTO E ACESSO com mais três auxiliares,
+        - **9)** CONTROLADOR DE APURAÇÃO,
+        - **10)** GESTOR DE SEGURANÇA,
+        - **11)** TRABALHADORES (conforme for necessário)
+    - **c.** COMISSÃO ADMINISTRATIVA
+        - **1)** DIRETOR ADMINISTRATIVO,
+        - **2)** SECRETÁRIO com mais quatro auxiliares
+        - **3)** GERENTE DE LOGÍSTICA
+        - **4)** GERENTE DE MÍDIA E MARKETING
+        - **5)** TESOUREIRO,
+        - **6)** ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO,
+        - **7)** ASSISTENTE DE HOSPEDAGEM E TRANSPORTE,
+        - **8)** ASSISTENTE DE COMUNICAÇÕES
+        - **9)** ASSISTENTE DE INFORMÁTICA,
     - **d.** COMISSÃO DE NOVOS,
     - **e.** EQUIPE DE EXAME ANTI-DOPING
 2. DATA LIMITE PARA NOMEAÇÃO,
@@ -950,8 +985,12 @@ c.RANKING DE FEDERAÇÕES
 
 **Regra 213** – O Presidente da CBO terá prioridade para ir ao Congresso da IOF;
 
-**Regra 214** – A Equipe Nacional poderá ser convocada por meio de portaria da CBO, com a finalidade de realizar: a) avaliação física, médica-odontológica; b) treinamento técnico; c) processo seletivo; e, d) participação em competições internacionais oficiais da IOF.
+**Regra 214** – A Equipe Nacional poderá ser convocada por meio de portaria da CBO, com a finalidade de realizar:
 
+- **a)** avaliação física, médica-odontológica;
+- **b)** treinamento técnico;
+- **c)** processo seletivo; e,
+- **d)** participação em competições internacionais oficiais da IOF.
 1. Se houver recursos a equipe será reunida em local determinado pela CBO para cumprimento dos itens a) b) e/ou c).
 2. Se não houver recursos para os itens a) e b), os técnicos dos atletas convocados ou do clube/federação ao qual o atleta for filiado, entrarão em contato com a diretoria da CBO para receber orientações a respeito de condutas a serem adotadas.
 3. Se não houver recursos para a realização do processo seletivo, prevalecerá os rankings da CBO, para as categorias elite.

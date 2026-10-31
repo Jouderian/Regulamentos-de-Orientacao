@@ -659,8 +659,28 @@
 
 1. COMPOSIÇÃO:
     - **a.** DIRETOR DA PROVA - Responsável pela prova,
-    - **b.** COMISSÃO TÉCNICA, 1) DIRETOR TÉCNICO, 2) TRAÇADORES DE PERCURSOS, 3) MAPEADOR, 4) ÁRBITRO DE PARTIDA, com mais cinco auxiliares, 5) ARBITRO DE CHEGADA com mais cinco auxiliares por funil, 6) DIRETOR DE ARENA, 7) ASSISTÊNCIA MÉDICA E RESGATE, 8) ESTACIONAMENTO E ACESSO com mais três auxiliares, 9) APURAÇÃO, 10) SEGURANÇA, 11) TRABALHADORES (conforme for necessário)
-    - **c.** COMISSÃO ADMINISTRATIVA 1) DIRETOR ADMINISTRATIVO, 2) SECRETÁRIO com mais quatro auxiliares 3) DIRETOR DE LOGÍSTICA 4) DIRETOR DE MÍDIA E MARKETING 5) TESOUREIRO, 6) ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO, 7) ASSISTENTE DE HOSPEDAGEM E TRANSPORTE, 8) ASSISTENTE DE COMUNICAÇÕES 9) ASSISTENTE DE INFORMÁTICA,
+    - **b.** COMISSÃO TÉCNICA,
+        - **1)** DIRETOR TÉCNICO,
+        - **2)** TRAÇADORES DE PERCURSOS,
+        - **3)** MAPEADOR,
+        - **4)** ÁRBITRO DE PARTIDA, com mais cinco auxiliares,
+        - **5)** ARBITRO DE CHEGADA com mais cinco auxiliares por funil,
+        - **6)** DIRETOR DE ARENA,
+        - **7)** ASSISTÊNCIA MÉDICA E RESGATE,
+        - **8)** ESTACIONAMENTO E ACESSO com mais três auxiliares,
+        - **9)** APURAÇÃO,
+        - **10)** SEGURANÇA,
+        - **11)** TRABALHADORES (conforme for necessário)
+    - **c.** COMISSÃO ADMINISTRATIVA
+        - **1)** DIRETOR ADMINISTRATIVO,
+        - **2)** SECRETÁRIO com mais quatro auxiliares
+        - **3)** DIRETOR DE LOGÍSTICA
+        - **4)** DIRETOR DE MÍDIA E MARKETING
+        - **5)** TESOUREIRO,
+        - **6)** ASSISTENTE DE CERIMÔNIA, ANIMAÇÃO E DIVERSÃO,
+        - **7)** ASSISTENTE DE HOSPEDAGEM E TRANSPORTE,
+        - **8)** ASSISTENTE DE COMUNICAÇÕES
+        - **9)** ASSISTENTE DE INFORMÁTICA,
     - **d.** COMISSÃO DE NOVOS,
     - **e.** EQUIPE DE EXAME ANTI-DOPING
 2. DATA LIMITE PARA NOMEAÇÃO,
@@ -764,17 +784,25 @@
 
 **Regra 207** – Os atletas filiados à CBO serão organizados em um Ranking, com base nos resultados oficiais das últimas edições ou etapas das seguintes provas realizadas nos últimos 12 meses: MUNICIPAIS, ESTADUAIS, NACIONAIS E INTERNACIONAIS:
 
-- **a.** PROVAS MUNICIPAIS 1) Os quinze primeiros colocados no campeonato municipal receberão a seguinte pontuação: 20, 17, 15, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2; 2) Os demais atletas receberão um ponto; 3) O atleta só pode pontuar em um campeonato; 4) Os clubes devem encaminhar para a CBO os resultados dos campeonatos municipais até o dia 15 (quinze) de dezembro. Após essa data nenhum resultado será incluído no ranking nacional.
-- **b.** PROVAS ESTADUAIS 1) Os trinta e cinco primeiros colocados no campeonato estadual receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2. 2) Os demais atletas receberão um ponto; 3) O atleta só pode pontuar em um único estado. 4) As federações estaduais devem encaminhar para a CBO os resultados dos campeonatos estaduais até o dia 15 (quinze) de dezembro. Após essa data nenhum resultado será incluído no ranking nacional.
+- **a.** PROVAS MUNICIPAIS
+    - **1)** Os quinze primeiros colocados no campeonato municipal receberão a seguinte pontuação: 20, 17, 15, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2;
+    - **2)** Os demais atletas receberão um ponto;
+    - **3)** O atleta só pode pontuar em um campeonato;
+    - **4)** Os clubes devem encaminhar para a CBO os resultados dos campeonatos municipais até o dia 15 (quinze) de dezembro. Após essa data nenhum resultado será incluído no ranking nacional.
+- **b.** PROVAS ESTADUAIS
+    - **1)** Os trinta e cinco primeiros colocados no campeonato estadual receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2.
+    - **2)** Os demais atletas receberão um ponto;
+    - **3)** O atleta só pode pontuar em um único estado.
+    - **4)** As federações estaduais devem encaminhar para a CBO os resultados dos campeonatos estaduais até o dia 15 (quinze) de dezembro. Após essa data nenhum resultado será incluído no ranking nacional.
 - **c.** PROVAS NACIONAIS E SUL AMERICANAS:
-1. Os trinta e cinco primeiros colocados em cada percurso que compõe cada etapa do Campeonato Brasileiro, resultado de cada percurso que compõe o Campeonato Sul-Americano e os três melhores percursos dos 5 Dias de Orientação do Brasil, receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12,11,10, 9, 8, 7, 6, 5, 4, 3,2.
-2. Os demais atletas que forem classificados receberão um ponto
-
-d. REPRESENTAÇÕES: 1. Os competidores que estiverem impossibilitados de disputar qualquer das provas nacionais e sul-americanas, que fazem parte do ranking da CBO, por estarem convocados para representar o Brasil em competição internacional, como organizador ou atuando como Árbitro de provas nacionais, internacionais, sul americanas, terão nessas provas pontuação igual a média aritmética obtida dos percursos válidos em campeonatos nacionais e sul-americanas. 2. Os competidores devem solicitar a representação no Ranking Nacional para a CBO até 15 dias após a competição. Após essa data nenhum resultado será incluído no ranking nacional.
-
-e. TROCA DE CATEGORIA: O Atleta que trocar de categoria durante o ano em curso perde os pontos das provas anteriores. f. A pontuação obtida em cada etapa de CamBOr, Sul Americano, 5 Dias e nos Estaduais e Municipais permanecerá válida para o ranking até a realização do evento homônimo no ano seguinte.
-
-g. RANKING DE CLUBES E FEDERAÇÕES
+    1. Os trinta e cinco primeiros colocados em cada percurso que compõe cada etapa do Campeonato Brasileiro, resultado de cada percurso que compõe o Campeonato Sul-Americano e os três melhores percursos dos 5 Dias de Orientação do Brasil, receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12,11,10, 9, 8, 7, 6, 5, 4, 3,2.
+    2. Os demais atletas que forem classificados receberão um ponto
+- **d.** REPRESENTAÇÕES:
+    1. Os competidores que estiverem impossibilitados de disputar qualquer das provas nacionais e sul-americanas, que fazem parte do ranking da CBO, por estarem convocados para representar o Brasil em competição internacional, como organizador ou atuando como Árbitro de provas nacionais, internacionais, sul americanas, terão nessas provas pontuação igual a média aritmética obtida dos percursos válidos em campeonatos nacionais e sul-americanas.
+    2. Os competidores devem solicitar a representação no Ranking Nacional para a CBO até 15 dias após a competição. Após essa data nenhum resultado será incluído no ranking nacional.
+- **e.** TROCA DE CATEGORIA: O Atleta que trocar de categoria durante o ano em curso perde os pontos das provas anteriores.
+- **f.** A pontuação obtida em cada etapa de CamBOr, Sul Americano, 5 Dias e nos Estaduais e Municipais permanecerá válida para o ranking até a realização do evento homônimo no ano seguinte.
+- **g.** RANKING DE CLUBES E FEDERAÇÕES
 
 **Regra 208** – Os clubes ou entidades de prática filiadas à CBO serão organizados em um Ranking com base nos resultados dos dois últimos anos nas seguintes provas: Resultado final dos 5 dias de Orientação do Brasil, resultado final de cada etapa do Campeonato Brasileiro de Orientação, resultado final do Campeonato Sul-Americano de orientação e revezamento do Sul-Americano e CamBOr.
 
@@ -921,7 +949,14 @@ g. RANKING DE CLUBES E FEDERAÇÕES
 
 ## 44. O TÉCNICO
 
-**Regra 235** – O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e representação dos atletas perante a organização, ficando sob sua incumbência: 1) Sempre fazer constar seu nome na Ficha de Inscrição de cada evento; 2) Representar os atletas pelos quais responde - do seu clube, curso, escola, universidade, equipe ou delegação - perante a Organização, arbitragem e dirigentes desportivos, em quaisquer situações; 3) Relatar à Organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsabilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório ao espírito esportivo; 4) Controlar e conduzir seus atletas com disciplina, ordem e respeito às regras, sempre que estiver em competição, palestra, curso, ou atividade similar; 5) Assegurar aos pais ou responsáveis, no caso de orientistas menores de idade, que os atletas sob sua responsabilidade serão conduzidos com segurança e de maneira adequada, no transcorrer das competições; 6) Organizar o plano esportivos anual (Anexo M) NR.
+**Regra 235** – O técnico é a pessoa responsável pela formação, treinamento, inscrição, controle e representação dos atletas perante a organização, ficando sob sua incumbência:
+
+- **1)** Sempre fazer constar seu nome na Ficha de Inscrição de cada evento;
+- **2)** Representar os atletas pelos quais responde - do seu clube, curso, escola, universidade, equipe ou delegação - perante a Organização, arbitragem e dirigentes desportivos, em quaisquer situações;
+- **3)** Relatar à Organização ou à arbitragem qualquer fato envolvendo atleta sob sua responsabilidade, que envolva conduta antidesportiva, infração a regras, indisciplina ou ato atentatório ao espírito esportivo;
+- **4)** Controlar e conduzir seus atletas com disciplina, ordem e respeito às regras, sempre que estiver em competição, palestra, curso, ou atividade similar;
+- **5)** Assegurar aos pais ou responsáveis, no caso de orientistas menores de idade, que os atletas sob sua responsabilidade serão conduzidos com segurança e de maneira adequada, no transcorrer das competições;
+- **6)** Organizar o plano esportivos anual (Anexo M) NR.
 
 ## 45. EQUIPAMENTO ELETRÔNICO
 
