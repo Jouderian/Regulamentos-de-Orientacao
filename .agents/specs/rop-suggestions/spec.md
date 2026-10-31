@@ -8,5 +8,8 @@ Esta especificação apoia a elaboração e organização de sugestões de alter
 
 ## Diretrizes de Trabalho
 - **Alinhamento com IOF**: Foco em regras de equipamentos eletrônicos (GPS) e terminologia técnica para reclamações de tempos/resultados.
-- **Formato Final**: Preenchimento do arquivo Word (.docx) modelo fornecido pelo usuário a ser armazenado nesta pasta.
+- **Formato Final**: Preenchimento do formulário da CBO, [`formulárioAlteracaoRegrasROP_2027.docx`](formulárioAlteracaoRegrasROP_2027.docx), guardado nesta pasta.
 - **Idioma**: Português do Brasil (pt-BR).
+
+## Controle
+Esta spec não registra pendência. Cada proposta enviada à CBO é acompanhada em uma *issue* `acompanhamento` — hoje a [#26](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/26), da tabela de idades —, e a publicação da ROP 2027, na [#25](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/25).

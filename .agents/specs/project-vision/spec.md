@@ -30,7 +30,7 @@ Atuar como a fonte da verdade, padronizada e controlada por versão para as regr
    - **Pelo clube:** o atleta leva a sugestão ao diretor técnico do seu clube, que a encaminha ao diretor técnico da federação.
    - **Pelo repositório:** o atleta abre uma *issue* com o formulário [Sugestão de regra](../../../.github/ISSUE_TEMPLATE/sugestao-regra.yml), identificando-se com nome completo, número CBO e clube, e informando artigo afetado, redação atual, redação proposta e justificativa.
 2. O diretor técnico da Federação, junto com os demais diretores técnicos dos clubes, avalia as sugestões recebidas pelos dois canais e delibera sobre alteração(ões) nas regras.
-3. O resultado da deliberação de uma sugestão recebida por *issue* é registrado nela, que é fechada com referência ao *commit* da alteração, se aprovada, ou com a justificativa da rejeição.
+3. O resultado da deliberação de uma sugestão recebida por *issue* é registrado nela, que fecha na deliberação: se aprovada, com a redação final e a `tarefa` aberta para aplicá-la; se rejeitada, com a justificativa.
 4. O Diretor Técnico da Federação edita os arquivos `.md`.
 5. O Diretor Técnico da Federação cria um *branch* ou *commit* com a alteração.
 6. O Diretor Técnico da Federação envia a alteração para a *branch* principal (`main` ou `master`).

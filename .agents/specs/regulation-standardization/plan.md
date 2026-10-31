@@ -1,5 +1,6 @@
 ---
 description: Plano técnico e padrão tipográfico para a conversão dos regulamentos históricos
+status: concluída
 ---
 
 # Plano: Conversão e Padronização de Regulamentos Históricos

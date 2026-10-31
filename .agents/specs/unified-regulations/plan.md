@@ -1,5 +1,6 @@
 ---
 description: Análise e plano para unificação dos regulamentos CCO e CCOS
+status: concluída
 ---
 
 # Unificação dos Regulamentos CCO e CCOS

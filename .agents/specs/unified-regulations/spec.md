@@ -1,5 +1,6 @@
 ---
 description: Especificação para unificação dos regulamentos dos campeonatos cearenses (CCO e CCOS)
+status: concluída
 ---
 
 # Especificação: Regulamento Unificado (CCO e CCOS)

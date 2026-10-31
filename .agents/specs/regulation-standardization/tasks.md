@@ -1,5 +1,6 @@
 ---
 description: Lista de tarefas da conversão dos regulamentos históricos, por ano e competição
+status: concluída
 ---
 
 # Tarefas: Padronização de Regulamentos Históricos
@@ -10,30 +11,7 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 ## Situação atual dos documentos
 
-| Ano | ROP | CCO | CCOS |
-| :---: | :---: | :---: | :---: |
-| 2027 | — | ✔ | ✔ |
-| 2026 | ✔ | ✔ | ✔ |
-| 2025 | ✔ | ✔ | — |
-| 2024 | ✔ | ✔ | ✔ |
-| 2023 | ✔ | ✔ | ✔ |
-| 2022 | ✔ | ✔ | ✔ |
-| 2021 | ✔ | — | — |
-| 2020 | ✔ | — | — |
-| 2019 | ✔ | ✔ | ✔ |
-| 2018 | ✔ | ✔ | ✔ |
-| 2017 | ✔ | ✔ | ✔ |
-| 2016 | ✔ | ✔ | ✔ |
-| 2015 | ✔ | ✔ | ✔ |
-| 2014 | ✔ | ✔ | ✔ |
-| 2013 | ✔ | ✔ | ✔ |
-| 2012 | ✔ | ✔ | ✔ |
-
-**Legenda:** ✔ Feito | ✗ Não feito | — Não aplicável (sem PDF no acervo ou competição não realizada)
-
-- **ROP:** Regras de Orientação Pedestre (documento nacional da CBO)
-- **CCO:** Campeonato Cearense de Orientação
-- **CCOS:** Campeonato Cearense de Orientação Sprint
+A conversão foi concluída. A situação de cada ano fica **somente** na tabela do [`README.md`](../../../README.md).
 
 ## Anos sem tarefa
 
@@ -45,5 +23,5 @@ verificação (`python .agents/scripts/verificar-documentos.py`).
 
 - [x] Saneamento dos artefatos de conversão dos arquivos já convertidos.
 - [x] Verificação automatizada cobrindo tipografia e artefatos (`verificar-documentos.py`).
-- [ ] Revisão geral de consistência entre todos os anos após a conversão completa.
+- [ ] Revisão geral de consistência entre todos os anos após a conversão completa — registrada na [*issue* #30](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/30).
 - [x] Atualização do `README.md` com a tabela de cobertura do acervo.

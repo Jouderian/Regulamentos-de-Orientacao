@@ -1,5 +1,6 @@
 ---
 description: Conversão e padronização em Markdown dos regulamentos históricos do acervo (2012-2025)
+status: concluída
 ---
 
 # Especificação: Padronização de Regulamentos Históricos
@@ -21,35 +22,17 @@ Converter os regulamentos históricos para Markdown preservando integralmente o 
 8. **Nomenclatura histórica**: as atuais *Regras de Orientação Pedestre* (ROP) da CBO chamavam-se antes *Regras Gerais de Orientação Pedestre* (RGOP). Nos regulamentos antigos, a sigla RGOP é mantida como no original, sem trocar por ROP. Ela designa o mesmo documento nacional, e por isso o campo `rop_referencia` do frontmatter se aplica normalmente a esses regulamentos.
 
 ## Critérios de Aceitação
-- [ ] Todo regulamento com PDF no acervo possui o `.md` correspondente na mesma pasta.
+- [x] Todo regulamento com PDF no acervo possui o `.md` correspondente na mesma pasta.
 - [x] Os `.md` existentes seguem o padrão `**Art. Nº** – Texto` e `> **Parágrafo Nº:** Texto`.
 - [x] Nenhum `.md` do acervo contém artefatos de conversão (U+00AD, BOM, hifenização de fim de linha, palavras sem acento).
 - [x] A verificação `python .agents/scripts/verificar-documentos.py` passa sem problemas.
 
-## Cobertura Atual do Acervo
-Estado em 2026-10-11. O `—` indica ausência do documento no acervo; "não realizado" indica que a competição não ocorreu naquele ano.
-
-| Ano | CCO | CCOS | Observação |
-| :---: | :---: | :---: | :--- |
-| 2027 | PDF/DOCX | PDF/DOCX | fonte é o `.md` da raiz |
-| 2026 | **MD** + PDF | **MD** + PDF | documento unificado (evento CCOS cancelado após publicação) |
-| 2025 | **MD** + PDF | — | CCOS não realizado (CamBOS) |
-| 2024 | **MD** + PDF | **MD** + PDF | completo |
-| 2023 | **MD** + PDF | **MD** + PDF | completo |
-| 2022 | **MD** + PDF | **MD** + PDF | completo |
-| 2020-2021 | — | — | sem competição (COVID-19) |
-| 2019 | **MD** + PDF | **MD** + PDF | completo |
-| 2018 | **MD** + PDF | **MD** + PDF | completo |
-| 2017 | **MD** + PDF | **MD** + PDF | completo |
-| 2016 | **MD** + PDF | **MD** + PDF | completo |
-| 2015 | **MD** + PDF | **MD** + PDF | completo |
-| 2014 | **MD** + PDF | **MD** + PDF | completo |
-| 2013 | **MD** + PDF | **MD** + PDF | completo |
-| 2012 | **MD** + PDF | **MD** + PDF | completo |
+## Cobertura do Acervo
+A conversão do acervo foi concluída em 2026-10-31 ([*issue* #15](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/15)). A situação de cada ano fica **somente** na tabela do [`README.md`](../../../README.md), para não haver cópias divergentes.
 
 ## Passo a Passo
 1. Converter o PDF do ano com `python .agents/scripts/import-pdf.py Documentos/<ano>/<arquivo>.pdf`.
 2. Revisar manualmente os pontos listados no workflow [`import-pdf.md`](../../workflows/import-pdf.md) (cabeçalhos, rodapés, tabelas, hifenização).
 3. Comparar o Markdown com o PDF original artigo a artigo, confirmando que nenhuma regra foi perdida ou alterada.
 4. Rodar `python .agents/scripts/verificar-documentos.py` e corrigir o que for apontado.
-5. Atualizar a tabela de cobertura acima e a do `README.md`.
+5. Atualizar a tabela de cobertura do `README.md`.

@@ -1,5 +1,6 @@
 ---
 description: Plano de implementação para a regra de descarte no CCO
+status: concluída
 ---
 # Plano: Regra de Descarte (CCO)
 

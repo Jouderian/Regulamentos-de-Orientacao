@@ -1,5 +1,6 @@
 ---
 description: Lista de tarefas para a implementação da unificação dos regulamentos CCO e CCOS
+status: concluída
 ---
 
 # Tarefas de Unificação dos Regulamentos

@@ -38,7 +38,6 @@ Antes de solicitar autorização para o push, **apresente claramente** ao usuár
 2. A **mensagem de commit** proposta (seguindo Conventional Commits com escopo obrigatório).
 
 ```powershell
-# // turbo
 git status --short
 ```
 

@@ -1,5 +1,6 @@
 ---
 description: Especificação da regra de descarte de etapas para o CCO
+status: concluída
 ---
 # Especificação: Regra de Descarte (CCO)
 

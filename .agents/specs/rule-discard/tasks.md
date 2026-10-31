@@ -1,5 +1,6 @@
 ---
 description: Tarefas para implementação da regra de descarte
+status: concluída
 ---
 # Tarefas: Regra de Descarte (CCO)
 
