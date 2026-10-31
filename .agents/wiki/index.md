@@ -21,7 +21,11 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 ## Páginas Temáticas
 
-Nenhuma ainda. Criar conforme a orientação de [`wiki-maintenance.md`](../wiki-maintenance.md).
+| Página | Resumo |
+| :--- | :--- |
+| [Numeração das edições](numeracao-das-edicoes.md) | Ano sem campeonato realizado não consome número de edição; o número previsto passa ao ano seguinte |
+
+Novas páginas seguem a orientação de [`wiki-maintenance.md`](../wiki-maintenance.md).
 
 ## Onde mais procurar
 

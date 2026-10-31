@@ -9,7 +9,7 @@ As regras ficam em *Organização dos Documentos*, de [`rules.md`](../rules/rule
 ## 1. Abrir a edição do ano seguinte
 
 1. Copie o `.md` da edição vigente para `Documentos/<ano novo>/`, com o mesmo nome.
-2. No frontmatter da cópia, ajuste `ano`, `edicao` e `description` e ponha `status: em-elaboracao`. A `edicao` vem da numeração oficial, nunca de estimativa.
+2. No frontmatter da cópia, ajuste `ano`, `edicao` e `description` e ponha `status: em-elaboracao`. A `edicao` vem da numeração oficial, nunca de estimativa: ano sem campeonato realizado não consome número ([Numeração das edições](../wiki/numeracao-das-edicoes.md)).
 3. Atualize no [`README.md`](../../README.md) a seção *Próxima edição*.
 4. Rode `python .agents/scripts/verificar-documentos.py`.
 
