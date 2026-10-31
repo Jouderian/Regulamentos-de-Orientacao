@@ -30,7 +30,7 @@ Este repositório mantém o histórico das edições anteriores do campeonato em
 | 2020-2021 | *não realizado* | *não realizado* | **MD** + PDF (2020); PDF (2021) | — |
 | 2019 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2018 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
-| 2017 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
+| 2017 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
 | 2016 | **MD** + PDF | **MD** + PDF | PDF | ✔ |
 | 2015 | **MD** + PDF | PDF | PDF | ✔ |
 | 2014 | **MD** + PDF | **MD** + PDF | **MD** + PDF | ✔ |
