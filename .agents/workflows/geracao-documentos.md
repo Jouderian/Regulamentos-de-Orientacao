@@ -25,31 +25,31 @@ Para evitar a perda da formatação oficial da Federação, o projeto utiliza um
 
 ## 3. Geração Automatizada (.docx e .pdf)
 
-Sempre que o documento `regulamentoDasCompeticoesCearenses.md` for alterado, execute o script de automação na raiz do repositório:
+Sempre que o regulamento em elaboração for alterado, execute o script de automação na raiz do repositório:
 
 ```bash
 python .agents/scripts/gerar-documentos.py
 ```
 
 O script realiza o processo completo de forma integrada:
-1. Lê o `regulamentoDasCompeticoesCearenses.md` e extrai o ano do cabeçalho YAML para definir a pasta de saída (ex: `Documentos/2027/`).
+1. Localiza o regulamento com `status: em-elaboracao` em `Documentos/<ano>/` e grava o `.docx` e o `.pdf` na mesma pasta. Edição vigente ou arquivada é recusada: o `.pdf` dela está congelado ([ADR-006](../wiki/decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md)).
 2. Remove o bloco de metadados frontmatter (`--- ... ---`) antes de repassar o texto puro ao Pandoc via `stdin`, garantindo que nenhum metadado vaze para o documento final.
 3. Compila o `.docx` aplicando o template oficial `Documentos/template_estilos.docx`.
 4. Converte o `.docx` em `.pdf` de forma transparente via Microsoft Word (COM).
 
 ## 4. Execução Manual (Referência)
 
-Caso seja necessário executar as etapas manualmente sem o script:
+Caso seja necessário executar as etapas manualmente sem o script, sempre na edição em elaboração:
 
 1. **Compilar DOCX via Pandoc:**
    ```powershell
-   pandoc regulamentoDasCompeticoesCearenses.md -o Documentos/2027/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
+   pandoc Documentos/<ano>/regulamentoDasCompeticoesCearenses.md -o Documentos/<ano>/regulamentoDasCompeticoesCearenses.docx --reference-doc=Documentos/template_estilos.docx
    ```
 2. **Converter DOCX em PDF via Word:**
    ```powershell
    $word = New-Object -ComObject Word.Application
    $word.Visible = $false
-   $docPath = Resolve-Path "Documentos\2027\regulamentoDasCompeticoesCearenses.docx"
+   $docPath = Resolve-Path "Documentos\<ano>\regulamentoDasCompeticoesCearenses.docx"
    $pdfPath = [System.IO.Path]::ChangeExtension($docPath.Path, ".pdf")
    $doc = $word.Documents.Open($docPath.Path)
    $doc.SaveAs([ref]$pdfPath, [ref]17) # 17 = wdFormatPDF
@@ -60,4 +60,4 @@ Caso seja necessário executar as etapas manualmente sem o script:
    ```
 
 ## 5. Integração CI/CD
-O job `gerar-docx` de `.github/workflows/verificacao-documental.yml` já converte o `.md` da raiz em `.docx` a cada execução do CI e publica o resultado como artefato da execução. O `.pdf` fica fora do CI porque depende do Microsoft Word. A comparação do `.docx` versionado em `Documentos/<ano>/` com o recém-gerado ainda não existe: está registrada na [*issue* #18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18).
+O job `gerar-docx` de `.github/workflows/verificacao-documental.yml` já converte o `.md` da edição em elaboração em `.docx` a cada execução do CI e publica o resultado como artefato da execução. O `.pdf` fica fora do CI porque depende do Microsoft Word. A comparação do `.docx` versionado em `Documentos/<ano>/` com o recém-gerado ainda não existe: está registrada na [*issue* #18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18).

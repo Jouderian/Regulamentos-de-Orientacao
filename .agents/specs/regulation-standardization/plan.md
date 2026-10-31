@@ -45,7 +45,7 @@ python -I .agents/scripts/testar-verificar-documentos.py
 
 ## Decisões de Armazenamento
 - O `.md` fica em `Documentos/<ano>/`, ao lado do PDF de origem, com o mesmo nome-base.
-- O regulamento **vigente** fica na raiz do repositório; a cópia em `Documentos/<ano>/` é criada quando a edição é superada pela seguinte.
+- O regulamento vigente e o em elaboração também ficam em `Documentos/<ano>/`, conforme a [ADR-006](../../wiki/decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md).
 
 ## Riscos e Mitigações
 | Risco | Mitigação |

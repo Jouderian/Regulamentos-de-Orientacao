@@ -28,7 +28,7 @@ A sugestão aberta significa **decisão pendente**; a regra aprovada e ainda nã
 3. `situação: parecer pronto`: o parecer está registrado e a sugestão espera entrar na pauta.
 4. `situação: na pauta`: aguarda a deliberação da comissão de regras. Só entra na pauta sugestão com parecer.
 5. **Deliberada**: a *issue* fecha com o resumo da seção 4.
-   - **Aprovada:** abre-se uma `tarefa` (`equipe: regras`) com a redação final aprovada, ligada à sugestão pelo número (`Refs #N`). A tarefa fecha quando o texto entra em `regulamentoDasCompeticoesCearenses.md`.
+   - **Aprovada:** abre-se uma `tarefa` (`equipe: regras`) com a redação final aprovada, ligada à sugestão pelo número (`Refs #N`). A tarefa fecha quando o texto entra no regulamento em elaboração.
    - **Rejeitada:** fecha com a justificativa.
    - **Adiada:** continua aberta, com a data de retorno em comentário.
 

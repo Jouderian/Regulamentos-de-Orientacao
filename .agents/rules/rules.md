@@ -59,22 +59,22 @@ Estruture cada resposta para que o usuário possa agir:
 
 ## Organização dos Documentos
 
-- **Raiz = edição em trabalho.** Os arquivos `.md` na raiz do repositório são sempre a edição **vigente ou em elaboração**. É neles que toda alteração acontece.
-- **`Documentos/<ano>/` = acervo.** Contém os documentos já superados, mais os PDFs originais de cada ano.
-- **Arquivamento na virada.** A cópia de um documento em `Documentos/<ano>/` é criada **no momento em que a edição é superada pela seguinte**, e não antes. Enquanto uma edição for a vigente, ela existe em um único lugar: a raiz. Isso evita duas cópias divergentes do mesmo texto e elimina a dúvida sobre qual vale.
-  - Exemplo: quando a CBO publicar a ROP 2027, copie o `regrasOrientacaoPedestre.md` da raiz para `Documentos/2026/` e só então substitua o da raiz pelo texto de 2027.
+- **Cada edição na pasta do seu ano.** Todo documento de uma edição vive em `Documentos/<ano>/` desde o início da elaboração. A raiz não guarda texto normativo; só o `clubesCampeoes.md`, que acumula todos os anos, fica nela.
+- **Status da edição.** O frontmatter do regulamento diz a fase: `em-elaboracao` (no máximo uma edição, a única que se altera), `vigente` (exatamente uma: a última publicada) ou `arquivado`. A ROP em uso é a do ano indicado em `rop_referencia`.
+- **Abrir e publicar.** A edição nova nasce da cópia do `.md` da vigente para a pasta do ano novo. Na publicação, num só commit, a em elaboração passa a `vigente` e a anterior a `arquivado`, o `.pdf` final é congelado, o `.docx` sai da pasta e o commit recebe a tag anotada `v<ano>`; edição em aberto não recebe tag. O passo a passo está em [`publicar-edicao.md`](../workflows/publicar-edicao.md).
+- **PDF publicado é imutável.** Fora o `.pdf` gerado do regulamento em elaboração, todo `.pdf` de `Documentos/<ano>/` está congelado, com o SHA-256 em `Documentos/arquivosCongelados.sha256`, manifesto que só recebe linhas novas. Nenhum agente regenera, substitui, edita ou remove PDF congelado, nem altera linha do manifesto. O `.docx` é só intermediário da elaboração: não é congelado nem fica no acervo. A verificação documental e o `gerar-documentos.py` impõem isso ([ADR-006](../wiki/decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md)).
+- **`.md` de edição fechada.** O `.md` de edição vigente ou arquivada só recebe correção de transcrição contra o PDF publicado; mudança normativa exige nova edição.
 - **Nome do arquivo-fonte igual ao do documento publicado.** O `.md`, o `.docx` e o `.pdf` de um mesmo documento compartilham o nome-base (ex.: `regulamentoDasCompeticoesCearenses`), variando apenas a extensão.
-- **Tags de edição.** Toda edição publicada recebe uma tag anotada `v<ano>` no commit em que se tornou definitiva, dando um endereço permanente ao texto que valeu naquele ano. Edições em aberto não recebem tag.
 - **Ordem cronológica inversa.** Em tabelas, relações, listas e notas de arquivos de controle e documentação (`README.md`, specs, tarefas), os anos e edições são sempre apresentados do mais novo para o mais velho (ex.: 2027, 2026, 2025...), facilitando a consulta e as buscas históricas.
 
 ## Fonte de Consulta dos Documentos
 
 **Escopo:** vale para qualquer agente que **leia** o conteúdo de um regulamento do repositório para consultar, responder, comparar ou resumir. A [ADR-001](../wiki/decisions/ADR-001-markdown-como-fonte-da-verdade.md) fixa o Markdown como fonte da verdade; esta seção fixa o que ler.
 
-- **Markdown primeiro.** Leia sempre o `.md` do documento. Na edição vigente ou em elaboração, ele está na raiz; em edição superada, em `Documentos/<ano>/`.
+- **Markdown primeiro.** Leia sempre o `.md` do documento, em `Documentos/<ano>/`. A edição vigente e a em elaboração se identificam pelo `status` do frontmatter do regulamento.
 - **Documento longo, leitura por trecho.** Em documento com mais de 500 linhas (a ROP tem cerca de 2.600), localize o dispositivo por busca — número da regra ou do artigo, ou cabeçalho — e leia só as linhas dele; a ROP traz índice no início do arquivo. Para comparar anos, busque o mesmo dispositivo em cada arquivo. Não leia o documento inteiro para responder a uma pergunta pontual.
 - **PDF só na falta do `.md`.** Abra o `.pdf` apenas quando o `.md` daquele documento, naquele ano, não existir (conversão pendente; a situação de cada ano está no [`README.md`](../../README.md)). Havendo `.md`, não abra o `.pdf` "para conferir" nem o use como segunda fonte.
-- **`.docx` e `.pdf` gerados não são fonte.** Em `Documentos/2027/` o `.docx` e o `.pdf` são saída gerada do `.md` da raiz; consulte a raiz.
+- **`.docx` e `.pdf` gerados não são fonte.** O `.docx` e o `.pdf` do regulamento são saída gerada do `.md` da mesma pasta; consulte o `.md`.
 - **Declare o PDF.** Ao responder com base em um PDF, diga na resposta que o texto veio do PDF por falta do `.md`. Nunca misture as duas fontes sem avisar.
 - **Exceções:** tarefa cujo objetivo é conferir ou converter o `.md` contra o PDF original (conferência de texto normativo, conversão do acervo); pedido expresso do usuário; `.md` ilegível ou truncado, caso em que o agente avisa o usuário antes de recorrer ao PDF.
 
@@ -107,7 +107,7 @@ O passo a passo — formulários, ciclo da sugestão, troca de situação, vínc
   | `cco` | Regras específicas do Campeonato Cearense de Orientação |
   | `ccos` | Regras específicas do Campeonato Cearense de Orientação Sprint |
   | `rop` | Regras de Orientação Pedestre (documento nacional da CBO) |
-  | `acervo` | Documentos históricos em `Documentos/<ano>/` |
+  | `acervo` | Organização de `Documentos/<ano>/`, edições arquivadas e manifesto de arquivos congelados |
   | `historico` | `clubesCampeoes.md` e dados de classificação de clubes |
   | `agents` | Artefatos de `.agents/` (regras, specs, workflows, wiki, scripts) |
   | `ci` | Automação em `.github/` |
@@ -118,7 +118,7 @@ O passo a passo — formulários, ciclo da sugestão, troca de situação, vínc
 - **Autoria humana exclusiva.** Nenhum commit pode carregar rodapé de coautoria ou de geração por agente de IA (`Co-Authored-By:`, `Generated with`, ou equivalente). O trabalho do repositório é assinado apenas pelo mantenedor humano, e um rodapé desses faz o agente constar como *Contributor* no GitHub. Antes de propor um commit, confira o rodapé da mensagem.
 - **Autorização para Push:** É **obrigatório** solicitar a autorização expressa do usuário antes de realizar qualquer envio para o repositório remoto (`git push`).
 - **Verificação Documental:** Antes de qualquer commit, execute `python .agents/scripts/verificar-documentos.py`. O commit só pode ser proposto se a verificação passar sem problemas — é a mesma checagem que o CI executa e que barra um *Pull Request*.
-- **Regeneração de Documentos Finais:** Sempre que o arquivo `regulamentoDasCompeticoesCearenses.md` tiver sido modificado, é **obrigatório** regenerar os documentos finais (`.docx` e `.pdf`) **antes** do commit/push. Siga o workflow `.agents/workflows/atualizar-repositorio.md` para o procedimento completo.
+- **Regeneração de Documentos Finais:** Sempre que o regulamento em elaboração tiver sido modificado, é **obrigatório** regenerar os documentos finais (`.docx` e `.pdf`) **antes** do commit/push. Edição vigente ou arquivada nunca é regenerada. Siga o workflow `.agents/workflows/atualizar-repositorio.md` para o procedimento completo.
 - **Pré-requisito do Commit/Push:** Antes de solicitar a autorização para atualizar o repositório, você deve apresentar claramente ao usuário:
   1. A lista exata dos arquivos que foram modificados e estão sendo incluídos na atualização.
   2. A exata mensagem de *commit* que será utilizada.

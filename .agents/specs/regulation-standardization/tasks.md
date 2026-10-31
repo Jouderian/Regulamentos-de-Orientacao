@@ -15,7 +15,7 @@ A conversão foi concluída. A situação de cada ano fica **somente** na tabela
 
 ## Anos sem tarefa
 
-- **2026 e 2027**: regulamento unificado (CCO e CCOS), mantido como fonte na raiz do repositório.
+- **2026 e 2027**: regulamento unificado (CCO e CCOS), escrito direto em Markdown, sem conversão de PDF.
 - **2025 (CCOS)**: não realizado; a FECORI sediou o CamBOS.
 - **2020 e 2021**: não houve campeonato estadual (COVID-19) — só existem as ROP nacionais.
 

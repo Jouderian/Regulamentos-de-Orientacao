@@ -16,7 +16,7 @@ Atuar como a fonte da verdade, padronizada e controlada por versão para as regr
 
 ## Restrições e Premissas Inegociáveis
 1. **Conformidade com a CBO:** Nenhuma regra estadual pode entrar em conflito direto com as *Regras de Orientação Pedestre* (ROP) da *Confederação Brasileira de Orientação* (CBO), salvo adaptações explicitamente previstas na própria ROP.
-2. **Fonte da Verdade Exclusiva (Markdown):** Toda adição, edição ou revogação de regras deve ocorrer obrigatoriamente nos arquivos `.md` na raiz do repositório. **Edições diretas em documentos Word ou PDF não são consideradas** oficiais.
+2. **Fonte da Verdade Exclusiva (Markdown):** Toda adição, edição ou revogação de regras deve ocorrer obrigatoriamente nos arquivos `.md` da edição em elaboração, em `Documentos/<ano>/`. **Edições diretas em documentos Word ou PDF não são consideradas** oficiais.
 3. **Rastreabilidade (Git):** Toda modificação precisa estar amparada por um histórico rastreável via controle de versão (Git).
 4. **Organização Documental/Jurídica:** O regulamento consolidado deve manter e respeitar a hierarquia clássica de documentação legal (Capítulos, Artigos, Parágrafos, Incisos e Alíneas).
 
