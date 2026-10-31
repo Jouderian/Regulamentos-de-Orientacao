@@ -71,13 +71,13 @@ Serão obedecidas as regras da Confederação Brasileira de Orientação para Or
 | 34º | 03 pontos |
 | 35º | 02 pontos |
 
-> **Parágrafo 1º:** Os atletas convocados para atuarem na equipe técnica envolvida com as atividades de mapeamento e percursos de cada etapa, devidamente autorizados pelo arbitro da prova, receberão para efeito de classificação em sua categoria, a media da pontuação conquistada nas etapas que tenham competido.
+> **Parágrafo 1º:** Os atletas convocados para atuarem na equipe técnica envolvida com as atividades de mapeamento e percursos de cada etapa, devidamente autorizados pelo árbitro da prova, receberão para efeito de classificação em sua categoria, a média da pontuação conquistada nas etapas que tenham competido.
 
-> **Parágrafo 2º:** Os atletas participantes da equipe técnica de cada etapa deverão competir nas outras 2(duas) etapas do V CCOS para terem direito aos pontos referidos no Parágrafo 1º.
+> **Parágrafo 2º:** Os atletas participantes da equipe técnica de cada etapa deverão competir nas outras 2 (duas) etapas do V CCOS para terem direito aos pontos referidos no Parágrafo 1º.
 
 ## IV – DAS CATEGORIAS
 
-As categorias do IVCCOS serão as seguintes:
+As categorias do V CCOS serão as seguintes:
 
 ### 1. SEXO:
 “H” Homens e “D” Mulheres
@@ -172,7 +172,7 @@ Todas as categorias previstas nas regras da IOF e CBO.
 | Atletas | Inscrição | SI card Locação |
 | :--- | :--- | :--- |
 | Filiados a um clube e a FECORI (individual) | R$ 25,00 | R$ 8,00 |
-| Família, todos filiados a FECORI (três ou mais parentes em 1ºgrau) | R$ 20,00 | R$ 8,00 |
+| Família, todos filiados a FECORI (três ou mais parentes em 1º grau) | R$ 20,00 | R$ 8,00 |
 | Não Filiados | R$ 35,00 | R$ 8,00 |
 | Atletas acima de 64 anos | Isento | R$ 8,00 |
 | Atletas carentes (até 15 atletas / clube / prova) | Isento | R$ 8,00 |
