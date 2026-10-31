@@ -20,9 +20,17 @@ Se o arquivo **não aparecer**, pule diretamente para o passo 3.
 
 ## 2. Regenerar Documentos Finais (.docx e .pdf)
 
-Execute o workflow [`/geracao-documentos`](geracao-documentos.md) (passos 3 e 4) para regenerar o `.docx` e o `.pdf`.
+Execute o workflow [`/geracao-documentos`](geracao-documentos.md) (passo 3) para regenerar o `.docx` e o `.pdf`.
 
-## 3. Apresentar Alterações ao Usuário
+## 3. Verificar os Documentos
+
+Antes de propor o commit, execute a verificação documental (a mesma checagem que o CI executa). O commit só pode ser proposto se ela passar sem problemas:
+
+```powershell
+python .agents/scripts/verificar-documentos.py
+```
+
+## 4. Apresentar Alterações ao Usuário
 
 Antes de solicitar autorização para o push, **apresente claramente** ao usuário:
 
@@ -34,12 +42,12 @@ Antes de solicitar autorização para o push, **apresente claramente** ao usuár
 git status --short
 ```
 
-## 4. Solicitar Autorização e Executar
+## 5. Solicitar Autorização e Executar
 
-Após a aprovação explícita do usuário:
+Após a aprovação explícita do usuário, adicione **somente** os arquivos apresentados no passo 4 (nunca `git add -A`):
 
 ```powershell
-git add -A
+git add <arquivos apresentados ao usuário>
 git commit -m "<mensagem aprovada>"
 git push origin main
 ```
@@ -50,6 +58,7 @@ git push origin main
 ## Checklist Rápido
 
 - [ ] `regulamentoDasCompeticoesCearenses.md` alterado? → Regenerar `.docx` e `.pdf`
+- [ ] `python .agents/scripts/verificar-documentos.py` passou sem problemas
 - [ ] Apresentar arquivos modificados e mensagem de commit ao usuário
 - [ ] Obter autorização expressa do usuário
 - [ ] Executar `git add`, `git commit` e `git push`

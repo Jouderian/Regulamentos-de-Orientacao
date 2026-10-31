@@ -59,5 +59,5 @@ Caso seja necessário executar as etapas manualmente sem o script:
    Write-Output "PDF Gerado com sucesso!"
    ```
 
-## 5. Integração CI/CD (Melhoria Futura)
-Atualmente a geração é um processo manual documentado (Local CLI). O objetivo para o projeto é que esse script seja futuramente integrado em um workflow do **GitHub Actions**. Assim, ao aprovar um *Pull Request* na branch `main`, a compilação do `.docx` ocorrerá nos servidores do GitHub e será anexada automaticamente como um "Release".
+## 5. Integração CI/CD
+O job `gerar-docx` de `.github/workflows/verificacao-documental.yml` já converte o `.md` da raiz em `.docx` a cada execução do CI e publica o resultado como artefato da execução. O `.pdf` fica fora do CI porque depende do Microsoft Word. A comparação do `.docx` versionado em `Documentos/<ano>/` com o recém-gerado ainda não existe: está registrada na [*issue* #18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18).

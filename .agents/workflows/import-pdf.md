@@ -10,7 +10,7 @@ Este guia descreve o procedimento operacional para converter novos regulamentos 
 
 ## 1. Instalação e Preparação
 
-O processo automatizado depende de **Python (versão 3.9 ou superior)**.
+O processo automatizado depende de **Python (versão 3.10 ou superior)**.
 
 ### Instalar Dependências
 Navegue até a raiz do projeto e execute o comando abaixo para instalar o Microsoft **MarkItDown** e suas extensões para PDF:
