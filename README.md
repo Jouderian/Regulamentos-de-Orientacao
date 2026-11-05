@@ -17,7 +17,10 @@ Depois de publicado, o PDF de um regulamento não é mais alterado.
 
 ## Próxima edição: 2027
 
-O regulamento de 2027 está em elaboração e pode mudar até a publicação: [ler o texto](Documentos/2027/regulamentoDasCompeticoesCearenses.md) · [PDF provisório](Documentos/2027/regulamentoDasCompeticoesCearenses.pdf).
+Os documentos de 2027 estão em elaboração e podem mudar até a publicação:
+
+- **Regulamento 2027** (CCO e CCOS): [ler o texto](Documentos/2027/regulamentoDasCompeticoesCearenses.md) · [PDF provisório](Documentos/2027/regulamentoDasCompeticoesCearenses.pdf)
+- **Minuta das Regras de Orientação Pedestre 2027** (CBO): [ler o texto](Documentos/2027/regrasOrientacaoPedestre.md) · [PDF da minuta](Documentos/2027/regrasOrientacaoPedestre.pdf)
 
 ## Edições anteriores
 
