@@ -23,5 +23,5 @@ A conversão foi concluída: todo regulamento e toda ROP do acervo têm o `.md` 
 
 - [x] Saneamento dos artefatos de conversão dos arquivos já convertidos.
 - [x] Verificação automatizada cobrindo tipografia e artefatos (`verificar-documentos.py`).
-- [ ] Revisão geral de consistência entre todos os anos após a conversão completa — registrada na [*issue* #30](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/30).
+- [x] Revisão geral de consistência entre todos os anos após a conversão completa — concluída na [*issue* #30](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/30) (commit a33a478).
 - [x] Atualização do `README.md` com a tabela de cobertura do acervo.
