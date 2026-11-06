@@ -20,13 +20,15 @@ Só com autorização expressa do usuário: depois deste passo, o `.pdf` não mu
 1. Confira que todas as *issues* do *milestone* "Regulamento `<ano>`" estão fechadas.
 2. Gere os finais com a edição ainda em elaboração: `python .agents/scripts/gerar-documentos.py`.
 3. No frontmatter, passe a edição publicada de `em-elaboracao` para `vigente` e a anterior de `vigente` para `arquivado`.
-4. Congele o PDF: `python .agents/scripts/verificar-documentos.py --congelar`. O comando acrescenta ao `Documentos/arquivosCongelados.sha256` o `.pdf` da edição publicada e nunca altera linha existente. Remova o `.docx` da pasta com `git rm`: ele é intermediário e não fica no acervo.
+4. Congele o PDF assinado: `python .agents/scripts/verificar-documentos.py --congelar`. O comando acrescenta ao `Documentos/arquivosCongelados.sha256` o `.pdf` do regulamento estadual publicado e nunca altera linha existente. Remova o `.docx` da pasta com `git rm`: ele é intermediário e não fica no acervo.
 5. Atualize no `README.md` as seções *Regulamento em vigor*, *Próxima edição* e *Edições anteriores* e faça um único commit com tudo, seguindo [`atualizar-repositorio.md`](atualizar-repositorio.md).
 6. Com autorização, crie a tag anotada no commit da publicação e envie-a: `git tag -a v<ano> -m "Edição <ano>"` e `git push origin v<ano>`.
 
 ## 3. Documento original novo
 
-Um PDF original recebido depois (ROP da CBO, resultado de clubes) entra na pasta do seu ano e é congelado no mesmo commit, com `--congelar`.
+- **ROP publicada pela CBO:** entra na pasta do seu ano e é congelada no mesmo commit, com `--congelar`.
+- **Minuta da ROP:** fica com `status: em-elaboracao` no `.md` e não é congelada. Quando a CBO publicar a versão definitiva, substitua o `.pdf` e o `.md` pelos oficiais, retire o `status` do frontmatter e congele com `--congelar` no mesmo commit.
+- **Resultado de clubes:** entra na pasta do seu ano e não é congelado.
 
 ## 4. Arquivo congelado alterado por engano
 

@@ -1,5 +1,6 @@
 ---
 description: Visão fundacional, atores e restrições dos regulamentos de orientação
+status: ativa
 ---
 
 # Visão do Projeto: Regulamentos de Orientação

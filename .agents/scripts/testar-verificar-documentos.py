@@ -123,16 +123,54 @@ class Edicoes(unittest.TestCase):
         self.assertTrue(self.problemas({'vigente': {'2026'}, 'em-elaboracao': {'2025'}}))
 
 
+class RopEmElaboracao(unittest.TestCase):
+    def problemas(self, *arquivos):
+        verificar.problemas.clear()
+        rops = []
+        for rel, status in arquivos:
+            verificar.checar_status_rop(rel, f'---\nano: 2027\nstatus: {status}\n---\n', rops)
+        verificar.checar_rops(rops)
+        return list(verificar.problemas)
+
+    def test_uma_rop_em_elaboracao_passa(self):
+        self.assertEqual(self.problemas(('Documentos/2027/regrasOrientacaoPedestre.md', 'em-elaboracao')), [])
+
+    def test_duas_rops_em_elaboracao(self):
+        self.assertTrue(self.problemas(('Documentos/2027/regrasOrientacaoPedestre.md', 'em-elaboracao'),
+                                       ('Documentos/2028/regrasOrientacaoPedestre.md', 'em-elaboracao')))
+
+    def test_status_invalido(self):
+        self.assertTrue(self.problemas(('Documentos/2027/regrasOrientacaoPedestre.md', 'rascunho')))
+
+    def test_rop_nao_conta_como_edicao_do_regulamento(self):
+        verificar.problemas.clear()
+        edicoes = {}
+        verificar.checar_metadados_regulamento('Documentos/2027/regrasOrientacaoPedestre.md',
+                                               '---\nano: 2027\nstatus: em-elaboracao\n---\n', edicoes)
+        self.assertEqual(edicoes, {})
+
+
 class Congelamento(unittest.TestCase):
-    """Documentos/2026 fechado (vigente) e Documentos/2027 em elaboração."""
+    """CCOS 2025 arquivado, regulamento e ROP de 2026 publicados; regulamento e minuta da ROP de 2027 em elaboração."""
+
+    REG = 'regulamentoDasCompeticoesCearenses'
+    ROP = 'regrasOrientacaoPedestre'
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.raiz = self.tmp.name
+        self.gravar('2025/regulamentoCCOS.md', b'---\nano: 2025\nstatus: arquivado\n---\n')
+        self.gravar('2025/regulamentoCCOS.pdf', b'ccos 2025')
         for ano, status in (('2026', 'vigente'), ('2027', 'em-elaboracao')):
-            self.gravar(f'{ano}/regulamento.md', f'---\nano: {ano}\nstatus: {status}\n---\n'.encode())
-            self.gravar(f'{ano}/regulamento.pdf', f'pdf {ano}'.encode())
-        self.gravar('2026/regras.pdf', b'rop 2026')
+            self.gravar(f'{ano}/{self.REG}.md', f'---\nano: {ano}\nstatus: {status}\n---\n'.encode())
+            self.gravar(f'{ano}/{self.REG}.pdf', f'pdf {ano}'.encode())
+        self.gravar(f'2026/{self.ROP}.md', b'---\ndescription: ROP 2026\n---\n')
+        self.gravar(f'2026/{self.ROP}.pdf', b'rop 2026')
+        self.gravar(f'2027/{self.ROP}.md', b'---\nano: 2027\nstatus: em-elaboracao\n---\n')
+        self.gravar(f'2027/{self.ROP}.pdf', b'minuta rop 2027')
+        self.gravar('2026/resultadoClubesCCO.pdf', b'resultado 2026')
+        self.fechado = f'2026/{self.REG}.pdf'
+        self.congelados = ['2025/regulamentoCCOS.pdf', f'2026/{self.ROP}.pdf', self.fechado]
 
     def tearDown(self):
         self.tmp.cleanup()
@@ -146,6 +184,9 @@ class Congelamento(unittest.TestCase):
     def manifesto(self, *rels):
         return ''.join(f'{verificar._sha256(os.path.join(self.raiz, "Documentos", r))}  {r}\n' for r in rels)
 
+    def completo(self):
+        return self.manifesto(*self.congelados)
+
     def problemas(self, atual, base=None):
         verificar.problemas.clear()
         verificar.checar_congelados(self.raiz, atual, base)
@@ -154,40 +195,107 @@ class Congelamento(unittest.TestCase):
     def assertFalha(self, achados, trecho):
         self.assertTrue(any(trecho in p for p in achados), f'esperava "{trecho}" em {achados}')
 
+    def test_congelaveis_sao_regulamentos_fechados_e_rop_publicada(self):
+        self.assertEqual(verificar.arquivos_congelaveis(self.raiz), self.congelados)
+
     def test_manifesto_completo_passa(self):
-        self.assertEqual(self.problemas(self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')), [])
+        self.assertEqual(self.problemas(self.completo()), [])
 
-    def test_rascunho_em_elaboracao_pode_mudar(self):
-        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
-        self.gravar('2027/regulamento.pdf', b'pdf 2027 regenerado')
-        self.assertEqual(self.problemas(atual), [])
+    def test_rascunhos_em_elaboracao_podem_mudar(self):
+        self.gravar(f'2027/{self.REG}.pdf', b'pdf 2027 regenerado')
+        self.gravar(f'2027/{self.ROP}.pdf', b'nova minuta 2027')
+        self.assertEqual(self.problemas(self.completo()), [])
 
-    def test_arquivo_congelado_alterado(self):
-        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
-        self.gravar('2026/regulamento.pdf', b'pdf 2026 regenerado')
+    def test_resultado_pode_mudar(self):
+        self.gravar('2026/resultadoClubesCCO.pdf', b'resultado corrigido')
+        self.assertEqual(self.problemas(self.completo()), [])
+
+    def test_rop_publicada_alterada(self):
+        atual = self.completo()
+        self.gravar(f'2026/{self.ROP}.pdf', b'rop 2026 substituida')
+        self.assertFalha(self.problemas(atual), 'foi alterado')
+
+    def test_ccos_alterado(self):
+        atual = self.completo()
+        self.gravar('2025/regulamentoCCOS.pdf', b'ccos 2025 regenerado')
         self.assertFalha(self.problemas(atual), 'foi alterado')
 
     def test_arquivo_congelado_removido(self):
-        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
-        os.remove(os.path.join(self.raiz, 'Documentos', '2026', 'regras.pdf'))
+        atual = self.completo()
+        os.remove(os.path.join(self.raiz, 'Documentos', self.fechado))
         self.assertFalha(self.problemas(atual), 'removido')
 
     def test_arquivo_sem_registro(self):
-        self.assertFalha(self.problemas(self.manifesto('2026/regras.pdf')), 'sem registro')
+        self.assertFalha(self.problemas(self.manifesto(self.fechado)), 'sem registro')
+
+    def test_pdf_nao_congelavel_no_manifesto(self):
+        atual = self.manifesto(*self.congelados, '2026/resultadoClubesCCO.pdf')
+        self.assertFalha(self.problemas(atual), 'não se congela')
+
+    def test_minuta_no_manifesto(self):
+        atual = self.manifesto(*self.congelados, f'2027/{self.ROP}.pdf')
+        self.assertFalha(self.problemas(atual), 'não se congela')
 
     def test_linha_removida_do_manifesto(self):
-        base = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
-        atual = self.manifesto('2026/regulamento.pdf')
-        self.assertFalha(self.problemas(atual, base), 'alterada ou removida')
+        atual = self.manifesto(*self.congelados[:-1])
+        self.assertFalha(self.problemas(atual, self.completo()), 'alterada ou removida')
+
+    def test_remover_linha_de_pdf_nao_congelavel_passa(self):
+        base = self.manifesto(*self.congelados, '2026/resultadoClubesCCO.pdf')
+        self.assertEqual(self.problemas(self.completo(), base), [])
 
     def test_docx_de_edicao_fechada_nao_e_congelado(self):
-        self.gravar('2026/regulamento.docx', b'docx intermediario')
-        self.assertEqual(self.problemas(self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')), [])
+        self.gravar(f'2026/{self.REG}.docx', b'docx intermediario')
+        self.assertEqual(self.problemas(self.completo()), [])
 
     def test_linha_nova_no_manifesto_passa(self):
-        base = self.manifesto('2026/regras.pdf')
-        atual = self.manifesto('2026/regras.pdf', '2026/regulamento.pdf')
-        self.assertEqual(self.problemas(atual, base), [])
+        self.assertEqual(self.problemas(self.completo(), self.manifesto(self.fechado)), [])
+
+
+class IndiceSpecs(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = self.tmp.name
+        self.spec('alfa', 'ativa')
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def spec(self, nome, status):
+        pasta = os.path.join(self.raiz, '.agents', 'specs', nome)
+        os.makedirs(pasta, exist_ok=True)
+        with open(os.path.join(pasta, 'spec.md'), 'w', encoding='utf-8') as fh:
+            fh.write(f'---\ndescription: x\nstatus: {status}\n---\n')
+
+    def indice(self, *linhas):
+        with open(os.path.join(self.raiz, '.agents', 'specs', 'index.md'), 'w', encoding='utf-8') as fh:
+            fh.write('\n'.join(linhas) + '\n')
+
+    def problemas(self):
+        verificar.problemas.clear()
+        verificar.checar_indice_specs(self.raiz)
+        return list(verificar.problemas)
+
+    def test_indice_coerente_passa(self):
+        self.indice('| [alfa](alfa/spec.md) | ativa | Resumo |')
+        self.assertEqual(self.problemas(), [])
+
+    def test_indice_ausente(self):
+        self.assertTrue(self.problemas())
+
+    def test_spec_fora_do_indice(self):
+        self.spec('beta', 'ativa')
+        self.indice('| [alfa](alfa/spec.md) | ativa | Resumo |')
+        self.assertTrue(self.problemas())
+
+    def test_situacao_divergente(self):
+        self.indice('| [alfa](alfa/spec.md) | concluída | Resumo |')
+        self.assertTrue(self.problemas())
+
+    def test_spec_sem_status(self):
+        self.spec('alfa', 'pendente')
+        self.indice('| [alfa](alfa/spec.md) | pendente | Resumo |')
+        self.assertTrue(self.problemas())
 
 
 class Acervo(unittest.TestCase):

@@ -1,5 +1,6 @@
 ---
 description: Especificação para elaboração de propostas de melhorias da ROP enviadas à CBO.
+status: ativa
 ---
 
 # Propostas de Melhoria - ROP 2027 (CBO)

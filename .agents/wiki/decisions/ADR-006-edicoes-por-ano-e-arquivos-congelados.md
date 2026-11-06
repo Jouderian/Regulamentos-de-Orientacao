@@ -35,3 +35,9 @@ A raiz guardava a edição vigente ou em elaboração, e a cópia em `Documentos
   * O `git log` de um único arquivo deixa de atravessar os anos. A comparação entre edições passa a ser feita entre pastas (`git diff --no-index`) ou pelas tags `v<ano>`.
   * Deixa de existir o link fixo para "a edição atual": o `README.md` aponta a vigente e a em elaboração e precisa ser atualizado a cada publicação.
   * O CI passa a baixar o histórico completo, hoje cerca de 40 MiB.
+
+## Revisão de 2026-11-06
+
+- **Congelamento restrito aos documentos oficiais publicados.** São congelados o `.pdf` do regulamento estadual (CCO, CCOS ou unificado) de edição fechada, assinado digitalmente, e o `.pdf` da ROP publicada pela CBO. Os resultados de clubes saem do manifesto, que cai de 54 para 39 linhas; a linha de PDF congelado continua imutável, e o `verificar-documentos.py` recusa linha de PDF que não se congela.
+- **Duas elaborações simultâneas.** O regulamento estadual e a ROP do ano seguinte podem estar `em-elaboracao` ao mesmo tempo, no máximo um de cada. A minuta da ROP se marca com `status` no frontmatter, fica livre enquanto em elaboração e é congelada quando a CBO publicar a versão definitiva.
+- **Consequência:** a substituição da minuta da ROP pela definitiva deixa de exigir decisão própria, mas uma troca indevida do PDF de um resultado de clubes passa a não ser acusada pela verificação; a proteção dele fica no histórico do Git.

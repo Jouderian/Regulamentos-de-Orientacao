@@ -4,7 +4,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 # Base de Conhecimento
 
-Última atualização: 2026-10-31
+Última atualização: 2026-11-06
 
 Índice das páginas da wiki. As decisões formais ficam em `decisions/` como ADRs; specs, planos e workflows continuam sendo a fonte de verdade de cada iniciativa e não são duplicados aqui.
 
@@ -32,6 +32,7 @@ Novas páginas seguem a orientação de [`wiki-maintenance.md`](../wiki-maintena
 | Assunto | Local |
 | :--- | :--- |
 | Visão, atores e restrições do projeto | [`specs/project-vision/spec.md`](../specs/project-vision/spec.md) |
+| Specs e a situação de cada uma | [`specs/index.md`](../specs/index.md) |
 | Regras de idioma, nomenclatura e Git | [`rules/rules.md`](../rules/rules.md) |
 | Como gerar `.docx` e `.pdf` | [`workflows/geracao-documentos.md`](../workflows/geracao-documentos.md) |
 | Como importar um PDF novo | [`workflows/import-pdf.md`](../workflows/import-pdf.md) |

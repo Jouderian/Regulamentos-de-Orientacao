@@ -6,6 +6,18 @@ description: Passo a passo para abrir, conduzir e fechar issues — formulários
 
 As regras ficam em *Controle de Pendências e Sugestões de Regra*, de [`rules.md`](../rules/rules.md); este workflow só detalha como cumpri-las e não acrescenta obrigação. A decisão está na [ADR-005](../wiki/decisions/ADR-005-controle-de-pendencias-por-issues.md).
 
+## Rótulos
+
+| Rótulo | Quando usar |
+| :--- | :--- |
+| `sugestão de regra` | Inclusão, alteração ou revogação de dispositivo do regulamento |
+| `tarefa` | Trabalho que a própria equipe executa e fecha |
+| `acompanhamento` | Item que depende de terceiro e só fecha quando ele decidir; quando a CBO decide, abre-se uma `tarefa` para o que couber ao repositório |
+| `equipe: regras` | Conteúdo normativo, calendário, interpretação de regra, conferência de texto normativo e acompanhamento da CBO |
+| `equipe: repositório` | Scripts, CI, estrutura de pastas, documentação do repositório e conversão técnica do acervo |
+
+Cada pessoa se atribui à *issue* antes de começar, e ninguém pega *issue* que já tem responsável.
+
 ## 1. Abrir
 
 | Tipo | Formulário | Rótulos que o formulário aplica |
