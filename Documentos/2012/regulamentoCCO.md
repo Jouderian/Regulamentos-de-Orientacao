@@ -92,13 +92,21 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 | H N 3 | D N 3 | Acompanhados (a partir de 15 anos) | Fácil |
 
 >> **a.** A categoria ELITE (E) só pode ser constituída para D/H 16, D/H 18, D/H 20 e D/H 21;
+
 >> **b.** Será permitido competir nas categorias 21 em diante os atletas que completarem, até o final do ano em curso (de 01 janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores da categoria 35 a 90 podem competir em categorias mais jovens até 21, inclusive;
+
 >> **c.** Será permitido competir nas categorias até 20 todos os atletas que completarem, até o final do ano em curso (01 de janeiro a 31 de dezembro), a idade exigida para esta categoria. Todos os competidores das categorias 10 a 20 podem competir em categorias subseqüentes, inclusive até 21;
+
 >> **d.** Se uma categoria tiver muitos concorrentes, pode ser dividida em categorias paralelas;
+
 >> **e.** O organizador poderá montar mais de um percurso aberto;
+
 >> **f.** As categorias com grau de dificuldade muito difícil “A” só poderão ser constituída para as idades 14, 16, 18, 20, 21, 35, 40, 45, 50, 55 e 60;
+
 >> **g.** A categoria com idade 10 anos somente poderá ser constituída com o grau de dificuldade fácil “N”;
+
 >> **h.** A categoria com o grau de dificuldade elite “E” só poderá ser constituída para as idades 16, 18, 20 e 21;
+
 >> **i.** Observado o que prescrevem as letras f, g, h, i, do Art. 6º, os três melhores do ano anterior das categorias com grau de dificuldade “N” nas idades, 14, 16, 18, 20, 21 e 35 anos deverão subir de categoria.
 
 ## V – DA PONTUAÇÃO
@@ -271,19 +279,33 @@ Estabelecer a regulamentação do Campeonato Cearense de Orientação 2012 – V
 ## XI – DA DESCLASSIFICAÇÃO
 
 **Art. 36** – Será desclassificado o atleta que:
+
 >> **a.** Solicitar apoio técnico a outro atleta;
+
 >> **b.** Apoiar tecnicamente outro atleta;
+
 >> **c.** Concluir o percurso em ordem diferente à prescrita na carta e cartão de controle;
+
 >> **d.** Deixar de passar por qualquer ponto de controle;
+
 >> **e.** Não passar na faixa de chegada;
+
 >> **f.** Passar na faixa de chegada sem o mapa e /ou o cartão de controle;
+
 >> **g.** Participar no lugar de atleta que faltou, sem autorização do Diretor da Prova;
+
 >> **h.** Ultrapassar o tempo limite para execução do percurso;
+
 >> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
 >> **j.** Não zelar pela propriedade onde se realiza a competição;
+
 >> **k.** Contrariar as determinações dos organizadores;
+
 >> **l.** Comportar-se de maneira anti-desportiva;
+
 >> **m.** Não der destinação apropriada ao lixo produzido; e
+
 >> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo.
 
 ## XII – DA PREMIAÇÃO POR ETAPA

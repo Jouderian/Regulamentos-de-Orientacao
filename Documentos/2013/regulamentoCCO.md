@@ -244,20 +244,34 @@ description: Regulamento do IX Campeonato Cearense de Orientação (2013)
 
 ## 11. DA DESCLASSIFICAÇÃO
 
-**Art. 37** – Será desclassificado o atleta que:  
->> **a.** Solicitar apoio técnico a outro atleta;  
->> **b.** Apoiar tecnicamente outro atleta;  
->> **c.** Concluir o percurso em ordem diferente à prescrita na carta e cartão de controle;  
->> **d.** Deixar de passar por qualquer ponto de controle;  
->> **e.** Não passar na faixa de chegada;  
->> **f.** Passar na faixa de chegada sem o mapa e /ou o cartão de controle;  
->> **g.** Participar no lugar de atleta que faltou, sem autorização do Diretor da Prova;  
->> **h.** Ultrapassar o tempo limite para execução do percurso;  
->> **i.** Prejudicar intencionalmente a competição ou outro atleta;  
->> **j.** Não zelar pela propriedade onde se realiza a competição;  
->> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;  
->> **l.** Comportar-se de maneira antidesportiva;  
->> **m.** Não der destinação apropriada ao lixo produzido e  
+**Art. 37** – Será desclassificado o atleta que:
+
+>> **a.** Solicitar apoio técnico a outro atleta;
+
+>> **b.** Apoiar tecnicamente outro atleta;
+
+>> **c.** Concluir o percurso em ordem diferente à prescrita na carta e cartão de controle;
+
+>> **d.** Deixar de passar por qualquer ponto de controle;
+
+>> **e.** Não passar na faixa de chegada;
+
+>> **f.** Passar na faixa de chegada sem o mapa e /ou o cartão de controle;
+
+>> **g.** Participar no lugar de atleta que faltou, sem autorização do Diretor da Prova;
+
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
+
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
+
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
+
+>> **l.** Comportar-se de maneira antidesportiva;
+
+>> **m.** Não der destinação apropriada ao lixo produzido e
+
 >> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo.  
 
 ## 12. DA PREMIAÇÃO POR ETAPA

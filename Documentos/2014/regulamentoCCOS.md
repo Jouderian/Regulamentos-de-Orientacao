@@ -3,7 +3,7 @@ ano: 2014
 edicao: IV CCOS
 status: arquivado
 rop_referencia: 2014
-description: Regulamento IV CCOS (2014)
+description: Regulamento do IV Campeonato Cearense de Orientação Sprint (2014)
 ---
 
 # Regulamento do IV Campeonato Cearense de Orientação Sprint
@@ -22,7 +22,7 @@ O IV CCOS será disputado no “Circuito Park Tour de Orientação Sprint”.
 | 2ª | Piau! Esporte & Natureza |
 | 3ª | Piau! Esporte & Natureza |
 
-## REGRAS
+## 1. REGRAS
 
 Serão obedecidas as regras da Confederação Brasileira de Orientação para Orientação pedestre, com as características abaixo citadas:
 
@@ -48,7 +48,7 @@ Serão obedecidas as regras da Confederação Brasileira de Orientação para Or
 
 > **Parágrafo 2º:** Os atletas participantes da equipe técnica de cada etapa deverão competir nas outras 2(duas) etapas do IV CCOS para terem direito aos pontos referidos no Parágrafo 1º.
 
-## DAS CATEGORIAS  
+## IV – DAS CATEGORIAS
 As categorias do IVCCOS serão as seguintes:
 
 >> 1. SEXO: “H” Homens e “D” Mulheres
@@ -83,7 +83,7 @@ As categorias do IVCCOS serão as seguintes:
 
 **Todas as categorias previstas nas regras da IOF e CBO.**
 
-## ROTINA DO ATLETA  
+## 4. ROTINA DO ATLETA
 >> Em todas as etapas do “IV CCOS” os atletas deverão seguir a seguinte rotina:  
 
 >>> 1. Ao chegar no local da prova o atleta deverá consultar a lista de partida;  
@@ -92,43 +92,43 @@ As categorias do IVCCOS serão as seguintes:
 >>> 4. O atleta deverá marcar todos os pontos em um cartão de controle, conforme modelo padrão da IOF, adotado pela CBO e FECORI ou colher a senha por meio de utilização do SIcard;  
 >>> 5. Após passar pela faixa de chegada o atleta deverá entregar o cartão de controle, quando for o caso.
 
-## ORDEM DE PARTIDA  
+## 5. ORDEM DE PARTIDA
 - A lista de partida será publicada no dia anterior à competição, ou antes, dela.  
 - O intervalo de partida na competição de Sprint será de 1 minuto;  
 - A ordem de partida se dará por sorteio em ordem aleatória dentro de cada categoria;  
 
-## DESCRIÇÕES DOS PONTOS DE CONTROLE  
+## 6. DESCRIÇÕES DOS PONTOS DE CONTROLE
 - A localização precisa dos pontos de controle será definida no cartão de descrição;  
 - As descrições dos pontos de controle estarão na forma de texto, e conforme as descrições de pontos de controle da IOF;  
 - O cartão de descrição deverá ser afixado ou impresso no mapa do competidor;  
 
-## MAPAS  
+## 7. MAPAS
 - Os mapas, traçados dos percursos e impressões adicionais serão desenhados e impressos de acordo com a Especificação Internacional para Mapas de Orientação da IOF;  
 - Para percursos de distâncias muito curtas deverão ser usadas as escalas 1:5.000 ou 1:4.000;  
 
-## NO CASO DE UTILIZAÇÃO DE CARTÃO DE CONTROLE  
+## 8. NO CASO DE UTILIZAÇÃO DE CARTÃO DE CONTROLE
 - O competidor é responsável por marcar as senhas corretamente no próprio cartão;  
 - Os picotes no cartão devem mostrar claramente que o competidor visitou todos os pontos de controle;  
 - Quando o sistema de picotador mecânico é usado, pelo menos uma parte do picote deve estar no quadrado destinado para o picote ou em um quadrado reserva vazio. O engano pelo competidor é aceitável, como por exemplo: picotar fora do quadrado correto ou saltar um quadrado (no entanto, todos os picotes devem estar claramente tentar ganhar vantagem identificados). Um competidor que marcando incorretamente pode ser desclassificado;  
 - O organizador tem o direito de pegar o cartão de controle para ser checado por um fiscal em um determinado ponto de controle e/ou picotá-lo;  
 - O competidor que perder o cartão de controle, omitir um picote ou visitar os pontos de controles na ordem errada será desclassificado;
 
-## EQUIPAMENTO  
+## 9. EQUIPAMENTO
 - O uniforme de competição deverá atender aos seguintes requisitos:  
 1. É vedado o uso de sapatos de atletismo com cravos.  
 2. Não será obrigatório ao competidor estar com as pernas e braços cobertos;  
 
 > **Parágrafo Único:** É obrigatório o uso do número de filiação na FECORI, como número de identificação, centralizado na frente da blusa de competição.
 
-## PARTIDA  
+## 10. PARTIDA
 - A partida será organizada de forma que os competidores, antes do momento de suas partidas, ou quaisquer outras pessoas, não possam ter acesso aos mapas dos percursos;  
 - O competidor é responsável por apanhar o mapa certo. A categoria será indicada no mapa, para se tornar visível ao competidor antes da partida;  
 
-## RESULTADOS  
+## 11. RESULTADOS
 - O resultado oficial incluirá todos os competidores que participaram da prova.  
 - Em percursos com partida intervalada, será dado a dois ou mais competidores, que tiverem o mesmo tempo, a mesma colocação na lista de resultados. A posição seguinte na lista de resultados e no pódio ficará desocupada;  
 
-## DA INSCRIÇÃO
+## VI – DA INSCRIÇÃO
 
 **Art. 14** – Os clubes deverão centralizar as inscrições de seus atletas e encaminhar a relação completa de inscritos ao local indicado pela organização de cada uma das etapas, conforme boletim informativo divulgado.
 
@@ -148,19 +148,20 @@ As categorias do IVCCOS serão as seguintes:
 
 2. Atletas filiados a FECORI com mais de 64 anos de idade.
 
-## PREMIAÇÃO  
+## 12. PREMIAÇÃO
 - Os prêmios para os homens e mulheres serão equivalentes;  
 - Se dois ou mais competidores obtiverem a mesma colocação, eles devem receber o certificado, troféu ou medalha apropriado;  
 - Em todas as etapas do Campeonato os três primeiros receberão premiação do classificados de cada categoria organizador;  
 - Ao final do Circuito, os três primeiros classificados pelo somatório da pontuação conquistada ao longo das 03(três) etapas, receberão premiação do organizador;
 
-## PROTESTOS  
+## 13. PROTESTOS
 - Qualquer protesto deverá ser feito até trinta minutos após a publicação do resultado oficial da competição, por escrito, em impresso próprio, para um membro do Júri Técnico, após a decisão do organizador a respeito de uma reclamação;  
 - O formulário para protesto será fornecido pela organização, onde deverá conter a regra na qual está embasado o protesto.  
 - Quando o protesto for relativo à condição de um competidor, de participar de uma competição e o caso não for resolvido antes desta, permitir-se-á que o atleta participe “sob protesto”, devendo o assunto ser julgado pelo Júri Técnico;  
 - Não será cobrada taxa para protesto.
 
-## JURI TÉCNICO  
+## 14. JURI TÉCNICO
+
 >> **a.** O Júri Técnico terá a seguinte constituição:  
 >>> - Árbitro da prova;  
 >>> - Um Presidente de clube participante, escolhido entre os presentes na prova;  

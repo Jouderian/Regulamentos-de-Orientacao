@@ -1,3 +1,8 @@
+---
+ano: 2025
+description: Regras de Orientação Pedestre (ROP) 2025 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *ROP 2025*

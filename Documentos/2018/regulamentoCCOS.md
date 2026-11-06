@@ -25,7 +25,9 @@ description: Regulamento do VIII Campeonato Cearense de Orientação Sprint (201
 **Art. 5º** – Considera-se por atleta ou clube filiado à **Federação Cearense de Orientação** (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
->> **a.** Efetivar seu registro na **Confederação Brasileira de Orientação** (CBO) e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;  
+
+>> **a.** Efetivar seu registro na **Confederação Brasileira de Orientação** (CBO) e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
+
 >> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
@@ -77,7 +79,9 @@ description: Regulamento do VIII Campeonato Cearense de Orientação Sprint (201
 > **Parágrafo 3º:** As eventuais correções solicitadas nesse prazo deverão constar na lista de partida.
 
 **Art. 17** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
->> **a.** Quando o evento for cancelado;  
+
+>> **a.** Quando o evento for cancelado;
+
 >> **b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
 
 ## 5. ORDEM DE PARTIDA
@@ -99,8 +103,11 @@ description: Regulamento do VIII Campeonato Cearense de Orientação Sprint (201
 **Art. 23** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas.
 
 > **Parágrafo Único:** Em caso de empate, ficará melhor colocado o atleta que:
->> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->> **b.** Permanecendo o empate, a melhor classificação no percurso do segundo dia.  
+
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Permanecendo o empate, a melhor classificação no percurso do segundo dia.
+
 >> **c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
 
 **Art. 24** – O tempo limite para execução do percurso deve atender a regra 147 da ROP, ou seja: 50 (cinquenta) minutos.
@@ -112,21 +119,37 @@ description: Regulamento do VIII Campeonato Cearense de Orientação Sprint (201
 ## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 26** – Será desclassificado da etapa o atleta que:
->> **a.** Solicitar apoio técnico a outro atleta;  
->> **b.** Apoiar tecnicamente outro atleta;  
->> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;  
->> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador, ou da coleta do confete, se necessário;  
->> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
->> **f.** Passar na faixa de chegada sem o mapa;  
->> **g.** Participar no lugar de outro atleta;  
->> **h.** Ultrapassar o tempo limite para execução do percurso;  
->> **i.** Prejudicar intencionalmente a competição ou outro atleta;  
->> **j.** Não zelar pela propriedade onde se realiza a competição;  
->> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o *briefing* antes da competição;  
->> **l.** Comportar-se de maneira antidesportiva;  
->> **m.** Não der destinação apropriada ao lixo produzido;  
->> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
->> **o.** Utilizar SI-Card diferente do registrado para o competidor;  
+
+>> **a.** Solicitar apoio técnico a outro atleta;
+
+>> **b.** Apoiar tecnicamente outro atleta;
+
+>> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;
+
+>> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador, ou da coleta do confete, se necessário;
+
+>> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+
+>> **f.** Passar na faixa de chegada sem o mapa;
+
+>> **g.** Participar no lugar de outro atleta;
+
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
+
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
+
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o *briefing* antes da competição;
+
+>> **l.** Comportar-se de maneira antidesportiva;
+
+>> **m.** Não der destinação apropriada ao lixo produzido;
+
+>> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+
+>> **o.** Utilizar SI-Card diferente do registrado para o competidor;
+
 >> **p.** Outros motivos indicados na ROP.
 
 ## 8. DAS RECLAMAÇÕES, PROTESTOS, APELAÇÕES E RECURSOS

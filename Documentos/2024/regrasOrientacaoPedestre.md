@@ -1,3 +1,8 @@
+---
+ano: 2024
+description: Regras de Orientação Pedestre (ROP) 2024 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *ROP - 2024*

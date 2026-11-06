@@ -1,3 +1,8 @@
+---
+ano: 2022
+description: Regras de Orientação Pedestre (ROP) 2022 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *Regras de Orientação Pedestre (ROP) – Edição 2022*

@@ -1,3 +1,8 @@
+---
+ano: 2019
+description: Regras de Orientação Pedestre (ROP) 2019 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *REGRAS DE ORIENTAÇÃO PEDESTRE – ROP 2019*

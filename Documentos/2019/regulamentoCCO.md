@@ -16,9 +16,9 @@ description: Regulamento do XV Campeonato Cearense de Orientação (2019)
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
+>> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
 
->>**b.** Estiver em dia com as obrigações junto à CBO/FECORI;
+>> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
@@ -215,11 +215,11 @@ execução do percurso, dentro de sua categoria.
 
 > **Parágrafo 2º:** A FECORI terá o prazo de 24 (vinte e quatro horas) para analisar o questionamento constante do comunicado e divulgar a sua decisão.
 
-## 9.DO JÚRI TÉCNICO
+## 9. DO JÚRI TÉCNICO
 
 **Art. 28** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender à Regra 194 da ROP e as DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-## 10.DA SEGURANÇA
+## 10. DA SEGURANÇA
 
 **Art. 29** – A Organização deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -227,13 +227,13 @@ execução do percurso, dentro de sua categoria.
 
 **Art. 31** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## 11.DA PREMIAÇÃO POR ETAPA
+## 11. DA PREMIAÇÃO POR ETAPA
 
 **Art. 32** – Não haverá premiação por etapa, mas somente no final do campeonato.
 
 **Art. 33** – Outros prêmios poderão ser concedidos durante o campeonato, a cargo dos organizadores das etapas.
 
-## 12.DA PONTUAÇÃO POR ETAPA
+## 12. DA PONTUAÇÃO POR ETAPA
 
 **Art. 34** – Em cada categoria, os 31 (trinta e um) primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -259,11 +259,11 @@ execução do percurso, dentro de sua categoria.
 
 > **Parágrafo 4º:** A entidade organizadora informará à FECORI e ao árbitro do evento, no prazo de 15 (quinze) dias, a relação de atletas que receberão a média da pontuação referente a este artigo em seu Relatório, previsto nas Diretrizes para Eventos da CBO.
 
-> **Parágrafo 5°:** O árbitro do evento elaborará o seu Relatório previsto nas Diretrizes para eventos da CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias (Regra 200 da ROP).
+> **Parágrafo 5º:** O árbitro do evento elaborará o seu Relatório previsto nas Diretrizes para eventos da CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias (Regra 200 da ROP).
 
 **Art. 37** – A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
 
-## 13.DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 13. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCO será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, descartando-se obrigatoriamente uma etapa, aquela com menor pontuação.
 
@@ -289,7 +289,7 @@ execução do percurso, dentro de sua categoria.
 
 **Art. 40** – - O clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificada para fins do resultado final por clube.
 
-## 14.DA PREMIAÇÃO DO CAMPEONATO
+## 14. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os 3 (três) clubes melhor pontuados, conforme Art. 39 deste regulamento, serão premiados com troféus.
 

@@ -1,3 +1,8 @@
+---
+ano: 2017
+description: Regras Gerais de Orientação Pedestre (RGOP) 2017 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *REGRAS GERAIS DE ORIENTAÇÃO PEDESTRE – RGOP 2017*

@@ -1,3 +1,8 @@
+---
+ano: 2015
+description: Regras Gerais de Orientação Pedestre (RGOP) 2015 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *REGRAS OFICIAIS*

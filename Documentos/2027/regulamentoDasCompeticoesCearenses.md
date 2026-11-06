@@ -3,10 +3,10 @@ ano: 2027
 edicao: XXI CCO / XIII CCOS
 status: em-elaboracao
 rop_referencia: 2026
-description: Regulamento das Competições Cearenses de Orientação (em elaboração)
+description: Regulamento das Competições Cearenses de Orientação (2027, em elaboração)
 ---
 
-# **Regulamento das Competições Cearenses de Orientação**
+# Regulamento das Competições Cearenses de Orientação
 
 ## 1. Disposições Gerais
 
@@ -14,27 +14,27 @@ description: Regulamento das Competições Cearenses de Orientação (em elabora
 
 **Art. 2º** – Considera-se por atleta ou clube filiado à **Federação Cearense de Orientação** (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
->**Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
+> **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação;
+>> **a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação;
 
->>**b.** Estiver em dia com as obrigações junto à CBO/FECORI.
+>> **b.** Estiver em dia com as obrigações junto à CBO/FECORI.
 
->**Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
+> **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
->**Parágrafo 3º:** O registro de um clube na FECORI se dará conforme *Capítulo IX* do *Estatuto da FECORI*.
+> **Parágrafo 3º:** O registro de um clube na FECORI se dará conforme *Capítulo IX* do *Estatuto da FECORI*.
 
->**Parágrafo 4º:** As obrigações de taxas da FECORI são definidas no *Regimento de Taxas* vigente, aplicadas ao evento, e constarão nos Boletins que serão divulgados.
+> **Parágrafo 4º:** As obrigações de taxas da FECORI são definidas no *Regimento de Taxas* vigente, aplicadas ao evento, e constarão nos Boletins que serão divulgados.
 
->**Parágrafo 5º:** Outras obrigações são previstas no *Estatuto da FECORI*.
+> **Parágrafo 5º:** Outras obrigações são previstas no *Estatuto da FECORI*.
 
 ## 2. Das Competições
 
 **Art. 3º** – As etapas do **Campeonato Cearense de Orientação (CCO)** são competições de orientação pedestre, diurnas, de natureza individual, com resultado de um único percurso, com ordem de visitação aos pontos de controle específica e extensão de percurso médio ou longo. O CCO é disputado em múltiplas etapas ao longo do ano.
 
->**Parágrafo 1º:** Fica proibida a utilização de área mapeada onde tenha ocorrido alguma atividade de orientação nos últimos 3 (três) anos, contados da data do evento.
+> **Parágrafo 1º:** Fica proibida a utilização de área mapeada onde tenha ocorrido alguma atividade de orientação nos últimos 3 (três) anos, contados da data do evento.
 
->**Parágrafo 2º:** O organizador de uma etapa deve informar até o último boletim informativo qual a extensão do percurso.
+> **Parágrafo 2º:** O organizador de uma etapa deve informar até o último boletim informativo qual a extensão do percurso.
 
 **Art. 4º** – O **Campeonato Cearense de Orientação Sprint (CCOS)** é caracterizado por percursos em que os atletas devam ser testados em suas habilidades de leitura e interpretação dos mapas, com escolhas de rotas em ambientes urbanos ou semiurbanos, em alta velocidade. O CCOS será realizado em um único evento, composto de múltiplos percursos (geralmente três).
 
@@ -145,7 +145,7 @@ description: Regulamento das Competições Cearenses de Orientação (em elabora
 
 **Art. 24** – As causas de desclassificação são as previstas nos itens 3.9, 3.17, 3.20, 18.7, 19.9 e 23 da ROP, além de:
 
-> **a.** Deixar de informar a utilização de SI-Card diferente do registrado para o competidor.
+>> **a.** Deixar de informar a utilização de SI-Card diferente do registrado para o competidor.
 
 **Art. 25** – O fluxo de contestações obedece aos itens 36, 37 e 39 da ROP.
 

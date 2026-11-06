@@ -1,3 +1,8 @@
+---
+ano: 2021
+description: Regras de Orientação Pedestre (ROP) 2021 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *REGRAS DE ORIENTAÇÃO PEDESTRE – ROP 2021*

@@ -8,7 +8,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 # Regulamento do XIII Campeonato Cearense de Orientação
 
-## DA REGULAMENTAÇÃO GERAL
+## 1. DA REGULAMENTAÇÃO GERAL
 
 **Art. 1º** – Às omissões no presente regulamento aplicam-se o Regulamento de Competições e as Regras Gerais de Orientação Pedestre (RGOP) vigentes da Confederação Brasileira de Orientação (CBO).
 
@@ -26,19 +26,19 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 > **Parágrafo 5º:** Outras obrigações são previstas no estatuto da federação.
 
-## DAS REGRAS
+## 2. DAS REGRAS
 
 **Art. 3º** – É obrigatório que o uniforme do atleta atenda os requisitos da Regra 126 da RGOP.
 
 > **Parágrafo Único:** Recomenda-se o uso da camisa de manga, cobrindo os cotovelos e o uso de caneleiras de proteção.
 
-## DAS CATEGORIAS
+## 3. DAS CATEGORIAS
 
 **Art. 4º** – O atleta deve escolher uma das categorias descritas no Art. 33º do Regulamento de Competições e atender a Regra 21 da RGOP para a competição.
 
 > **Parágrafo Único:** As categorias Pre-Para e Pre-Ab não são previstas no CCO.
 
-## DA RESPONSABILIDADE DAS ETAPAS
+## 4. DA RESPONSABILIDADE DAS ETAPAS
 
 **Art. 5º** – As etapas do Campeonato Cearense de Orientação (CCO) são competições de orientação pedestre, diurnas, de natureza individual, com resultado de um único percurso, com ordem de visitação aos pontos de controle específica e extensão de percurso médio ou longo.
 
@@ -64,7 +64,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 **Art. 8º** – Os organizadores não podem ser responsabilizados por acidentes ocorridos com participantes durante o evento, mas devem disponibilizar meios para prestar os primeiros socorros e transporte para deslocar o acidentado até um hospital ou posto de saúde mais próximo.
 
-## DA INSCRIÇÃO
+## 5. DA INSCRIÇÃO
 
 **Art. 9º** – Os participantes ao se inscreverem numa etapa, declaram que o fizeram por iniciativa própria, gozam de boas condições de saúde, possuem conhecimentos técnicos suficientes para participar da competição e são responsáveis pelos riscos e acidentes que venham sofrer no deslocamento, concentração e execução dos percursos.
 
@@ -109,7 +109,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 >>
 >> **2.** Se a data da etapa for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
 
-## DA APURAÇÃO E CLASSIFICAÇÃO DA ETAPA
+## 6. DA APURAÇÃO E CLASSIFICAÇÃO DA ETAPA
 
 **Art. 18** – Se o organizador declarar impossibilidade de utilização do sistema eletrônico (SPORTident) na etapa, será utilizada apuração através de cartão de controle. Neste caso, a taxa de aluguel do SI-Card, se tiver sido cobrada, será devolvida aos atletas.
 
@@ -127,7 +127,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 > **Parágrafo Único:** É facultado à organização de cada etapa oferecer um atleta experiente para acompanhar os atletas das categorias tratadas neste artigo.
 
-## DA DESCLASSIFICAÇÃO
+## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 23** – Será desclassificado da etapa o atleta que:
 >> **1.** Solicitar apoio técnico a outro atleta;
@@ -162,7 +162,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 >>
 >> **16.** Outros motivos indicados na RGOP.
 
-## DAS RECLAMAÇÕES, PROTESTOS, APELAÇÕES E RECURSOS
+## 8. DAS RECLAMAÇÕES, PROTESTOS, APELAÇÕES E RECURSOS
 
 **Art. 24** – O atleta ou clube poderá fazer uma reclamação para a Organização, desde que a mesma atenda às regras 184 a 187 da RGOP;
 
@@ -182,11 +182,11 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 > **Parágrafo 3º:** A FECORI julgará e divulgará o resultado do recurso em, no máximo, 24 (vinte e quatro) horas após o recebimento do mesmo.
 
-## DO JÚRI TÉCNICO
+## 9. DO JÚRI TÉCNICO
 
 **Art. 28** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender à Regra 194 da RGOP.
 
-## DA SEGURANÇA
+## 10. DA SEGURANÇA
 
 **Art. 29** – A Organização, deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -194,26 +194,29 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 **Art. 31** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## DA PREMIAÇÃO POR ETAPA
+## 11. DA PREMIAÇÃO POR ETAPA
 
 **Art. 32** – Serão premiados com medalhas de finisher (término) todos os atletas das categorias Novato que concluírem seus percursos.
 
 **Art. 33** – Outros prêmios poderão ser concedidos durante o campeonato, a cargo dos organizadores das etapas.
 
-## DA PONTUAÇÃO POR ETAPA
+## 12. DA PONTUAÇÃO POR ETAPA
 
 **Art. 34** – Em cada categoria, os 31 (trinta e um) primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7 e 6. Os atletas posicionados a partir da 32ª colocação, que tenham concluído o percurso, receberão 5 (cinco) pontos pela participação.
 
 > **Parágrafo 1º:** Os atletas participantes de percursos anulados receberão 1 (um) ponto pela participação.
 >
+
 > **Parágrafo 2º:** Os atletas não classificados em seu percurso receberão 1 (um) ponto pela participação.
 >
+
 > **Parágrafo 3º:** Os participantes das categorias de apresentação do esporte (Novatos e Acompanhado) e do percurso aberto não pontuam no CCO.
 
 **Art. 35** – O competidor poderá trocar de categoria em diferentes etapas, para adequar-se ao seu nível técnico e físico, mas não levará os pontos já obtidos para a nova categoria.
 
 > **Parágrafo 1º:** A mudança de categoria deve ter o consentimento do técnico do clube do atleta e atender ao Art. 33 do Regulamento de Competições e as alíneas da Regra 21 da RGOP.
 >
+
 > **Parágrafo 2º:** Os casos de mudança devem respeitar o período previsto no Art. 16.
 
 **Art. 36** – Os atletas convocados formalmente por seus clubes para atuarem na equipe organizadora envolvidos com as atividades de mapeamento e percursos na etapa ou funções que impeça sua participação na competição, devidamente autorizados pelo árbitro do evento, ou o atleta convocado pela FECORI para atuar como árbitro, receberão, para efeito de pontuação em sua categoria, a média da pontuação conquistada nas outras etapas após a realização do descarte previsto no Art. 38.
@@ -232,7 +235,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 > **Parágrafo Único:** Atribuir 10 pontos para cada atleta Novato que concluir seu percurso válido;
 
-## DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 13. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCO será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, descartando-se obrigatoriamente uma etapa, aquela com menor pontuação.
 
@@ -253,7 +256,7 @@ description: Regulamento do XIII Campeonato Cearense de Orientação (2017)
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificada para fins do resultado final por clube.
 
-## DA PREMIAÇÃO DO CAMPEONATO
+## 14. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os 3 (três) clubes melhor pontuados, conforme Art. 39, serão premiados com troféus.
 

@@ -8,7 +8,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 # Regulamento do XII Campeonato Cearense de Orientação Sprint
 
-## 1. Da Regulamentação Geral
+## 1. DA REGULAMENTAÇÃO GERAL
 
 **Art. 1º** – Às omissões no presente regulamento aplicam-se o Regulamento de Competições e as Regras de Orientação Pedestre (ROP) vigentes da CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO (CBO).
 
@@ -28,7 +28,8 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->> **a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação, ou participar de pelo menos um evento oficial da FECORI;  
+>> **a.** Efetivar seu registro na CBO e indicar a FECORI como sua federação, ou participar de pelo menos um evento oficial da FECORI;
+
 >> **b.** Estiver em dia com as obrigações junto à CBO/FECORI.
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
@@ -39,7 +40,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo 5º:** Outras obrigações são previstas no Estatuto da Federação.
 
-## 2. Das Categorias
+## 2. DAS CATEGORIAS
 
 **Art. 7º** – O atleta deve escolher uma das categorias descritas no item 2 da ROP para a competição.
 
@@ -47,7 +48,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo 2º:** Os atletas das categorias acompanhados (HN1, HN2, HN3, DN1, DN2 e DN3) somente poderão se inscrever e participar do último percurso.
 
-## 3. Da Responsabilidade do Evento
+## 3. DA RESPONSABILIDADE DO EVENTO
 
 **Art. 8º** – Os Boletins com as orientações e especificações sobre o evento serão de responsabilidade do seu Diretor, que os emitirá com anuência do Árbitro e dos Clubes organizadores.
 
@@ -63,7 +64,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término do 2º prazo de inscrições do evento anterior.
 
-## 4. Da Inscrição
+## 4. DA INSCRIÇÃO
 
 **Art. 11** – As inscrições devem ser realizadas no site www.fecori.org.br, conforme especificado nos Boletins.
 
@@ -91,10 +92,11 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 **Art. 18** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
 
-> **a.** Quando o evento for cancelado;  
-> **b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
+>> **a.** Quando o evento for cancelado;
 
-## 5. Da Ordem de Partida
+>> **b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
+
+## 5. DA ORDEM DE PARTIDA
 
 **Art. 19** – A ordem de partida do primeiro e segundo percursos será por sorteio. O último percurso terá partida em ordem inversa à classificação parcial dos percursos anteriores para cada categoria.
 
@@ -106,7 +108,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo Único:** O atleta que não concluir ou desistir do percurso e não registrar a chegada ou não informar ao Controlador de Chegada será penalizado, considerando esta etapa como não passível de descarte.
 
-## 6. Da Apuração e Classificação
+## 6. DA APURAÇÃO E CLASSIFICAÇÃO
 
 **Art. 23** – Se o organizador declarar impossibilidade de utilização do sistema eletrônico (SPORTident) no percurso, será utilizada apuração através de cartão de controle. Neste caso, a taxa de aluguel do SI-Card, se tiver sido cobrada, será devolvida aos atletas.
 
@@ -118,8 +120,10 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo Único:** Em caso de empate, ficará melhor colocado o atleta que:
 
->> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->> **b.** Permanecendo o empate, a melhor classificação no último percurso;  
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Permanecendo o empate, a melhor classificação no último percurso;
+
 >> **c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
 
 **Art. 26** – O tempo limite para execução do percurso deve atender ao item 18.7 da ROP.
@@ -130,28 +134,43 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo Único:** É facultado a cada clube oferecer um atleta experiente para acompanhar os atletas das categorias "acompanhados".
 
-## 7. Da Desclassificação
+## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 28** – Será desclassificado da etapa o atleta que:
 
-> **a.** Solicitar apoio técnico a outro atleta;  
-> **b.** Apoiar tecnicamente outro atleta;  
-> **c.** Concluir o percurso em ordem diferente à prescrita no mapa e cartão de controle, se utilizado;  
-> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card ou do picotador;  
-> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
-> **f.** Passar na faixa de chegada sem o mapa;  
-> **g.** Participar no lugar de outro atleta;  
-> **h.** Ultrapassar o tempo limite para execução do percurso;  
-> **i.** Prejudicar intencionalmente a competição ou outro atleta;  
-> **j.** Não zelar pela propriedade onde se realiza a competição;  
-> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;  
-> **l.** Comportar-se de maneira antidesportiva;  
-> **m.** Não der destinação apropriada ao lixo produzido;  
-> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
-> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;  
-> **p.** Outros motivos indicados na ROP.  
+>> **a.** Solicitar apoio técnico a outro atleta;
 
-## 8. Das Reclamações, Protestos e Apelações
+>> **b.** Apoiar tecnicamente outro atleta;
+
+>> **c.** Concluir o percurso em ordem diferente à prescrita no mapa e cartão de controle, se utilizado;
+
+>> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card ou do picotador;
+
+>> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+
+>> **f.** Passar na faixa de chegada sem o mapa;
+
+>> **g.** Participar no lugar de outro atleta;
+
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
+
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
+
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
+
+>> **l.** Comportar-se de maneira antidesportiva;
+
+>> **m.** Não der destinação apropriada ao lixo produzido;
+
+>> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+
+>> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;
+
+>> **p.** Outros motivos indicados na ROP.  
+
+## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
 
 **Art. 29** – O atleta ou clube poderá fazer uma reclamação para a Organização, desde que a mesma atenda ao item 36 da ROP.
 
@@ -169,11 +188,11 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo 2º:** A FECORI terá o prazo de 24 (vinte e quatro) horas para analisar o questionamento constante do comunicado e divulgar a sua decisão.
 
-## 9. Do Júri Técnico
+## 9. DO JÚRI TÉCNICO
 
 **Art. 33** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender ao item 38 da ROP e às DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-## 10. Da Segurança
+## 10. DA SEGURANÇA
 
 **Art. 34** – A Organização deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -181,7 +200,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 **Art. 36** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## 11. Da Pontuação
+## 11. DA PONTUAÇÃO
 
 **Art. 37** – Em cada categoria, os 31 (trinta e um) primeiros colocados em cada percurso receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -197,14 +216,16 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 > **Parágrafo 6º:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS DA CBO e o encaminhará à FECORI no prazo de 30 (trinta) dias (item 40.2 da ROP).
 
-## 12. Da Apuração e Classificação do Campeonato
+## 12. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todos os percursos, sem descartes.
 
 > **Parágrafo Único:** Em caso de empate, ficará melhor colocado o atleta que:
 
->> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->> **b.** Obtiver o melhor resultado no último confronto direto;  
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Obtiver o melhor resultado no último confronto direto;
+
 >> **c.** Tiver a maior idade.
 
 **Art. 39** – A classificação por clube se dará pelo somatório dos pontos conquistados em cada percurso conforme Art. 37 deste regulamento.
@@ -213,7 +234,7 @@ description: Regulamento do XII Campeonato Cearense de Orientação Sprint (2024
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todos os percursos, entretanto, não será classificado para fins do resultado por clube.
 
-## 13. Da Premiação do Campeonato
+## 13. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria, inclusive os das categorias Novato, serão premiados com medalhas.
 

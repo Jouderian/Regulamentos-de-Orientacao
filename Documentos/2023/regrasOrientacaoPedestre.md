@@ -1,3 +1,8 @@
+---
+ano: 2023
+description: Regras de Orientação Pedestre (ROP) 2023 da CBO
+---
+
 # REGRAS DA CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO
 
 *NOVO FORMATO VERSÃO 2023*

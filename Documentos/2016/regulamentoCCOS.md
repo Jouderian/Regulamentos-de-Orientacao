@@ -98,7 +98,7 @@ Todas as categorias previstas nas regras da IOF e CBO.
 - D 85 H 85 ...................................... Mais de 85 anos  
 - D 90 H 90 ...................................... Mais de 90 anos  
 
-### 3. GRAU DE DIFICULDADE:  
+### 3. GRAU DE DIFICULDADE:
 - “E” - MÉDIO  
 - “A” - MÉDIO  
 - “B” - MÉDIO  

@@ -1,3 +1,8 @@
+---
+ano: 2026
+description: Regras de Orientação Pedestre (ROP) 2026 da CBO
+---
+
 # Regras de Orientação Pedestre (ROP) - 2026
 
 ## INTRODUÇÃO

@@ -16,9 +16,9 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
+>> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
 
->>**b.** Estiver em dia com as obrigações junto à CBO/FECORI;
+>> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
@@ -31,6 +31,7 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 ## 2. DAS REGRAS
 
 **Art. 3º** – É obrigatório que o uniforme do atleta atenda aos requisitos da Regra 126 da ROP.
+
 > **Parágrafo Único:** Recomenda-se o uso da camisa de manga, cobrindo os cotovelos e o uso de caneleiras de proteção.
 
 ## 3. DAS CATEGORIAS
@@ -107,9 +108,9 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 **Art. 17** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
 
->>**a.** Quando a etapa for cancelada;
+>> **a.** Quando a etapa for cancelada;
 
->>**b.** Se a data da etapa for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
+>> **b.** Se a data da etapa for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
 
 ## 6. DA APURAÇÃO E CLASSIFICAÇÃO DA ETAPA
 
@@ -133,37 +134,37 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 **Art. 23** – Será desclassificado da etapa o atleta que:
 
-> **a.** Solicitar apoio técnico a outro atleta;
+>> **a.** Solicitar apoio técnico a outro atleta;
 
-> **b.** Apoiar tecnicamente outro atleta;
+>> **b.** Apoiar tecnicamente outro atleta;
 
-> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;
+>> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;
 
-> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;
+>> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;
 
-> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+>> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
 
-> **f.** Passar na faixa de chegada sem o mapa;
+>> **f.** Passar na faixa de chegada sem o mapa;
 
-> **g.** Participar no lugar de outro atleta;
+>> **g.** Participar no lugar de outro atleta;
 
-> **h.** Ultrapassar o tempo limite para execução do percurso;
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
 
-> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
 
-> **j.** Não zelar pela propriedade onde se realiza a competição;
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
 
-> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
 
-> **l.** Comportar-se de maneira antidesportiva;
+>> **l.** Comportar-se de maneira antidesportiva;
 
-> **m.** Não der destinação apropriada ao lixo produzido;
+>> **m.** Não der destinação apropriada ao lixo produzido;
 
-> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+>> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
 
-> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;
+>> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;
 
-> **p.** Outros motivos indicados na ROP.
+>> **p.** Outros motivos indicados na ROP.
 
 ## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
 
@@ -187,7 +188,7 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 **Art. 28** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender à Regra 194 da ROP e as DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-## 10.DA SEGURANÇA
+## 10. DA SEGURANÇA
 
 **Art. 29** – A Organização, deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -195,13 +196,13 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 **Art. 31** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## 11.DA PREMIAÇÃO POR ETAPA
+## 11. DA PREMIAÇÃO POR ETAPA
 
 **Art. 32** – Não haverá premiação por etapa, mas somente no final do campeonato.
 
 **Art. 33** – Outros prêmios poderão ser concedidos durante o campeonato, a cargo dos organizadores das etapas.
 
-## 12.DA PONTUAÇÃO POR ETAPA
+## 12. DA PONTUAÇÃO POR ETAPA
 
 **Art. 34** – Em cada categoria, os 31 (trinta e um) primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -229,11 +230,11 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 > **Parágrafo 4º:** A entidade organizadora informará à FECORI e ao árbitro do evento, no prazo de 15 (quinze) dias, a relação de atletas que receberão a média da pontuação referente a este artigo em seu Relatório, previsto nas DIRETRIZES PARA EVENTOS da CBO.
 
-> **Parágrafo 5°:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS da CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias (Regra 200 da ROP).
+> **Parágrafo 5º:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS da CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias (Regra 200 da ROP).
 
 **Art. 37** – A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
 
-## 13.DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 13. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCO será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, descartando-se obrigatoriamente uma etapa, aquela commenor pontuação.
 
@@ -257,7 +258,7 @@ description: Regulamento do XVI Campeonato Cearense de Orientação (2022)
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificado para fins do resultado final por clube.
 
-## 14.DA PREMIAÇÃO DO CAMPEONATO
+## 14. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os 3 (três) clubes melhor pontuados, conforme Art. 39 deste regulamento, serão premiados com troféus.
 

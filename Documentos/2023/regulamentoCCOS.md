@@ -28,8 +28,9 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
 
->>**a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;  
->>**b.** Estiver em dia com as obrigações junto à CBO/FECORI;
+>> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
+
+>> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
@@ -91,9 +92,11 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 18** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
 
->>**a.** Quando o evento for cancelado;  
->>**b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa;  
->>**c.** Se o atleta que for participante da organização do evento atuar em um percurso, exercendo função que o impeça de competir; neste caso lhe será devolvido 1/3 do valor da inscrição paga;
+>> **a.** Quando o evento for cancelado;
+
+>> **b.** Se a data do evento for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa;
+
+>> **c.** Se o atleta que for participante da organização do evento atuar em um percurso, exercendo função que o impeça de competir; neste caso lhe será devolvido 1/3 do valor da inscrição paga;
 
 > **Parágrafo Único:** Após o evento, cada Clube Organizador informará ao Diretor Financeiro quais os participantes que fazem jus a devolução prevista na alínea c.
 
@@ -119,9 +122,11 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 > **Parágrafo Único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
->>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->>**b.** Permanecendo o empate, a melhor classificação no último percurso;  
->>**c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Permanecendo o empate, a melhor classificação no último percurso;
+
+>> **c.** Permanecendo o empate, ele será definitivo, recebendo os atletas empatados a mesma classificação e premiação, não havendo a classificação e premiação imediatamente posterior.
 
 **Art. 26** – O tempo limite para execução do percurso deve atender a regra 8.8 da ROP.
 
@@ -133,22 +138,37 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 28** – Será desclassificado da etapa o atleta que:
 
->>**a.** Solicitar apoio técnico a outro atleta;  
->>**b.** Apoiar tecnicamente outro atleta;  
->>**c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;  
->>**d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;  
->>**e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
->>**f.** Passar na faixa de chegada sem o mapa;  
->>**g.** Participar no lugar de outro atleta;  
->>**h.** Ultrapassar o tempo limite para execução do percurso;  
->>**i.** Prejudicar intencionalmente a competição ou outro atleta;  
->>**j.** Não zelar pela propriedade onde se realiza a competição;  
->>**k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;  
->>**l.** Comportar-se de maneira antidesportiva;  
->>**m.** Não der destinação apropriada ao lixo produzido;  
->>**n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
->>**o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;  
->>**p.** Outros motivos indicados na ROP.
+>> **a.** Solicitar apoio técnico a outro atleta;
+
+>> **b.** Apoiar tecnicamente outro atleta;
+
+>> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;
+
+>> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;
+
+>> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+
+>> **f.** Passar na faixa de chegada sem o mapa;
+
+>> **g.** Participar no lugar de outro atleta;
+
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
+
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
+
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
+
+>> **l.** Comportar-se de maneira antidesportiva;
+
+>> **m.** Não der destinação apropriada ao lixo produzido;
+
+>> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+
+>> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;
+
+>> **p.** Outros motivos indicados na ROP.
 
 ## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
 
@@ -172,7 +192,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 33** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender a regra 39 da ROP e as DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-## 10.DA SEGURANÇA
+## 10. DA SEGURANÇA
 
 **Art. 34** – A Organização, deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -180,7 +200,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 36** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como, colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## 11.DA PONTUAÇÃO
+## 11. DA PONTUAÇÃO
 
 **Art. 37** – Em cada categoria, os 31 (trinta e um) primeiros colocados, em cada percurso, receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -196,15 +216,17 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 > **Parágrafo 6º:** O árbitro do evento elaborará o seu Relatório previsto nas DIRETRIZES PARA EVENTOS DA CBO, e encaminhará à FECORI, no prazo de 30 (trinta) dias, conforme a regra 200 da ROP.
 
-## 12.DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 12. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCOS será calculada com base no somatório dos pontos obtidos pelo atleta em todos os percursos, sem descartes.
 
 > **Parágrafo Único:** Em caso de empate, ficará mais bem colocado o atleta que:
 
->>**a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->>**b.** Obtiver o melhor resultado no último confronto direto;  
->>**c.** Tiver a maior idade.
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Obtiver o melhor resultado no último confronto direto;
+
+>> **c.** Tiver a maior idade.
 
 **Art. 39** – A classificação por clube se dará pelo somatório dos pontos conquistados em cada percurso conforme Art. 37 deste regulamento.
 
@@ -212,7 +234,7 @@ description: Regulamento do XI Campeonato Cearense de Orientação Sprint (2023)
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas os percursos, entretanto, não será classificado para fins do resultado por clube.
 
-## 13.DA PREMIAÇÃO DO CAMPEONATO
+## 13. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os atletas campeões, vice-campeões e terceiros lugares em cada categoria, inclusive os novatos, serão premiados com medalhas, inclusive os das categorias Novato.
 

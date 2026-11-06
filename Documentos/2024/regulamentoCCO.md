@@ -18,7 +18,7 @@ description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 
 >> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
 
->>**b.** Estiver em dia com as obrigações junto à CBO/FECORI;
+>> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
 
@@ -138,20 +138,35 @@ description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 **Art. 23** – Será desclassificado da etapa o atleta que:
 
 >> **a.** Solicitar apoio técnico a outro atleta;
+
 >> **b.** Apoiar tecnicamente outro atleta;
+
 >> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa/cartão de controle utilizado;
+
 >> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador;
+
 >> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+
 >> **f.** Passar na faixa de chegada sem o mapa;
+
 >> **g.** Participar no lugar de outro atleta;
+
 >> **h.** Ultrapassar o tempo limite para execução do percurso;
+
 >> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
 >> **j.** Não zelar pela propriedade onde se realiza a competição;
+
 >> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o briefing antes da competição;
+
 >> **l.** Comportar-se de maneira antidesportiva;
+
 >> **m.** Não der destinação apropriada ao lixo produzido;
+
 >> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+
 >> **o.** Deixar de informar ao Controlador de Partida a utilização de SI-Card diferente do registrado para o competidor;
+
 >> **p.** Outros motivos indicados na ROP.
 
 ## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
@@ -162,7 +177,7 @@ description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 
 **Art. 25** – O protesto só pode ser feito após a reclamação ter sido negada e deve atender ao item 37 da ROP.
 
-> **Parágrafo Único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao árbitro do evento. 
+> **Parágrafo Único:** Caso não exista a área de secretaria a reclamação deve ser entregue diretamente ao árbitro do evento.
 
 **Art. 26** – As condições para uma apelação são descritas no item 39 da ROP.
 
@@ -222,7 +237,7 @@ description: Regulamento do XVIII Campeonato Cearense de Orientação (2024)
 
 **Art. 37** – A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
 
-## **13.** DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
+## 13. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCO será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, sem descartes.
 

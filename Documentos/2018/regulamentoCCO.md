@@ -15,7 +15,9 @@ description: Regulamento do XIV Campeonato Cearense de Orientação (2018)
 **Art. 2º** – Considera-se por atleta ou clube filiado à Federação Cearense de Orientação (FECORI) aquele que estiver devidamente registrado e em dia com suas obrigações a esta entidade.
 
 > **Parágrafo 1º:** O registro do atleta na FECORI se dará quando:
->> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;  
+
+>> **a.** Efetivar seu registro na CBO e, indicar a FECORI como sua federação ou participar de pelo menos um evento oficial da FECORI;
+
 >> **b.** Estiver em dia com as obrigações junto à CBO/FECORI;
 
 > **Parágrafo 2º:** A FECORI utilizará o número de registro da CBO como identificação do atleta.
@@ -106,7 +108,9 @@ description: Regulamento do XIV Campeonato Cearense de Orientação (2018)
 > **Parágrafo 3º:** As eventuais correções solicitadas nesse prazo deverão constar na lista de partida.
 
 **Art. 17** – A devolução das taxas de inscrição é prevista apenas nos seguintes casos:
->> **a.** Quando a etapa for cancelada;  
+
+>> **a.** Quando a etapa for cancelada;
+
 >> **b.** Se a data da etapa for alterada, ficando a critério do atleta o cancelamento da inscrição e a consequente devolução da taxa.
 
 ## 6. DA APURAÇÃO E CLASSIFICAÇÃO DA ETAPA
@@ -130,21 +134,37 @@ description: Regulamento do XIV Campeonato Cearense de Orientação (2018)
 ## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 23** – Será desclassificado da etapa o atleta que:
->> **a.** Solicitar apoio técnico a outro atleta;  
->> **b.** Apoiar tecnicamente outro atleta;  
->> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;  
->> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador, ou da coleta do confete, se necessário;  
->> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;  
->> **f.** Passar na faixa de chegada sem o mapa;  
->> **g.** Participar no lugar de outro atleta;  
->> **h.** Ultrapassar o tempo limite para execução do percurso;  
->> **i.** Prejudicar intencionalmente a competição ou outro atleta;  
->> **j.** Não zelar pela propriedade onde se realiza a competição;  
->> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o *briefing* antes da competição;  
->> **l.** Comportar-se de maneira antidesportiva;  
->> **m.** Não der destinação apropriada ao lixo produzido;  
->> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;  
->> **o.** Utilizar SI-Card diferente do registrado para o competidor;  
+
+>> **a.** Solicitar apoio técnico a outro atleta;
+
+>> **b.** Apoiar tecnicamente outro atleta;
+
+>> **c.** Concluir o percurso em ordem diferente ao prescrito no mapa e cartão de controle, se utilizado;
+
+>> **d.** Deixar de registrar qualquer ponto de controle descrito em seu mapa, seja através do SI-Card, ou do picotador, ou da coleta do confete, se necessário;
+
+>> **e.** Não passar na faixa de chegada ou não fazer o registro do ponto de controle de chegada;
+
+>> **f.** Passar na faixa de chegada sem o mapa;
+
+>> **g.** Participar no lugar de outro atleta;
+
+>> **h.** Ultrapassar o tempo limite para execução do percurso;
+
+>> **i.** Prejudicar intencionalmente a competição ou outro atleta;
+
+>> **j.** Não zelar pela propriedade onde se realiza a competição;
+
+>> **k.** Contrariar as determinações dos organizadores, comunicadas nos boletins técnicos do evento ou durante o *briefing* antes da competição;
+
+>> **l.** Comportar-se de maneira antidesportiva;
+
+>> **m.** Não der destinação apropriada ao lixo produzido;
+
+>> **n.** Não seguir os balizamentos obrigatórios do percurso, inclusive entre a faixa de partida e o prisma do triângulo;
+
+>> **o.** Utilizar SI-Card diferente do registrado para o competidor;
+
 >> **p.** Outros motivos indicados na ROP.  
 
 ## 8. DAS RECLAMAÇÕES, PROTESTOS, APELAÇÕES E RECURSOS
@@ -189,8 +209,10 @@ description: Regulamento do XIV Campeonato Cearense de Orientação (2018)
 
 **Art. 34** – Em cada categoria, os 31 (trinta e um) primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
-> **Parágrafo 1º:** Os atletas participantes de percursos anulados receberão 1 (um) ponto pela participação.  
-> **Parágrafo 2º:** Os atletas não classificados em seu percurso receberão 1 (um) ponto pela participação.  
+> **Parágrafo 1º:** Os atletas participantes de percursos anulados receberão 1 (um) ponto pela participação.
+
+> **Parágrafo 2º:** Os atletas não classificados em seu percurso receberão 1 (um) ponto pela participação.
+
 > **Parágrafo 3º:** Os participantes das categorias Acompanhado e do percurso aberto não pontuam no CCO.  
 
 **Art. 35** – O competidor poderá trocar de categoria em diferentes etapas, para adequar-se ao seu nível técnico e físico, mas não levará os pontos já obtidos para a nova categoria.
@@ -226,8 +248,11 @@ description: Regulamento do XIV Campeonato Cearense de Orientação (2018)
 > **Parágrafo 4º:** No caso em que a menor pontuação for igual em mais de uma etapa, o descarte será qualquer uma destas etapas.
 
 > **Parágrafo 5º:** Em caso de empate, ficará melhor colocado o atleta que:
->> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;  
->> **b.** Obtiver o melhor resultado no último confronto direto;  
+
+>> **a.** Obtiver o maior número de primeiros lugares. Persistindo o empate, considerar-se-á o maior número de segundos lugares, e assim sucessivamente;
+
+>> **b.** Obtiver o melhor resultado no último confronto direto;
+
 >> **c.** Tiver a maior idade.
 
 **Art. 39** – A classificação por clube se dará pelo somatório dos pontos conquistados em cada etapa conforme Art. 37 deste regulamento.

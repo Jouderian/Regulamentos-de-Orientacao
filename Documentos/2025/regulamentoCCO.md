@@ -8,7 +8,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 # Regulamento do XIX Campeonato Cearense de Orientação
 
-## 1. Da Regulamentação Geral
+## 1. DA REGULAMENTAÇÃO GERAL
 
 **Art. 1º** – Às omissões no presente regulamento aplicam-se as Regras de Orientação Pedestre (ROP) vigentes da CONFEDERAÇÃO BRASILEIRA DE ORIENTAÇÃO (CBO).
 
@@ -28,19 +28,19 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 > **Parágrafo 5º:** Outras obrigações são previstas no Estatuto da Federação.
 
-## 2. Das Regras
+## 2. DAS REGRAS
 
 **Art. 3º** – É obrigatório que o uniforme do atleta atenda aos requisitos do item 14.1 da ROP.
 
 > **Parágrafo Único:** Recomenda-se o uso da camisa de manga, cobrindo os cotovelos, o uso de caneleiras de proteção e a condução de um apito para sinalizar emergências.
 
-## 3. Das Categorias
+## 3. DAS CATEGORIAS
 
 **Art. 4º** – O atleta deve escolher uma das categorias descritas no item 2 da ROP para a competição.
 
 > **Parágrafo Único:** As categorias PREO-PARA e PREO-AB não são previstas no CCO.
 
-## 4. Da Responsabilidade das Etapas
+## 4. DA RESPONSABILIDADE DAS ETAPAS
 
 **Art. 5º** – As etapas do Campeonato Cearense de Orientação (CCO) são competições de orientação pedestre, diurnas, de natureza individual, com resultado de um único percurso, com ordem de visitação aos pontos de controle específica e extensão de percurso médio ou longo.
 
@@ -65,7 +65,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 8º** – Os organizadores não podem ser responsabilizados por acidentes ocorridos com participantes durante o evento, mas devem disponibilizar meios para prestar os primeiros socorros e transporte para deslocar o acidentado até um hospital ou posto de saúde mais próximo.
 
-## 5. Da Inscrição
+## 5. DA INSCRIÇÃO
 
 **Art. 9º** – Os participantes, ao se inscreverem numa etapa, declaram que o fizeram por iniciativa própria, gozam de boas condições de saúde, possuem conhecimentos técnicos suficientes para participar da competição e são responsáveis pelos riscos e acidentes que venham sofrer no deslocamento, concentração e execução dos percursos.
 
@@ -113,7 +113,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 > **Parágrafo Único:** Caso o adiamento da etapa seja decorrente de imposição de órgãos externos à organização ou de medidas legais, não há obrigatoriedade de devolução da taxa.
 
-## 6. Da Apuração e Classificação da Etapa
+## 6. DA APURAÇÃO E CLASSIFICAÇÃO DA ETAPA
 
 **Art. 18** – Se o organizador declarar impossibilidade de utilização do sistema eletrônico (SPORTident) na etapa, será utilizada apuração através de cartão de controle. Neste caso, a taxa de aluguel do SI-Card, se tiver sido cobrada, será devolvida aos atletas.
 
@@ -133,7 +133,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 > **Parágrafo Único:** É facultado a cada clube oferecer um atleta experiente para acompanhar os atletas das categorias tratadas neste artigo.
 
-## 7. Da Desclassificação
+## 7. DA DESCLASSIFICAÇÃO
 
 **Art. 23** – Será desclassificado da etapa o atleta que:
 
@@ -169,7 +169,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 >> **p.** Outros motivos indicados na ROP.
 
-## 8. Das Reclamações, Protestos e Apelações
+## 8. DAS RECLAMAÇÕES, PROTESTOS E APELAÇÕES
 
 **Art. 24** – O atleta ou clube poderá fazer uma reclamação para a Organização, desde que a mesma atenda ao item 36 da ROP.
 
@@ -187,11 +187,11 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 > **Parágrafo 2º:** A FECORI terá o prazo de 24 (vinte e quatro) horas para analisar o questionamento constante do comunicado e divulgar a sua decisão.
 
-## 9. Do Júri Técnico
+## 9. DO JÚRI TÉCNICO
 
 **Art. 28** – O objetivo, composição, prerrogativas e procedimentos do Júri Técnico devem atender ao item 38 da ROP e às DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO.
 
-## 10. Da Segurança
+## 10. DA SEGURANÇA
 
 **Art. 29** – A Organização deverá empregar todos os esforços para atender às exigências e regras do desporto orientação com relação à segurança individual dos atletas.
 
@@ -199,13 +199,13 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 31** – Deverão ser ressaltados nos avisos preliminares, antes da partida da primeira bateria de atletas, bem como colocados nos mapas, os pontos que apresentam qualquer perigo ou áreas interditadas para a competição.
 
-## 11. Da Premiação por Etapa
+## 11. DA PREMIAÇÃO POR ETAPA
 
 **Art. 32** – Não haverá premiação por etapa, mas somente no final do campeonato.
 
 **Art. 33** – Outros prêmios poderão ser concedidos durante o campeonato, a cargo dos organizadores das etapas.
 
-## 12. Da Pontuação por Etapa
+## 12. DA PONTUAÇÃO POR ETAPA
 
 **Art. 34** – Em cada categoria, os 31 (trinta e um) primeiros colocados receberão a seguinte pontuação: 40, 37, 35, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11. Os atletas posicionados a partir da 27ª colocação, que tenham concluído o percurso, receberão 10 (dez) pontos pela participação.
 
@@ -237,7 +237,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 37** – A pontuação dos clubes se dará pela soma dos pontos de seus três atletas filiados melhores classificados em cada categoria, por etapa.
 
-## 13. Da Apuração e Classificação do Campeonato
+## 13. DA APURAÇÃO E CLASSIFICAÇÃO DO CAMPEONATO
 
 **Art. 38** – A classificação individual geral do CCO será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, sem descartes.
 
@@ -255,7 +255,7 @@ description: Regulamento do XIX Campeonato Cearense de Orientação (2025)
 
 **Art. 40** – O clube não filiado poderá ser representado por seus atletas em todas as etapas, entretanto, não será classificado para fins do resultado final por clube.
 
-## 14. Da Premiação do Campeonato
+## 14. DA PREMIAÇÃO DO CAMPEONATO
 
 **Art. 41** – Os 3 (três) clubes melhor pontuados, conforme Art. 39 deste regulamento, serão premiados com troféus.
 
