@@ -51,3 +51,7 @@ Decidida e implementada na [*issue* #34](https://github.com/Jouderian/Regulament
 - **O `verificar-documentos.py` recusa** `.docx` em `Documentos/<ano>/` e `.pdf` de regulamento em elaboração. A minuta da ROP, fornecida pela CBO, continua com `.pdf`.
 - **O job `gerar-docx` do CI** continua gerando o `.docx` como artefato da execução, sem versioná-lo: detecta conversão quebrada e serve de prévia. A comparação com um `.docx` versionado ([#18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18)) perde o objeto.
 - **Consequência:** entre a geração e o commit da publicação, a verificação local acusa o `.docx` e o `.pdf` ainda em elaboração; ela só passa depois da troca de status e da remoção do `.docx` (passos 5 e 6 de [`publicar-edicao.md`](../../workflows/publicar-edicao.md)).
+
+## Revisão de 2026-11-07 (proteção da `main`)
+
+A `main` passou a exigir PR com o CI verde ([#29](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/29); [ADR-005](ADR-005-controle-de-pendencias-por-issues.md), revisão de 2026-11-07). A verificação dos arquivos congelados agora impede a mesclagem, em vez de só acusar depois do push. Fica a exceção do admin, que pode contornar a proteção.

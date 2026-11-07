@@ -66,7 +66,7 @@ Definição dos rótulos, ciclo da sugestão, comandos e modelo de fechamento: [
 
 - **Controle único.** O que está pendente vive só como *issue* do GitHub; [`todo-done.md`](../todo-done.md) é histórico congelado até 2026-10-17. Sem acesso ao GitHub, peça o texto da *issue* ao usuário e não presuma.
 - **Rótulos.** Um de tipo (`sugestão de regra`, `tarefa`, `acompanhamento`) e um de equipe (`equipe: regras`, `equipe: repositório`); na dúvida, a equipe é a que executa. A ROP é da CBO: sugestão a ela e espera por nova edição são sempre `acompanhamento`.
-- **Revisão.** Texto normativo (`Documentos/**/*.md`, `clubesCampeoes.md`) só muda com revisão da equipe de regras, seja qual for a equipe da *issue*.
+- **Revisão.** Texto normativo (`Documentos/**/*.md`, `clubesCampeoes.md`) só muda com revisão da equipe de regras, seja qual for a equipe da *issue*. O `.github/CODEOWNERS` exige a aprovação dela no PR, e o autor nunca aprova o próprio PR.
 - **Sugestão de regra.** Só é aberta com nome completo, número CBO e clube do proponente (peça o que faltar); esses dados só aparecem nela. Tem no máximo um rótulo `situação` e fecha na deliberação; aprovada, gera uma `tarefa` com a redação final.
 - **Autorização do usuário** para abrir *issue* com texto do agente (apresente a redação: ela fica pública), trocar a situação de sugestão e fechar *issue* ou *milestone*. Toda *issue* fecha com comentário de resumo, inclusive via `Closes #N`, apresentado ao usuário antes.
 - **Atribuição.** Quem dirige o agente indica a *issue*; o agente não escolhe tarefa nem pega *issue* com responsável. Indicada, ele a assume (`gh issue edit <N> --add-assignee "@me"`) e comenta as considerações iniciais antes de alterar.
@@ -92,3 +92,4 @@ Definição dos rótulos, ciclo da sugestão, comandos e modelo de fechamento: [
 - **Autoria humana exclusiva.** Nenhum rodapé de coautoria ou de geração por IA (`Co-Authored-By:`, `Generated with` ou equivalente): faria o agente constar como *Contributor* no GitHub. Confira o rodapé antes de propor o commit.
 - **Antes do commit:** `python .agents/scripts/verificar-documentos.py` sem problemas (é a checagem do CI). Mudança no `.md` em elaboração não regenera `.docx` nem `.pdf`, que só são gerados na publicação; edição fechada nunca é regenerada.
 - **Antes de pedir autorização:** apresente a lista exata de arquivos e a mensagem exata do commit. `git push` só com autorização expressa do usuário.
+- **Fluxo por PR.** Toda mudança entra na `main` por PR, a partir de um branch, com o CI verde; a `main` é protegida. O agente nunca faz push direto à `main` nem usa o contorno de admin, e só abre ou mescla PR com autorização expressa do usuário. Passo a passo: [`atualizar-repositorio.md`](../workflows/atualizar-repositorio.md).
