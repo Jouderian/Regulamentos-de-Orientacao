@@ -23,8 +23,8 @@ Só com autorização expressa do usuário: depois deste passo, o `.pdf` não mu
 4. Assine digitalmente o `.pdf`.
 5. No frontmatter, passe a edição publicada de `em-elaboracao` para `vigente` e a anterior de `vigente` para `arquivado`.
 6. Congele o PDF assinado: `python .agents/scripts/verificar-documentos.py --congelar`. O comando acrescenta ao `Documentos/arquivosCongelados.sha256` o `.pdf` do regulamento estadual publicado e nunca altera linha existente. Apague o `.docx` da pasta: ele é intermediário, não fica no acervo, e a verificação o recusa.
-7. Atualize no `README.md` as seções *Regulamento em vigor*, *Próxima edição* e *Edições anteriores* e faça um único commit com tudo, seguindo [`atualizar-repositorio.md`](atualizar-repositorio.md).
-8. Com autorização, crie a tag anotada no commit da publicação e envie-a: `git tag -a v<ano> -m "Edição <ano>"` e `git push origin v<ano>`.
+7. Atualize no `README.md` as seções *Regulamento em vigor*, *Próxima edição* e *Edições anteriores* e faça um único commit com tudo, levado à `main` por PR, seguindo [`atualizar-repositorio.md`](atualizar-repositorio.md).
+8. Com autorização, depois de mesclado o PR, crie a tag anotada no commit da publicação na `main` e envie-a: `git tag -a v<ano> -m "Edição <ano>"` e `git push origin v<ano>`.
 
 ## 3. Documento original novo
 

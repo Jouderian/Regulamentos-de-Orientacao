@@ -68,3 +68,12 @@ Os detalhes estão em [`rules.md`](../../rules/rules.md).
 O `rules.md` é carregado em toda sessão de agente, e a seção de pendências era a maior dele, embora só sirva quando se mexe em *issue*. Decidiu-se separar a **regra** do **procedimento**: as obrigações (tipos, equipes, revisão entre equipes, identificação do proponente, o que exige autorização, atribuição e fechamento com resumo) continuam em [`rules.md`](../../rules/rules.md); formulários, ciclo da sugestão, troca de situação, vínculo de dependência, modelo do comentário de fechamento e comandos passaram ao workflow [`gestao-issues.md`](../../workflows/gestao-issues.md).
 
 Isso ajusta o item 6 da decisão: a regra continua só no `rules.md`, e o workflow não pode contradizê-la nem criar obrigação nova. O custo é manter os dois arquivos coerentes: mudança de procedimento que altere uma obrigação passa primeiro pelo `rules.md`.
+
+## Revisão de 2026-11-07
+Decidida e implementada na [*issue* #29](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/29). A revisão cruzada do texto normativo deixa de depender de disciplina:
+
+- **`CODEOWNERS`.** O [`.github/CODEOWNERS`](../../../.github/CODEOWNERS) põe a equipe de regras (Jouderian e JosiasSC) como dona de `Documentos/**/*.md`, de `clubesCampeoes.md` e do próprio `CODEOWNERS`. Cada um aprova o PR do outro; o autor nunca aprova o próprio PR.
+- **`main` protegida.** Toda mudança entra por PR com o CI verde. A aprovação de *code owner* só é exigida no PR que toca esses caminhos; os demais (scripts, CI, `.agents/`) não esperam aprovação.
+- **Contorno de admin.** O admin do repositório pode contornar a proteção, por decisão do usuário. O agente, mesmo rodando com a conta do admin, segue o fluxo por PR e só mescla com autorização expressa ([`rules.md`](../../rules/rules.md), *Fluxo por PR*).
+
+**Consequências:** o critério da #29 vale para quem não é admin; para o admin, a revisão volta a depender de disciplina, agora visível no histórico como push direto ou PR mesclado sem aprovação. Incluir revisor exige convidá-lo como colaborador com acesso de escrita e acrescentar o usuário no `CODEOWNERS`, por PR revisado pela própria equipe de regras.

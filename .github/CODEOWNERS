@@ -1,0 +1,9 @@
+# Revisão obrigatória da equipe de regras em texto normativo (ADR-005).
+# A proteção da main exige a aprovação de um code owner nos PRs que tocam
+# estes caminhos; o autor do PR nunca aprova o próprio PR.
+
+/Documentos/**/*.md  @Jouderian @JosiasSC
+/clubesCampeoes.md   @Jouderian @JosiasSC
+
+# Mudar quem revisa também passa pela equipe de regras.
+/.github/CODEOWNERS  @Jouderian @JosiasSC
