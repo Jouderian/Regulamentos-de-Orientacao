@@ -41,3 +41,13 @@ A raiz guardava a edição vigente ou em elaboração, e a cópia em `Documentos
 - **Congelamento restrito aos documentos oficiais publicados.** São congelados o `.pdf` do regulamento estadual (CCO, CCOS ou unificado) de edição fechada, assinado digitalmente, e o `.pdf` da ROP publicada pela CBO. Os resultados de clubes saem do manifesto, que cai de 54 para 39 linhas; a linha de PDF congelado continua imutável, e o `verificar-documentos.py` recusa linha de PDF que não se congela.
 - **Duas elaborações simultâneas.** O regulamento estadual e a ROP do ano seguinte podem estar `em-elaboracao` ao mesmo tempo, no máximo um de cada. A minuta da ROP se marca com `status` no frontmatter, fica livre enquanto em elaboração e é congelada quando a CBO publicar a versão definitiva.
 - **Consequência:** a substituição da minuta da ROP pela definitiva deixa de exigir decisão própria, mas uma troca indevida do PDF de um resultado de clubes passa a não ser acusada pela verificação; a proteção dele fica no histórico do Git.
+
+## Revisão de 2026-11-07
+
+Decidida e implementada na [*issue* #34](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/34); substitui a parte do item 3 que mantinha `.docx` e `.pdf` do regulamento em elaboração na pasta do ano.
+
+- **O regulamento em elaboração existe só como `.md`.** O `.docx` é gerado no fechamento, para revisão; o `.pdf` vem do `.docx` revisado e é assinado digitalmente. Regenerar os dois a cada mudança no `.md` enchia o histórico de diffs binários de arquivos sem uso antes da publicação.
+- **Na revisão do fechamento,** correção de texto vai para o `.md` e o `.docx` é regenerado; no `.docx` só se faz ajuste de diagramação. Assim o `.md` e o PDF publicado não divergem.
+- **O `verificar-documentos.py` recusa** `.docx` em `Documentos/<ano>/` e `.pdf` de regulamento em elaboração. A minuta da ROP, fornecida pela CBO, continua com `.pdf`.
+- **O job `gerar-docx` do CI** continua gerando o `.docx` como artefato da execução, sem versioná-lo: detecta conversão quebrada e serve de prévia. A comparação com um `.docx` versionado ([#18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18)) perde o objeto.
+- **Consequência:** entre a geração e o commit da publicação, a verificação local acusa o `.docx` e o `.pdf` ainda em elaboração; ela só passa depois da troca de status e da remoção do `.docx` (passos 5 e 6 de [`publicar-edicao.md`](../../workflows/publicar-edicao.md)).

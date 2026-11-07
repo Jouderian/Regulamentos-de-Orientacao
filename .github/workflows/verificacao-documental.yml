@@ -35,7 +35,8 @@ jobs:
     name: Gerar .docx do regulamento em elaboração
     runs-on: ubuntu-latest
     # O .pdf continua sendo gerado localmente (depende do Word via COM);
-    # aqui só validamos que a conversão Pandoc + template não quebrou.
+    # aqui só validamos que a conversão Pandoc + template não quebrou. O .docx
+    # sai como artefato da execução e nunca é versionado (ADR-006).
     steps:
       - name: Obter o repositório
         uses: actions/checkout@v7

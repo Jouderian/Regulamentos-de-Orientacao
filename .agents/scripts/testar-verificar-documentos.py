@@ -252,6 +252,52 @@ class Congelamento(unittest.TestCase):
         self.assertEqual(self.problemas(self.completo(), self.manifesto(self.fechado)), [])
 
 
+class FinaisEmElaboracao(unittest.TestCase):
+    """Regulamento de 2026 vigente com .pdf; regulamento e minuta da ROP de 2027 em elaboração."""
+
+    REG = 'regulamentoDasCompeticoesCearenses'
+    ROP = 'regrasOrientacaoPedestre'
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = self.tmp.name
+        self.gravar(f'2026/{self.REG}.md', b'---\nano: 2026\nstatus: vigente\n---\n')
+        self.gravar(f'2026/{self.REG}.pdf', b'pdf 2026')
+        self.gravar(f'2027/{self.REG}.md', b'---\nano: 2027\nstatus: em-elaboracao\n---\n')
+        self.gravar(f'2027/{self.ROP}.md', b'---\nano: 2027\nstatus: em-elaboracao\n---\n')
+        self.gravar(f'2027/{self.ROP}.pdf', b'minuta rop 2027')
+        self.gravar('template_estilos.docx', b'template')
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def gravar(self, rel, conteudo):
+        caminho = os.path.join(self.raiz, 'Documentos', rel)
+        os.makedirs(os.path.dirname(caminho), exist_ok=True)
+        with open(caminho, 'wb') as fh:
+            fh.write(conteudo)
+
+    def problemas(self):
+        verificar.problemas.clear()
+        verificar.checar_finais_em_elaboracao(self.raiz)
+        return list(verificar.problemas)
+
+    def test_so_md_em_elaboracao_passa(self):
+        self.assertEqual(self.problemas(), [])
+
+    def test_pdf_do_regulamento_em_elaboracao(self):
+        self.gravar(f'2027/{self.REG}.pdf', b'pdf 2027')
+        self.assertTrue(any(f'2027/{self.REG}.pdf' in p for p in self.problemas()))
+
+    def test_docx_do_regulamento_em_elaboracao(self):
+        self.gravar(f'2027/{self.REG}.docx', b'docx 2027')
+        self.assertTrue(any(f'2027/{self.REG}.docx' in p for p in self.problemas()))
+
+    def test_docx_de_edicao_fechada(self):
+        self.gravar(f'2026/{self.REG}.docx', b'docx 2026')
+        self.assertTrue(any(f'2026/{self.REG}.docx' in p for p in self.problemas()))
+
+
 class IndiceSpecs(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

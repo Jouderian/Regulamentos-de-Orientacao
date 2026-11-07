@@ -4,7 +4,9 @@
 
 Gera só a edição em elaboração (`status: em-elaboracao` no frontmatter), na pasta
 do próprio .md. O .pdf de edição vigente ou arquivada está congelado (ADR-006),
-e o script recusa regenerá-lo.
+e o script recusa regenerá-lo. Roda só na publicação da edição
+(.agents/workflows/publicar-edicao.md): durante a elaboração, o regulamento
+existe só como .md.
 
 Remove o bloco de metadados YAML antes de enviar ao Pandoc (garantindo que nada
 do frontmatter apareça no documento final) e em seguida converte o .docx para

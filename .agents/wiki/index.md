@@ -17,7 +17,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 | [ADR-003](decisions/ADR-003-historical-regulation-standardization.md) | Padronização do acervo histórico | MarkItDown como ferramenta primária e tipografia jurídica uniforme |
 | [ADR-004](decisions/ADR-004-sugestoes-de-regra-por-issue.md) | Sugestões de regra por *issue* | Atleta sugere direto no GitHub, identificado por nome, número CBO e clube |
 | [ADR-005](decisions/ADR-005-controle-de-pendencias-por-issues.md) | Controle de pendências por *issues* | *Issues* como único controle, com tipo e equipe por rótulo; sugestão fecha na deliberação e a aplicação vira `tarefa` |
-| [ADR-006](decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md) | Edições por ano e arquivos congelados | Cada edição em `Documentos/<ano>/` desde a elaboração; PDF publicado congelado por manifesto de hashes |
+| [ADR-006](decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md) | Edições por ano e arquivos congelados | Cada edição em `Documentos/<ano>/` desde a elaboração, o regulamento só como `.md` até a publicação; PDF publicado congelado por manifesto de hashes |
 
 ## Páginas Temáticas
 

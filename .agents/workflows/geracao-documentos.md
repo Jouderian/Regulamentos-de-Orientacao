@@ -25,7 +25,7 @@ Para evitar a perda da formatação oficial da Federação, o projeto utiliza um
 
 ## 3. Geração Automatizada (.docx e .pdf)
 
-Sempre que o regulamento em elaboração for alterado, execute o script de automação na raiz do repositório:
+Só na publicação da edição, conforme o passo 2 de [`publicar-edicao.md`](publicar-edicao.md), execute o script de automação na raiz do repositório. Enquanto está em elaboração, o regulamento existe só como `.md`, e a verificação documental recusa `.docx` em `Documentos/<ano>/` e `.pdf` de regulamento em elaboração ([ADR-006](../wiki/decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md), revisão de 2026-11-07).
 
 ```bash
 python .agents/scripts/gerar-documentos.py
@@ -60,4 +60,4 @@ Caso seja necessário executar as etapas manualmente sem o script, sempre na edi
    ```
 
 ## 5. Integração CI/CD
-O job `gerar-docx` de `.github/workflows/verificacao-documental.yml` já converte o `.md` da edição em elaboração em `.docx` a cada execução do CI e publica o resultado como artefato da execução. O `.pdf` fica fora do CI porque depende do Microsoft Word. A comparação do `.docx` versionado em `Documentos/<ano>/` com o recém-gerado ainda não existe: está registrada na [*issue* #18](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues/18).
+O job `gerar-docx` de `.github/workflows/verificacao-documental.yml` já converte o `.md` da edição em elaboração em `.docx` a cada execução do CI e publica o resultado como artefato da execução. O `.pdf` fica fora do CI porque depende do Microsoft Word. O artefato não é versionado: serve para detectar conversão quebrada e como prévia formatada para a revisão.

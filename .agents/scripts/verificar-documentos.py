@@ -302,7 +302,7 @@ def checar_edicoes(edicoes):
 # --------------------------------------------------------------------------
 # 8. PDFs congelados (ADR-006, revisão de 2026-11-06): só o PDF publicado do
 #    regulamento estadual (CCO, CCOS ou unificado) de edição fechada e o da
-#    ROP têm o hash no manifesto; o PDF de .md em elaboração fica livre. A
+#    ROP têm o hash no manifesto; o PDF de .md em elaboração não se congela. A
 #    linha de um PDF congelado nunca muda nem sai; resultados e .docx não se
 #    congelam.
 # --------------------------------------------------------------------------
@@ -520,6 +520,29 @@ def checar_indice_specs(raiz):
 
 
 # --------------------------------------------------------------------------
+# 10. Finais gerados só no fechamento (ADR-006, revisão de 2026-11-07): o
+#     .docx nunca fica em Documentos/<ano>/, e o regulamento em elaboração
+#     existe só como .md. A minuta da ROP, fornecida pela CBO, tem .pdf.
+# --------------------------------------------------------------------------
+def checar_finais_em_elaboracao(raiz):
+    documentos = os.path.join(raiz, 'Documentos')
+    for ano in sorted(os.listdir(documentos)):
+        pasta = os.path.join(documentos, ano)
+        if not (PASTA_ANO.match(ano) and os.path.isdir(pasta)):
+            continue
+        for nome in sorted(os.listdir(pasta)):
+            base, ext = os.path.splitext(nome)
+            rel = f'Documentos/{ano}/{nome}'
+            if ext.lower() == '.docx':
+                falha(rel, 0, '.docx não fica no acervo: é intermediário da geração do .pdf no fechamento da edição')
+            elif ext.lower() == '.pdf' and base.startswith(PREFIXOS_REGULAMENTO):
+                md = os.path.join(pasta, base + '.md')
+                if os.path.isfile(md) and _status(md) == 'em-elaboracao':
+                    falha(rel, 0, 'regulamento em elaboração existe só como .md; '
+                                  'o .pdf é gerado no fechamento (publicar-edicao.md)')
+
+
+# --------------------------------------------------------------------------
 def main():
     if '--congelar' in sys.argv[1:]:
         congelar(RAIZ)
@@ -541,6 +564,7 @@ def main():
     checar_edicoes(edicoes)
     checar_rops(rops)
     checar_indice_specs(RAIZ)
+    checar_finais_em_elaboracao(RAIZ)
 
     manifesto = os.path.join(RAIZ, MANIFESTO)
     checar_congelados(RAIZ, ler(manifesto) if os.path.exists(manifesto) else '', manifesto_base())
