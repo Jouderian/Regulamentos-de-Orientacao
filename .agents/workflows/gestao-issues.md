@@ -82,3 +82,5 @@ O *milestone* "Regulamento `<ano>`" só fecha quando todas as suas *issues* esti
 - Pela web: *issues* abertas da [equipe de regras](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues?q=is%3Aissue+is%3Aopen+label%3A%22equipe%3A+regras%22) e da [equipe do repositório](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues?q=is%3Aissue+is%3Aopen+label%3A%22equipe%3A+reposit%C3%B3rio%22).
 - Pela linha de comando: `gh issue list --label "equipe: regras"`, `gh issue list --milestone "Regulamento <ano>"`.
 - `acompanhamento` pode ficar aberto por meses: filtre por tipo para enxergar o que é trabalho da equipe.
+
+<!-- teste de proteção #29, não mesclar -->
