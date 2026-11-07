@@ -216,3 +216,4 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 > **Parágrafo 2º:** Na ausência do atleta ou representante de clube na cerimônia, o prêmio poderá ser despachado com custas ressarcidas pelo recebedor.
 
 *Fortaleza/CE, 27 de abril de 2027.*
+<!-- teste de proteção #29, não mesclar -->
