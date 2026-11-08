@@ -50,7 +50,7 @@ gh pr create --title "<mensagem aprovada, primeira linha>" --body-file <arquivo>
 
 O corpo do PR segue [`.github/pull_request_template.md`](../../.github/pull_request_template.md) e leva `Refs #N` ou `Closes #N`. Se o PR toca texto normativo, o GitHub pede a revisão da equipe de regras automaticamente.
 
-## 5. Mesclar
+## 5. Mesclar e Limpar Branches
 
 Com o CI verde, a aprovação exigida e a autorização expressa do usuário:
 
@@ -58,10 +58,12 @@ Com o CI verde, a aprovação exigida e a autorização expressa do usuário:
 gh pr checks <N>
 gh pr merge <N> --rebase --delete-branch
 git switch main
-git pull
+git pull --ff-only
+git fetch --prune
+git branch -D <branch>
 ```
 
-A mesclagem por *rebase* preserva cada commit com a mensagem em Conventional Commits. Se o PR fecha uma *issue*, poste o comentário de fechamento ([`gestao-issues.md`](gestao-issues.md), seção 4) logo depois.
+A mesclagem por *rebase* preserva cada commit com a mensagem em Conventional Commits, e `--delete-branch` remove o branch remoto no GitHub. O `git branch -D <branch>` conclui a limpeza local (detalhes no passo a passo [`concluir-pr.md`](concluir-pr.md)). Se o PR fecha uma *issue*, poste o comentário de fechamento ([`gestao-issues.md`](gestao-issues.md), seção 4) logo depois.
 
 > [!CAUTION]
 > **Nunca** faça push direto à `main` nem use o contorno de admin, e nunca mescle PR sem a autorização expressa do usuário. O agente não aprova PR.
@@ -72,4 +74,4 @@ A mesclagem por *rebase* preserva cada commit com a mensagem em Conventional Com
 - [ ] `python .agents/scripts/verificar-documentos.py` passou sem problemas
 - [ ] Arquivos e mensagem de commit apresentados e autorizados pelo usuário
 - [ ] PR aberto com `Refs #N` ou `Closes #N`; CI verde e aprovação exigida
-- [ ] Mesclagem autorizada pelo usuário e comentário de fechamento postado
+- [ ] Mesclagem e exclusão de branches (remoto e local) autorizadas e executadas, e comentário de fechamento postado

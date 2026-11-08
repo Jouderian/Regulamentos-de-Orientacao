@@ -39,6 +39,7 @@ Novas páginas seguem a orientação de [`wiki-maintenance.md`](../wiki-maintena
 | Como importar um PDF novo | [`workflows/import-pdf.md`](../workflows/import-pdf.md) |
 | Como abrir e publicar uma edição | [`workflows/publicar-edicao.md`](../workflows/publicar-edicao.md) |
 | Como atualizar o repositório remoto | [`workflows/atualizar-repositorio.md`](../workflows/atualizar-repositorio.md) |
+| Como concluir PR, rebasear e limpar branches | [`workflows/concluir-pr.md`](../workflows/concluir-pr.md) |
 | Como abrir, conduzir e fechar *issues* | [`workflows/gestao-issues.md`](../workflows/gestao-issues.md) |
 | Pendências atuais | [*Issues* do repositório](https://github.com/Jouderian/Regulamentos-de-Orientacao/issues), conforme [`rules/rules.md`](../rules/rules.md) |
 | Histórico de tarefas anterior a 2026-10-17 | [`todo-done.md`](../todo-done.md) (congelado) |
