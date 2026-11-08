@@ -54,4 +54,14 @@ As sugestões das duas formas são avaliadas juntas pelo diretor técnico da FEC
 
 ## Licença
 
-A organização e a formatação destes arquivos estão sob a licença [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE): você pode compartilhar e adaptar o material, desde que dê o crédito. O conteúdo das regras esportivas pertence às entidades que as publicam.
+A **organização e a formatação** destes arquivos (a estrutura em Markdown, a hierarquia de artigos, parágrafos e itens, a padronização e os índices) estão sob a licença [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE). Você pode compartilhar e adaptar o material, até para fins comerciais, desde que:
+
+- dê o crédito apropriado;
+- aponte o link da licença;
+- informe se fez alterações.
+
+Sugestão de crédito: *Regulamentos de Orientação, de Jouderian Nobre, licenciado sob CC BY 4.0 (https://github.com/Jouderian/Regulamentos-de-Orientacao).* Resumo em português: [deed da licença](https://creativecommons.org/licenses/by/4.0/deed.pt_BR).
+
+O **conteúdo das regras esportivas** não é coberto por essa licença: ele pertence às entidades que o publicam, a [FECORI](https://www.fecori.org.br/) (regulamentos do CCO e do CCOS) e a [CBO](https://www.cbo.esp.br/) (Regras de Orientação Pedestre). A licença também não concede direito sobre nomes, siglas e logotipos dessas entidades.
+
+O motor que aplica estas regras e gera as apurações está no repositório [Apuracao-Campeonato](https://github.com/Jouderian/Apuracao-Campeonato), cujo código é distribuído sob a [PolyForm Noncommercial 1.0.0](https://github.com/Jouderian/Apuracao-Campeonato/blob/main/LICENSE). As duas licenças são independentes: usar um repositório não sujeita o outro às condições do primeiro. A [ADR-007](.agents/wiki/decisions/ADR-007-licenciamento-cc-by-e-relacao-com-o-codigo.md) registra o motivo.
