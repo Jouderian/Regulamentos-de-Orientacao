@@ -49,15 +49,15 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 | :---: | :---: | :--- | :--- |
 | 1ª | 16/Mai | COqueiro | ??? (QA/FECORI ??) |
 | 2ª | 06/Jun | COFORT | ??? (QA/FECORI ??) |
-| 3ª | ??/Ago | ??? | ??? (QA/FECORI ??) |
-| 4ª | ??/Out | ??? | ??? (QA/FECORI ??) |
+| 3ª | 22/Ago | COCAP | ??? (QA/FECORI ??) |
+| 4ª | ??/Out | Rumba | ??? (QA/FECORI ??) |
 
 ### Calendário do XIII Campeonato Cearense de Orientação Sprint
 > **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
 
 | **Percurso** | **Data** | **Organizador** | **Árbitro** |
 | :---: | :---: | :--- | :--- |
-| 1º | 25/Set | ??? | ??? (QA/FECORI ??) |
+| 1º | 25/set | ??? | ??? (QA/FECORI ??) |
 | 2º | 26/Set | ??? | ??? (QA/FECORI ??) |
 | 3º | 26/Set | ??? | ??? (QA/FECORI ??) |
 
