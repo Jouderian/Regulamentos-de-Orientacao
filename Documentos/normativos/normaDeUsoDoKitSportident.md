@@ -218,7 +218,7 @@ O termo registra:
 - federação, nome e contato do seu presidente e do responsável pelo kit no evento;
 - evento, data e local;
 - itens e quantidades emprestados e valor total segurado;
-- quantidade e estado de cada item do *Anexo I*, na remessa e na chegada de volta;
+- quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
 - datas da remessa e da chegada de volta;
 - valor negociado pelo uso do kit e prazo de pagamento;
 - compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 desta norma;
