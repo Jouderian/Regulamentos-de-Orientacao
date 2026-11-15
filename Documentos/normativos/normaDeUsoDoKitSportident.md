@@ -17,25 +17,27 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 >> **c.** *Federação filiada à CBO*: a federação de orientação filiada à *Confederação Brasileira de Orientação* (CBO) e em dia com suas obrigações perante ela;
 
->> **d.** *Clube responsável*: o clube filiado que estiver com o kit, ou parte dele, em seu poder, desde a retirada até a conferência da devolução;
+>> **d.** *Entidade*: o clube filiado ou a federação filiada à CBO;
 
->> **e.** *Gestor do kit*: a pessoa designada pela Diretoria da FECORI para guardar o kit enquanto ele não estiver com um clube responsável e para monitorá-lo e mantê-lo em nome da FECORI;
+>> **e.** *Entidade responsável*: a entidade que estiver com o kit, ou parte dele, sob sua responsabilidade, desde a retirada ou a remessa até a conferência da devolução ou da chegada de volta;
 
->> **f.** *Desgaste natural*: a perda de condição ou de funcionamento decorrente do uso regular e do tempo, como o esgotamento de baterias e o desgaste de suportes, cordões e maletas;
+>> **f.** *Gestor do kit*: a pessoa designada pela Diretoria da FECORI para guardar o kit enquanto ele não estiver com uma entidade responsável e para monitorá-lo e mantê-lo em nome da FECORI;
 
->> **g.** *Dano*: toda avaria que não decorra de desgaste natural;
+>> **g.** *Desgaste natural*: a perda de condição ou de funcionamento decorrente do uso regular e do tempo, como o esgotamento de baterias e o desgaste de suportes, cordões e maletas;
 
->> **h.** *Extravio*: a perda, o furto ou o roubo de item do kit;
+>> **h.** *Dano*: toda avaria que não decorra de desgaste natural;
 
->> **i.** *Prazo em dias*: o contado em dias corridos, incluídos sábados, domingos e feriados.
+>> **i.** *Extravio*: a perda, o furto ou o roubo de item do kit;
+
+>> **j.** *Prazo em dias*: o contado em dias corridos, incluídos sábados, domingos e feriados.
 
 **Art. 3º** – O uso do kit é exclusivo dos clubes filiados, em qualquer evento de orientação que organizem, oficial ou não, como etapas de campeonato, eventos abertos, treinos e ações de divulgação, ressalvados o aluguel a outra federação previsto no Capítulo 8 e o uso pela própria FECORI nos eventos que organize.
 
-> **Parágrafo 1º:** O clube responsável não pode ceder nem emprestar o kit, no todo ou em parte, a outro clube ou a terceiro, salvo autorização prévia da FECORI. O aluguel de SI-Card aos atletas do próprio evento é permitido, nos termos do Art. 14.
+> **Parágrafo 1º:** A entidade responsável não pode ceder nem emprestar o kit, no todo ou em parte, a outra entidade ou a terceiro, salvo autorização prévia da FECORI. O aluguel de SI-Card aos atletas do próprio evento é permitido, nos termos do Art. 14 e do Art. 20, Parágrafo Único.
 
-> **Parágrafo 2º:** O clube com pendência de devolução, reposição ou pagamento prevista nesta norma não pode solicitar o kit até regularizá-la.
+> **Parágrafo 2º:** A entidade com pendência de devolução, reposição ou pagamento prevista nesta norma não pode solicitar o kit até regularizá-la.
 
-**Art. 4º** – Enquanto não estiver em poder de um clube responsável, o kit fica sob a guarda do seu gestor.
+**Art. 4º** – Enquanto não estiver em poder de uma entidade responsável, o kit fica sob a guarda do seu gestor.
 
 ## 2. Do Gestor do Kit
 
@@ -45,9 +47,9 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 >> **a.** Guardar e conservar o kit em local seguro e adequado;
 
->> **b.** Manter a agenda de reservas do kit e combinar com cada clube ou federação as datas de saída e de devolução;
+>> **b.** Manter a agenda de reservas do kit e combinar com cada entidade as datas de saída e de devolução;
 
->> **c.** Conferir o kit na saída e na devolução, nos termos do Art. 11 e do Art. 22;
+>> **c.** Conferir o kit na saída e na devolução, nos termos do Art. 11;
 
 >> **d.** Testar periodicamente os equipamentos e acompanhar a carga das baterias, para que o kit esteja sempre apto ao uso;
 
@@ -63,7 +65,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 **Art. 7º** – Compete à FECORI, diretamente ou por meio do gestor do kit:
 
->> **a.** Manter o kit apto ao uso pelos clubes filiados;
+>> **a.** Manter o kit apto ao uso pelas entidades;
 
 >> **b.** Custear a manutenção e a reposição dos itens inutilizados por desgaste natural;
 
@@ -87,7 +89,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 1º:** O pedido é atendido conforme a disponibilidade do kit, pela ordem de recebimento, e a reserva se confirma pela resposta da FECORI ou do gestor do kit.
 
-> **Parágrafo 2º:** A etapa do calendário oficial tem prioridade sobre qualquer outro evento e, havendo conflito, prevalece sobre reserva já confirmada na forma do Parágrafo 1º, cabendo ao gestor do kit avisar sem demora o clube afetado.
+> **Parágrafo 2º:** A etapa do calendário oficial tem prioridade sobre qualquer outro evento e, havendo conflito, prevalece sobre reserva já confirmada na forma do Parágrafo 1º, cabendo ao gestor do kit avisar sem demora a entidade afetada.
 
 ## 5. Da Retirada e da Devolução
 
@@ -95,27 +97,33 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 1º:** Prazos diferentes podem ser combinados com o gestor do kit, desde que não prejudiquem outra reserva.
 
-> **Parágrafo 2º:** O transporte do kit e seus custos são de responsabilidade do clube responsável.
+> **Parágrafo 2º:** O transporte do kit e seus custos são de responsabilidade do clube.
 
-**Art. 11** – Na retirada e na devolução, o gestor do kit e o representante do clube conferem juntos todos os itens e assinam o *Termo de Retirada e Devolução* do *Anexo III*, com a quantidade e o estado de cada um.
+> **Parágrafo 3º:** A entidade responsável que não devolver o kit no prazo previsto neste artigo ou no Art. 22 paga à FECORI multa de 0,5% (meio por cento) do valor total do kit, fixado no *Anexo II*, por dia de atraso, contado do dia seguinte ao fim do prazo, até o limite de 30 (trinta) dias, salvo justificativa aceita pela Diretoria da FECORI.
 
-> **Parágrafo Único:** Se o clube não acompanhar a conferência da devolução, prevalece a conferência feita pelo gestor do kit.
+> **Parágrafo 4º:** Passados 30 (trinta) dias de atraso, o kit é considerado extraviado, e a entidade responsável o repõe nos termos do Art. 17, com o prazo desse artigo contado do trigésimo primeiro dia de atraso e sem prejuízo da multa do Parágrafo 3º.
+
+**Art. 11** – Na retirada e na devolução, o gestor do kit confere todos os itens com a entidade e registra a quantidade e o estado de cada um no termo correspondente: o *Termo de Retirada e Devolução* do *Anexo III*, para o clube, ou o *Termo de Responsabilidade de Federação* do *Anexo IV*, para a federação.
+
+> **Parágrafo 1º:** O clube acompanha a conferência por seu representante, que assina o termo com o gestor do kit. Se não a acompanhar, prevalece a conferência feita pelo gestor do kit.
+
+> **Parágrafo 2º:** Para a federação, a retirada corresponde à remessa e a devolução, à chegada de volta do kit, e ela não acompanha nenhuma das duas. O gestor do kit confere o kit e registra o resultado no termo; a federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas, e sem essa comunicação prevalece a conferência da remessa. O gestor do kit comunica à federação o resultado da conferência da chegada de volta em até 24 (vinte e quatro) horas, e a federação pode contestá-lo no mesmo prazo.
 
 **Art. 12** – O kit é devolvido completo, limpo e acondicionado nas maletas, com os SI-Cards contados.
 
-> **Parágrafo Único:** Antes da devolução, o clube extrai das estações os dados do evento de que precisar; após a conferência, o gestor do kit pode apagar a memória delas.
+> **Parágrafo Único:** Antes da devolução, a entidade responsável extrai das estações os dados do evento de que precisar; após a conferência, o gestor do kit pode apagar a memória delas.
 
-## 6. Das Responsabilidades do Clube
+## 6. Das Responsabilidades da Entidade
 
-**Art. 13** – Da retirada até a conferência da devolução, o clube responsável responde pela guarda, pelo uso correto e pela integridade do kit, inclusive dos itens entregues a atletas, voluntários e organizadores.
+**Art. 13** – A entidade responsável responde pela guarda, pelo uso correto e pela integridade do kit, inclusive dos itens entregues a atletas, voluntários e organizadores.
 
-> **Parágrafo 1º:** O clube opera o kit conforme as orientações do fabricante e as instruções do gestor do kit.
+> **Parágrafo 1º:** A entidade opera o kit conforme as orientações do fabricante e as instruções do gestor do kit.
 
-> **Parágrafo 2º:** O SI-Card do kit perdido ou danificado por atleta é de responsabilidade do clube perante a FECORI, sem prejuízo de o clube cobrar do atleta o valor correspondente.
+> **Parágrafo 2º:** O SI-Card do kit perdido ou danificado por atleta é de responsabilidade da entidade perante a FECORI, sem prejuízo de a entidade cobrar do atleta o valor correspondente.
 
-> **Parágrafo 3º:** Em caso de furto ou roubo, o clube registra boletim de ocorrência e o apresenta ao gestor do kit com a comunicação do Art. 15; a Diretoria da FECORI decide se o clube responde pela reposição.
+> **Parágrafo 3º:** Em caso de furto ou roubo, a entidade registra boletim de ocorrência e o apresenta ao gestor do kit com a comunicação do Art. 15; a Diretoria da FECORI decide se a entidade responde pela reposição.
 
-**Art. 14** – Por SI-Card do kit alugado ou cedido sem cobrança, usado ou não pelo atleta, o clube responsável paga à FECORI o valor fixado no *Regimento de Taxas* da FECORI, em até 15 (quinze) dias depois do evento, com a relação desses SI-Cards.
+**Art. 14** – Por SI-Card do kit alugado ou cedido sem cobrança, usado ou não pelo atleta, o clube paga à FECORI o valor fixado no *Regimento de Taxas* da FECORI, em até 15 (quinze) dias depois do evento, com a relação desses SI-Cards.
 
 > **Parágrafo 1º:** Na etapa do calendário oficial da FECORI, o clube cobra dos atletas, pelo aluguel de SI-Card, o valor fixado no *Regimento de Taxas* da FECORI.
 
@@ -123,27 +131,27 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 ## 7. Das Avarias, dos Extravios e da Reposição
 
-**Art. 15** – Toda avaria ou extravio ocorrido com o clube responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas da constatação ou, se constatado durante o evento, do término dele, e registrado no *Termo de Retirada e Devolução*.
+**Art. 15** – Toda avaria ou extravio ocorrido com a entidade responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas da constatação ou, se constatado durante o evento, do término dele, e registrado no termo do Art. 11.
 
-**Art. 16** – A Diretoria da FECORI, ouvidos o gestor do kit e o clube responsável, classifica cada avaria como desgaste natural ou como dano.
+**Art. 16** – A Diretoria da FECORI, ouvidos o gestor do kit e a entidade responsável, classifica cada avaria como desgaste natural ou como dano.
 
 > **Parágrafo 1º:** O desgaste natural é custeado pela FECORI.
 
-> **Parágrafo 2º:** O dano e o extravio são de responsabilidade do clube responsável.
+> **Parágrafo 2º:** O dano e o extravio são de responsabilidade da entidade responsável.
 
 > **Parágrafo 3º:** A Diretoria da FECORI decide em até 15 (quinze) dias da comunicação de que trata o Art. 15.
 
-**Art. 17** – O clube responsável repõe o item danificado ou extraviado em até 30 (trinta) dias da comunicação da decisão da Diretoria, à sua escolha:
+**Art. 17** – A entidade responsável repõe o item danificado ou extraviado em até 30 (trinta) dias da comunicação da decisão da Diretoria, à sua escolha:
 
 >> **a.** Entregando item novo, do mesmo modelo e especificação; ou
 
 >> **b.** Ressarcindo à FECORI o valor do item no *Anexo II*.
 
-> **Parágrafo 1º:** Quando o item danificado puder ser reparado, o clube pode, em vez da reposição, custear o reparo indicado pelo gestor do kit.
+> **Parágrafo 1º:** Quando o item danificado puder ser reparado, a entidade pode, em vez da reposição, custear o reparo indicado pelo gestor do kit.
 
 > **Parágrafo 2º:** Se o modelo não for mais fabricado, a reposição se faz por item equivalente aprovado pela FECORI ou pelo ressarcimento do valor do *Anexo II*.
 
-> **Parágrafo 3º:** Enquanto não regularizar a reposição, o clube fica impedido de solicitar o kit, conforme o Art. 3º, Parágrafo 2º.
+> **Parágrafo 3º:** Enquanto não regularizar a reposição, a entidade fica impedida de solicitar o kit, conforme o Art. 3º, Parágrafo 2º.
 
 ## 8. Do Aluguel a Outras Federações
 
@@ -155,7 +163,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 2º:** A reserva se confirma com a aprovação da Diretoria da FECORI e com a assinatura, pela federação, do *Termo de Responsabilidade de Federação* do *Anexo IV*.
 
-**Art. 20** – A responsabilidade da federação sobre o kit começa no momento em que o gestor do kit o remete e termina com sua chegada de volta ao gestor. Nesse período, pelo termo de responsabilidade, a federação assume as mesmas obrigações do clube responsável previstas nos Arts. 12, 13 e 15 a 17, no que couber, e se sujeita ao Art. 3º, Parágrafo 2º.
+**Art. 20** – A responsabilidade da federação sobre o kit começa no momento em que o gestor do kit o remete e termina com sua chegada de volta ao gestor. Nesse período, a federação é entidade responsável e, pelo termo de responsabilidade, assume as obrigações que esta norma atribui à entidade responsável, no que couber.
 
 > **Parágrafo Único:** Pelo uso do kit, inclusive dos SI-Cards, a federação paga à FECORI o valor estabelecido pela Diretoria da FECORI em negociação com ela, registrado no termo de responsabilidade com o prazo de pagamento.
 
@@ -165,9 +173,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 2º:** A indenização do seguro recebida pela FECORI é abatida do valor da reposição devida pela federação.
 
-**Art. 22** – O gestor do kit remete o kit em data combinada com a federação, depois de confirmada a reserva, e o kit deve chegar de volta ao gestor em até 7 (sete) dias depois do evento.
-
-> **Parágrafo Único:** O gestor do kit confere o kit na retirada e na devolução, registrando a conferência no *Termo de Responsabilidade de Federação* do *Anexo IV*. A federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas; sem essa comunicação, prevalece a conferência da remessa.
+**Art. 22** – O gestor do kit remete o kit em data combinada com a federação, depois de confirmada a reserva, e o kit deve chegar de volta ao gestor em até 7 (sete) dias depois do evento. A conferência segue o Art. 11, Parágrafo 2º.
 
 ## 9. Disposições Finais e Transitórias
 
@@ -210,7 +216,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 O termo registra:
 
-- clube responsável, evento e data do evento;
+- clube, evento e data do evento;
 - nome, documento e contato do representante do clube;
 - datas da retirada e da devolução;
 - quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
@@ -228,6 +234,6 @@ O termo registra:
 - quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
 - datas da remessa e da chegada de volta;
 - valor negociado pelo uso do kit e prazo de pagamento;
-- compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 desta norma;
+- compromisso de cumprir as obrigações da entidade responsável previstas nesta norma, em especial as dos Arts. 10, 12, 13, 15 a 17 e 20 a 22;
 - eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
 - assinaturas do presidente da federação e de representante da FECORI.
