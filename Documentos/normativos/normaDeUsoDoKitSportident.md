@@ -29,7 +29,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 >> **i.** *Prazo em dias*: o contado em dias corridos, incluídos sábados, domingos e feriados.
 
-**Art. 3º** – O uso do kit é exclusivo dos clubes filiados, em qualquer evento de orientação que organizem, oficial ou não, como etapas de campeonato, eventos abertos, treinos e ações de divulgação, ressalvado o empréstimo a outra federação previsto no Capítulo 8.
+**Art. 3º** – O uso do kit é exclusivo dos clubes filiados, em qualquer evento de orientação que organizem, oficial ou não, como etapas de campeonato, eventos abertos, treinos e ações de divulgação, ressalvados o aluguel a outra federação previsto no Capítulo 8 e o uso pela própria FECORI nos eventos que organize.
 
 > **Parágrafo 1º:** O clube responsável não pode ceder nem emprestar o kit, no todo ou em parte, a outro clube ou a terceiro, salvo autorização prévia da FECORI. O aluguel de SI-Card aos atletas do próprio evento é permitido, nos termos do Art. 14.
 
@@ -87,7 +87,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 1º:** O pedido é atendido conforme a disponibilidade do kit, pela ordem de recebimento, e a reserva se confirma pela resposta da FECORI ou do gestor do kit.
 
-> **Parágrafo 2º:** A etapa do calendário oficial tem prioridade sobre qualquer outro evento.
+> **Parágrafo 2º:** A etapa do calendário oficial tem prioridade sobre qualquer outro evento e, havendo conflito, prevalece sobre reserva já confirmada na forma do Parágrafo 1º, cabendo ao gestor do kit avisar sem demora o clube afetado.
 
 ## 5. Da Retirada e da Devolução
 
@@ -131,6 +131,8 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 2º:** O dano e o extravio são de responsabilidade do clube responsável.
 
+> **Parágrafo 3º:** A Diretoria da FECORI decide em até 15 (quinze) dias da comunicação de que trata o Art. 15.
+
 **Art. 17** – O clube responsável repõe o item danificado ou extraviado em até 30 (trinta) dias da comunicação da decisão da Diretoria, à sua escolha:
 
 >> **a.** Entregando item novo, do mesmo modelo e especificação; ou
@@ -143,9 +145,9 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 3º:** Enquanto não regularizar a reposição, o clube fica impedido de solicitar o kit, conforme o Art. 3º, Parágrafo 2º.
 
-## 8. Do Empréstimo a Outras Federações
+## 8. Do Aluguel a Outras Federações
 
-**Art. 18** – A Diretoria da FECORI pode, a seu critério, emprestar o kit a outra federação filiada à CBO, para evento sob responsabilidade dela.
+**Art. 18** – A Diretoria da FECORI pode, a seu critério, alugar o kit a outra federação filiada à CBO, para evento sob responsabilidade dela.
 
 **Art. 19** – O presidente da federação solicita o kit por e-mail à FECORI, com cópia ao gestor do kit, pelo menos 15 (quinze) dias antes do evento, com as informações do Art. 9º.
 
@@ -171,11 +173,15 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 **Art. 23** – Esta norma é aprovada e alterada pela Diretoria da FECORI e submetida ao referendo da Assembleia Geral na primeira reunião seguinte.
 
+> **Parágrafo Único:** A norma não referendada pela Assembleia Geral deixa de produzir efeitos a partir da deliberação, preservados os atos praticados durante a vigência.
+
 **Art. 24** – Os casos omissos são resolvidos pela Diretoria da FECORI.
 
-**Art. 25** – A Diretoria da FECORI designa o primeiro gestor do kit e seu substituto, nos termos do Art. 5º, na mesma reunião em que aprovar esta norma.
+**Art. 25** – Fica eleito o foro da comarca de Fortaleza, Estado do Ceará, para dirimir qualquer controvérsia decorrente desta norma, com renúncia a qualquer outro, por mais privilegiado que seja.
 
-**Art. 26** – Esta norma entra em vigor na data de sua aprovação pela Diretoria da FECORI.
+**Art. 26** – A Diretoria da FECORI designa o primeiro gestor do kit e seu substituto, nos termos do Art. 5º, na mesma reunião em que aprovar esta norma.
+
+**Art. 27** – Esta norma entra em vigor na data de sua aprovação pela Diretoria da FECORI.
 
 ## Anexo I – Inventário do Kit
 
@@ -209,6 +215,7 @@ O termo registra:
 - datas da retirada e da devolução;
 - quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
 - ocorrências, avarias e extravios;
+- eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
 - assinaturas do gestor do kit e do representante do clube.
 
 ## Anexo IV – Termo de Responsabilidade de Federação
@@ -217,9 +224,10 @@ O termo registra:
 
 - federação, nome e contato do seu presidente e do responsável pelo kit no evento;
 - evento, data e local;
-- itens e quantidades emprestados e valor total segurado;
+- itens e quantidades alugados e valor total segurado;
 - quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
 - datas da remessa e da chegada de volta;
 - valor negociado pelo uso do kit e prazo de pagamento;
 - compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 desta norma;
+- eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
 - assinaturas do presidente da federação e de representante da FECORI.
