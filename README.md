@@ -37,6 +37,12 @@ Cada ano tem uma pasta com o regulamento, as Regras de Orientação Pedestre daq
 
 [Clubes campeões](clubesCampeoes.md): campeões, vice-campeões e terceiros colocados de cada ano, com a pontuação de cada clube.
 
+## Uso do kit SPORTident
+
+O **Regulamento de Uso do Kit de Cronometragem SPORTident** define como os clubes filiados solicitam, usam e devolvem o kit da FECORI e como ele é emprestado a outras federações. Ele não muda a cada ano: vale até ser alterado pela Diretoria da FECORI.
+
+- **Em elaboração:** [ler o texto](Documentos/regulamentoDeUsoDoKitSportident.md)
+
 ## Como sugerir uma mudança
 
 > [!NOTE]
