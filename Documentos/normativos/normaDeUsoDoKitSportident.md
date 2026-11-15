@@ -107,7 +107,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 1º:** O clube acompanha a conferência por seu representante, que assina o termo com o gestor do kit. Se não a acompanhar, prevalece a conferência feita pelo gestor do kit.
 
-> **Parágrafo 2º:** Para a federação, a retirada corresponde à remessa e a devolução, à chegada de volta do kit, e ela não acompanha nenhuma das duas. O gestor do kit confere o kit e registra o resultado no termo; a federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas, e sem essa comunicação prevalece a conferência da remessa. O gestor do kit comunica à federação o resultado da conferência da chegada de volta em até 24 (vinte e quatro) horas, e a federação pode contestá-lo no mesmo prazo.
+> **Parágrafo 2º:** Para a federação, a retirada corresponde à remessa e a devolução, à chegada de volta do kit, e ela não acompanha nenhuma das duas. O gestor do kit confere o kit e registra o resultado no termo; a federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas, e sem essa comunicação prevalece a conferência da remessa. O gestor do kit comunica à federação o resultado da conferência da chegada de volta em até 24 (vinte e quatro) horas, e a federação pode contestá-lo no mesmo prazo, cabendo à Diretoria da FECORI decidir a contestação em até 15 (quinze) dias.
 
 **Art. 12** – O kit é devolvido completo, limpo e acondicionado nas maletas, com os SI-Cards contados.
 
