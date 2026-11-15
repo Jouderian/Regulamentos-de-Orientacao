@@ -13,7 +13,7 @@ Após o desenvolvimento, a verificação documental e a aprovação no PR (pela 
 Antes de solicitar a mesclagem:
 
 1. **Status dos checks do CI:** o pipeline precisa estar totalmente verde.
-2. **Aprovações necessárias:** para texto normativo, aprovação formal exigida em `.github/CODEOWNERS`.
+2. **Aprovações necessárias:** para texto normativo, aprovação formal exigida em `.github/CODEOWNERS`. Sem o outro dono, o contorno é exceção do usuário ([`atualizar-repositorio.md`](atualizar-repositorio.md), seção 6), e o agente não o executa.
 3. **Autorização expressa do usuário:** o agente nunca mescla PR sem autorização prévia.
 
 ```powershell

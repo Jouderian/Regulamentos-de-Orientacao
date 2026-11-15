@@ -77,3 +77,16 @@ Decidida e implementada na [*issue* #29](https://github.com/Jouderian/Regulament
 - **Contorno de admin.** O admin do repositório pode contornar a proteção, por decisão do usuário. O agente, mesmo rodando com a conta do admin, segue o fluxo por PR e só mescla com autorização expressa ([`rules.md`](../../rules/rules.md), *Fluxo por PR*).
 
 **Consequências:** o critério da #29 vale para quem não é admin; para o admin, a revisão volta a depender de disciplina, agora visível no histórico como push direto ou PR mesclado sem aprovação. Incluir revisor exige convidá-lo como colaborador com acesso de escrita e acrescentar o usuário no `CODEOWNERS`, por PR revisado pela própria equipe de regras.
+
+## Revisão de 2026-11-15
+O PR que ajustou a verificação documental misturou três commits, dois em `.agents/` e um em `Documentos/*.md`. Basta um arquivo coberto pelo `CODEOWNERS` para o PR inteiro exigir a aprovação de um dono, e como o autor não aprova o próprio PR, o outro dono tornou-se um ponto único de espera. O PR só mesclou por contorno de admin, sem registro do motivo nem da revisão posterior.
+
+1. **Texto normativo em PR próprio.** `Documentos/**/*.md` e `clubesCampeoes.md` não se misturam com scripts, CI, ADRs, regras e workflows no mesmo PR. Só o PR normativo espera a aprovação; o restante mescla com o CI verde.
+2. **O contorno de admin é exceção do usuário, com condições.** Vale só com o outro dono indisponível, é executado pelo usuário no terminal dele (o agente não o executa), exige comentário no PR com o motivo antes do contorno e revisão posterior do dono ausente. Isso detalha o item "Contorno de admin" da revisão de 2026-11-07, sem alterá-lo.
+
+**Consequências:**
+- Mais PRs pequenos. Quando um depende do outro, mescla-se primeiro o que não espera aprovação.
+- A espera pelo texto normativo continua: a separação tira o atraso do resto, não da revisão.
+- A exceção depende de disciplina: a proteção não obriga o comentário nem a revisão posterior. Um terceiro dono no `CODEOWNERS`, que eliminaria a dependência de uma só pessoa, é decisão da equipe e não foi adotado.
+
+Os detalhes estão em [`rules.md`](../../rules/rules.md) e em [`atualizar-repositorio.md`](../../workflows/atualizar-repositorio.md).
