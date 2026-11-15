@@ -23,13 +23,17 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 >> **f.** *Desgaste natural*: a perda de condição ou de funcionamento decorrente do uso regular e do tempo, como o esgotamento de baterias e o desgaste de suportes, cordões e maletas;
 
->> **g.** *Dano*: toda avaria que não decorra de desgaste natural.
+>> **g.** *Dano*: toda avaria que não decorra de desgaste natural;
+
+>> **h.** *Extravio*: a perda, o furto ou o roubo de item do kit;
+
+>> **i.** *Prazo em dias*: o contado em dias corridos, incluídos sábados, domingos e feriados.
 
 **Art. 3º** – O uso do kit é exclusivo dos clubes filiados, em qualquer evento de orientação que organizem, oficial ou não, como etapas de campeonato, eventos abertos, treinos e ações de divulgação, ressalvado o empréstimo a outra federação previsto no Capítulo 8.
 
 > **Parágrafo 1º:** O clube responsável não pode ceder nem emprestar o kit, no todo ou em parte, a outro clube ou a terceiro, salvo autorização prévia da FECORI. O aluguel de SI-Card aos atletas do próprio evento é permitido, nos termos do Art. 14.
 
-> **Parágrafo 2º:** O clube com pendência de devolução, reposição ou repasse prevista nesta norma não pode solicitar o kit até regularizá-la.
+> **Parágrafo 2º:** O clube com pendência de devolução, reposição ou pagamento prevista nesta norma não pode solicitar o kit até regularizá-la.
 
 **Art. 4º** – Enquanto não estiver em poder de um clube responsável, o kit fica sob a guarda do seu gestor.
 
@@ -87,7 +91,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 ## 5. Da Retirada e da Devolução
 
-**Art. 10** – A retirada e a devolução ocorrem em local, data e horário combinados com o gestor do kit, com a retirada a partir de 7 (sete) dias antes do evento e a devolução até 3 (três) dias úteis depois dele.
+**Art. 10** – A retirada e a devolução ocorrem em local, data e horário combinados com o gestor do kit, com a retirada a partir de 7 (sete) dias antes do evento e a devolução até 5 (cinco) dias depois dele.
 
 > **Parágrafo 1º:** Prazos diferentes podem ser combinados com o gestor do kit, desde que não prejudiquem outra reserva.
 
@@ -109,7 +113,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 > **Parágrafo 2º:** O SI-Card do kit perdido ou danificado por atleta é de responsabilidade do clube perante a FECORI, sem prejuízo de o clube cobrar do atleta o valor correspondente.
 
-> **Parágrafo 3º:** Em caso de furto, roubo ou perda, o clube comunica o gestor do kit em até 24 (vinte e quatro) horas da constatação ou do término do evento, o que ocorrer primeiro, e, no furto ou roubo, registra boletim de ocorrência; a Diretoria da FECORI decide se o clube responde pela reposição.
+> **Parágrafo 3º:** Em caso de furto ou roubo, o clube registra boletim de ocorrência e o apresenta ao gestor do kit com a comunicação do Art. 15; a Diretoria da FECORI decide se o clube responde pela reposição.
 
 **Art. 14** – Por SI-Card do kit alugado ou cedido sem cobrança, usado ou não pelo atleta, o clube responsável paga à FECORI o valor fixado no *Regimento de Taxas* da FECORI, em até 15 (quinze) dias depois do evento, com a relação desses SI-Cards.
 
@@ -119,7 +123,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 ## 7. Das Avarias, dos Extravios e da Reposição
 
-**Art. 15** – Toda avaria ou extravio ocorrido com o clube responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas da constatação ou do término do evento, o que ocorrer primeiro, e registrado no *Termo de Retirada e Devolução*.
+**Art. 15** – Toda avaria ou extravio ocorrido com o clube responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas da constatação ou, se constatado durante o evento, do término dele, e registrado no *Termo de Retirada e Devolução*.
 
 **Art. 16** – A Diretoria da FECORI, ouvidos o gestor do kit e o clube responsável, classifica cada avaria como desgaste natural ou como dano.
 
@@ -161,7 +165,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 **Art. 22** – O gestor do kit remete o kit em data combinada com a federação, depois de confirmada a reserva, e o kit deve chegar de volta ao gestor em até 7 (sete) dias depois do evento.
 
-> **Parágrafo Único:** O gestor do kit confere o kit na remessa e na chegada de volta. A federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas; sem essa comunicação, prevalece a conferência da remessa.
+> **Parágrafo Único:** O gestor do kit confere o kit na retirada e na devolução, registrando a conferência no *Termo de Responsabilidade de Federação* do *Anexo IV*. A federação o confere ao recebê-lo e comunica ao gestor do kit qualquer divergência em até 24 (vinte e quatro) horas; sem essa comunicação, prevalece a conferência da remessa.
 
 ## 9. Disposições Finais e Transitórias
 
@@ -194,7 +198,7 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 | ??? | ??? |
 | **Valor total do kit** | ??? |
 
-> **Nota:** Tabela atualizada em ???.
+> **Nota:** Tabela atualizada em ??/??/??.
 
 ## Anexo III – Termo de Retirada e Devolução
 
@@ -214,6 +218,7 @@ O termo registra:
 - federação, nome e contato do seu presidente e do responsável pelo kit no evento;
 - evento, data e local;
 - itens e quantidades emprestados e valor total segurado;
+- quantidade e estado de cada item do *Anexo I*, na remessa e na chegada de volta;
 - datas da remessa e da chegada de volta;
 - valor negociado pelo uso do kit e prazo de pagamento;
 - compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 desta norma;
