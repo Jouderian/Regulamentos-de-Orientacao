@@ -224,6 +224,66 @@ O termo registra:
 - eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
 - assinaturas do gestor do kit e do representante do clube.
 
+### Modelo sugerido
+
+**Termo de Retirada e Devolução – Kit SPORTident (FECORI)**
+
+**1. Identificação do Clube, Evento e Representante**
+
+- **Clube filiado:** ___________________________________________
+- **Evento:** _________________________________________________
+- **Data do evento:** ____/____/____
+- **Representante do clube:** __________________________________
+- **Documento (RG/CPF):** ___________________
+- **Contato (tel./e-mail):** ___________________________________________
+- **Gestor do kit:** ___________________________________________
+
+**2. Prazos (Art. 10)**
+
+- **Data prevista para retirada:** ____/____/____ **Data efetiva da retirada:** ____/____/____
+- **Data prevista para devolução:** ____/____/____ **Data efetiva da devolução:** ____/____/____
+- **Prazo combinado diverso (Art. 10, Parágrafo 1º):** [ ] Não [ ] Sim — Acordo: ___________________
+
+**3. Conferência dos Itens do Anexo I (Art. 11)**
+
+| **Item (*Anexo I*)** | **Qtd. Retirada** | **Estado na Retirada** | **Qtd. Devolvida** | **Estado na Devolução** |
+| :--- | :---: | :--- | :---: | :--- |
+| Estação de controle | | | | |
+| Estação de partida (*Start*) | | | | |
+| Estação de chegada (*Finish*) | | | | |
+| Estação de limpeza (*Clear*) e verificação (*Check*) | | | | |
+| Estação mestre de leitura (USB) | | | | |
+| SI-Card (faixa: _______________) | | | | |
+| Acessórios (impressora, suportes, cabos, maletas) | | | | |
+
+- **Conferência na retirada acompanhada pelo representante (Art. 11, Parágrafo 1º):** [ ] Sim [ ] Não *(prevalece a conferência do gestor)*
+- **Conferência na devolução acompanhada pelo representante (Art. 11, Parágrafo 1º):** [ ] Sim [ ] Não *(prevalece a conferência do gestor)*
+
+**4. Condições de Devolução e SI-Cards Utilizados (Arts. 12 e 14)**
+
+- **Kit devolvido completo, limpo e acondicionado nas maletas, com SI-Cards contados (Art. 12):** [ ] Sim [ ] Não
+- **Dados do evento extraídos das estações antes da devolução (Art. 12, Parágrafo Único):** [ ] Sim [ ] Não se aplica
+- **Quantidade de SI-Cards alugados ou cedidos sem cobrança (Art. 14):** _______ *(anexar relação para pagamento em até 15 dias após o evento)*
+
+**5. Ocorrências, Avarias e Extravios (Arts. 13, 15 a 17)**
+
+- **Houve ocorrência, avaria ou extravio?** [ ] Não [ ] Sim
+- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____/____/____ às ____h____
+- **Boletim de ocorrência anexado (furto/roubo, Art. 13, Parágrafo 3º):** ( ) Não se aplica ( ) Sim — Nº: _____________
+- **Descrição detalhada (item, identificação e circunstância):** ___________________________________________
+
+**6. Declaração de Responsabilidade e Foro (Arts. 10, 13 e 25)**
+
+O clube declara receber o kit nas condições descritas no item 3 e assume a responsabilidade pela guarda, pelo uso correto e pela integridade de todos os itens (Art. 13), ciente da multa por atraso de 0,5% ao dia sobre o valor total do kit do *Anexo II*, limitada a 30 dias, após os quais o kit é considerado extraviado (Art. 10, Parágrafos 3º e 4º). Fica eleito o foro da comarca de Fortaleza, Estado do Ceará, para dirimir qualquer controvérsia decorrente deste termo, com renúncia a qualquer outro, por mais privilegiado que seja (Art. 25).
+
+**7. Assinaturas**
+
+- **Na retirada** — Fortaleza/CE, ____/____/____
+> ___________________________ *(Gestor do Kit)* | ___________________________ *(Representante do Clube)*
+
+- **Na devolução** — Fortaleza/CE, ____/____/____
+> ___________________________ *(Gestor do Kit)* | ___________________________ *(Representante do Clube)*
+
 ## Anexo IV – Termo de Responsabilidade de Federação
 
 O termo registra:
@@ -237,3 +297,63 @@ O termo registra:
 - compromisso de cumprir as obrigações da entidade responsável previstas nesta norma, em especial as dos Arts. 10, 12, 13, 15 a 17 e 20 a 22;
 - eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
 - assinaturas do presidente da federação e de representante da FECORI.
+
+### Modelo sugerido
+
+**Termo de Responsabilidade de Federação – Aluguel de Kit SPORTident (FECORI)**
+
+**1. Identificação da Federação, do Evento e dos Responsáveis**
+
+- **Federação filiada à CBO:** ___________________________________
+- **Presidente da federação:** ________________________________
+- **Contato (tel./e-mail):** ___________________
+- **Responsável pelo kit no evento:** ___________________________
+- **Contato (tel./e-mail):** ___________________
+- **Evento:** _________________________________________________
+- **Data do evento:** ____/____/____
+- **Local (município/UF):** ___________________
+
+**2. Aluguel, Seguro e Pagamento (Arts. 19, 20 e 21)**
+
+- **Valor negociado pelo uso do kit (Art. 20, Parágrafo Único):** R$ ______________
+- **Prazo de pagamento:** ____/____/____
+- **Valor total segurado na ida e na volta (Art. 21, com a FECORI como beneficiária):** R$ ______________
+- **Comprovante do seguro apresentado antes da remessa (Art. 21, Parágrafo 1º):** [ ] Sim — Apólice/Ref.: ______________
+- **Data da remessa (retirada):** ____/____/____
+- **Data prevista de chegada de volta (Art. 22 — até 7 dias):** ____/____/______
+- **Data efetiva da chegada de volta:** ____/____/______
+
+**3. Conferência dos Itens do Anexo I (Art. 11, Parágrafo 2º)**
+
+| **Item (*Anexo I*)** | **Qtd. Alugada / Remetida** | **Estado na Remessa** | **Qtd. Devolvida** | **Estado na Chegada de Volta** |
+| :--- | :---: | :--- | :---: | :--- |
+| Estação de controle | | | | |
+| Estação de partida (*Start*) | | | | |
+| Estação de chegada (*Finish*) | | | | |
+| Estação de limpeza (*Clear*) e verificação (*Check*) | | | | |
+| Estação mestre de leitura (USB) | | | | |
+| SI-Card (faixa: _______________) | | | | |
+| Acessórios (impressora, suportes, cabos, maletas) | | | | |
+
+- **Divergência comunicada pela federação no recebimento (Art. 11, Parágrafo 2º — até 24h):** [ ] Não [ ] Sim — Registro: ___________________
+- **Resultado da conferência na chegada de volta comunicado pelo gestor em (data/hora):** ____/____/____ às ____h____
+- **Contestação pela federação (Art. 11, Parágrafo 2º — até 24h):** [ ] Não [ ] Sim — Registro: ___________________
+
+**4. Ocorrências, Avarias e Extravios (Arts. 13, 15 a 17)**
+
+- **Houve ocorrência, avaria ou extravio?** [ ] Não [ ] Sim
+- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____/____/____ às ____h____
+- **Boletim de ocorrência anexado (furto/roubo, Art. 13, Parágrafo 3º):** [ ] Não se aplica [ ] Sim — Nº: _____________
+- **Descrição detalhada (item, identificação e circunstância):** ___________________________________________
+
+**5. Compromisso, Responsabilidade e Foro (Arts. 10, 12, 13, 15 a 17, 20 a 22 e 25)**
+
+A federação assume a condição de entidade responsável desde a remessa do kit até sua chegada de volta ao gestor (Art. 20) e compromete-se a cumprir todas as obrigações previstas na *Norma de Uso do Kit de Cronometragem SPORTident*, em especial as dos Arts. 10, 12, 13, 15 a 17 e 20 a 22, inclusive os custos de envio e retorno, o seguro de transporte e a multa por atraso de 0,5% ao dia até o limite de 30 dias (Art. 10, Parágrafo 3º). Fica eleito o foro da comarca de Fortaleza, Estado do Ceará, para dirimir qualquer controvérsia decorrente deste termo, com renúncia a qualquer outro, por mais privilegiado que seja (Art. 25).
+
+**6. Assinaturas**
+
+Fortaleza/CE, ____ de ______________ de ______
+
+- **Presidente da Federação:** ___________________________________________
+
+- **Representante da FECORI:** ___________________________________________
