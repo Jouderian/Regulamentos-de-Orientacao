@@ -347,8 +347,7 @@ class IndiceSpecs(unittest.TestCase):
 class Normativos(unittest.TestCase):
     """Normativo (ADR-008): `.md` direto em Documentos/, fora das pastas de ano."""
 
-    REL = 'Documentos/regulamentoDeTeste.md'
-    REL_NOVO = 'Documentos/normativos/normaDeTeste.md'
+    REL = 'Documentos/normativos/normaDeTeste.md'
     CABECALHO = '---\nstatus: em-elaboracao\ndescription: Normativo de teste\n---\n\n'
     VIGENTE = '---\nstatus: vigente\ndescription: Normativo de teste\naprovacao: 2026-11-20\n---\n\n'
 
@@ -385,19 +384,8 @@ class Normativos(unittest.TestCase):
         self.assertFalse(verificar._eh_normativo('clubesCampeoes.md'))
         self.assertFalse(verificar._eh_normativo('README.md'))
 
-    def test_caminho_antigo_vale_ate_a_migracao(self):
-        """Transitório (#57): remover junto com o segundo caso de `_eh_normativo`."""
-        self.assertTrue(verificar._eh_normativo('Documentos/regulamentoDeUsoDoKitSportident.md'))
-
-    def test_estrutura_e_conferida_na_pasta_nova(self):
-        achados = self.achados(verificar.checar_estrutura, self.REL_NOVO,
-                               self.CABECALHO + BASE + artigos(1, 2, 4))
-        self.assertFalha(achados, 'salto na sequência de artigos')
-
-    def test_frontmatter_e_conferido_na_pasta_nova(self):
-        achados = self.achados(verificar.checar_normativo, self.REL_NOVO,
-                               self.CABECALHO.replace('em-elaboracao', 'arquivado') + BASE + artigos(1))
-        self.assertFalha(achados, 'status inválido "arquivado"')
+    def test_md_solto_em_documentos_nao_e_normativo(self):
+        self.assertFalse(verificar._eh_normativo('Documentos/normaDeUsoDoKitSportident.md'))
 
     # Estrutura e tipografia
     def test_normativo_correto_passa(self):
@@ -505,38 +493,38 @@ class Normativos(unittest.TestCase):
         return self.achados(verificar.checar_finais_normativos, self.tmp.name)
 
     def test_so_md_passa(self):
-        self.gravar('regulamentoDeTeste.md')
+        self.gravar('normativos/normaDeTeste.md')
         self.gravar('template_estilos.docx')
         self.assertEqual(self.finais(), [])
 
     def test_pdf_do_normativo(self):
-        self.gravar('regulamentoDeTeste.md')
-        self.gravar('regulamentoDeTeste.pdf')
-        self.assertFalha(self.finais(), 'Documentos/regulamentoDeTeste.pdf')
-
-    def test_docx_do_normativo(self):
-        self.gravar('regulamentoDeTeste.md')
-        self.gravar('regulamentoDeTeste.docx')
-        self.assertFalha(self.finais(), 'Documentos/regulamentoDeTeste.docx')
-
-    def test_so_md_na_pasta_nova_passa(self):
-        self.gravar('normativos/normaDeTeste.md')
-        self.gravar('template_estilos.docx')
-        self.assertEqual(self.finais(), [])
-
-    def test_pdf_do_normativo_na_pasta_nova(self):
         self.gravar('normativos/normaDeTeste.md')
         self.gravar('normativos/normaDeTeste.pdf')
         self.assertFalha(self.finais(), 'Documentos/normativos/normaDeTeste.pdf')
 
-    def test_docx_do_normativo_na_pasta_nova(self):
+    def test_docx_do_normativo(self):
         self.gravar('normativos/normaDeTeste.md')
         self.gravar('normativos/normaDeTeste.docx')
         self.assertFalha(self.finais(), 'Documentos/normativos/normaDeTeste.docx')
 
     def test_sem_pasta_de_normativos_passa(self):
-        self.gravar('regulamentoDeTeste.md')
+        self.gravar('template_estilos.docx')
         self.assertEqual(self.finais(), [])
+
+    # .md solto em Documentos/
+    def soltos(self):
+        return self.achados(verificar.checar_documentos_soltos, self.tmp.name)
+
+    def test_documentos_so_com_pastas_manifesto_e_template_passa(self):
+        self.gravar('normativos/normaDeTeste.md')
+        self.gravar('2026/regulamentoDasCompeticoesCearenses.md')
+        self.gravar('arquivosCongelados.sha256')
+        self.gravar('template_estilos.docx')
+        self.assertEqual(self.soltos(), [])
+
+    def test_md_solto_em_documentos(self):
+        self.gravar('normaDeTeste.md')
+        self.assertFalha(self.soltos(), 'Documentos/normaDeTeste.md')
 
 
 class Acervo(unittest.TestCase):
@@ -547,6 +535,7 @@ class Acervo(unittest.TestCase):
             verificar.checar_estrutura(rel, texto)
             verificar.checar_normativo(rel, texto)
         verificar.checar_finais_normativos(verificar.RAIZ)
+        verificar.checar_documentos_soltos(verificar.RAIZ)
         self.assertEqual(verificar.problemas, [])
 
 

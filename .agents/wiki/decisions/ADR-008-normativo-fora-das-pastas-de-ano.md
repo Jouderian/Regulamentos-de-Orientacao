@@ -41,10 +41,10 @@ Decidida na [*issue* #57](https://github.com/Jouderian/Regulamentos-de-Orientaca
 
 1. O normativo vive em **`Documentos/normativos/`**, uma norma por arquivo. As pastas de ano e os nomes do passado não mudam: o manifesto de arquivos congelados, as tags `v<ano>` e os links externos dependem deles.
 2. O nome do arquivo começa por **`norma`** (`normaDeUsoDoKitSportident.md`), como `regulamento…` e `regras…` já indicam o tipo do ato; **normativo** é o nome da categoria e da pasta. O regulamento do kit, ainda `em-elaboracao`, passa a "Norma de Uso do Kit de Cronometragem SPORTident".
-3. O verificador reconhece o normativo pelo caminho. Até o arquivo do kit mudar de pasta, aceita também `.md` direto em `Documentos/`; o segundo caso é removido depois da migração.
+3. O verificador reconhece o normativo pelo caminho. Enquanto o arquivo do kit não mudou de pasta, aceitou também `.md` direto em `Documentos/`; depois da migração esse caso foi removido, e o `.md` solto em `Documentos/` passou a ser acusado, para que norma posta no lugar errado não fique sem verificação.
 4. Renomear ou mover documento normativo vai no mesmo PR da correção dos links, exceção à regra de PR separado, porque a verificação documental acusa link quebrado.
 
 **Consequências:**
 - Cada norma futura entra em `Documentos/normativos/` sem alterar regra nem script, e o `CODEOWNERS` atual (`/Documentos/**/*.md`) já a cobre.
-- A migração tem dois PRs: o de infraestrutura, que aceita os dois caminhos e mescla sem aprovação, e o do arquivo, que precisa da equipe de regras.
+- A migração teve três PRs: a infraestrutura, que aceitou os dois caminhos; o do arquivo, que precisou da equipe de regras; e a remoção do caminho antigo.
 - Se uma norma passar a ter arquivos anexos (como formulários dos Anexos III e IV do kit), a estrutura de uma pasta por norma deve ser reavaliada.

@@ -50,16 +50,10 @@ PASTA_NORMATIVOS = 'normativos'
 
 
 def _eh_normativo(rel):
-    """Normativo (ADR-008): `.md` direto em Documentos/normativos/.
-
-    Transitório (#57): até o normativo do kit mudar para a pasta nova, vale também
-    `.md` direto em Documentos/. Remover o segundo caso (`len(partes) == 2`) depois
-    da migração.
-    """
+    """Normativo (ADR-008): `.md` direto em Documentos/normativos/."""
     partes = rel.replace('\\', '/').split('/')
-    if partes[0] != 'Documentos' or not partes[-1].endswith('.md'):
-        return False
-    return partes[1:-1] == [PASTA_NORMATIVOS] or len(partes) == 2
+    return (len(partes) == 3 and partes[0] == 'Documentos'
+            and partes[1] == PASTA_NORMATIVOS and partes[2].endswith('.md'))
 
 
 def sem_codigo(texto):
@@ -648,19 +642,28 @@ def checar_normativo(rel, texto):
 
 def checar_finais_normativos(raiz):
     """Normativo não gera nem congela .docx ou .pdf (ADR-008)."""
-    for subpasta in ('', PASTA_NORMATIVOS):  # '' é o caminho transitório (#57)
-        pasta = os.path.join(raiz, 'Documentos', subpasta)
-        if not os.path.isdir(pasta):
+    pasta = os.path.join(raiz, 'Documentos', PASTA_NORMATIVOS)
+    if not os.path.isdir(pasta):
+        return
+    nomes = sorted(n for n in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, n)))
+    for nome in nomes:
+        if not nome.endswith('.md'):
             continue
-        prefixo = f'Documentos/{subpasta}/' if subpasta else 'Documentos/'
-        nomes = sorted(n for n in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, n)))
-        for nome in nomes:
-            if not _eh_normativo(prefixo + nome):
-                continue
-            base = os.path.splitext(nome)[0]
-            for outro in nomes:
-                if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
-                    falha(prefixo + outro, 0, 'normativo não gera nem congela .docx ou .pdf (ADR-008)')
+        base = os.path.splitext(nome)[0]
+        for outro in nomes:
+            if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
+                falha(f'Documentos/{PASTA_NORMATIVOS}/{outro}', 0,
+                      'normativo não gera nem congela .docx ou .pdf (ADR-008)')
+
+
+def checar_documentos_soltos(raiz):
+    """`.md` direto em Documentos/ não é de edição nem normativo, e ficaria sem verificação (ADR-008)."""
+    documentos = os.path.join(raiz, 'Documentos')
+    for nome in sorted(os.listdir(documentos)):
+        if nome.endswith('.md') and os.path.isfile(os.path.join(documentos, nome)):
+            falha(f'Documentos/{nome}', 0,
+                  f'documento solto em Documentos/: normativo vai em Documentos/{PASTA_NORMATIVOS}/ '
+                  'e documento de edição em Documentos/<ano>/')
 
 
 # --------------------------------------------------------------------------
@@ -688,6 +691,7 @@ def main():
     checar_indice_specs(RAIZ)
     checar_finais_em_elaboracao(RAIZ)
     checar_finais_normativos(RAIZ)
+    checar_documentos_soltos(RAIZ)
 
     manifesto = os.path.join(RAIZ, MANIFESTO)
     checar_congelados(RAIZ, ler(manifesto) if os.path.exists(manifesto) else '', manifesto_base())
