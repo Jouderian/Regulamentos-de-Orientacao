@@ -44,6 +44,7 @@ trigger: always_on
 
 - **Pasta do ano.** Todo documento de uma edição vive em `Documentos/<ano>/` desde o início da elaboração. Na raiz, só o `clubesCampeoes.md`, que acumula todos os anos.
 - **Status.** O frontmatter diz a fase: `em-elaboracao` (a única que se altera), `vigente` (exatamente uma por documento, a última publicada) ou `arquivado`. O regulamento estadual e a ROP do ano seguinte podem estar em elaboração ao mesmo tempo, no máximo um de cada. A ROP em uso é a do ano de `rop_referencia`.
+- **Regulamento permanente.** Regulamento da FECORI sem edição anual, como o de uso do kit SPORTident, vive em `Documentos/`, fora das pastas de ano: `em-elaboracao` até a aprovação da Diretoria e `vigente` depois, com as datas em `aprovacao` e `referendo`. A alteração aprovada entra no mesmo arquivo, e o PR que muda texto `vigente` só é mesclado depois da aprovação ([ADR-008](../wiki/decisions/ADR-008-regulamento-permanente-fora-das-pastas-de-ano.md)).
 - **Abrir e publicar.** A edição nova nasce da cópia do `.md` da vigente para a pasta do ano novo. Na publicação, num só commit, a em elaboração passa a `vigente` e a anterior a `arquivado`, o `.pdf` final é congelado, o `.docx` sai da pasta e o commit recebe a tag anotada `v<ano>`. Passo a passo: [`publicar-edicao.md`](../workflows/publicar-edicao.md).
 - **Congelamento.** São congelados o `.pdf` do regulamento estadual (CCO, CCOS ou unificado) de edição fechada, assinado digitalmente, e o `.pdf` da ROP publicada pela CBO; o SHA-256 de cada um fica em `Documentos/arquivosCongelados.sha256`. Nenhum agente regenera, substitui, edita ou remove PDF congelado, nem altera ou remove a linha dele. O PDF da minuta da ROP, os resultados de clubes e o `.docx` não são congelados. O regulamento em elaboração existe só como `.md`: o `.docx` e o `.pdf` dele são gerados na publicação, e o `.docx` não fica no acervo. A verificação documental e o `gerar-documentos.py` impõem isso ([ADR-006](../wiki/decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md)).
 - **`.md` de edição fechada** só recebe correção de transcrição contra o PDF publicado; mudança normativa exige nova edição.
@@ -82,6 +83,7 @@ Definição dos rótulos, ciclo da sugestão, comandos e modelo de fechamento: [
   | `cco` | Regras específicas do Campeonato Cearense de Orientação |
   | `ccos` | Regras específicas do Campeonato Cearense de Orientação Sprint |
   | `rop` | Regras de Orientação Pedestre (documento nacional da CBO) |
+  | `kit` | Regulamento de uso do kit de cronometragem SPORTident da FECORI |
   | `acervo` | Organização de `Documentos/<ano>/`, edições arquivadas e manifesto de arquivos congelados |
   | `historico` | `clubesCampeoes.md` e dados de classificação de clubes |
   | `agents` | Artefatos de `.agents/` (regras, specs, workflows, wiki, scripts) |
