@@ -46,11 +46,20 @@ def linha_de(texto, pos):
     return texto.count('\n', 0, pos) + 1
 
 
+PASTA_NORMATIVOS = 'normativos'
+
+
 def _eh_normativo(rel):
-    """Normativo (ADR-008): `.md` direto em Documentos/, fora das pastas de ano e do histórico de clubes."""
+    """Normativo (ADR-008): `.md` direto em Documentos/normativos/.
+
+    Transitório (#57): até o normativo do kit mudar para a pasta nova, vale também
+    `.md` direto em Documentos/. Remover o segundo caso (`len(partes) == 2`) depois
+    da migração.
+    """
     partes = rel.replace('\\', '/').split('/')
-    return (len(partes) == 2 and partes[0] == 'Documentos'
-            and partes[1].endswith('.md') and partes[1] != 'clubesCampeoes.md')
+    if partes[0] != 'Documentos' or not partes[-1].endswith('.md'):
+        return False
+    return partes[1:-1] == [PASTA_NORMATIVOS] or len(partes) == 2
 
 
 def sem_codigo(texto):
@@ -576,7 +585,7 @@ def checar_finais_em_elaboracao(raiz):
 
 
 # --------------------------------------------------------------------------
-# 11. Normativos (ADR-008): `.md` direto em Documentos/, sem edição anual. Além
+# 11. Normativos (ADR-008): `.md` em Documentos/normativos/, sem edição anual. Além
 #     da estrutura e da tipografia (seções 2, 3 e 7), exigem frontmatter com
 #     status, datas de aprovação e referendo válidas e, se vigentes, sem
 #     pendência `???`; não geram nem congelam .docx ou .pdf.
@@ -639,15 +648,19 @@ def checar_normativo(rel, texto):
 
 def checar_finais_normativos(raiz):
     """Normativo não gera nem congela .docx ou .pdf (ADR-008)."""
-    documentos = os.path.join(raiz, 'Documentos')
-    nomes = sorted(os.listdir(documentos))
-    for nome in nomes:
-        if not _eh_normativo(f'Documentos/{nome}'):
+    for subpasta in ('', PASTA_NORMATIVOS):  # '' é o caminho transitório (#57)
+        pasta = os.path.join(raiz, 'Documentos', subpasta)
+        if not os.path.isdir(pasta):
             continue
-        base = os.path.splitext(nome)[0]
-        for outro in nomes:
-            if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
-                falha(f'Documentos/{outro}', 0, 'normativo não gera nem congela .docx ou .pdf (ADR-008)')
+        prefixo = f'Documentos/{subpasta}/' if subpasta else 'Documentos/'
+        nomes = sorted(n for n in os.listdir(pasta) if os.path.isfile(os.path.join(pasta, n)))
+        for nome in nomes:
+            if not _eh_normativo(prefixo + nome):
+                continue
+            base = os.path.splitext(nome)[0]
+            for outro in nomes:
+                if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
+                    falha(prefixo + outro, 0, 'normativo não gera nem congela .docx ou .pdf (ADR-008)')
 
 
 # --------------------------------------------------------------------------
