@@ -109,7 +109,7 @@ description: Regulamento de uso do kit de cronometragem SPORTident da FECORI (em
 
 > **Parágrafo 2º:** O SI-Card do kit perdido ou danificado por atleta é de responsabilidade do clube perante a FECORI, sem prejuízo de o clube cobrar do atleta o valor correspondente.
 
-> **Parágrafo 3º:** Em caso de furto ou roubo, o clube registra boletim de ocorrência e comunica o gestor do kit em até 24 (vinte e quatro) horas; a Diretoria da FECORI decide se o clube responde pela reposição.
+> **Parágrafo 3º:** Em caso de furto, roubo ou perda, o clube comunica o gestor do kit em até 24 (vinte e quatro) horas da constatação ou do término do evento, o que ocorrer primeiro, e, no furto ou roubo, registra boletim de ocorrência; a Diretoria da FECORI decide se o clube responde pela reposição.
 
 **Art. 14** – Por SI-Card do kit alugado ou cedido sem cobrança, usado ou não pelo atleta, o clube responsável paga à FECORI o valor fixado no *Regimento de Taxas* da FECORI, em até 15 (quinze) dias depois do evento, com a relação desses SI-Cards.
 
@@ -119,7 +119,7 @@ description: Regulamento de uso do kit de cronometragem SPORTident da FECORI (em
 
 ## 7. Das Avarias, dos Extravios e da Reposição
 
-**Art. 15** – Toda avaria ou extravio ocorrido com o clube responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas do fim do evento e registrado no *Termo de Retirada e Devolução*.
+**Art. 15** – Toda avaria ou extravio ocorrido com o clube responsável é comunicado ao gestor do kit em até 24 (vinte e quatro) horas da constatação ou do término do evento, o que ocorrer primeiro, e registrado no *Termo de Retirada e Devolução*.
 
 **Art. 16** – A Diretoria da FECORI, ouvidos o gestor do kit e o clube responsável, classifica cada avaria como desgaste natural ou como dano.
 
