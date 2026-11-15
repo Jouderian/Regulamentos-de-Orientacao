@@ -19,7 +19,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 | [ADR-005](decisions/ADR-005-controle-de-pendencias-por-issues.md) | Controle de pendências por *issues* | *Issues* como único controle, com tipo e equipe por rótulo; sugestão fecha na deliberação e a aplicação vira `tarefa` |
 | [ADR-006](decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md) | Edições por ano e arquivos congelados | Cada edição em `Documentos/<ano>/` desde a elaboração, o regulamento só como `.md` até a publicação; PDF publicado congelado por manifesto de hashes |
 | [ADR-007](decisions/ADR-007-licenciamento-cc-by-e-relacao-com-o-codigo.md) | Licenciamento CC BY 4.0 | Organização e formatação em CC BY 4.0 com o texto oficial no `LICENSE`; conteúdo das regras é das entidades; independente da licença do código de apuração |
-| [ADR-008](decisions/ADR-008-normativo-fora-das-pastas-de-ano.md) | Normativo | Documento normativo técnico da FECORI sem edição anual, como o do kit SPORTident, em `Documentos/` fora das pastas de ano; alterado no mesmo arquivo, com `status`, `aprovacao` e `referendo`, e coberto pela verificação documental; o Regimento de Taxas só é citado |
+| [ADR-008](decisions/ADR-008-normativo-fora-das-pastas-de-ano.md) | Normativo | Documento normativo técnico da FECORI sem edição anual, como o do kit SPORTident, em `Documentos/normativos/` fora das pastas de ano; alterado no mesmo arquivo, com `status`, `aprovacao` e `referendo`, e coberto pela verificação documental; o Regimento de Taxas só é citado |
 
 ## Páginas Temáticas
 

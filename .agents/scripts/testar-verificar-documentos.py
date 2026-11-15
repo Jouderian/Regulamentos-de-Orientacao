@@ -348,6 +348,7 @@ class Normativos(unittest.TestCase):
     """Normativo (ADR-008): `.md` direto em Documentos/, fora das pastas de ano."""
 
     REL = 'Documentos/regulamentoDeTeste.md'
+    REL_NOVO = 'Documentos/normativos/normaDeTeste.md'
     CABECALHO = '---\nstatus: em-elaboracao\ndescription: Normativo de teste\n---\n\n'
     VIGENTE = '---\nstatus: vigente\ndescription: Normativo de teste\naprovacao: 2026-11-20\n---\n\n'
 
@@ -372,12 +373,31 @@ class Normativos(unittest.TestCase):
         return self.achados(verificar.checar_normativo, self.REL, texto + BASE + artigos(1))
 
     # Reconhecimento do normativo
-    def test_reconhece_so_md_direto_em_documentos(self):
-        self.assertTrue(verificar._eh_normativo('Documentos/regulamentoDeUsoDoKitSportident.md'))
-        self.assertFalse(verificar._eh_normativo('Documentos/clubesCampeoes.md'))
+    def test_reconhece_md_em_documentos_normativos(self):
+        self.assertTrue(verificar._eh_normativo('Documentos/normativos/normaDeUsoDoKitSportident.md'))
+        self.assertTrue(verificar._eh_normativo('Documentos\\normativos\\normaDeUsoDoKitSportident.md'))
+
+    def test_nao_reconhece_o_que_nao_e_normativo(self):
         self.assertFalse(verificar._eh_normativo('Documentos/2026/regulamentoDasCompeticoesCearenses.md'))
+        self.assertFalse(verificar._eh_normativo('Documentos/normativos/anexos/termo.md'))
+        self.assertFalse(verificar._eh_normativo('Documentos/normativos/normaDeTeste.pdf'))
         self.assertFalse(verificar._eh_normativo('Documentos/arquivosCongelados.sha256'))
+        self.assertFalse(verificar._eh_normativo('clubesCampeoes.md'))
         self.assertFalse(verificar._eh_normativo('README.md'))
+
+    def test_caminho_antigo_vale_ate_a_migracao(self):
+        """Transitório (#57): remover junto com o segundo caso de `_eh_normativo`."""
+        self.assertTrue(verificar._eh_normativo('Documentos/regulamentoDeUsoDoKitSportident.md'))
+
+    def test_estrutura_e_conferida_na_pasta_nova(self):
+        achados = self.achados(verificar.checar_estrutura, self.REL_NOVO,
+                               self.CABECALHO + BASE + artigos(1, 2, 4))
+        self.assertFalha(achados, 'salto na sequência de artigos')
+
+    def test_frontmatter_e_conferido_na_pasta_nova(self):
+        achados = self.achados(verificar.checar_normativo, self.REL_NOVO,
+                               self.CABECALHO.replace('em-elaboracao', 'arquivado') + BASE + artigos(1))
+        self.assertFalha(achados, 'status inválido "arquivado"')
 
     # Estrutura e tipografia
     def test_normativo_correto_passa(self):
@@ -498,6 +518,25 @@ class Normativos(unittest.TestCase):
         self.gravar('regulamentoDeTeste.md')
         self.gravar('regulamentoDeTeste.docx')
         self.assertFalha(self.finais(), 'Documentos/regulamentoDeTeste.docx')
+
+    def test_so_md_na_pasta_nova_passa(self):
+        self.gravar('normativos/normaDeTeste.md')
+        self.gravar('template_estilos.docx')
+        self.assertEqual(self.finais(), [])
+
+    def test_pdf_do_normativo_na_pasta_nova(self):
+        self.gravar('normativos/normaDeTeste.md')
+        self.gravar('normativos/normaDeTeste.pdf')
+        self.assertFalha(self.finais(), 'Documentos/normativos/normaDeTeste.pdf')
+
+    def test_docx_do_normativo_na_pasta_nova(self):
+        self.gravar('normativos/normaDeTeste.md')
+        self.gravar('normativos/normaDeTeste.docx')
+        self.assertFalha(self.finais(), 'Documentos/normativos/normaDeTeste.docx')
+
+    def test_sem_pasta_de_normativos_passa(self):
+        self.gravar('regulamentoDeTeste.md')
+        self.assertEqual(self.finais(), [])
 
 
 class Acervo(unittest.TestCase):

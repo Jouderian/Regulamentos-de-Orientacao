@@ -18,7 +18,7 @@ git pull
 git switch -c ci/29-revisao-por-pr
 ```
 
-**Um tipo de caminho por PR.** O texto normativo (`Documentos/**/*.md`, `clubesCampeoes.md`) vai em branch e PR próprios; scripts, CI, ADRs, regras e workflows vão em outro. Basta um arquivo coberto pelo `CODEOWNERS` para o PR inteiro esperar a aprovação do dono, e separar evita que o atraso dela trave o que não precisa de revisão. Quando um PR depende do outro, mescle primeiro o que não espera aprovação.
+**Um tipo de caminho por PR.** O texto normativo (`Documentos/**/*.md`, `clubesCampeoes.md`) vai em branch e PR próprios; scripts, CI, ADRs, regras e workflows vão em outro. Basta um arquivo coberto pelo `CODEOWNERS` para o PR inteiro esperar a aprovação do dono, e separar evita que o atraso dela trave o que não precisa de revisão. Quando um PR depende do outro, mescle primeiro o que não espera aprovação. A única exceção é renomear ou mover documento normativo, que vai no mesmo PR da correção dos links (README, ADRs, wiki), porque a verificação documental acusa link quebrado.
 
 ## 2. Verificar os Documentos
 
