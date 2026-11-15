@@ -344,11 +344,170 @@ class IndiceSpecs(unittest.TestCase):
         self.assertTrue(self.problemas())
 
 
+class Normativos(unittest.TestCase):
+    """Normativo (ADR-008): `.md` direto em Documentos/, fora das pastas de ano."""
+
+    REL = 'Documentos/regulamentoDeTeste.md'
+    CABECALHO = '---\nstatus: em-elaboracao\ndescription: Normativo de teste\n---\n\n'
+    VIGENTE = '---\nstatus: vigente\ndescription: Normativo de teste\naprovacao: 2026-11-20\n---\n\n'
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def achados(self, funcao, *args):
+        verificar.problemas.clear()
+        funcao(*args)
+        return list(verificar.problemas)
+
+    def assertFalha(self, achados, trecho):
+        self.assertTrue(any(trecho in p for p in achados), f'esperava "{trecho}" em {achados}')
+
+    def estrutura(self, corpo):
+        return self.achados(verificar.checar_estrutura, self.REL, self.CABECALHO + BASE + corpo)
+
+    def frontmatter(self, texto):
+        return self.achados(verificar.checar_normativo, self.REL, texto + BASE + artigos(1))
+
+    # Reconhecimento do normativo
+    def test_reconhece_so_md_direto_em_documentos(self):
+        self.assertTrue(verificar._eh_normativo('Documentos/regulamentoDeUsoDoKitSportident.md'))
+        self.assertFalse(verificar._eh_normativo('Documentos/clubesCampeoes.md'))
+        self.assertFalse(verificar._eh_normativo('Documentos/2026/regulamentoDasCompeticoesCearenses.md'))
+        self.assertFalse(verificar._eh_normativo('Documentos/arquivosCongelados.sha256'))
+        self.assertFalse(verificar._eh_normativo('README.md'))
+
+    # Estrutura e tipografia
+    def test_normativo_correto_passa(self):
+        corpo = (artigos(*range(1, 12)) + '> **Parágrafo Único:** Texto.\n\n>> **a.** Item.\n\n'
+                 'Conforme o Art. 3º, o Art. 10 e os Arts. 2º, 4º e 8º a 11.\n')
+        self.assertEqual(self.estrutura(corpo), [])
+
+    def test_salto_na_sequencia(self):
+        self.assertFalha(self.estrutura(artigos(1, 2, 4)), 'salto na sequência de artigos')
+
+    def test_ordinal_do_artigo(self):
+        self.assertFalha(self.estrutura('**Art. 1** – Texto.\n'), 'deveria ser "Art. 1º"')
+
+    def test_artigo_fora_do_padrao_tipografico(self):
+        achados = self.achados(verificar.checar_tipografia, self.REL, '**Art. 1º** Texto sem travessão.\n')
+        self.assertFalha(achados, 'artigo fora do padrão')
+
+    # Referências sem "deste regulamento"
+    def test_referencia_a_artigo_inexistente(self):
+        self.assertFalha(self.estrutura(artigos(1, 2) + 'Conforme o Art. 9º.\n'),
+                         'referência a artigo inexistente neste documento: "Art. 9"')
+
+    def test_referencia_com_deste_regulamento_acusada_uma_vez(self):
+        achados = self.estrutura(artigos(1, 2) + 'Conforme o Art. 9º deste regulamento.\n')
+        self.assertEqual(len(achados), 1, achados)
+
+    def test_referencia_em_lista_e_intervalo(self):
+        achados = self.estrutura(artigos(*range(1, 12)) + 'Conforme os Arts. 2º, 3º e 5º a 10 e o Art. 40.\n')
+        self.assertFalha(achados, '"Art. 40"')
+        self.assertEqual(len(achados), 1, achados)
+
+    def test_ordinal_da_referencia(self):
+        self.assertFalha(self.estrutura(artigos(*range(1, 11)) + 'Conforme o Art. 3 e o Art. 10º.\n'),
+                         'ordinal da referência fora da convenção')
+
+    def test_referencia_a_outro_documento_e_ignorada(self):
+        self.assertEqual(self.estrutura(artigos(1, 2) + 'Conforme o Art. 55 do Estatuto da FECORI.\n'), [])
+
+    def test_titulo_do_artigo_nao_e_referencia(self):
+        self.assertEqual(self.estrutura(artigos(1, 2, 3)), [])
+
+    # Frontmatter
+    def test_frontmatter_em_elaboracao_passa(self):
+        self.assertEqual(self.frontmatter(self.CABECALHO.rstrip('\n') + '\n'), [])
+
+    def test_frontmatter_vigente_passa(self):
+        texto = self.VIGENTE.replace('---\n\n', 'referendo: 2026-12-15\n---\n\n')
+        self.assertEqual(self.frontmatter(texto), [])
+
+    def test_sem_frontmatter(self):
+        self.assertFalha(self.frontmatter(''), 'sem cabeçalho frontmatter')
+
+    def test_sem_status_nem_description(self):
+        achados = self.frontmatter('---\naprovacao: 2026-11-20\n---\n\n')
+        self.assertFalha(achados, 'campo obrigatório "status"')
+        self.assertFalha(achados, 'campo obrigatório "description"')
+
+    def test_status_arquivado_nao_existe(self):
+        self.assertFalha(self.frontmatter(self.CABECALHO.replace('em-elaboracao', 'arquivado')),
+                         'status inválido "arquivado"')
+
+    def test_status_com_erro_de_digitacao(self):
+        self.assertFalha(self.frontmatter(self.CABECALHO.replace('em-elaboracao', 'vigent')),
+                         'status inválido "vigent"')
+
+    def test_vigente_sem_aprovacao(self):
+        self.assertFalha(self.frontmatter(self.CABECALHO.replace('em-elaboracao', 'vigente')),
+                         'sem a data da aprovação')
+
+    def test_data_com_formato_invalido(self):
+        self.assertFalha(self.frontmatter(self.VIGENTE.replace('2026-11-20', '20/11/2026')),
+                         'data válida AAAA-MM-DD')
+
+    def test_data_inexistente(self):
+        self.assertFalha(self.frontmatter(self.VIGENTE.replace('2026-11-20', '2026-02-30')),
+                         'data válida AAAA-MM-DD')
+
+    def test_referendo_sem_aprovacao(self):
+        self.assertFalha(self.frontmatter(self.CABECALHO.replace('---\n\n', 'referendo: 2026-12-15\n---\n\n')),
+                         '"referendo" sem "aprovacao"')
+
+    def test_referendo_anterior_a_aprovacao(self):
+        self.assertFalha(self.frontmatter(self.VIGENTE.replace('---\n\n', 'referendo: 2026-11-01\n---\n\n')),
+                         'anterior a "aprovacao"')
+
+    def test_vigente_com_pendencia(self):
+        texto = self.VIGENTE + 'Valor: ???\n'
+        self.assertFalha(self.achados(verificar.checar_normativo, self.REL, texto), 'pendência "???"')
+
+    def test_em_elaboracao_com_pendencia_passa(self):
+        texto = self.CABECALHO + BASE + artigos(1) + 'Valor: ???\n'
+        self.assertEqual(self.achados(verificar.checar_normativo, self.REL, texto), [])
+
+    def test_documento_que_nao_e_normativo_e_ignorado(self):
+        self.assertEqual(self.achados(verificar.checar_normativo, 'Documentos/2026/regulamentoCCO.md', 'sem frontmatter'), [])
+
+    # .docx e .pdf
+    def gravar(self, rel, conteudo=b'x'):
+        caminho = os.path.join(self.tmp.name, 'Documentos', rel)
+        os.makedirs(os.path.dirname(caminho), exist_ok=True)
+        with open(caminho, 'wb') as fh:
+            fh.write(conteudo)
+
+    def finais(self):
+        return self.achados(verificar.checar_finais_normativos, self.tmp.name)
+
+    def test_so_md_passa(self):
+        self.gravar('regulamentoDeTeste.md')
+        self.gravar('template_estilos.docx')
+        self.assertEqual(self.finais(), [])
+
+    def test_pdf_do_normativo(self):
+        self.gravar('regulamentoDeTeste.md')
+        self.gravar('regulamentoDeTeste.pdf')
+        self.assertFalha(self.finais(), 'Documentos/regulamentoDeTeste.pdf')
+
+    def test_docx_do_normativo(self):
+        self.gravar('regulamentoDeTeste.md')
+        self.gravar('regulamentoDeTeste.docx')
+        self.assertFalha(self.finais(), 'Documentos/regulamentoDeTeste.docx')
+
+
 class Acervo(unittest.TestCase):
     def test_acervo_passa_na_verificacao_inteira(self):
         verificar.problemas.clear()
         for rel, caminho in verificar.arquivos_md():
-            verificar.checar_estrutura(rel, verificar.ler(caminho))
+            texto = verificar.ler(caminho)
+            verificar.checar_estrutura(rel, texto)
+            verificar.checar_normativo(rel, texto)
+        verificar.checar_finais_normativos(verificar.RAIZ)
         self.assertEqual(verificar.problemas, [])
 
 

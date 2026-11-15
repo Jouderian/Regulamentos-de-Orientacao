@@ -10,6 +10,7 @@ Executado pelo CI (.github/workflows/verificacao-documental.yml) e localmente:
 edição fechada e ROP) que ainda não estão nele; nunca altera uma linha
 existente. Sai com código 1 se encontrar qualquer problema.
 """
+import datetime
 import hashlib
 import os
 import re
@@ -43,6 +44,13 @@ def ler(caminho):
 
 def linha_de(texto, pos):
     return texto.count('\n', 0, pos) + 1
+
+
+def _eh_normativo(rel):
+    """Normativo (ADR-008): `.md` direto em Documentos/, fora das pastas de ano e do histórico de clubes."""
+    partes = rel.replace('\\', '/').split('/')
+    return (len(partes) == 2 and partes[0] == 'Documentos'
+            and partes[1].endswith('.md') and partes[1] != 'clubesCampeoes.md')
 
 
 def sem_codigo(texto):
@@ -102,7 +110,7 @@ def checar_artefatos(rel, texto):
 # --------------------------------------------------------------------------
 def checar_tipografia(rel, texto):
     nome = os.path.basename(rel)
-    if not nome.startswith(('regulamentoCCO', 'regulamentoDasCompeticoes')):
+    if not (nome.startswith(('regulamentoCCO', 'regulamentoDasCompeticoes')) or _eh_normativo(rel)):
         return
     for m in re.finditer(r'(?m)^\*\*Art\.? ?\d+.{0,3}?\*\*(?! – \S)(.{0,20})', texto):
         falha(rel, linha_de(texto, m.start()),
@@ -434,6 +442,11 @@ ARTIGO = re.compile(r'(?m)^\*\*Art\.? ?(\d+)([^*]{0,3}?)\*\*')
 REFERENCIA = re.compile(r'(?i)\bArt(?:igo|\.)? ?(\d+)(º|°|o)?\s+deste\s+regulamento')
 PARAGRAFO_UNICO = re.compile(r'(?mi)^[> ]*\**\s*Parágrafo\s+[uú]nico.*$')
 ALINEA = re.compile(r'(?m)^>+ ?\*\*(\(?[a-z][).]?)\*\*')
+# Referência de normativo, sem "deste regulamento": "Art. 9º", "Arts. 12, 13 e 15 a 17".
+# Não casa o título do artigo (`**Art. 9º**`), que vem depois de "*".
+REFERENCIA_NORMATIVO = re.compile(r'(?<![\w*])Arts?\.? ?(\d+[º°]?(?:(?:,| e| a| ao) \d+[º°]?)*)(?!\w)')
+NUMERO_ORDINAL = re.compile(r'(\d+)([º°]?)')
+OUTRO_DOCUMENTO = re.compile(r'\s+d[oa]s?\s+(?!presente\b|este\b|esta\b)')
 
 
 def _ordinal_correto(numero, sufixo):
@@ -441,8 +454,25 @@ def _ordinal_correto(numero, sufixo):
     return sufixo == ('º' if numero < 10 else '')
 
 
+def _checar_referencias_normativo(rel, prosa, existentes):
+    """Todo `Art. N` do normativo (inclusive em lista, como "Arts. 12, 13 e 15 a 17") aponta para artigo que existe.
+
+    Referência a outro documento ("Art. 5º do Estatuto") é ignorada.
+    """
+    for m in REFERENCIA_NORMATIVO.finditer(prosa):
+        if OUTRO_DOCUMENTO.match(prosa, m.end()):
+            continue
+        linha = linha_de(prosa, m.start())
+        for n in NUMERO_ORDINAL.finditer(m.group(1)):
+            numero, sufixo = int(n.group(1)), n.group(2) or ''
+            if numero not in existentes:
+                falha(rel, linha, f'referência a artigo inexistente neste documento: "Art. {numero}"')
+            if not _ordinal_correto(numero, sufixo):
+                falha(rel, linha, f'ordinal da referência fora da convenção: {m.group(0)!r}')
+
+
 def checar_estrutura(rel, texto):
-    if not os.path.basename(rel).startswith(PREFIXOS_REGULAMENTO):
+    if not os.path.basename(rel).startswith(PREFIXOS_REGULAMENTO) and not _eh_normativo(rel):
         return
     prosa = sem_codigo(texto)
 
@@ -462,13 +492,16 @@ def checar_estrutura(rel, texto):
         existentes.add(numero)
         anterior = numero
 
-    for m in REFERENCIA.finditer(prosa):
-        numero, sufixo = int(m.group(1)), m.group(2) or ''
-        linha = linha_de(prosa, m.start())
-        if numero not in existentes:
-            falha(rel, linha, f'referência a artigo inexistente neste documento: {m.group(0)!r}')
-        if not _ordinal_correto(numero, sufixo):
-            falha(rel, linha, f'ordinal da referência fora da convenção: {m.group(0)!r}')
+    if _eh_normativo(rel):
+        _checar_referencias_normativo(rel, prosa, existentes)
+    else:
+        for m in REFERENCIA.finditer(prosa):
+            numero, sufixo = int(m.group(1)), m.group(2) or ''
+            linha = linha_de(prosa, m.start())
+            if numero not in existentes:
+                falha(rel, linha, f'referência a artigo inexistente neste documento: {m.group(0)!r}')
+            if not _ordinal_correto(numero, sufixo):
+                falha(rel, linha, f'ordinal da referência fora da convenção: {m.group(0)!r}')
 
     for m in PARAGRAFO_UNICO.finditer(prosa):
         if not m.group(0).startswith('> **Parágrafo Único:**'):
@@ -543,6 +576,81 @@ def checar_finais_em_elaboracao(raiz):
 
 
 # --------------------------------------------------------------------------
+# 11. Normativos (ADR-008): `.md` direto em Documentos/, sem edição anual. Além
+#     da estrutura e da tipografia (seções 2, 3 e 7), exigem frontmatter com
+#     status, datas de aprovação e referendo válidas e, se vigentes, sem
+#     pendência `???`; não geram nem congelam .docx ou .pdf.
+# --------------------------------------------------------------------------
+STATUS_NORMATIVO = ('em-elaboracao', 'vigente')
+DATA_ISO = re.compile(r'\d{4}-\d{2}-\d{2}')
+
+
+def _data_valida(valor):
+    if not DATA_ISO.fullmatch(valor):
+        return None
+    try:
+        return datetime.date.fromisoformat(valor)
+    except ValueError:
+        return None
+
+
+def checar_normativo(rel, texto):
+    if not _eh_normativo(rel):
+        return
+    if not texto.startswith('---') or texto.count('---') < 2:
+        falha(rel, 1, 'normativo sem cabeçalho frontmatter YAML')
+        return
+    cabecalho = texto.split('---', 2)[1]
+
+    def campo(nome):
+        m = re.search(r'(?m)^' + nome + r':[ \t]*(.*?)[ \t]*$', cabecalho)
+        return None if m is None else m.group(1)
+
+    for nome in ('description', 'status'):
+        if not campo(nome):
+            falha(rel, 1, f'frontmatter sem campo obrigatório "{nome}"')
+
+    status = campo('status')
+    if status and status not in STATUS_NORMATIVO:
+        falha(rel, 1, f'status inválido "{status}" no normativo (esperado: "em-elaboracao" ou "vigente"; '
+                      'não há "arquivado": o histórico fica no Git, ADR-008)')
+
+    datas = {}
+    for nome in ('aprovacao', 'referendo'):
+        valor = campo(nome)
+        if valor is None:
+            continue
+        datas[nome] = _data_valida(valor)
+        if datas[nome] is None:
+            falha(rel, 1, f'campo "{nome}" deve ser uma data válida AAAA-MM-DD, não {valor!r}')
+
+    if status == 'vigente' and 'aprovacao' not in datas:
+        falha(rel, 1, 'normativo "vigente" sem a data da aprovação da Diretoria no campo "aprovacao"')
+    if 'referendo' in datas and 'aprovacao' not in datas:
+        falha(rel, 1, 'campo "referendo" sem "aprovacao": o referendo da Assembleia Geral é posterior à aprovação')
+    if datas.get('aprovacao') and datas.get('referendo') and datas['referendo'] < datas['aprovacao']:
+        falha(rel, 1, 'campo "referendo" anterior a "aprovacao"')
+
+    if status == 'vigente':
+        prosa = sem_codigo(texto)
+        for m in re.finditer(r'\?\?\?', prosa):
+            falha(rel, linha_de(prosa, m.start()), 'normativo "vigente" com pendência "???"')
+
+
+def checar_finais_normativos(raiz):
+    """Normativo não gera nem congela .docx ou .pdf (ADR-008)."""
+    documentos = os.path.join(raiz, 'Documentos')
+    nomes = sorted(os.listdir(documentos))
+    for nome in nomes:
+        if not _eh_normativo(f'Documentos/{nome}'):
+            continue
+        base = os.path.splitext(nome)[0]
+        for outro in nomes:
+            if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
+                falha(f'Documentos/{outro}', 0, 'normativo não gera nem congela .docx ou .pdf (ADR-008)')
+
+
+# --------------------------------------------------------------------------
 def main():
     if '--congelar' in sys.argv[1:]:
         congelar(RAIZ)
@@ -560,11 +668,13 @@ def main():
         checar_frontmatter(rel, texto)
         checar_medalhas(rel, texto)
         checar_metadados_regulamento(rel, texto, edicoes)
+        checar_normativo(rel, texto)
         checar_status_rop(rel, texto, rops)
     checar_edicoes(edicoes)
     checar_rops(rops)
     checar_indice_specs(RAIZ)
     checar_finais_em_elaboracao(RAIZ)
+    checar_finais_normativos(RAIZ)
 
     manifesto = os.path.join(RAIZ, MANIFESTO)
     checar_congelados(RAIZ, ler(manifesto) if os.path.exists(manifesto) else '', manifesto_base())
