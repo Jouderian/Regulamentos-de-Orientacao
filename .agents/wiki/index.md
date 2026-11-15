@@ -4,7 +4,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 
 # Base de Conhecimento
 
-Última atualização: 2026-11-08
+Última atualização: 2026-11-15
 
 Índice das páginas da wiki. As decisões formais ficam em `decisions/` como ADRs; specs, planos e workflows continuam sendo a fonte de verdade de cada iniciativa e não são duplicados aqui.
 
@@ -19,6 +19,7 @@ description: Índice da base de conhecimento do projeto — decisões arquitetur
 | [ADR-005](decisions/ADR-005-controle-de-pendencias-por-issues.md) | Controle de pendências por *issues* | *Issues* como único controle, com tipo e equipe por rótulo; sugestão fecha na deliberação e a aplicação vira `tarefa` |
 | [ADR-006](decisions/ADR-006-edicoes-por-ano-e-arquivos-congelados.md) | Edições por ano e arquivos congelados | Cada edição em `Documentos/<ano>/` desde a elaboração, o regulamento só como `.md` até a publicação; PDF publicado congelado por manifesto de hashes |
 | [ADR-007](decisions/ADR-007-licenciamento-cc-by-e-relacao-com-o-codigo.md) | Licenciamento CC BY 4.0 | Organização e formatação em CC BY 4.0 com o texto oficial no `LICENSE`; conteúdo das regras é das entidades; independente da licença do código de apuração |
+| [ADR-008](decisions/ADR-008-regulamento-permanente-fora-das-pastas-de-ano.md) | Regulamento permanente | Regulamento da FECORI sem edição anual, como o do kit SPORTident, em `Documentos/` fora das pastas de ano; alterado no mesmo arquivo, com `status`, `aprovacao` e `referendo` |
 
 ## Páginas Temáticas
 
