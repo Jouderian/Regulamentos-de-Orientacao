@@ -1,15 +1,15 @@
 ---
 status: em-elaboracao
-description: Regulamento de uso do kit de cronometragem SPORTident da FECORI (em elaboração)
+description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elaboração)
 ---
 
-# Regulamento de Uso do Kit de Cronometragem SPORTident
+# Norma de Uso do Kit de Cronometragem SPORTident
 
 ## 1. Disposições Gerais
 
-**Art. 1º** – O presente regulamento estabelece as regras de uso, guarda, solicitação, retirada, devolução, manutenção e reposição do kit de cronometragem eletrônica *SPORTident* de propriedade da **Federação Cearense de Orientação** (FECORI).
+**Art. 1º** – A presente norma estabelece as regras de uso, guarda, solicitação, retirada, devolução, manutenção e reposição do kit de cronometragem eletrônica *SPORTident* de propriedade da **Federação Cearense de Orientação** (FECORI).
 
-**Art. 2º** – Para os fins deste regulamento, considera-se:
+**Art. 2º** – Para os fins desta norma, considera-se:
 
 >> **a.** *Kit*: o conjunto de estações, SI-Cards, acessórios e maletas relacionado no *Anexo I*;
 
@@ -29,7 +29,7 @@ description: Regulamento de uso do kit de cronometragem SPORTident da FECORI (em
 
 > **Parágrafo 1º:** O clube responsável não pode ceder nem emprestar o kit, no todo ou em parte, a outro clube ou a terceiro, salvo autorização prévia da FECORI. O aluguel de SI-Card aos atletas do próprio evento é permitido, nos termos do Art. 14.
 
-> **Parágrafo 2º:** O clube com pendência de devolução, reposição ou repasse prevista neste regulamento não pode solicitar o kit até regularizá-la.
+> **Parágrafo 2º:** O clube com pendência de devolução, reposição ou repasse prevista nesta norma não pode solicitar o kit até regularizá-la.
 
 **Art. 4º** – Enquanto não estiver em poder de um clube responsável, o kit fica sob a guarda do seu gestor.
 
@@ -165,13 +165,13 @@ description: Regulamento de uso do kit de cronometragem SPORTident da FECORI (em
 
 ## 9. Disposições Finais e Transitórias
 
-**Art. 23** – Este regulamento é aprovado e alterado pela Diretoria da FECORI e submetido ao referendo da Assembleia Geral na primeira reunião seguinte.
+**Art. 23** – Esta norma é aprovada e alterada pela Diretoria da FECORI e submetida ao referendo da Assembleia Geral na primeira reunião seguinte.
 
 **Art. 24** – Os casos omissos são resolvidos pela Diretoria da FECORI.
 
-**Art. 25** – A Diretoria da FECORI designa o primeiro gestor do kit e seu substituto, nos termos do Art. 5º, na mesma reunião em que aprovar este regulamento.
+**Art. 25** – A Diretoria da FECORI designa o primeiro gestor do kit e seu substituto, nos termos do Art. 5º, na mesma reunião em que aprovar esta norma.
 
-**Art. 26** – Este regulamento entra em vigor na data de sua aprovação pela Diretoria da FECORI.
+**Art. 26** – Esta norma entra em vigor na data de sua aprovação pela Diretoria da FECORI.
 
 ## Anexo I – Inventário do Kit
 
@@ -216,5 +216,5 @@ O termo registra:
 - itens e quantidades emprestados e valor total segurado;
 - datas da remessa e da chegada de volta;
 - valor negociado pelo uso do kit e prazo de pagamento;
-- compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 deste regulamento;
+- compromisso de cumprir os Arts. 12, 13, 15 a 17 e 20 a 22 desta norma;
 - assinaturas do presidente da federação e de representante da FECORI.
