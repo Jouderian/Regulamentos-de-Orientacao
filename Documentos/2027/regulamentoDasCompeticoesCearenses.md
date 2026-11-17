@@ -143,15 +143,13 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 
 ## 6. Das Infrações, Desclassificação e Júri Técnico
 
-**Art. 24** – As causas de desclassificação são as previstas nos itens 3.9, 3.17, 3.20, 18.7, 19.9 e 23 da ROP, além de:
-
->> **a.** Deixar de informar a utilização de SI-Card diferente do registrado para o competidor.
+**Art. 24** – As causas de desclassificação são as previstas nos itens 3.9, 3.17, 3.20, 18.7, 19.9 e 23 da ROP e, ainda, deixar de informar a utilização de SI-Card diferente do registrado para o competidor.
 
 **Art. 25** – O fluxo de contestações obedece aos itens 36, 37 e 39 da ROP.
 
 **Art. 26** – Após a divulgação do resultado final do campeonato (CCO ou CCOS), detecções de infrações a este regulamento podem ser comunicadas à FECORI, por escrito, em até 48 horas. A FECORI terá 24 horas para analisar e emitir decisão.
 
-> **Parágrafo 1º:** A contestação só poderá ser feita em relação ao resultado final do campeonato.
+> **Parágrafo Único:** A contestação só poderá ser feita em relação ao resultado final do campeonato.
 
 **Art. 27** – O objetivo, composição e prerrogativas do Júri Técnico obedecem às DIRETRIZES PARA OS JÚRIS EM EVENTOS OFICIAIS da CBO e ao item 38 da ROP.
 
