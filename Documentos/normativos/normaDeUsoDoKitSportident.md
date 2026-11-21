@@ -214,25 +214,13 @@ description: Norma de uso do kit de cronometragem SPORTident da FECORI (em elabo
 
 ## Anexo III – Termo de Retirada e Devolução
 
-O termo registra:
-
-- clube, evento e data do evento;
-- nome, documento e contato do representante do clube;
-- datas da retirada e da devolução;
-- quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
-- ocorrências, avarias e extravios;
-- eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
-- assinaturas do gestor do kit e do representante do clube.
-
-### Modelo sugerido
-
 **Termo de Retirada e Devolução – Kit SPORTident (FECORI)**
 
 **1. Identificação do Clube, Evento e Representante**
 
 - **Clube filiado:** ___________________________________________
 - **Evento:** _________________________________________________
-- **Data do evento:** ____/____/____
+- **Data do evento:** ____ / ____ / ____
 - **Representante do clube:** __________________________________
 - **Documento (RG/CPF):** ___________________
 - **Contato (tel./e-mail):** ___________________________________________
@@ -240,8 +228,8 @@ O termo registra:
 
 **2. Prazos (Art. 10)**
 
-- **Data prevista para retirada:** ____/____/____ **Data efetiva da retirada:** ____/____/____
-- **Data prevista para devolução:** ____/____/____ **Data efetiva da devolução:** ____/____/____
+- **Data prevista para retirada:** ____ / ____ / ____ **Data efetiva da retirada:** ____ / ____ / ____
+- **Data prevista para devolução:** ____ / ____ / ____ **Data efetiva da devolução:** ____ / ____ / ____
 - **Prazo combinado diverso (Art. 10, Parágrafo 1º):** [ ] Não [ ] Sim — Acordo: ___________________
 
 **3. Conferência dos Itens do Anexo I (Art. 11)**
@@ -256,20 +244,26 @@ O termo registra:
 | SI-Card (faixa: _______________) | | | | |
 | Acessórios (impressora, suportes, cabos, maletas) | | | | |
 
-- **Conferência na retirada acompanhada pelo representante (Art. 11, Parágrafo 1º):** [ ] Sim [ ] Não *(prevalece a conferência do gestor)*
-- **Conferência na devolução acompanhada pelo representante (Art. 11, Parágrafo 1º):** [ ] Sim [ ] Não *(prevalece a conferência do gestor)*
+- **Conferência na retirada acompanhada pelo representante (Art. 11, Parágrafo 1º):**  
+[ ] Sim [ ] Não *(prevalece a conferência do gestor)*
+- **Conferência na devolução acompanhada pelo representante (Art. 11, Parágrafo 1º):**  
+[ ] Sim [ ] Não *(prevalece a conferência do gestor)*
 
 **4. Condições de Devolução e SI-Cards Utilizados (Arts. 12 e 14)**
 
-- **Kit devolvido completo, limpo e acondicionado nas maletas, com SI-Cards contados (Art. 12):** [ ] Sim [ ] Não
-- **Dados do evento extraídos das estações antes da devolução (Art. 12, Parágrafo Único):** [ ] Sim [ ] Não se aplica
-- **Quantidade de SI-Cards alugados ou cedidos sem cobrança (Art. 14):** _______ *(anexar relação para pagamento em até 15 dias após o evento)*
+- **Kit devolvido completo, limpo e acondicionado nas maletas, com SI-Cards contados (Art. 12):**  
+[ ] Sim [ ] Não
+- **Dados do evento extraídos das estações antes da devolução (Art. 12, Parágrafo Único):**  
+[ ] Sim [ ] Não se aplica
+- **Quantidade de SI-Cards alugados ou cedidos sem cobrança (Art. 14):**  
+_______ *(anexar relação para pagamento em até 15 dias após o evento)*
 
 **5. Ocorrências, Avarias e Extravios (Arts. 13, 15 a 17)**
 
 - **Houve ocorrência, avaria ou extravio?** [ ] Não [ ] Sim
-- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____/____/____ às ____h____
-- **Boletim de ocorrência anexado (furto/roubo, Art. 13, Parágrafo 3º):** ( ) Não se aplica ( ) Sim — Nº: _____________
+- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____ / ____ / ____ às ____h____
+- **Boletim de ocorrência anexado (furto/roubo, Art. 13, Parágrafo 3º):**  
+[ ] Não se aplica [ ] Sim — Nº: _____________
 - **Descrição detalhada (item, identificação e circunstância):** ___________________________________________
 
 **6. Declaração de Responsabilidade e Foro (Arts. 10, 13 e 25)**
@@ -278,10 +272,10 @@ O clube declara receber o kit nas condições descritas no item 3 e assume a res
 
 **7. Assinaturas**
 
-- **Na retirada** — Fortaleza/CE, ____/____/____
+- **Na retirada** — Fortaleza/CE, ____ / ____ / ____  
 > ___________________________ *(Gestor do Kit)* | ___________________________ *(Representante do Clube)*
 
-- **Na devolução** — Fortaleza/CE, ____/____/____
+- **Na devolução** — Fortaleza/CE, ____ / ____ / ____  
 > ___________________________ *(Gestor do Kit)* | ___________________________ *(Representante do Clube)*
 
 ## Anexo IV – Termo de Responsabilidade de Federação
@@ -316,12 +310,13 @@ O termo registra:
 **2. Aluguel, Seguro e Pagamento (Arts. 19, 20 e 21)**
 
 - **Valor negociado pelo uso do kit (Art. 20, Parágrafo Único):** R$ ______________
-- **Prazo de pagamento:** ____/____/____
+- **Prazo de pagamento:** ____ / ____ / ____
 - **Valor total segurado na ida e na volta (Art. 21, com a FECORI como beneficiária):** R$ ______________
-- **Comprovante do seguro apresentado antes da remessa (Art. 21, Parágrafo 1º):** [ ] Sim — Apólice/Ref.: ______________
-- **Data da remessa (retirada):** ____/____/____
-- **Data prevista de chegada de volta (Art. 22 — até 7 dias):** ____/____/______
-- **Data efetiva da chegada de volta:** ____/____/______
+- **Comprovante do seguro apresentado antes da remessa (Art. 21, Parágrafo 1º):**  
+[ ] Sim — Apólice/Ref.: ______________
+- **Data da remessa (retirada):** ____ / ____ / ____
+- **Data prevista de chegada de volta (Art. 22 — até 7 dias):** ____ / ____ / ______
+- **Data efetiva da chegada de volta:** ____ / ____ / ______
 
 **3. Conferência dos Itens do Anexo I (Art. 11, Parágrafo 2º)**
 
@@ -335,14 +330,16 @@ O termo registra:
 | SI-Card (faixa: _______________) | | | | |
 | Acessórios (impressora, suportes, cabos, maletas) | | | | |
 
-- **Divergência comunicada pela federação no recebimento (Art. 11, Parágrafo 2º — até 24h):** [ ] Não [ ] Sim — Registro: ___________________
-- **Resultado da conferência na chegada de volta comunicado pelo gestor em (data/hora):** ____/____/____ às ____h____
-- **Contestação pela federação (Art. 11, Parágrafo 2º — até 24h):** [ ] Não [ ] Sim — Registro: ___________________
+- **Divergência comunicada pela federação no recebimento (Art. 11, Parágrafo 2º — até 24h):**  
+[ ] Não [ ] Sim — Registro: ___________________
+- **Resultado da conferência na chegada de volta comunicado pelo gestor em (data/hora):** ____ / ____ / ____ às ____h____
+- **Contestação pela federação (Art. 11, Parágrafo 2º — até 24h):**  
+[ ] Não [ ] Sim — Registro: ___________________
 
 **4. Ocorrências, Avarias e Extravios (Arts. 13, 15 a 17)**
 
 - **Houve ocorrência, avaria ou extravio?** [ ] Não [ ] Sim
-- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____/____/____ às ____h____
+- **Data/hora da comunicação ao gestor do kit (Art. 15 — até 24h):** ____ / ____ / ____ às ____h____
 - **Boletim de ocorrência anexado (furto/roubo, Art. 13, Parágrafo 3º):** [ ] Não se aplica [ ] Sim — Nº: _____________
 - **Descrição detalhada (item, identificação e circunstância):** ___________________________________________
 
