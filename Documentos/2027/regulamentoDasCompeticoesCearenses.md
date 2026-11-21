@@ -65,6 +65,8 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 
 **Art. 7º** – Os Boletins com as orientações e especificações sobre cada etapa/percurso serão de responsabilidade do *Diretor do Evento*, que os emitirá com anuência do *Árbitro*, conforme itens 5.1 e 35.6 da ROP.
 
+> **Parágrafo Único:** Cabe ao árbitro do evento elaborar o relatório previsto nas *DIRETRIZES PARA EVENTOS* da CBO e encaminhá-lo à FECORI em até 30 (trinta) dias, conforme o item 40.2 da ROP.
+
 ## 3. Das Categorias e Uniformes
 
 **Art. 8º** – O atleta deve escolher uma das categorias descritas no item 2 da ROP para a competição.
@@ -186,8 +188,6 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 > **Parágrafo 3º:** Qualquer atleta poderá se candidatar a participar como voluntário da organização de um evento, desde que a entidade organizadora aceite, mas só receberão a média da pontuação aqueles enquadrados neste artigo.
 
 > **Parágrafo 4º:** A lista com os voluntários que serão beneficiados com a média deve ser reportada ao árbitro e à FECORI ao término da apuração (CCOS) ou em até 15 dias (CCO).
-
-> **Parágrafo 5º:** O árbitro do evento elaborará o seu Relatório, previsto nas *DIRETRIZES PARA EVENTOS* da CBO, e o encaminhará à FECORI no prazo de 30 (trinta) dias, conforme item 40.2 da ROP.
 
 **Art. 34** – **Exclusivo do CCO:** A classificação individual geral será calculada com base no somatório dos pontos obtidos pelo atleta em todas as etapas, descartando-se obrigatoriamente uma etapa, aquela com a menor pontuação, desde que o campeonato tenha sido disputado em mais de três etapas.
 
