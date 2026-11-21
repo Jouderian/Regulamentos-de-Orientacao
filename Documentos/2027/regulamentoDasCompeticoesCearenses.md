@@ -205,7 +205,11 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 
 **Art. 37** – Outros prêmios poderão ser concedidos durante o campeonato, a cargo dos organizadores das etapas ou eventos.
 
-**Art. 38** – Os **atletas** campeões, vice-campeões e terceiros lugares em cada categoria (incluindo Novatos) serão premiados com **medalhas** em cada campeonato.
+**Art. 38** – Os **atletas** campeões, vice-campeões e terceiros lugares em cada categoria (incluindo Novatos) serão premiados em cada campeonato, na forma dos parágrafos deste artigo.
+
+> **Parágrafo 1º:** Nas categorias **Elite**, os campeões, vice-campeões e terceiros lugares receberão **troféus**.
+
+> **Parágrafo 2º:** Nas demais categorias, os campeões, vice-campeões e terceiros lugares receberão **medalhas**.
 
 **Art. 39** – Os **3 (três) clubes melhor pontuados** ao final de cada campeonato serão premiados com **troféus**.
 
