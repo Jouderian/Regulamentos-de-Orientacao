@@ -42,6 +42,8 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 
 **Art. 6º** – A organização geral de cada competição é de responsabilidade de um ou mais clubes filiados à FECORI, conforme calendários abaixo:
 
+> **Parágrafo 1º:** O local de cada etapa (CCO) ou do evento (CCOS) será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições da etapa anterior (CCO) ou do evento anterior (CCOS).
+
 ### Calendário do XXI Campeonato Cearense de Orientação
 > **Nota de Planejamento:** As datas abaixo são preliminares/sugestões sugeridas para planejamento do calendário. As datas definitivas oficiais deverão ser informadas pela FECORI.
 
@@ -60,8 +62,6 @@ description: Regulamento das Competições Cearenses de Orientação (2027, em e
 | 1º | 25/set | ??? | ??? (QA/FECORI ??) |
 | 2º | 26/Set | ??? | ??? (QA/FECORI ??) |
 | 3º | 26/Set | ??? | ??? (QA/FECORI ??) |
-
-> **Parágrafo Único:** O local do evento será divulgado pelo organizador no primeiro boletim informativo, que deve ser publicado até 2 (dois) dias após o término das inscrições do evento anterior.
 
 **Art. 7º** – Os Boletins com as orientações e especificações sobre cada etapa/percurso serão de responsabilidade do *Diretor do Evento*, que os emitirá com anuência do *Árbitro*, conforme itens 5.1 e 35.6 da ROP.
 
