@@ -10,8 +10,11 @@ Executado pelo CI (.github/workflows/verificacao-documental.yml) e localmente:
 edição fechada e ROP) que ainda não estão nele; nunca altera uma linha
 existente. Sai com código 1 se encontrar qualquer problema.
 """
+import contextlib
 import datetime
 import hashlib
+import importlib.util
+import io
 import os
 import re
 import subprocess
@@ -667,6 +670,56 @@ def checar_documentos_soltos(raiz):
 
 
 # --------------------------------------------------------------------------
+# 12. Mapas de leitura (.agents/mapas/): derivados do `.md` de origem por
+#     gerar-mapa.py, nunca editados à mão. Mapa existente precisa estar em dia
+#     (idêntico ao que o gerador produz agora), apontar para uma fonte existente
+#     e ficar em .agents/mapas/<pasta-do-ano>/<nome-do-arquivo>. A falta de mapa
+#     não é problema: ele só existe para os documentos longos que já o ganharam.
+# --------------------------------------------------------------------------
+PASTA_MAPAS = '.agents/mapas'
+
+
+def _carregar_gerador():
+    spec = importlib.util.spec_from_file_location(
+        'gerar_mapa', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gerar-mapa.py'))
+    modulo = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(modulo)
+    return modulo
+
+
+def checar_mapas(raiz):
+    pasta = os.path.join(raiz, *PASTA_MAPAS.split('/'))
+    if not os.path.isdir(pasta):
+        return
+    gerador = _carregar_gerador()
+    for atual, _, nomes in os.walk(pasta):
+        for nome in sorted(nomes):
+            if not nome.endswith('.md'):
+                continue
+            caminho = os.path.join(atual, nome)
+            rel = os.path.relpath(caminho, raiz).replace('\\', '/')
+            texto = ler(caminho).replace('\r\n', '\n')
+            fonte = re.search(r'(?m)^fonte: (.+?)\s*$', texto)
+            if not fonte:
+                falha(rel, 1, 'mapa sem "fonte:" no frontmatter')
+                continue
+            origem = os.path.join(raiz, *fonte.group(1).split('/'))
+            if not os.path.isfile(origem):
+                falha(rel, 1, f'mapa órfão: a fonte {fonte.group(1)} não existe')
+                continue
+            esperado = gerador.destino(origem, raiz)
+            if os.path.normcase(os.path.abspath(esperado)) != os.path.normcase(os.path.abspath(caminho)):
+                falha(rel, 1, f'mapa fora do lugar: o de {fonte.group(1)} fica em '
+                              f'{os.path.relpath(esperado, raiz).replace(chr(92), "/")}')
+                continue
+            with contextlib.redirect_stderr(io.StringIO()):
+                atual_mapa, _ = gerador.montar_mapa(origem, raiz)
+            if atual_mapa != texto:
+                falha(rel, 1, f'mapa defasado em relação a {fonte.group(1)}: '
+                              f'rode python .agents/scripts/gerar-mapa.py {fonte.group(1)}')
+
+
+# --------------------------------------------------------------------------
 def main():
     if '--congelar' in sys.argv[1:]:
         congelar(RAIZ)
@@ -692,6 +745,7 @@ def main():
     checar_finais_em_elaboracao(RAIZ)
     checar_finais_normativos(RAIZ)
     checar_documentos_soltos(RAIZ)
+    checar_mapas(RAIZ)
 
     manifesto = os.path.join(RAIZ, MANIFESTO)
     checar_congelados(RAIZ, ler(manifesto) if os.path.exists(manifesto) else '', manifesto_base())
