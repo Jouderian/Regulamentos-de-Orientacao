@@ -37,6 +37,18 @@ O script realiza o processo completo de forma integrada:
 3. Compila o `.docx` aplicando o template oficial `Documentos/template_estilos.docx`.
 4. Converte o `.docx` em `.pdf` de forma transparente via Microsoft Word (COM).
 
+### Normativo
+
+O `.md` de `Documentos/normativos/` (ADR-008) gera só o `.pdf`, em qualquer fase (`em-elaboracao` ou `vigente`), passando o caminho ao script:
+
+```bash
+python .agents/scripts/gerar-documentos.py Documentos/normativos/normaDeUsoDoKitSportident.md
+```
+
+O `.docx` é criado em pasta temporária e descartado, e o `.pdf` não é congelado: regenere-o no mesmo commit de toda alteração do `.md`.
+
+Antes de converter, o script aplica ao `.docx` a diagramação de leitura humana, que antes era feita à mão no Word, sem mudar o texto: texto justificado; título centralizado em versalete; alíneas (`a.`) com recuo e deslocamento; parágrafos com recuo; tabelas de 3 ou mais colunas no estilo *List Table 4 Accent 1*, com larguras proporcionais ao conteúdo; Anexos em versalete, com página nova no primeiro Anexo e nos Termos; título do Termo em versalete. Exige `pip install python-docx`. O ajuste está em `formatar_normativo`, em `gerar-documentos.py`.
+
 ## 4. Execução Manual (Referência)
 
 Caso seja necessário executar as etapas manualmente sem o script, sempre na edição em elaboração:

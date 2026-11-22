@@ -20,8 +20,8 @@ A FECORI adquiriu um kit de cronometragem SPORTident e precisa regular o uso del
 4. O frontmatter registra a data da última aprovação da Diretoria em `aprovacao: AAAA-MM-DD` e a do referendo da Assembleia Geral em `referendo: AAAA-MM-DD`. O normativo `vigente` exige `aprovacao`.
 5. O PR que altera texto `vigente` só é mesclado depois da aprovação da Diretoria, porque a mesclagem muda de imediato a versão em vigor.
 6. O texto segue a tipografia jurídica da [ADR 003](ADR-003-historical-regulation-standardization.md) e passa pela revisão da equipe de regras, como todo `.md` de `Documentos/` ([`CODEOWNERS`](../../../.github/CODEOWNERS)).
-7. Não se gera nem se congela `.docx` ou `.pdf` do normativo. Se a FECORI passar a publicar PDF assinado, a decisão será revista.
-8. O `verificar-documentos.py` reconhece o normativo pelo caminho (`.md` direto em `Documentos/normativos/`) e aplica a ele as checagens de estrutura e de tipografia, a de referências a artigos, a do frontmatter e a de ausência de `.docx` e `.pdf`. Normativo `vigente` não pode conter pendência `???`.
+7. ~~Não se gera nem se congela `.docx` ou `.pdf` do normativo.~~ Substituído pela revisão de 2026-11-21 (abaixo).
+8. O `verificar-documentos.py` reconhece o normativo pelo caminho (`.md` direto em `Documentos/normativos/`) e aplica a ele as checagens de estrutura e de tipografia, a de referências a artigos, a do frontmatter e a de ausência de `.docx`. Normativo `vigente` não pode conter pendência `???`.
 9. Os commits do normativo do kit usam o escopo `kit`.
 
 ## Consequências
@@ -48,3 +48,17 @@ Decidida na [*issue* #57](https://github.com/Jouderian/Regulamentos-de-Orientaca
 - Cada norma futura entra em `Documentos/normativos/` sem alterar regra nem script, e o `CODEOWNERS` atual (`/Documentos/**/*.md`) já a cobre.
 - A migração teve três PRs: a infraestrutura, que aceitou os dois caminhos; o do arquivo, que precisou da equipe de regras; e a remoção do caminho antigo.
 - Se uma norma passar a ter arquivos anexos (como formulários dos Anexos III e IV do kit), a estrutura de uma pasta por norma deve ser reavaliada.
+
+## Revisão de 2026-11-21: PDF do normativo
+Motivo: a FECORI quer distribuir a norma do kit em PDF, como faz com o regulamento do ano, e a regra anterior (item 7) fazia a verificação documental recusar o `.pdf`. Decidiu-se:
+
+1. O normativo **pode ter `.pdf` em qualquer fase** (`em-elaboracao` ou `vigente`), gerado do `.md` por `python .agents/scripts/gerar-documentos.py Documentos/normativos/<norma>.md`, com o mesmo molde `template_estilos.docx` e a conversão pelo Word.
+2. O `.pdf` **não é congelado** e não entra em `arquivosCongelados.sha256`: como o normativo é alterado no mesmo arquivo, o `.pdf` é regenerado a cada alteração do texto, no mesmo commit, para não divergir do `.md`. A versão em vigor continua sendo a do `.md`.
+3. O `.docx` continua sem ficar no acervo: o script o cria em pasta temporária e o descarta. Exportação avulsa para Word vai para `Downloads`.
+4. O `verificar-documentos.py` aceita `.pdf` ao lado do `.md` do normativo e continua recusando `.docx`.
+5. O `gerar-documentos.py` aplica ao `.docx` do normativo a diagramação de leitura humana (justificação, recuos, versalete, tabelas, quebras de página nos Anexos) antes da conversão, para o `.pdf` sair sem ajuste manual no Word. A rotina `formatar_normativo` exige `python-docx`.
+
+**Consequências:**
+- O `.pdf` de normativo `em-elaboracao` é minuta sem validade, mas o arquivo não traz essa marca: quem o distribuir deve avisar.
+- A verificação não confere se o `.pdf` corresponde ao `.md` atual; a regeneração no mesmo commit é disciplina do autor.
+- Se a FECORI passar a publicar PDF assinado e imutável por versão, o congelamento deve ser reavaliado.

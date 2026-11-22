@@ -497,10 +497,10 @@ class Normativos(unittest.TestCase):
         self.gravar('template_estilos.docx')
         self.assertEqual(self.finais(), [])
 
-    def test_pdf_do_normativo(self):
+    def test_pdf_do_normativo_passa(self):
         self.gravar('normativos/normaDeTeste.md')
         self.gravar('normativos/normaDeTeste.pdf')
-        self.assertFalha(self.finais(), 'Documentos/normativos/normaDeTeste.pdf')
+        self.assertEqual(self.finais(), [])
 
     def test_docx_do_normativo(self):
         self.gravar('normativos/normaDeTeste.md')
