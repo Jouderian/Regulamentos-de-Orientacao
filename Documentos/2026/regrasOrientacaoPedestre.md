@@ -794,9 +794,7 @@ Em todas as provas oficiais da CBO, os atletas devem seguir a seguinte rotina de
 
 **19.8** Num revezamento, com partida em massa para os últimos percursos, a classificação será determinada pela soma dos tempos dos integrantes das equipes.
 
-**19.9** Os competidores ou equipes que excederem o tempo máximo estabelecido na regra
-
-**18.7** serão desclassificados.
+**19.9** Os competidores ou equipes que excederem o tempo máximo estabelecido na regra 18.7 serão desclassificados.
 
 **19.10** Os resultados de equipes incompletas não serão considerados, para efeito de divulgação da classificação do resultado oficial.
 
@@ -1593,6 +1591,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 **37.6** Não será cobrada taxa para protesto. 38. JURI TÉCNICO
 
+### 38 JURI TÉCNICO
 **38.1** Todos os protestos, nas competições oficiais de orientação, devem ser julgados por um Júri Técnico.
 
 **38.2** Objetivos  

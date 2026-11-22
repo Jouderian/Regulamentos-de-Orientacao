@@ -781,7 +781,7 @@ Em todas as provas oficiais da CBO, os atletas devem seguir a seguinte rotina de
 
 **18.8** Na chegada, deverá haver instalações e equipe de saúde (com médico), a qual deverá estar equipada para atendimentos na floresta.
 
-### 19  RESULTADOS
+### 19 RESULTADOS
 
 **19.1** Os resultados parciais da competição serão divulgados na arena, preferencialmente nas proximidades da área de chegada.
 
@@ -799,9 +799,7 @@ Em todas as provas oficiais da CBO, os atletas devem seguir a seguinte rotina de
 
 **19.8** Num revezamento, com partida em massa para os últimos percursos, a classificação será determinada pela soma dos tempos dos integrantes das equipes.
 
-**19.9** Os competidores ou equipes que excederem o tempo máximo estabelecido na regra
-
-**18.7** serão desclassificados.
+**19.9** Os competidores ou equipes que excederem o tempo máximo estabelecido na regra 18.7 serão desclassificados.
 
 **19.10** Os resultados de equipes incompletas não serão considerados, para efeito de divulgação da classificação do resultado oficial.
 
@@ -852,16 +850,16 @@ Em todas as provas oficiais da CBO, os atletas devem seguir a seguinte rotina de
 **21.3.2** A base do ranking Nacional busca *estimular a participação dos atletas em todas as esferas dos Eventos Oficiais (Nacional, Regional, Estadual e Municipal)*, reforçando a relevância do Calendário Nacional da CBO como instrumento de desenvolvimento esportivo e validação do desempenho competitivo.
 
 **21.3.3** *O Ranking Nacional de Orientação (RNO)* será composto pelo somatório das melhores pontuações obtidas pelos atletas, entre as provas de floresta, conforme a seguir:
-- 2 (dois) percursos do CamBOr;
-- 1 (um) *Evento Regional*. Serão computados os percursos (médio e longo) do Regional em que o atleta somar mais pontos, entre todos os Eventos que ele participou.
-- Pontuação final de 1 (um) Campeonato Estadual, conforme regras 21.1.3 e 21.1.5; e
+- 2 (dois) percursos do CamBOr;  
+- 1 (um) *Evento Regional*. Serão computados os percursos (médio e longo) do Regional em que o atleta somar mais pontos, entre todos os Eventos que ele participou.  
+- Pontuação final de 1 (um) Campeonato Estadual, conforme regras 21.1.3 e 21.1.5; e  
 - Pontuação de Campeonato Municipal, neste caso, será atribuída por participação, conforme descrito na regra 21.4 e seus desdobramentos.
 
-**21.3.4** O *Ranking Nacional Sprint (RNS)* será composto pelo somatório das melhores pontuações obtidas pelos atletas, entre as provas de Sprint, conforme a seguir:
-- 3 (três) melhores percursos do CamBOS;
-- 1 (um) percurso do CamBOr;
-- 1 (um) Evento Regional. Será computado o melhor resultado entre todos os Eventos Regionais que ele participou.
-- Pontuação final de 1 (um) Campeonato Estadual, conforme regras 21.1.3 e 21.1.5; e
+**21.3.4** O *Ranking Nacional Sprint (RNS)* será composto pelo somatório das melhores pontuações obtidas pelos atletas, entre as provas de Sprint, conforme a seguir:  
+- 3 (três) melhores percursos do CamBOS;  
+- 1 (um) percurso do CamBOr;  
+- 1 (um) Evento Regional. Será computado o melhor resultado entre todos os Eventos Regionais que ele participou.  
+- Pontuação final de 1 (um) Campeonato Estadual, conforme regras 21.1.3 e 21.1.5; e  
 - Pontuação de Campeonato Municipal, neste caso, será atribuída por participação, conforme descrito na regra 21.4 e seus desdobramentos.
 
 #### 21.4 PROVAS MUNICIPAIS (categorias “A” e “B”)
@@ -894,7 +892,7 @@ Nos eventos municipais existem enormes diferenças. O nível municipal deve ser 
 |B|Y|35|32|40|37|...|144|2º / 37|5|5|5|5|20|57|1º|
 |C|Z|37|40|31|33|...|141|3º / 35|5|5|0|0|10|45|3º|
 
-- **ES** = *Eventos Estaduais*
+- **ES** = *Eventos Estaduais*  
 - **EM** = *Eventos Municipais*
 
 >**Obs:** conforme tabela acima, fica a critério das federações ajustarem seus regulamentos se acharem coerente usar os pontos dos municipais para o resultado final do estadual, como forma de valorização dos seus clubes que promovem os eventos, ou somente, une as duas pontuações ao final de todos os campeonatos para envio à CBO, visando o cômputo no Ranking Nacional.
@@ -977,36 +975,36 @@ Nos eventos municipais existem enormes diferenças. O nível municipal deve ser 
 
 **24.1.** As competições oficiais da CBO são as seguintes:
 
-**24.1.1** Campeonato Brasileiro de Orientação – (CamBOr)
-- Campeonato Brasileiro de Orientação ELITE – (CamBOr Elite);
-- Campeonato Brasileiro de Orientação Infantil – (CamBOr Infantil);
-- Campeonato Brasileiro de Orientação Juvenil – (CamBOr Juvenil);
-- Campeonato Brasileiro de Orientação Júnior – (CamBOr Júnior);
-- Campeonato Brasileiro de Orientação Adulto – (CamBOr Adulto);
-- Campeonato Brasileiro de Orientação Máster – (CamBOr Máster);
-- Campeonato Brasileiro de Orientação Estudantil – (CamBOr Estudantil);
+**24.1.1** Campeonato Brasileiro de Orientação – (CamBOr)  
+- Campeonato Brasileiro de Orientação ELITE – (CamBOr Elite);  
+- Campeonato Brasileiro de Orientação Infantil – (CamBOr Infantil);  
+- Campeonato Brasileiro de Orientação Juvenil – (CamBOr Juvenil);  
+- Campeonato Brasileiro de Orientação Júnior – (CamBOr Júnior);  
+- Campeonato Brasileiro de Orientação Adulto – (CamBOr Adulto);  
+- Campeonato Brasileiro de Orientação Máster – (CamBOr Máster);  
+- Campeonato Brasileiro de Orientação Estudantil – (CamBOr Estudantil);  
 - Campeonato Brasileiro de Orientação Universitário – (CamBOr Universitário).
 
-**24.1.2** Campeonato Brasileiro de Orientação Sprint – (CamBOS)
-- Campeonato Brasileiro de Orientação ELITE – (CamBOS Elite);
-- Campeonato Brasileiro de Orientação Infantil – (CamBOS Infantil);
-- Campeonato Brasileiro de Orientação Juvenil – (CamBOS Juvenil);
-- Campeonato Brasileiro de Orientação Júnior – (CamBOS Júnior);
-- Campeonato Brasileiro de Orientação Adulto – (CamBOS Adulto);
-- Campeonato Brasileiro de Orientação Máster – (CamBOS Máster);
-- Campeonato Brasileiro de Orientação Estudantil – (CamBOS Estudantil);
+**24.1.2** Campeonato Brasileiro de Orientação Sprint – (CamBOS)  
+- Campeonato Brasileiro de Orientação ELITE – (CamBOS Elite);  
+- Campeonato Brasileiro de Orientação Infantil – (CamBOS Infantil);  
+- Campeonato Brasileiro de Orientação Juvenil – (CamBOS Juvenil);  
+- Campeonato Brasileiro de Orientação Júnior – (CamBOS Júnior);  
+- Campeonato Brasileiro de Orientação Adulto – (CamBOS Adulto);  
+- Campeonato Brasileiro de Orientação Máster – (CamBOS Máster);  
+- Campeonato Brasileiro de Orientação Estudantil – (CamBOS Estudantil);  
 - Campeonato Brasileiro de Orientação Universitário – (CamBOS Universitário).
 
 **24.1.3** Troféu Brasil de Orientação (5 Dias de Orientação do Brasil);
 
-**24.1.4** Campeonatos Regionais de Orientação (CopaSUL*, TSEO*, TCO* e CopaNE*);
-- Campeonato Regional de Orientação ELITE – (Regional* Elite);
-- Campeonato Regional de Orientação Infantil – (Regional* Infantil);
-- Campeonato Regional de Orientação Juvenil – (Regional* Juvenil);
-- Campeonato Regional de Orientação Júnior – (Regional* Júnior);
-- Campeonato Regional de Orientação Adulto – (Regional* Adulto);
-- Campeonato Regional de Orientação Máster – (Regional* Máster);
-- Campeonato Regional de Orientação Estudantil – (Regional* Estudantil);
+**24.1.4** Campeonatos Regionais de Orientação (CopaSUL*, TSEO*, TCO* e CopaNE*);  
+- Campeonato Regional de Orientação ELITE – (Regional* Elite);  
+- Campeonato Regional de Orientação Infantil – (Regional* Infantil);  
+- Campeonato Regional de Orientação Juvenil – (Regional* Juvenil);  
+- Campeonato Regional de Orientação Júnior – (Regional* Júnior);  
+- Campeonato Regional de Orientação Adulto – (Regional* Adulto);  
+- Campeonato Regional de Orientação Máster – (Regional* Máster);  
+- Campeonato Regional de Orientação Estudantil – (Regional* Estudantil);  
 - Campeonato Regional de Orientação Universitário – (Regional* Universitário).
 
 **24.1.5** Campeonatos Estaduais de Orientação.
@@ -1575,6 +1573,7 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 **36.6** A solicitação de leitura de base, prevista no nº 8 do apêndice 2 destas regras, deverá ser formalizada por meio do formulário de reclamação, junto com o pagamento da taxa correspondente, no valor de **R$ 60,00 (sessenta reais)**, para eventos nacionais e regionais, ou valor a ser estipulado pelas Federações, para eventos estaduais e municipais, sendo estes valores por base lida. Se no controle for encontrado o registro de passagem do atleta (sem erro), o competidor será classificado e a taxa será devolvida; caso contrário, a taxa será retida pelo organizador.
 
 ### 37 PROTESTOS
+
 **37.1** Um protesto pode ser feito contra a decisão do Diretor do Evento a respeito de uma reclamação.
 
 **37.2** Um protesto somente pode ser feito por competidores e/ou membros da diretoria de clubes ou federações.
@@ -1585,7 +1584,9 @@ Gêneros: “H” (Homens) - “D” (Damas) - “HD” (Misto)
 
 **37.5** Quando o protesto for relativo à condição de um competidor, de participar de uma competição e o caso não for julgado, pelo Júri Técnico, até 60 (sessenta) minutos, antes do horário de partida deste atleta, permitir-se-á que o atleta participe “sob protesto”.
 
-**37.6** Não será cobrada taxa para protesto. 38. JURI TÉCNICO
+**37.6** Não será cobrada taxa para protesto.
+
+### 38 JURI TÉCNICO
 
 **38.1** Todos os protestos, nas competições oficiais de orientação, devem ser julgados por um Júri Técnico.
 

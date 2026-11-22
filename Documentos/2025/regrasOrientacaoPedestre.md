@@ -840,7 +840,8 @@ até o dia 20 (vinte) de dezembro do ano vigente. Após essa data, nenhum result
 **23.13** As demais pessoas envolvidas com o evento, que infringirem qualquer regra, estão sujeitas a uma ação disciplinar.
 
 ## CAPITULO II - COMPETIÇÕES
-**24.** COMPETIÇÕES OFICIAIS
+
+### 24 COMPETIÇÕES OFICIAIS
 
 **24.1.** As competições oficiais da CBO são as seguintes:
 
@@ -870,7 +871,9 @@ até o dia 20 (vinte) de dezembro do ano vigente. Após essa data, nenhum result
 
 **24.5** Eventos regionais poderão valer como etapas para os estaduais aos quais fazem parte, desde que esteja acordado entre as federações organizadoras e previsto no regulamento destes eventos.
 
-**25.** PROGRAMA DO EVENTO 25.1. Em todas as provas oficiais de Orientação, o Hino Nacional Brasileiro será cantado na Cerimônia de Abertura.
+### 25 PROGRAMA DO EVENTO
+
+**25.1.** Em todas as provas oficiais de Orientação, o Hino Nacional Brasileiro será cantado na Cerimônia de Abertura.
 
 **25.2** Os eventos de Orientação são culturais, científicos e competitivos, sendo as datas e a programação propostas pelo organizador e aprovadas pela diretoria técnica da CBO, devendo cada evento competitivo obedecer a seguinte programação:
 
@@ -1306,7 +1309,8 @@ federações, clubes, dirigentes ou atletas, como Boletins, será aprovada previ
 **37.5** Quando o protesto for relativo à condição de um competidor, de participar de uma competição e o caso não for julgado, pelo Júri Técnico, até 60 (sessenta) minutos, antes do horário de partida deste atleta, permitir-se-á que o atleta participe “sob protesto”.
 
 **37.6** Não será cobrada taxa para protesto.
-38. JURI TÉCNICO
+
+### 38 JURI TÉCNICO
 
 **38.1** Todos os protestos, nas competições oficiais de orientação, devem ser julgados por um Júri Técnico.
 
