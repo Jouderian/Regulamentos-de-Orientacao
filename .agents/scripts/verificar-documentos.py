@@ -582,7 +582,7 @@ def checar_finais_em_elaboracao(raiz):
 # 11. Normativos (ADR-008): `.md` em Documentos/normativos/, sem edição anual. Além
 #     da estrutura e da tipografia (seções 2, 3 e 7), exigem frontmatter com
 #     status, datas de aprovação e referendo válidas e, se vigentes, sem
-#     pendência `???`; não geram nem congelam .docx ou .pdf.
+#     pendência `???`; podem ter .pdf em qualquer fase (sem congelar), mas não .docx.
 # --------------------------------------------------------------------------
 STATUS_NORMATIVO = ('em-elaboracao', 'vigente')
 DATA_ISO = re.compile(r'\d{4}-\d{2}-\d{2}')
@@ -641,7 +641,7 @@ def checar_normativo(rel, texto):
 
 
 def checar_finais_normativos(raiz):
-    """Normativo não gera nem congela .docx ou .pdf (ADR-008)."""
+    """Normativo pode ter .pdf (gerado em qualquer fase, nunca congelado), mas não mantém .docx (ADR-008)."""
     pasta = os.path.join(raiz, 'Documentos', PASTA_NORMATIVOS)
     if not os.path.isdir(pasta):
         return
@@ -651,9 +651,9 @@ def checar_finais_normativos(raiz):
             continue
         base = os.path.splitext(nome)[0]
         for outro in nomes:
-            if os.path.splitext(outro)[0] == base and outro.lower().endswith(('.docx', '.pdf')):
+            if os.path.splitext(outro)[0] == base and outro.lower().endswith('.docx'):
                 falha(f'Documentos/{PASTA_NORMATIVOS}/{outro}', 0,
-                      'normativo não gera nem congela .docx ou .pdf (ADR-008)')
+                      'normativo não mantém .docx no acervo: é intermediário da geração do .pdf (ADR-008)')
 
 
 def checar_documentos_soltos(raiz):

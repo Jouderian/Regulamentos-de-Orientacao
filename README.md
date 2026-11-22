@@ -41,7 +41,7 @@ Cada ano tem uma pasta com o regulamento, as Regras de Orientação Pedestre daq
 
 A **Norma de Uso do Kit de Cronometragem SPORTident** define como os clubes filiados solicitam, usam e devolvem o kit da FECORI e como ele é emprestado a outras federações. Ela não muda a cada ano: vale até ser alterado pela Diretoria da FECORI.
 
-- **Em elaboração:** [ler o texto](Documentos/normativos/normaDeUsoDoKitSportident.md)
+- **Em elaboração:** [ler o texto](Documentos/normativos/normaDeUsoDoKitSportident.md) · [PDF da minuta](Documentos/normativos/normaDeUsoDoKitSportident.pdf)
 
 ## Como sugerir uma mudança
 
