@@ -527,6 +527,70 @@ class Normativos(unittest.TestCase):
         self.assertFalha(self.soltos(), 'Documentos/normaDeTeste.md')
 
 
+class Mapas(unittest.TestCase):
+    FONTE = 'Documentos/2026/regrasOrientacaoPedestre.md'
+    MAPA = '.agents/mapas/2026/regrasOrientacaoPedestre.md'
+    TEXTO = ('# ROP\n\n## CAPITULO I - REGRAS GERAIS\n\n### 1 DEFINIÇÕES\n\n**1.1** Texto.\n\n'
+             '### 2 CATEGORIAS\n\n**2.1** Texto.\n')
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.raiz = self.tmp.name
+        self.gravar(self.FONTE, self.TEXTO)
+        gerador = verificar._carregar_gerador()
+        mapa, _ = gerador.montar_mapa(os.path.join(self.raiz, *self.FONTE.split('/')), self.raiz)
+        self.gravar(self.MAPA, mapa)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def gravar(self, rel, conteudo):
+        caminho = os.path.join(self.raiz, *rel.split('/'))
+        os.makedirs(os.path.dirname(caminho), exist_ok=True)
+        with open(caminho, 'w', encoding='utf-8', newline='\n') as fh:
+            fh.write(conteudo)
+
+    def problemas(self):
+        verificar.problemas.clear()
+        verificar.checar_mapas(self.raiz)
+        return list(verificar.problemas)
+
+    def assertFalha(self, trecho):
+        achados = self.problemas()
+        self.assertTrue(any(trecho in p for p in achados), f'esperava "{trecho}" em {achados}')
+
+    def test_mapa_em_dia_passa(self):
+        self.assertEqual(self.problemas(), [])
+
+    def test_sem_pasta_de_mapas_passa(self):
+        os.remove(os.path.join(self.raiz, *self.MAPA.split('/')))
+        self.assertEqual(self.problemas(), [])
+
+    def test_fonte_alterada_deixa_mapa_defasado(self):
+        self.gravar(self.FONTE, self.TEXTO + '\n**2.2** Outra regra.\n')
+        self.assertFalha('mapa defasado')
+
+    def test_mapa_editado_a_mao_falha(self):
+        caminho = os.path.join(self.raiz, *self.MAPA.split('/'))
+        with open(caminho, encoding='utf-8') as fh:
+            texto = fh.read()
+        self.gravar(self.MAPA, texto.replace('1 DEFINIÇÕES', '1 OUTRO TÍTULO'))
+        self.assertFalha('mapa defasado')
+
+    def test_mapa_orfao_falha(self):
+        os.remove(os.path.join(self.raiz, *self.FONTE.split('/')))
+        self.assertFalha('mapa órfão')
+
+    def test_mapa_sem_fonte_falha(self):
+        self.gravar(self.MAPA, '---\ndescription: x\n---\n')
+        self.assertFalha('sem "fonte:"')
+
+    def test_mapa_no_lugar_errado_falha(self):
+        self.gravar('.agents/mapas/2025/regrasOrientacaoPedestre.md',
+                    open(os.path.join(self.raiz, *self.MAPA.split('/')), encoding='utf-8').read())
+        self.assertFalha('fora do lugar')
+
+
 class Acervo(unittest.TestCase):
     def test_acervo_passa_na_verificacao_inteira(self):
         verificar.problemas.clear()
@@ -536,6 +600,7 @@ class Acervo(unittest.TestCase):
             verificar.checar_normativo(rel, texto)
         verificar.checar_finais_normativos(verificar.RAIZ)
         verificar.checar_documentos_soltos(verificar.RAIZ)
+        verificar.checar_mapas(verificar.RAIZ)
         self.assertEqual(verificar.problemas, [])
 
 
