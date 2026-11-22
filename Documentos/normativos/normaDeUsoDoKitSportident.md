@@ -280,20 +280,6 @@ O clube declara receber o kit nas condições descritas no item 3 e assume a res
 
 ## Anexo IV – Termo de Responsabilidade de Federação
 
-O termo registra:
-
-- federação, nome e contato do seu presidente e do responsável pelo kit no evento;
-- evento, data e local;
-- itens e quantidades alugados e valor total segurado;
-- quantidade e estado de cada item do *Anexo I*, na retirada e na devolução;
-- datas da remessa e da chegada de volta;
-- valor negociado pelo uso do kit e prazo de pagamento;
-- compromisso de cumprir as obrigações da entidade responsável previstas nesta norma, em especial as dos Arts. 10, 12, 13, 15 a 17 e 20 a 22;
-- eleição do foro da comarca de Fortaleza, Estado do Ceará, nos termos do Art. 25;
-- assinaturas do presidente da federação e de representante da FECORI.
-
-### Modelo sugerido
-
 **Termo de Responsabilidade de Federação – Aluguel de Kit SPORTident (FECORI)**
 
 **1. Identificação da Federação, do Evento e dos Responsáveis**
