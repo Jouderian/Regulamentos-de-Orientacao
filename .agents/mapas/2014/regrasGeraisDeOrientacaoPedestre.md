@@ -1,0 +1,57 @@
+---
+description: Mapa de leitura de Documentos/2014/regrasGeraisDeOrientacaoPedestre.md: id, título e linhas de cada seção (gerado; não editar)
+fonte: Documentos/2014/regrasGeraisDeOrientacaoPedestre.md
+sha256: 9f0289a8f47f67f1a678b6c637c86b6923c7e7d9d8adec4cee7d8cd957d3a1d5
+linhas: 1077
+---
+
+# Mapa de regrasGeraisDeOrientacaoPedestre.md
+
+Gerado por `python .agents/scripts/gerar-mapa.py`. Colunas: `id | título | linhas | regras | ~tokens`.
+Leia só o intervalo de linhas do id escolhido (Read com offset e limit).
+
+1 | 1. DEFINIÇÕES | 10-45 |  | 650
+2 | 2. DISPOSIÇÕES GERAIS | 46-51 |  | 100
+3 | 3. COMPETIÇÕES OFICIAIS | 52-70 |  | 250
+4 | 4. CANDIDATURA PARA ORGANIZAR EVENTOS | 71-84 |  | 350
+5 | 5. PROGRAMA DO EVENTO | 85-96 |  | 300
+6 | 6. PUBLICIDADE E PATROCÍNIO | 97-100 |  | 50
+7 | 7. CATEGORIAS | 101-166 |  | 1100
+8 | 8. ROTINA DO ATLETA | 167-214 |  | 1350
+9 | 9. INSCRIÇÃO | 215-230 |  | 450
+10 | 10. CUSTOS E TRANSPORTE | 231-247 |  | 500
+11 | 11. INFORMAÇÕES SOBRE O EVENTO | 248-286 |  | 800
+12 | 12. SINALIZAÇÃO DA PROVA | 287-297 |  | 150
+13 | 13. ORDEM DE PARTIDA | 298-338 |  | 1050
+14 | 14. REUNIÃO DA COMISSÃO ORGANIZADORA E CHEFES DE EQUIPES | 339-348 |  | 250
+15 | 15. ÁREAS E ROTAS RESTRITAS | 349-356 |  | 250
+16 | 16. DESCRIÇÕES DOS PONTOS DE CONTROLE | 357-366 |  | 250
+17 | 17. PERCURSOS | 367-420 |  | 800
+18 | 18. MAPAS | 421-444 |  | 500
+19 | 19. PONTO DE CONTROLE | 445-483 |  | 950
+20 | 20. PONTO DE ÁGUA | 484-491 |  | 200
+21 | 21. CARTÃO DE CONTROLE | 492-511 |  | 500
+22 | 22. TREINAMENTO | 512-517 |  | 100
+23 | 23. EQUIPAMENTO | 518-538 |  | 500
+24 | 24. PARTIDA | 539-560 |  | 600
+25 | 25. CHEGADA | 561-586 |  | 600
+26 | 26. RESULTADOS | 587-611 |  | 600
+27 | 27. PREMIAÇÃO | 612-628 |  | 350
+28 | 28. ARBITRAGEM (NR) | 629-661 |  | 950
+29 | 29. DESPORTIVIDADE (COMPETIÇÃO JUSTA) | 662-685 |  | 850
+30 | 30. COMISSÃO ORGANIZADORA | 686-722 |  | 600
+31 | 31. RECLAMAÇÕES | 723-732 |  | 200
+32 | 32. PROTESTOS | 733-746 |  | 300
+33 | 33. JURI TÉCNICO | 747-775 |  | 900
+34 | 34. APELAÇÃO | 776-785 |  | 150
+35 | 35. RELATÓRIOS DE EVENTO | 786-795 |  | 100
+36 | 36. MÍDIA | 796-811 |  | 250
+37 | 37. RANKING DA CBO | 812-848 |  | 1350
+38 | 38. EQUIPE NACIONAL | 849-884 |  | 650
+39 | 39. PRINCÍPIOS DO TRAÇADO DO PERCURSO | 885-914 |  | 750
+40 | 40. REGRAS BÁSICAS DO PERCURSO DE ORIENTAÇÃO | 915-1015 |  | 2700
+41 | 41. O TRAÇADOR DE PERCURSO | 1016-1019 |  | 300
+42 | 42. CONSCIÊNCIA ECOLÓGICA | 1020-1036 |  | 500
+43 | 43. CERIMÔNIA DE ABERTURA | 1037-1042 |  | 100
+44 | 44. O TÉCNICO | 1043-1052 |  | 300
+45 | 45. EQUIPAMENTO ELETRÔNICO | 1053-1077 |  | 350
