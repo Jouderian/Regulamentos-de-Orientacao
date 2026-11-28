@@ -12,10 +12,6 @@ description: Regras Gerais de Orientação Pedestre (RGOP) 2016 da CBO
 - Em vermelho as atualizações aprovadas na AGO de 30 e 31/01/16.
 - Regras excluídas na AGO de 30 e 31/01/16 conforme numeração das RGOP 2015: Regra 38; Regra 160; Regra 164 e Regra 234.
 
-*Fundada em 11 de janeiro de 1999*  
-*Filiada a Federação Internacional de Orientação*  
-*CNPJ 03071250/0001-00*
-
 **PARTE I – REGRAS GERAIS E ORIENTAÇÃO PEDESTRE**
 
 ## 1. DEFINIÇÕES
@@ -28,30 +24,30 @@ description: Regras Gerais de Orientação Pedestre (RGOP) 2016 da CBO
 
 **Regra 2** – Os tipos de competições de Orientação podem ser classificados de acordo com:
 
-1. O modo de deslocamento:
-    - Orientação pedestre
-    - Orientação em Bicicleta
-    - Orientação de precisão,
-    - Orientação em esquis,
-    - Outros tipos, desde que não usem motor ou qualquer meio que polua ou cause prejuízo ao meio ambiente, salvo o caso da cadeira de rodas dos deficientes;
-2. A hora da competição:
-    - Dia
-    - Noite
-3. A natureza da competição:
-    - Individual (o indivíduo executa independentemente);
-    - Revezamento (dois ou mais competidores de uma equipe participando sucessivamente);
-    - Equipe (dois ou mais indivíduos participando juntos)
-4. O modo de determinar o resultado de competição:
-    - Único percurso (o resultado de um único percurso é o resultado final da competição).
-    - Vários percursos (os resultados combinados de dois ou mais percursos seguidos durante um dia ou vários dias, formam o resultado final da competição).
-    - Percurso de qualificação (os competidores qualificam-se para um percurso final que será disputado em duas ou mais categorias, sendo que o resultado da competição é o do percurso final);
-5. A ordem na qual os controles serão visitados:
-    - Em ordem específica (a ordem é prescrita no mapa)
-    - Sem ordem específica (o competidor é livre para escolher a ordem)
-6. A extensão do percurso:
-    - Longa distância;
-    - Média distância;
-    - Sprint;
+1. O modo de deslocamento:  
+    - Orientação pedestre  
+    - Orientação em Bicicleta  
+    - Orientação de precisão,  
+    - Orientação em esquis,  
+    - Outros tipos, desde que não usem motor ou qualquer meio que polua ou cause prejuízo ao meio ambiente, salvo o caso da cadeira de rodas dos deficientes;  
+2. A hora da competição:  
+    - Dia  
+    - Noite  
+3. A natureza da competição:  
+    - Individual (o indivíduo executa independentemente);  
+    - Revezamento (dois ou mais competidores de uma equipe participando sucessivamente);  
+    - Equipe (dois ou mais indivíduos participando juntos)  
+4. O modo de determinar o resultado de competição:  
+    - Único percurso (o resultado de um único percurso é o resultado final da competição).  
+    - Vários percursos (os resultados combinados de dois ou mais percursos seguidos durante um dia ou vários dias, formam o resultado final da competição).  
+    - Percurso de qualificação (os competidores qualificam-se para um percurso final que será disputado em duas ou mais categorias, sendo que o resultado da competição é o do percurso final);  
+5. A ordem na qual os controles serão visitados:  
+    - Em ordem específica (a ordem é prescrita no mapa)  
+    - Sem ordem específica (o competidor é livre para escolher a ordem)  
+6. A extensão do percurso:  
+    - Longa distância;  
+    - Média distância;  
+    - Sprint;  
     - Outras distâncias.
 
 ## 2. DISPOSIÇÕES GERAIS
